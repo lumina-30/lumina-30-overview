@@ -5,6 +5,10 @@ A Non-Binding Civilizational Boundary
 
 ---
 
+→ [Institutional Summary (1-Page)](Institutional_Summary_1Page.md)
+
+---
+
 ## What is LUMINA-30?
 
 LUMINA-30 is a non-binding civilizational boundary concerning advanced AI systems capable of recursive self-modification.
