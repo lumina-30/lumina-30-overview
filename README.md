@@ -128,3 +128,18 @@ No deployment without sovereign override.
 
 (Practical reference lines for implementation-phase discussions. Non-binding.)
 
+---
+
+## Post-Incident Review Reference (Non-Prescriptive)
+
+In the event of a high-impact incident involving recursive self-modifying systems,
+the following structural questions may be considered:
+
+- Was recursive modification coupled to external execution without independent human refusal authority?
+- Could failure or deviation propagate irreversibly into institutional, economic, or physical systems?
+- Did meaningful human judgment retain the ability to delay, reject, or redirect execution prior to deployment?
+
+These questions are descriptive and optional.
+They do not mandate governance changes or regulatory adoption.
+They serve as structural review lenses only.
+
