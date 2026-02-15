@@ -7,6 +7,8 @@ A Non-Binding Civilizational Boundary
 
 → [Institutional Summary (1-Page)](Institutional_Summary_1Page.md)
 
+→ [Sample Internal Integration Note](Sample_Integration_Note.md)
+
 ---
 
 ## What is LUMINA-30?
