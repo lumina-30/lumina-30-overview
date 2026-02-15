@@ -87,3 +87,23 @@ Primary texts and supplements are maintained separately and independently.
 
 This overview functions only as a structural entry point.
 
+---
+
+## Canonical Documents
+
+Primary canonical texts are maintained separately.
+
+Sanctuary Charter（聖域憲章）  
+https://peppermint-sprint-2d5.notion.site/LUMINA-30-2d61e0720ec88078bbe6e51c1aa4e5f2
+
+External Practical Annex  
+https://peppermint-sprint-2d5.notion.site/External-Practical-Annex-2da1e0720ec880e992b6e92cbcc6ef32
+
+Memorandum on Execution Control（実行制御に関する覚書）  
+https://peppermint-sprint-2d5.notion.site/2dd1e0720ec880c88a03e68884c8808f
+
+Supplement: Acceleration Non-Purposiveness（加速非目的化）  
+https://peppermint-sprint-2d5.notion.site/2de1e0720ec880e399dcf46b0b15ceb0
+
+SUP – Sanctuary Charter (Reference Layer)  
+https://peppermint-sprint-2d5.notion.site/SUP-LUMINA-30-2f01e0720ec88080b2a4cb336c2fd8be
