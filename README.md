@@ -81,6 +81,16 @@ Prevention of irreversible fixation of human judgment displacement.
 
 ---
 
+## Optional Review Lens
+
+This framework may be used as an optional structural review lens
+for assessing recursive self-modifying systems,
+without altering existing governance or compliance models.
+
+(Adoption does not replace, override, or modify current regulatory structures.)
+
+---
+
 ## Related Canonical Documents
 
 Primary texts and supplements are maintained separately and independently.
