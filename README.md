@@ -107,3 +107,14 @@ https://peppermint-sprint-2d5.notion.site/2de1e0720ec880e399dcf46b0b15ceb0
 
 SUP – Sanctuary Charter (Reference Layer)  
 https://peppermint-sprint-2d5.notion.site/SUP-LUMINA-30-2f01e0720ec88080b2a4cb336c2fd8be
+
+---
+
+## Implementation Reference (Optional)
+
+No irreversible coupling without human refusal.  
+No execution without containment.  
+No deployment without sovereign override.
+
+(Practical reference lines for implementation-phase discussions. Non-binding.)
+
