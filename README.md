@@ -9,6 +9,8 @@ A Non-Binding Civilizational Boundary
 
 → [Sample Internal Integration Note](Sample_Integration_Note.md)
 
+→ [Crisis Snapshot: Recursive AI Incident Review Framework](Recursive_AI_Incident_Review_Framework.md)
+
 ---
 
 ## What is LUMINA-30?
