@@ -6,6 +6,7 @@ This material:
 - does not guarantee safety, legality, or ethical adequacy.
 - does not delegate refusal authority to AI systems.
 
+---
 
 A Non-Binding Civilizational Boundary  
 （非拘束の文明的境界）
