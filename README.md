@@ -159,3 +159,51 @@ These questions are descriptive and optional.
 They do not mandate governance changes or regulatory adoption.
 They serve as structural review lenses only.
 
+
+
+---
+
+<details>
+<summary>Appendix: Structural Relationship (Supplementary View)</summary>
+
+<br>
+
+This diagram is a descriptive structural map.  
+It does not imply hierarchy of authority, enforcement, or obligation.  
+It exists only to clarify document relationships.
+
+本図は文書間の関係整理を示す補助的構造図であり、  
+階層的権限・義務・実装関係を意味しない。
+
+LUMINA-30
+                 (Civilizational Boundary)
+
+        ───────────────────────────────────
+
+1. Canonical Core
+   - Sanctuary Charter
+   - External Practical Annex
+   - Memorandum on Execution Control
+
+2. Addendum Layer
+   - Non-Acceleration as Structural Condition
+
+3. Supplementary Reference
+   - SUP Charter (JA)
+   - SUP Charter (EN)
+
+4. Public Record Layer
+   - PDF Public Records
+   - SHA-256 Integrity References
+
+5. Institutional Translation Layer
+   - Accountability Reference
+   - Stop Authority Reference
+   - Review Rejection Criteria
+   - Irreversible Boundary Check
+
+6. Institutional Friction Layer
+   - Institutional Friction Toolkit
+   - Post-Incident Review Structures
+   - Timeboxed Review
+   - Stabilization References
