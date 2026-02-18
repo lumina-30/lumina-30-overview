@@ -210,6 +210,16 @@ LUMINA-30
 
 
 ---
+---
+
+### Conceptual Positioning (Research Context)
+
+This framework may be interpreted as a descriptive boundary condition 
+within discussions of AI governance, oversight mechanisms, 
+procedural legitimacy, and recursive self-modification risk.
+
+It does not propose regulatory models, alignment strategies, 
+or institutional mandates.
 
 ## Appendix: Glossary (Interface Layer)
 
