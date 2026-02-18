@@ -223,6 +223,20 @@ procedural legitimacy, and recursive self-modification risk.
 It does not propose regulatory models, alignment strategies, 
 or institutional mandates.
 
+---
 ## Appendix: Glossary (Interface Layer)
 
 See: Glossary.md
+---
+
+### Related Implementation References
+
+- Stop Authority Reference  
+  https://github.com/gsx750ss-dev/stop-authority-reference
+
+- Institutional Friction Toolkit  
+  https://github.com/gsx750ss-dev/institutional-friction-toolkit
+
+- AI Accountability Reference  
+  https://github.com/gsx750ss-dev/ai-accountability-reference
+
