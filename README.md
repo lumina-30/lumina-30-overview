@@ -207,3 +207,10 @@ LUMINA-30
    - Post-Incident Review Structures
    - Timeboxed Review
    - Stabilization References
+
+
+---
+
+## Appendix: Glossary (Interface Layer)
+
+See: Glossary.md
