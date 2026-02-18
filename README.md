@@ -210,6 +210,8 @@ LUMINA-30
 
 
 ---
+This repository relates to recursive self-modifying AI risk, AI autonomy incidents, and institutional review mechanisms.
+
 ---
 
 ### Conceptual Positioning (Research Context)
