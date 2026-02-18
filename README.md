@@ -8,6 +8,10 @@ This material:
 
 ---
 
+This repository provides structural reference materials that may be consulted in post-incident institutional review contexts.
+
+---
+
 A Non-Binding Civilizational Boundary  
 （非拘束の文明的境界）
 
