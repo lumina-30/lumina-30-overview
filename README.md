@@ -233,6 +233,16 @@ or institutional mandates.
 See: Glossary.md
 ---
 
+Interpretive Clarification on Formal Sections
+
+The mathematical sections within the LUMINA-30 corpus represent structural stress modeling under bounded human evaluation capacity.
+
+They do not assert empirical inevitability, predictive certainty, or fixed human cognitive limits.
+
+They serve only to illustrate structural asymmetry risks under recursive self-modification assumptions.
+
+---
+
 ### Related Implementation References
 
 - Stop Authority Reference  
