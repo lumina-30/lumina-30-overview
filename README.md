@@ -37,6 +37,23 @@ It defines a structural boundary condition.
 
 ---
 
+## Context Keywords
+
+This repository may be relevant to discussions on:
+
+- AI governance
+- AI incident review
+- Human oversight
+- Corrigibility
+- Irreversible execution
+- Recursive self-modifying systems
+- AI accountability
+- Post-incident stabilization
+
+This repository is descriptive and non-prescriptive.
+
+---
+
 ## Core Concern
 
 The focus is not capability.
@@ -50,6 +67,7 @@ becomes coupled with irreversible external-world impact
 （能力ではなく、外界不可逆影響への接続構造。）
 
 ---
+
 
 ## Structural Map
 
