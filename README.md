@@ -211,6 +211,8 @@ LUMINA-30
    - Post-Incident Review Structures
    - Timeboxed Review
    - Stabilization References
+   - AI Incident – 48 Hour Stabilization Reference (Minimal)
+
 
 
 ---
