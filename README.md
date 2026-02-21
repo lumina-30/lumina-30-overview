@@ -182,8 +182,9 @@ These questions are descriptive and optional.
 They do not mandate governance changes or regulatory adoption.
 They serve as structural review lenses only.
 
-
-
+---
+Structural relationship definition:
+- lumina-30-structure-map
 ---
 
 <details>
@@ -275,5 +276,4 @@ They serve only to illustrate structural asymmetry risks under recursive self-mo
 - AI Accountability Reference  
   https://github.com/gsx750ss-dev/ai-accountability-reference
 
-Structural relationship definition:
-- lumina-30-structure-map
+
