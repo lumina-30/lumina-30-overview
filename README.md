@@ -275,3 +275,5 @@ They serve only to illustrate structural asymmetry risks under recursive self-mo
 - AI Accountability Reference  
   https://github.com/gsx750ss-dev/ai-accountability-reference
 
+Structural relationship definition:
+- lumina-30-structure-map
