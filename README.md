@@ -95,6 +95,7 @@ Clarifies structural conditions under which irreversible assumptions may become 
 ### 3. Institutional Friction References（摩擦層）
 - Accountability Reference
 - Friction Toolkit
+- Stop Authority (Reference)
 
 Descriptive post-incident structural references.
 
