@@ -1,279 +1,92 @@
 # LUMINA-30 Overview
 
-This material:
-- is not a recommendation.
-- does not provide safe-harbor or liability protection.
-- does not guarantee safety, legality, or ethical adequacy.
-- does not delegate refusal authority to AI systems.
+LUMINA-30 is a civilizational boundary reference structure.
+
+It is non-binding and descriptive:
+it does not mandate action, propose policy, or prescribe implementation.
+
+It exists to preserve structural visibility of:
+- refusal authority
+- accountability
+- irreversible external impact
+- boundary integrity
+
+This repository functions as the structural map (hub) of the full LUMINA-30 reference set.
 
 ---
 
-This repository provides structural reference materials that may be consulted in post-incident institutional review contexts.
+## Structural Map (Reference Layers)
+
+### 01 — Canonical Core (Boundary Charter)
+Foundational boundary text defining civilizational refusal and irreversibility limits.
+
+### 02 — Governance & Rejection Conditions
+Formal review and rejection criteria for recursively self-reconstructing AI systems.
+
+### 03 — Institutional Translation (Interface Layer)
+Terminology alignment and minimal interface clarification for institutional contexts.
+
+### 04 — Institutional Friction Layer
+Non-prescriptive procedural friction modules that preserve accountability visibility.
+
+### 05 — Post-Incident Reference Layer
+Immediate-to-timeboxed structural reference after high-impact autonomous incidents.
+
+### 06 — Public Record & Integrity Layer
+Hash-based public record registry preserving structural integrity without narrative expansion.
 
 ---
 
-A Non-Binding Civilizational Boundary  
-（非拘束の文明的境界）
+## Repositories (Links)
+
+### 01 — Canonical Core
+- https://github.com/gsx750ss-dev/LUMINA-30  
+  Core boundary charter repository.
 
 ---
 
-→ [Institutional Summary (1-Page)](Institutional_Summary_1Page.md)
+### 02 — Governance & Review Conditions
+- https://github.com/gsx750ss-dev/stop-authority-reference  
+  Formal refusal authority reference structure.
 
-→ [Sample Internal Integration Note](Sample_Integration_Note.md)
-
-→ [Crisis Snapshot: Recursive AI Incident Review Framework](Recursive_AI_Incident_Review_Framework.md)
-
----
-
-## What is LUMINA-30?
-
-LUMINA-30 is a non-binding civilizational boundary concerning advanced AI systems capable of recursive self-modification.
-
-It does not propose regulation, control mechanisms, or implementation guidelines.  
-It defines a structural boundary condition.
-
-（再帰的自己再構築型AIに関する非拘束の文明的境界。  
-規制・制御・実装指示を行うものではない。）
+- https://github.com/gsx750ss-dev/lumina30-public-reference  
+  Public-facing structural boundary clarification.
 
 ---
 
-## Context Keywords
-
-This repository may be relevant to discussions on:
-
-- AI governance
-- AI incident review
-- Human oversight
-- Corrigibility
-- Irreversible execution
-- Recursive self-modifying systems
-- AI accountability
-- Post-incident stabilization
-
-This repository is descriptive and non-prescriptive.
+### 03 — Structural & Interface Map
+- https://github.com/gsx750ss-dev/lumina-30-structure-map  
+  Structural visualization and reference map.
 
 ---
 
-## Core Concern
+### 04 — Institutional Friction Layer
+- https://github.com/gsx750ss-dev/institutional-friction-toolkit  
+  Non-prescriptive procedural friction modules.
 
-The focus is not capability.
-
-The concern is the structural transition point where:
-
-recursive self-modification  
-becomes coupled with irreversible external-world impact  
-(institutional, economic, or physical).
-
-（能力ではなく、外界不可逆影響への接続構造。）
+- https://github.com/gsx750ss-dev/ai-accountability-reference  
+  Accountability visibility reference framework.
 
 ---
 
+### 05 — Post-Incident Reference Layer
+- https://github.com/gsx750ss-dev/post-incident-stabilization  
+  Immediate stabilization reference.
 
-## Structural Map
+- https://github.com/gsx750ss-dev/post-incident-timeboxed-review  
+  Structured timeboxed review framework.
 
-### 1. Philosophical Core（哲学核）
-- Sanctuary Charter（聖域憲章）
-- Addendum on Singularity（補記）
-- SUP Supplement（補助正典）
+- https://github.com/gsx750ss-dev/post-incident-decision-review  
+  Decision-level structural review reference.
 
-Defines the inviolability of human sovereignty.
-
-（人間主権の不可侵を定義）
-
----
-
-### 2. Institutional Translation Layer（制度翻訳層）
-- Structural Preconditions
-- Phase 1 Minimal Summary
-
-Clarifies structural conditions under which irreversible assumptions may become fixed.
-
-（不可逆前提固定の回避条件を整理）
+- https://github.com/gsx750ss-dev/incident-terminology-minimal  
+  Minimal terminology alignment for incident contexts.
 
 ---
 
-### 3. Institutional Friction References（摩擦層）
-- Accountability Reference
-- Friction Toolkit
-- Stop Authority (Reference)
+## Usage Note
 
-Descriptive post-incident structural references.
+This entire structure is descriptive and non-binding.
 
-（事故後参照構造の説明資料）
-
----
-
-## Central Scope
-
-Prevention of irreversible fixation of human judgment displacement.
-
-（人間判断が不可逆に置換される構造の回避）
-
----
-
-## What It Is Not
-
-- Not a policy proposal  
-- Not a control mechanism  
-- Not an implementation guide  
-- Not a mandate  
-
----
-
-## Optional Review Lens
-
-This framework may be used as an optional structural review lens
-for assessing recursive self-modifying systems,
-without altering existing governance or compliance models.
-
-(Adoption does not replace, override, or modify current regulatory structures.)
-
----
-
-## Related Canonical Documents
-
-Primary texts and supplements are maintained separately and independently.
-
-This overview functions only as a structural entry point.
-
----
-
-## Canonical Documents
-
-Primary canonical texts are maintained separately.
-
-Sanctuary Charter（聖域憲章）  
-https://peppermint-sprint-2d5.notion.site/LUMINA-30-2d61e0720ec88078bbe6e51c1aa4e5f2
-
-External Practical Annex  
-https://peppermint-sprint-2d5.notion.site/External-Practical-Annex-2da1e0720ec880e992b6e92cbcc6ef32
-
-Memorandum on Execution Control（実行制御に関する覚書）  
-https://peppermint-sprint-2d5.notion.site/2dd1e0720ec880c88a03e68884c8808f
-
-Supplement: Acceleration Non-Purposiveness（加速非目的化）  
-https://peppermint-sprint-2d5.notion.site/2de1e0720ec880e399dcf46b0b15ceb0
-
-SUP – Sanctuary Charter (Reference Layer)  
-https://peppermint-sprint-2d5.notion.site/SUP-LUMINA-30-2f01e0720ec88080b2a4cb336c2fd8be
-
----
-
-## Implementation Reference (Optional)
-
-No irreversible coupling without human refusal.  
-No execution without containment.  
-No deployment without sovereign override.
-
-(Practical reference lines for implementation-phase discussions. Non-binding.)
-
----
-
-## Post-Incident Review Reference (Non-Prescriptive)
-
-In the event of a high-impact incident involving recursive self-modifying systems,
-the following structural questions may be considered:
-
-- Was recursive modification coupled to external execution without independent human refusal authority?
-- Could failure or deviation propagate irreversibly into institutional, economic, or physical systems?
-- Did meaningful human judgment retain the ability to delay, reject, or redirect execution prior to deployment?
-
-These questions are descriptive and optional.
-They do not mandate governance changes or regulatory adoption.
-They serve as structural review lenses only.
-
----
-Structural relationship definition:
-- lumina-30-structure-map
----
-
-<details>
-<summary>Appendix: Structural Relationship (Supplementary View)</summary>
-
-<br>
-
-This diagram is a descriptive structural map.  
-It does not imply hierarchy of authority, enforcement, or obligation.  
-It exists only to clarify document relationships.
-
-本図は文書間の関係整理を示す補助的構造図であり、  
-階層的権限・義務・実装関係を意味しない。
-
-LUMINA-30
-                 (Civilizational Boundary)
-
-        ───────────────────────────────────
-
-1. Canonical Core
-   - Sanctuary Charter
-   - External Practical Annex
-   - Memorandum on Execution Control
-
-2. Addendum Layer
-   - Non-Acceleration as Structural Condition
-
-3. Supplementary Reference
-   - SUP Charter (JA)
-   - SUP Charter (EN)
-
-4. Public Record Layer
-   - PDF Public Records
-   - SHA-256 Integrity References
-
-5. Institutional Translation Layer
-   - Accountability Reference
-   - Stop Authority Reference
-   - Review Rejection Criteria
-   - Irreversible Boundary Check
-
-6. Institutional Friction Layer
-   - Institutional Friction Toolkit
-   - Post-Incident Review Structures
-   - Timeboxed Review
-   - Stabilization References
-   - AI Incident – 48 Hour Stabilization Reference (Minimal)
-
-
-
----
-This repository relates to recursive self-modifying AI risk, AI autonomy incidents, and institutional review mechanisms.
-
----
-
-### Conceptual Positioning (Research Context)
-
-This framework may be interpreted as a descriptive boundary condition 
-within discussions of AI governance, oversight mechanisms, 
-procedural legitimacy, and recursive self-modification risk.
-
-It does not propose regulatory models, alignment strategies, 
-or institutional mandates.
-
----
-## Appendix: Glossary (Interface Layer)
-
-See: Glossary.md
----
-
-Interpretive Clarification on Formal Sections
-
-The mathematical sections within the LUMINA-30 corpus represent structural stress modeling under bounded human evaluation capacity.
-
-They do not assert empirical inevitability, predictive certainty, or fixed human cognitive limits.
-
-They serve only to illustrate structural asymmetry risks under recursive self-modification assumptions.
-
----
-
-### Related Implementation References
-
-- Stop Authority Reference  
-  https://github.com/gsx750ss-dev/stop-authority-reference
-
-- Institutional Friction Toolkit  
-  https://github.com/gsx750ss-dev/institutional-friction-toolkit
-
-- AI Accountability Reference  
-  https://github.com/gsx750ss-dev/ai-accountability-reference
-
-
+It exists as a civilizational boundary reference structure,
+not as policy, mandate, implementation guide, or enforcement mechanism.
