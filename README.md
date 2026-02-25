@@ -10,6 +10,7 @@ It exists to preserve structural visibility of:
 - accountability
 - irreversible external impact
 - boundary integrity
+- Search Index: https://github.com/gsx750ss-dev/Lumi30-Index
 
 This repository functions as the structural map (hub) of the full LUMINA-30 reference set.
 
