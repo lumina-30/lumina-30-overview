@@ -1,5 +1,6 @@
 # LUMINA-30 Overview
 Primary entry point: [Lumi30-Index](https://github.com/gsx750ss-dev/Lumi30-Index)
+
 LUMINA-30 is a civilizational boundary reference structure.
 
 It is non-binding and descriptive:
