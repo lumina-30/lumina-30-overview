@@ -1,4 +1,16 @@
-# LUMINA-30 Overview
+## Official Publication (Zenodo)
+
+The latest stable version of this paper is archived on Zenodo:
+
+DOI: https://doi.org/10.5281/zenodo.18850343  
+Version: v2 (Published March 4, 2026)
+
+This DOI resolves to the permanent public record.
+
+---
+
+## lumina-30-overview
+
 Primary entry point: [Lumi30-Index](https://github.com/gsx750ss-dev/Lumi30-Index)
 
 LUMINA-30 is a civilizational boundary reference structure.
@@ -92,3 +104,9 @@ This entire structure is descriptive and non-binding.
 
 It exists as a civilizational boundary reference structure,
 not as policy, mandate, implementation guide, or enforcement mechanism.
+---
+
+### Archival Notice
+
+The canonical archived version of this document is maintained on Zenodo.
+GitHub is used for development and visibility.
