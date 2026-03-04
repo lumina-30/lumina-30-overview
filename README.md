@@ -110,3 +110,43 @@ not as policy, mandate, implementation guide, or enforcement mechanism.
 
 The canonical archived version of this document is maintained on Zenodo.
 GitHub is used for development and visibility.
+
+---
+
+## Repository Positioning / リポジトリの位置づけ
+
+This repository distributes research-oriented materials related to the PCR-C framework and the broader LUMINA-30 structure.
+
+このリポジトリは、PCR-CフレームワークおよびLUMINA-30構造に関連する研究資料を公開するためのものです。
+
+The materials provided here serve as implementation-oriented references and discussion entry points.
+
+ここに掲載されている資料は、実装例および議論の入口としての参考資料として提供されています。
+
+They should not be interpreted as canonical or permanent texts within the LUMINA-30 framework.
+
+これらの資料は、LUMINA-30体系における正典文書または永久的文書として解釈されるものではありません。
+
+Within the LUMINA-30 structure, only the Canonical Layer carries permanent interpretive status.
+
+LUMINA-30構造において、永久的な意味的地位を持つのは正典層（Canonical Layer）のみです。
+
+Research-layer materials, including working papers and bridge documents, may be replaced or refined as improved formulations emerge.
+
+論文や呼び水文書などの研究層資料は、より良い研究成果が現れた場合に置き換えられる可能性があります。
+
+---
+
+## Archival Record / アーカイブ記録
+
+The stable archival version of the PCR-C paper is maintained on Zenodo.
+
+PCR-C論文の安定したアーカイブ版はZenodoに保存されています。
+
+DOI  
+https://doi.org/10.5281/zenodo.18850343
+
+For citation and academic reference, please refer to the Zenodo archived version.
+
+引用および学術的参照には、Zenodoに保存されたアーカイブ版を使用してください。
+
