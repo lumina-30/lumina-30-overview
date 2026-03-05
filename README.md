@@ -1,3 +1,17 @@
+## LUMINA-30 Conceptual Map
+
+A short conceptual overview of the LUMINA-30 framework.
+
+📄 **PDF**
+LUMINA-30_Conceptual_Map.pdf
+
+This document provides a high-level map of the LUMINA-30 framework and its relationship to the PCR-C paper.
+
+Related research paper:
+
+Pre-Critical Recursive Cutoff (PCR-C)  
+https://doi.org/10.5281
+
 ## Official Publication (Zenodo)
 
 The latest stable version of this paper is archived on Zenodo:
