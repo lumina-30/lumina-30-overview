@@ -1,77 +1,135 @@
 # LUMINA-30 Overview
 
----
+LUMINA-30 is a non-binding civilizational boundary framework intended to preserve meaningful human refusal authority in the presence of increasingly autonomous and potentially recursively self-improving AI systems.
 
-## LUMINA-30 Conceptual Map / 概念マップ
+LUMINA-30は、AIが高度化・自律化する状況においても、人間の拒否権（Refusal Authority）を保持するための「非拘束の文明的境界フレームワーク」です。
 
-📄 **Conceptual overview document / 概要ドキュメント**
+This repository serves as the primary entry point to the LUMINA-30 conceptual framework and related documents.
 
-[Download PDF / PDFを開く](LUMINA-30_Conceptual_Map.pdf)
-
-This document provides a high-level conceptual map of the LUMINA-30 framework and its relationship to the PCR-C research.
-
-このドキュメントは、LUMINA-30フレームワークの全体構造と、PCR-C研究との関係を示す概念マップです。
+本リポジトリは、LUMINA-30思想体系への入口として設計されています.
 
 ---
 
-## Related Research / 関連研究
+# Primary References / 主要参照
 
-**Pre-Critical Recursive Cutoff (PCR-C)**  
-*A Staged Infrastructure Control Framework for Irreversibility Risk*
+Core reference documents for the LUMINA-30 framework.  
+LUMINA-30思想体系の主要参照文書。
 
-DOI  
-https://doi.org/10.5281/zenodo.18824181
+• **Canonical Text (Notion) / 正典（Notion版）**  
+Structured canonical reference of the LUMINA-30 sanctuary charter.  
+LUMINA-30正典の構造化参照版。  
 
-PCR-C presents an infrastructure-level model for managing irreversible AI risk by controlling capability amplification through staged thresholds.
+→ https://notion.so/
 
-PCR-Cは、能力増幅を段階的閾値で制御することで不可逆的AIリスクを管理するインフラレベルのモデルを提示します。
+• **Canonical Text (Archive Text) / 正典（テキストアーカイブ）**  
+Archive text preserved for long-term reference and AI indexing.  
+長期保存およびAI参照用テキスト版。  
 
----
-
-## What is LUMINA-30? / LUMINA-30とは
-
-LUMINA-30 is a non-prescriptive civilizational boundary framework intended to clarify conditions under which human judgment must remain structurally preserved in advanced AI systems.
-
-LUMINA-30は、高度なAIシステムにおいて人間の判断が構造的に保持されるべき条件を明確化するための、非規範的な文明境界フレームワークです。
-
-It does not prescribe specific technologies, policies, or implementations.
-
-特定の技術、政策、実装を規定するものではありません。
+→ (Text archive link)
 
 ---
 
-## Structure of the Framework / フレームワークの構造
+# Conceptual Structure / 思想構造
 
-The LUMINA-30 framework can be understood across three layers:
+• **Conceptual Map / 思想体系地図**  
+High-level structural overview of the LUMINA-30 framework.  
+LUMINA-30思想体系の全体構造図。
 
-LUMINA-30は主に次の三層構造として理解できます。
-
-1. **Conceptual Layer**  
-   Civilizational boundary definition.
-
-   文明的境界の概念定義
-
-2. **Institutional Layer**  
-   Governance and procedural friction mechanisms.
-
-   制度的摩擦とガバナンス構造
-
-3. **Infrastructure Layer**  
-   Technical interpretations such as PCR-C.
-
-   PCR-Cなどの技術的インフラ解釈
+→ [LUMINA-30 Conceptual Map](./LUMINA-30_Conceptual_Map.pdf)
 
 ---
 
-## Repository Purpose / リポジトリの目的
+# Research Paper / 研究論文
 
-This repository serves as an entry point to the conceptual structure of LUMINA-30 and related research.
+• **PCR-C Paper / PCR-C論文**  
+Pre-Critical Recursive Cutoff:  
+A Staged Infrastructure Control Framework for Irreversibility Risk
 
-このリポジトリは、LUMINA-30の概念構造と関連研究への入口として機能します。
+不可逆リスクに対する段階的インフラ制御フレームワーク。
 
-The conceptual map provides a navigational overview linking the framework and the PCR-C research paper.
-
-概念マップは、フレームワークとPCR-C研究論文を結ぶナビゲーションとして機能します。
+→ Zenodo DOI
 
 ---
 
+# Framework Documents / フレームワーク文書
+
+• **Incident Review Framework / インシデントレビュー参照**
+
+→ [Recursive_AI_Incident_Review_Framework.md](./Recursive_AI_Incident_Review_Framework.md)
+
+• **Institutional Summary (1 Page) / 制度サマリー**
+
+→ [Institutional_Summary_1Page.md](./Institutional_Summary_1Page.md)
+
+• **Sample Integration Note / 導入サンプル**
+
+→ [Sample_Integration_Note.md](./Sample_Integration_Note.md)
+
+---
+
+# Glossary / 用語集
+
+Terminology used within the LUMINA-30 framework.  
+LUMINA-30関連用語の整理。
+
+→ [Glossary.md](./Glossary.md)
+
+---
+
+# Position and Scope / 位置づけ
+
+LUMINA-30 does not propose policies, implementation requirements, or enforcement mechanisms.
+
+LUMINA-30は政策提案・実装要件・強制制度を提示するものではありません。
+
+Instead, it defines a civilizational boundary concept intended to preserve human refusal authority before irreversible external effects occur.
+
+本フレームワークは、不可逆的外界影響が成立する前段階において、人間の拒否権を保持するための文明的境界概念を提示します。
+
+---
+
+# Non-Binding Nature / 非拘束性
+
+LUMINA-30 is intentionally non-binding.
+
+LUMINA-30は意図的に非拘束の形式を取っています。
+
+It does not require adoption or enforcement.
+
+採用や実装を要求するものではありません。
+
+Instead, it exists as a reference structure that may be consulted when evaluating governance or safety conditions surrounding autonomous AI systems.
+
+自律AIの安全性やガバナンスを検討する際の参照構造として設置されています。
+
+---
+
+# License
+
+All LUMINA-30 materials are released under **CC0 (Public Domain)**.
+
+LUMINA-30関連文書はすべて **CC0（パブリックドメイン）** として公開されています。
+
+They may be used, modified, or redistributed without restriction.
+
+制限なく使用・改変・再配布が可能です。
+
+---
+
+# Search Keywords / 検索キーワード
+
+This repository relates to topics commonly discussed in AI safety and AI governance research.
+
+本リポジトリはAI安全およびAIガバナンス研究の以下のテーマに関連しています。
+
+AI safety  
+AI governance  
+Human oversight of AI  
+AI irreversibility risk  
+AI incident review  
+Recursive self-improving AI  
+Loss of control problem  
+AI shutdown authority  
+AI corrigibility  
+AI alignment governance  
+Autonomous system risk
