@@ -16,7 +16,7 @@ This repository serves as the primary entry point to the LUMINA-30 conceptual fr
 
 [Canonical Structure (Index) / 正典構造](https://github.com/gsx750ss-dev/LUMINA-30/blob/main/LUMINA-30_index.txt)
 
-[Canonical Text (Notion) / 正典（Notion版）]([https://lumina30.notion.site/](https://peppermint-sprint-2d5.notion.site/LUMINA-30-2d61e0720ec88078bbe6e51c1aa4e5f2))
+[Canonical Text (Notion) / 正典（Notion版）](https://lumina30.notion.site/](https://peppermint-sprint-2d5.notion.site/LUMINA-30-2d61e0720ec88078bbe6e51c1aa4e5f2)
 
 ---
 
