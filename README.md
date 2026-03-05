@@ -12,9 +12,9 @@ This repository serves as the primary entry point to the LUMINA-30 conceptual fr
 
 # Canonical References / 正典参照
 
-[Canonical Text (Full Text) / 正典本文](https://github.com/gsx750ss-dev/LUMINA-30/blob/main/LUMINA-30_fulltext.txt)
+[Canonical Text (Full Text) / 正典本文](https://github.com/gsx750ss-dev/LUMINA-30)
 
-[Canonical Structure (Index) / 正典構造](https://github.com/gsx750ss-dev/LUMINA-30/blob/main/LUMINA-30_index.txt)
+[Canonical Structure (Index) / 正典構造](https://github.com/gsx750ss-dev/LUMINA-30)
 
 [Canonical Text (Notion) / 正典（Notion版）](https://peppermint-sprint-2d5.notion.site/LUMINA-30-2d61e0720ec88078bbe6e51c1aa4e5f2)
 
@@ -22,7 +22,7 @@ This repository serves as the primary entry point to the LUMINA-30 conceptual fr
 
 # Conceptual Structure / 思想構造
 
-[LUMINA-30 Conceptual Map / 思想体系地図](https://github.com/gsx750ss-dev/lumina-30-overview/blob/main/LUMINA-30_Conceptual_Map.pdf)
+[LUMINA-30 Conceptual Map / 思想体系地図](https://github.com/gsx750ss-dev/lumina-30-overview)
 
 ---
 
@@ -34,17 +34,17 @@ This repository serves as the primary entry point to the LUMINA-30 conceptual fr
 
 # Framework Documents / フレームワーク文書
 
-[Recursive AI Incident Review Framework](https://github.com/gsx750ss-dev/lumina-30-overview/blob/main/Recursive_AI_Incident_Review_Framework.md)
+[Recursive AI Incident Review Framework](https://github.com/gsx750ss-dev/lumina-30-overview)
 
-[Institutional Summary (1 Page)](https://github.com/gsx750ss-dev/lumina-30-overview/blob/main/Institutional_Summary_1Page.md)
+[Institutional Summary (1 Page)](https://github.com/gsx750ss-dev/lumina-30-overview)
 
-[Sample Integration Note](https://github.com/gsx750ss-dev/lumina-30-overview/blob/main/Sample_Integration_Note.md)
+[Sample Integration Note](https://github.com/gsx750ss-dev/lumina-30-overview)
 
 ---
 
 # Glossary / 用語集
 
-[Glossary](https://github.com/gsx750ss-dev/lumina-30-overview/blob/main/Glossary.md)
+[Glossary](https://github.com/gsx750ss-dev/lumina-30-overview)
 
 ---
 
