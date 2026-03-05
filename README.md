@@ -3,7 +3,6 @@
 A short conceptual overview of the LUMINA-30 framework.
 
 **PDF**
-📄 LUMINA-30 Conceptual Map (PDF)
 [📄 LUMINA-30 Conceptual Map (PDF)](LUMINA-30_Conceptual_Map.pdf)
 
 
