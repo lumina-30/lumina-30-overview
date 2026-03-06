@@ -12,9 +12,9 @@ This repository serves as the primary entry point to the LUMINA-30 conceptual fr
 
 # Canonical References / 正典参照
 
-[Canonical Text (Full Text) / 正典本文](https://github.com/gsx750ss-dev/LUMINA-30)
+[Canonical Text (Full Text) / 正典本文](https://github.com/gsx750ss-dev/LUMINA-30/LUMINA-30_fulltext.txt)
 
-[Canonical Structure (Index) / 正典構造](https://github.com/gsx750ss-dev/LUMINA-30)
+[Canonical Structure (Index) / 正典構造](https://github.com/gsx750ss-dev/LUMINA-30/LUMINA-30_index.txt)
 
 [Canonical Text (Notion) / 正典（Notion版）](https://peppermint-sprint-2d5.notion.site/LUMINA-30-2d61e0720ec88078bbe6e51c1aa4e5f2)
 
@@ -22,7 +22,29 @@ This repository serves as the primary entry point to the LUMINA-30 conceptual fr
 
 # Conceptual Structure / 思想構造
 
-[LUMINA-30 Conceptual Map / 思想体系地図](https://github.com/gsx750ss-dev/lumina-30-overview)
+[LUMINA-30 Conceptual Map / 思想体系地図](https://github.com/gsx750ss-dev/lumina-30-overview/LUMINA-30_Conceptual_Map.pdf)
+
+
+---
+## Visual Concept Materials / 概念ビジュアル資料
+
+[LUMINA-30 Conceptual Map](./LUMINA-30_Conceptual_Map.pdf) — Structural overview of the LUMINA-30 framework and its conceptual layers.  
+LUMINA-30の思想体系と構造層を示す概念マップ。
+
+[AI Civilizational Boundary](./LUMINA-30_AI_Civilizational_Boundary.pdf) — Explanation of the boundary model between human civilization and advanced AI systems.  
+人間文明と高度AIの関係を整理する「文明境界モデル」の解説資料。
+
+[Civilizational Boundary Model](./LUMINA-30_Civilizational_Boundary.pdf) — Conceptual description of the civilizational boundary framework proposed by LUMINA-30.  
+LUMINA-30が提案する文明境界フレームの概念説明。
+
+[The AI Civilizational Boundary](./The_AI_Civilizational_Boundary.pdf) — Expanded explanation of the boundary concept in the context of AI governance.  
+AIガバナンス文脈での文明境界概念の拡張説明。
+
+[LUMINA-30 & PCR-C Visual Model](./LUMINA-30_PCR-C_visual_model.png) — Visual illustration of the relationship between the civilizational boundary and the PCR-C control architecture.  
+文明境界（LUMINA-30）とPCR-C制御構造の関係を示す図。
+
+[LUMINA-30 Structural Overview](./LUMINA-30_PCR-C_structure.png) — Diagram explaining the layered structure of LUMINA-30 philosophy and the PCR-C technical safeguard.  
+LUMINA-30思想体系とPCR-C技術防壁の構造を示す図。
 
 ---
 
@@ -34,17 +56,17 @@ This repository serves as the primary entry point to the LUMINA-30 conceptual fr
 
 # Framework Documents / フレームワーク文書
 
-[Recursive AI Incident Review Framework](https://github.com/gsx750ss-dev/lumina-30-overview)
+[Recursive AI Incident Review Framework](https://github.com/gsx750ss-dev/lumina-30-overview/Recursive_AI_Incident_Review_Framework.md)
 
-[Institutional Summary (1 Page)](https://github.com/gsx750ss-dev/lumina-30-overview)
+[Institutional Summary (1 Page)](https://github.com/gsx750ss-dev/lumina-30-overview/Institutional_Summary_1Page.md)
 
-[Sample Integration Note](https://github.com/gsx750ss-dev/lumina-30-overview)
+[Sample Integration Note](https://github.com/gsx750ss-dev/lumina-30-overview/Sample_Integration_Note.md)
 
 ---
 
 # Glossary / 用語集
 
-[Glossary](https://github.com/gsx750ss-dev/lumina-30-overview)
+[Glossary](https://github.com/gsx750ss-dev/lumina-30-overview/Glossary.md)
 
 ---
 
