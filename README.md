@@ -18,13 +18,11 @@ This repository serves as the primary entry point to the LUMINA-30 conceptual fr
 
 [Canonical Text (Full Text) / 正典本文](https://github.com/gsx750ss-dev/LUMINA-30/blob/main/LUMINA-30_fulltext.txt)
 
-
 ---
 
 # Conceptual Structure / 思想構造
 
 [LUMINA-30 Conceptual Map / 思想体系地図](https://github.com/gsx750ss-dev/lumina-30-overview/LUMINA-30_Conceptual_Map.pdf)
-
 
 ---
 
@@ -50,6 +48,12 @@ LUMINA-30の思想体系と構造層を示す概念マップ。
 
 [Irreversibility Threshold Model](./LUMINA-30_Irreversibility_Threshold_Model.png)  
 — Illustration of the irreversible external impact threshold and the concept of a civilizational boundary.  
+不可逆的外界影響の臨界点と文明境界の概念を示す図。
+
+[LUMINA-30 & PCR-C Integrated Model](./LUMINA-30_PCR-C_visual_model.png)  
+— Integrated visualization of the LUMINA-30 civilizational boundary and PCR-C safeguard architecture.  
+LUMINA-30文明境界とPCR-C技術防壁の統合モデル。
+
 
 
 # Research Paper / 研究論文
