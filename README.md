@@ -22,7 +22,7 @@ This repository serves as the primary entry point to the LUMINA-30 conceptual fr
 
 # Conceptual Structure / 思想構造
 
-[LUMINA-30 Conceptual Map / 思想体系地図](https://github.com/gsx750ss-dev/lumina-30-overview/LUMINA-30_Conceptual_Map.pdf)
+[LUMINA-30 Conceptual Map / 思想体系地図]([https://github.com/gsx750ss-dev/lumina-30-overview/LUMINA-30_Conceptual_Map.p](https://raw.githubusercontent.com/gsx750ss-dev/lumina-30-overview/main/LUMINA-30_Conceptual_Map.pdf)
 
 ---
 
