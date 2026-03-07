@@ -38,10 +38,6 @@ A high-level visual summary of the LUMINA-30 framework showing the relationship 
 
 ## Visual Concept Materials / 概念ビジュアル資料
 
-[LUMINA-30 Conceptual Map](./LUMINA-30_Conceptual_Map.pdf)  
-— Structural overview of the LUMINA-30 framework and its conceptual layers.  
-LUMINA-30の思想体系と構造層を示す概念マップ。
-
 [AI Civilizational Boundary](./LUMINA-30_AI_Civilizational_Boundary.pdf)  
 — Explanation of the boundary model between human civilization and advanced AI systems.  
 人間文明と高度AIの関係を整理する文明境界モデル。
@@ -54,7 +50,15 @@ LUMINA-30の思想体系と構造層を示す概念マップ。
 — Integrated visualization of the LUMINA-30 civilizational boundary and PCR-C safeguard architecture.  
 LUMINA-30文明境界とPCR-C技術防壁の統合モデル。
 
+---
 
+## Conceptual Structure (Text Map) / 思想体系テキスト構造
+
+[LUMINA-30 Conceptual Map](./LUMINA-30_Conceptual_Map.pdf)
+Text-based structural overview of the LUMINA-30 conceptual framework.
+LUMINA-30思想体系のテキスト構造マップ。
+
+---
 
 # Research Paper / 研究論文
 
