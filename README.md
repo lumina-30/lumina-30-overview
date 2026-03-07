@@ -60,6 +60,10 @@ LUMINA-30文明境界とPCR-C技術防壁の統合モデル。
 
 # Framework Documents / フレームワーク文書
 
+[Civilizational Safety Checklist](./LUMINA-30_Civilizational_Safety_Checklist.pdf)  
+— Operational review checklist derived from the LUMINA-30 civilizational boundary framework.  
+LUMINA-30文明境界フレームワークから導出された実務審査チェックリスト。
+
 [Recursive AI Incident Review Framework](https://github.com/gsx750ss-dev/lumina-30-overview/Recursive_AI_Incident_Review_Framework.md)
 
 [Institutional Summary (1 Page)](https://github.com/gsx750ss-dev/lumina-30-overview/blob/main/Institutional_Summary_1Page.md)
