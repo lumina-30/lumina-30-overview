@@ -13,6 +13,7 @@ This repository serves as the primary entry point to the LUMINA-30 conceptual fr
 # Canonical References / 正典参照
 
 Primary canonical texts defining the LUMINA-30 civilizational boundary framework.
+
 LUMINA-30文明境界フレームワークの正典文書。
 
 [Canonical Text (Notion) / 正典（Notion版）](https://peppermint-sprint-2d5.notion.site/LUMINA-30-2d61e0720ec88078bbe6e51c1aa4e5f2)
