@@ -60,21 +60,21 @@ LUMINA-30文明境界とPCR-C技術防壁の統合モデル。
 
 # Framework Documents / フレームワーク文書
 
-[Civilizational Safety Checklist](./LUMINA-30_Civilizational_Safety_Checklist.pdf)  
-— Operational review checklist derived from the LUMINA-30 civilizational boundary framework.  
-LUMINA-30文明境界フレームワークから導出された実務審査チェックリスト。
+[Civilizational Safety Checklist](./LUMINA-30_Civilizational_Safety_Checklist.pdf)
+— Operational review checklist derived from the LUMINA-30 civilizational boundary framework for institutional AI safety governance.
+LUMINA-30文明境界フレームワークから導出された、組織的AI安全ガバナンスのための実務審査チェックリスト。
 
-[Recursive AI Incident Review Framework](./Recursive_AI_Incident_Review_Framework.md)  
-— Framework for reviewing incidents involving recursively self-improving or autonomous AI systems.  
-再帰的自己改良型または高自律AIに関するインシデントを検証するためのレビュー枠組み。
+[Recursive AI Incident Review Framework](./Recursive_AI_Incident_Review_Framework.md)
+— Incident review framework for analyzing failures or risks involving autonomous or recursively self-improving AI systems.
+自律型または再帰的自己改良AIに関する事故・リスクを検証するためのインシデントレビュー枠組み。
 
-[Institutional Summary (1 Page)](./Institutional_Summary_1Page.md)  
-— One-page institutional overview of the LUMINA-30 framework for governance and policy contexts.  
-ガバナンスや政策文脈向けにLUMINA-30の要点をまとめた1ページ概要。
+[Institutional Summary (1 Page)](./Institutional_Summary_1Page.md)
+— One-page institutional overview summarizing the purpose, structure, and governance relevance of LUMINA-30.
+LUMINA-30の目的・構造・ガバナンス上の意義をまとめた機関向け1ページ概要。
 
-[Sample Integration Note](./Sample_Integration_Note.md)  
-— Example document showing how LUMINA-30 concepts can be integrated into organizational governance or safety reviews.  
-組織のガバナンスや安全審査にLUMINA-30概念を組み込む際の参考例。
+[Sample Integration Note](./Sample_Integration_Note.md)
+— Example document demonstrating how LUMINA-30 concepts may be incorporated into organizational governance or safety review processes.
+LUMINA-30概念を組織ガバナンスや安全審査プロセスに組み込む際の参考例。
 
 ---
 
