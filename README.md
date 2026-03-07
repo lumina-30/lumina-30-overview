@@ -61,7 +61,7 @@ LUMINA-30思想体系とPCR-C技術防壁の構造を示す図。
 
 [Institutional Summary (1 Page)](https://github.com/gsx750ss-dev/lumina-30-overview/blob/main/Institutional_Summary_1Page.md)
 
-[Sample Integration Note](https://github.com/gsx750ss-dev/lumina-30-overview/Sample_Integration_Note.md)
+[Sample Integration Note](https://github.com/gsx750ss-dev/lumina-30-overview/blob/main/Sample_Integration_Note.md)
 
 ---
 
