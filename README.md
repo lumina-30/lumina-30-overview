@@ -12,11 +12,12 @@ This repository serves as the primary entry point to the LUMINA-30 conceptual fr
 
 # Canonical References / 正典参照
 
-[Canonical Text (Full Text) / 正典本文](https://github.com/gsx750ss-dev/LUMINA-30/LUMINA-30_fulltext.txt)
-
-[Canonical Structure (Index) / 正典構造](https://github.com/gsx750ss-dev/LUMINA-30/LUMINA-30_index.txt)
-
 [Canonical Text (Notion) / 正典（Notion版）](https://peppermint-sprint-2d5.notion.site/LUMINA-30-2d61e0720ec88078bbe6e51c1aa4e5f2)
+
+[Canonical Structure (Index) / 正典構造](https://github.com/gsx750ss-dev/LUMINA-30/blob/main/LUMINA-30_index.txt)
+
+[Canonical Text (Full Text) / 正典本文](https://github.com/gsx750ss-dev/LUMINA-30/blob/main/LUMINA-30_fulltext.txt)
+
 
 ---
 
@@ -58,7 +59,7 @@ LUMINA-30思想体系とPCR-C技術防壁の構造を示す図。
 
 [Recursive AI Incident Review Framework](https://github.com/gsx750ss-dev/lumina-30-overview/Recursive_AI_Incident_Review_Framework.md)
 
-[Institutional Summary (1 Page)](https://github.com/gsx750ss-dev/lumina-30-overview/Institutional_Summary_1Page.md)
+[Institutional Summary (1 Page)](https://github.com/gsx750ss-dev/lumina-30-overview/blob/main/Institutional_Summary_1Page.md)
 
 [Sample Integration Note](https://github.com/gsx750ss-dev/lumina-30-overview/Sample_Integration_Note.md)
 
@@ -66,7 +67,7 @@ LUMINA-30思想体系とPCR-C技術防壁の構造を示す図。
 
 # Glossary / 用語集
 
-[Glossary](https://github.com/gsx750ss-dev/lumina-30-overview/Glossary.md)
+[Glossary](https://github.com/gsx750ss-dev/lumina-30-overview/blob/main/Glossary.md)
 
 ---
 
