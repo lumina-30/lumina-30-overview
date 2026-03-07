@@ -27,6 +27,7 @@ LUMINA-30文明境界フレームワークの正典文書。
 
 [LUMINA-30 Conceptual Map](./LUMINA-30_Conceptual_Map.pdf)
 — Structural overview of the LUMINA-30 framework showing the relationships between the civilizational boundary principle, governance layers, and technical safeguards.
+
 LUMINA-30の文明境界原理・制度層・技術的防護構造の関係を示す思想体系の構造マップ。
 
 ---
