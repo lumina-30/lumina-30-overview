@@ -64,11 +64,17 @@ LUMINA-30文明境界とPCR-C技術防壁の統合モデル。
 — Operational review checklist derived from the LUMINA-30 civilizational boundary framework.  
 LUMINA-30文明境界フレームワークから導出された実務審査チェックリスト。
 
-[Recursive AI Incident Review Framework](https://github.com/gsx750ss-dev/lumina-30-overview/Recursive_AI_Incident_Review_Framework.md)
+[Recursive AI Incident Review Framework](./Recursive_AI_Incident_Review_Framework.md)  
+— Framework for reviewing incidents involving recursively self-improving or autonomous AI systems.  
+再帰的自己改良型または高自律AIに関するインシデントを検証するためのレビュー枠組み。
 
-[Institutional Summary (1 Page)](https://github.com/gsx750ss-dev/lumina-30-overview/blob/main/Institutional_Summary_1Page.md)
+[Institutional Summary (1 Page)](./Institutional_Summary_1Page.md)  
+— One-page institutional overview of the LUMINA-30 framework for governance and policy contexts.  
+ガバナンスや政策文脈向けにLUMINA-30の要点をまとめた1ページ概要。
 
-[Sample Integration Note](https://github.com/gsx750ss-dev/lumina-30-overview/blob/main/Sample_Integration_Note.md)
+[Sample Integration Note](./Sample_Integration_Note.md)  
+— Example document showing how LUMINA-30 concepts can be integrated into organizational governance or safety reviews.  
+組織のガバナンスや安全審査にLUMINA-30概念を組み込む際の参考例。
 
 ---
 
