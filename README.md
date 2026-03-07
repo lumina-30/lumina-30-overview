@@ -46,7 +46,7 @@ LUMINA-30の思想体系と構造層を示す概念マップ。
 — Explanation of the boundary model between human civilization and advanced AI systems.  
 人間文明と高度AIの関係を整理する文明境界モデル。
 
-[Irreversibility Threshold Model](./LUMINA-30_Irreversibility_Threshold_Model.png)  
+[Irreversibility Threshold Model](./LUMINA-30_Irreversibility_Threshold_Model.pdf) 
 — Illustration of the irreversible external impact threshold and the concept of a civilizational boundary.  
 不可逆的外界影響の臨界点と文明境界の概念を示す図。
 
