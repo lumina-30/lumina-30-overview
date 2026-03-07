@@ -52,14 +52,6 @@ LUMINA-30文明境界とPCR-C技術防壁の統合モデル。
 
 ---
 
-## Conceptual Structure (Text Map) / 思想体系テキスト構造
-
-[LUMINA-30 Conceptual Map](./LUMINA-30_Conceptual_Map.pdf)
-Text-based structural overview of the LUMINA-30 conceptual framework.
-LUMINA-30思想体系のテキスト構造マップ。
-
----
-
 # Research Paper / 研究論文
 
 [Pre-Critical Recursive Cutoff (PCR-C)](https://doi.org/10.5281/zenodo.18824181)
