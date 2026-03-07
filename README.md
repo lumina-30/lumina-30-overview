@@ -82,6 +82,19 @@ Instead, it defines a civilizational boundary concept intended to preserve human
 本フレームワークは、不可逆的外界影響が成立する前段階において、人間の拒否権を保持するための文明的境界概念を提示します。
 
 ---
+# Civilizational Context / 文明的文脈
+
+LUMINA-30 records a boundary concept for preserving civilizational agency in the presence of advanced artificial intelligence.
+
+It does not claim to be a final solution.  
+However, it is published as a reference point that may represent one possible milestone in humanity's attempt to address irreversible external effects of AI systems.
+
+LUMINA-30は、高度な人工知能の存在下において文明主体を維持するための境界概念を記録した参照フレームです。
+
+本フレームワークは最終的な解決策を主張するものではありません。  
+しかし、人類がAIの不可逆的外界影響という問題に直面した際に参照可能な、一つの到達点として公開されています。
+
+---
 
 # License
 
