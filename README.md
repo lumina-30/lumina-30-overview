@@ -12,6 +12,9 @@ This repository serves as the primary entry point to the LUMINA-30 conceptual fr
 
 # Canonical References / 正典参照
 
+Primary canonical texts defining the LUMINA-30 civilizational boundary framework.
+LUMINA-30文明境界フレームワークの正典文書。
+
 [Canonical Text (Notion) / 正典（Notion版）](https://peppermint-sprint-2d5.notion.site/LUMINA-30-2d61e0720ec88078bbe6e51c1aa4e5f2)
 
 [Canonical Structure (Index) / 正典構造](https://github.com/gsx750ss-dev/LUMINA-30/blob/main/LUMINA-30_index.txt)
@@ -55,6 +58,8 @@ LUMINA-30文明境界とPCR-C技術防壁の統合モデル。
 # Research Paper / 研究論文
 
 [Pre-Critical Recursive Cutoff (PCR-C)](https://doi.org/10.5281/zenodo.18824181)
+— Infrastructure control framework for preventing irreversible external impact risks in advanced AI systems.
+高度AIにおける不可逆的外界影響リスクを防ぐためのインフラ制御フレームワーク。
 
 ---
 
@@ -80,7 +85,9 @@ LUMINA-30概念をAIガバナンス・安全審査・組織監督プロセスへ
 
 # Glossary / 用語集
 
-[Glossary](https://github.com/gsx750ss-dev/lumina-30-overview/blob/main/Glossary.md)
+[Glossary](./Glossary.md)
+— Definitions of key concepts used in the LUMINA-30 framework.
+LUMINA-30フレームワークで使用される主要概念の定義集。
 
 ---
 
