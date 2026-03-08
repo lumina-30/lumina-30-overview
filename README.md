@@ -69,21 +69,21 @@ LUMINA-30文明境界とPCR-C技術防壁の統合モデル。
 
 # Framework Documents / フレームワーク文書
 
-[Civilizational Safety Checklist](./LUMINA-30_Civilizational_Safety_Checklist.pdf)
-— Practical review checklist for evaluating AI systems and governance decisions before irreversible external impact occurs.
-不可逆的外界影響が発生する前にAIシステムやガバナンス判断を評価するための実務レビュー・チェックリスト。
+[Institutional Summary (1 Page)](./Institutional_Summary_1Page.md)
+— One-page overview explaining the purpose, structure, and governance relevance of the LUMINA-30 civilizational boundary framework.
+LUMINA-30文明境界フレームワークの目的・構造・ガバナンス上の意義をまとめた1ページ概要。
 
 [Recursive AI Incident Review Framework](./Recursive_AI_Incident_Review_Framework.md)
 — Post-incident review framework for analyzing failures, risks, and oversight breakdowns in autonomous or recursively improving AI systems.
 自律型または再帰的自己改良AIに関する事故・リスク・監督崩壊を検証するための事後レビュー枠組み。
 
-[Institutional Summary (1 Page)](./Institutional_Summary_1Page.md)
-— One-page overview explaining the purpose, structure, and governance relevance of the LUMINA-30 civilizational boundary framework.
-LUMINA-30文明境界フレームワークの目的・構造・ガバナンス上の意義をまとめた1ページ概要。
-
 [Sample Integration Note](./Sample_Integration_Note.md)
 — Example showing how LUMINA-30 concepts can be integrated into AI governance, safety reviews, and institutional oversight processes.
 LUMINA-30概念をAIガバナンス・安全審査・組織監督プロセスへ統合する方法を示す参考例。
+
+[Civilizational Safety Checklist](./LUMINA-30_Civilizational_Safety_Checklist.pdf)
+— Practical review checklist for evaluating AI systems and governance decisions before irreversible external impact occurs.
+不可逆的外界影響が発生する前にAIシステムやガバナンス判断を評価するための実務レビュー・チェックリスト。
 
 ---
 
