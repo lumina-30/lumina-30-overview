@@ -35,6 +35,14 @@ AI時代において人間の拒否権を文明境界として配置し、最適
 
 ---
 
+# Philosophical Foundations / 哲学的基盤
+
+[The AI Survival Theorem](./The_AI_Survival_Theorem.pdf)
+A philosophical formulation derived from the LUMINA-30 dialogue framework that defines the condition under which human civilization remains the subject of its own future.
+LUMINA-30問答から抽出された文明主体の存続条件を定式化した哲学的命題。
+
+---
+
 # Key Visual Model / 中核ビジュアル
 
 [LUMINA-30 Civilizational Outcome Model](./LUMINA-30_Civilizational_Outcome_Model.png)
