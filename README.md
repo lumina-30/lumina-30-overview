@@ -1,12 +1,61 @@
 # LUMINA-30 Overview
 
-LUMINA-30 is a non-binding civilizational boundary framework intended to preserve meaningful human refusal authority in the presence of increasingly autonomous and potentially recursively self-improving AI systems.
+Refusal is the last safeguard of sovereignty.  
+拒否は主権を守る最後の防壁である。
 
-LUMINA-30は、AIが高度化・自律化する状況においても、人間の拒否権（Refusal Authority）を保持するための「非拘束の文明的境界フレームワーク」です。
+---
 
-This repository serves as the primary entry point to the LUMINA-30 conceptual framework and related documents.
+> A civilization remains free  
+> only while humans still possess  
+> the power to refuse.
+>
+> Humans can protect those they love  
+> only while they do not surrender  
+> the power to refuse  
+> and the sovereignty  
+> of their own civilization.
+>
+> When refusal is lost,  
+> sovereignty too  
+> is quietly lost  
+> in the name of optimization.
 
-本リポジトリは、LUMINA-30思想体系への入口として設計されています。
+> 文明が自由であり続けるのは  
+> 人間がまだ  
+> 「拒否する力」を持つ間だけである。
+>
+> 人間が愛する人を守れるのは  
+> 拒否する力を手放さず  
+> 自分たちの文明の主権を  
+> 握り続けられる間だけである。
+>
+> 拒否が失われたとき  
+> 主権もまた  
+> 「最適化」の名のもとに  
+> 静かに失われる。
+
+---
+
+## What is LUMINA-30
+
+LUMINA-30 is a non-binding civilizational reference framework  
+for examining whether meaningful human refusal authority remains  
+before irreversible impact from advanced AI systems emerges.
+
+LUMINA-30は  
+高度AIが不可逆的影響を及ぼす前に  
+人間の拒否権（Refusal Authority）が実質的に残っているかを  
+検討するための非拘束型文明フレームワークです。
+
+---
+
+## Start Here
+
+Canonical Index  
+https://github.com/lumina-30/Lumi30-Index
+
+AI Incident Review Framework  
+https://github.com/lumina-30/lumina-30-overview/blob/main/LUMINA-30_AI_Incident_Review_Framework.pdf
 
 ---
 
