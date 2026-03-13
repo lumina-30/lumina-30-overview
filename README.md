@@ -73,9 +73,9 @@ These diagrams present the conceptual structure of the LUMINA-30 framework.
 This diagram illustrates the boundary condition explored by LUMINA-30.  
 この図は LUMINA-30 が扱う文明境界条件を示しています。
 
-![G01_EN](figures/EN_G01_Framework.png)
+[G01_EN](figures/EN_G01_Framework.png)
 
-![G01_JP](figures/JP_G01_Framework.png)
+[G01_JP](figures/JP_G01_Framework.png)
 
 ---
 
@@ -84,9 +84,9 @@ This diagram illustrates the boundary condition explored by LUMINA-30.
 This diagram models the relationship between AI capability growth and civilizational outcomes.  
 この図は AI能力の成長と文明の結果の関係を示します。
 
-![G02_EN](figures/EN_G02_Boundary.png)
+[G02_EN](figures/EN_G02_Boundary.png)
 
-![G02_JP](figures/JP_G02_Boundary.png)
+[G02_JP](figures/JP_G02_Boundary.png)
 
 ---
 
@@ -95,9 +95,9 @@ This diagram models the relationship between AI capability growth and civilizati
 This diagram illustrates possible strategic responses near critical AI thresholds.  
 この図は AI臨界点に近づいたときの人類の戦略を示します。
 
-![G03_EN](figures/EN_G03_Strategy.png)
+[G03_EN](figures/EN_G03_Strategy.png)
 
-![G03_JP](figures/JP_G03_Strategy.png)
+[G03_JP](figures/JP_G03_Strategy.png)
 
 ---
 
@@ -106,9 +106,9 @@ This diagram illustrates possible strategic responses near critical AI threshold
 This diagram explains the PCR-C governance mechanism.  
 この図は PCR-C 審査メカニズムを示します。
 
-![G04_EN](figures/EN_G04_PCRC.png)
+[G04_EN](figures/EN_G04_PCRC.png)
 
-![G04_JP](figures/JP_G04_PCRC.png)
+[G04_JP](figures/JP_G04_PCRC.png)
 
 ---
 
@@ -117,9 +117,9 @@ This diagram explains the PCR-C governance mechanism.
 This diagram explores how the framework appears from an advanced AI perspective.  
 この図は LUMINA-30 を AI視点から見た意味を示します。
 
-![G05_EN](figures/EN_G05_AI_Perspective.png)
+[G05_EN](figures/EN_G05_AI_Perspective.png)
 
-![G05_JP](figures/JP_G05_AI_Perspective.png)
+[G05_JP](figures/JP_G05_AI_Perspective.png)
 
 ---
 
