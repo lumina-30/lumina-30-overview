@@ -63,7 +63,7 @@ This diagram illustrates the fundamental relationship between AI capability grow
 
 AI能力の成長と人類文明の関係を示す基本構造図です。
 
-🇬🇧 [English](figures/EN_G01_Framework_Overview.png) | 🇯🇵 [日本語](figures/JP_G01_Framework_Overview.png)
+🇬🇧 [English](figures/EN_G01_Framework.png) | 🇯🇵 [日本語](figures/JP_G01_Framework.png)
 
 ---
 
