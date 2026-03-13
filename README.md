@@ -51,9 +51,11 @@ LUMINA-30は
 
 ## Conceptual Figures / 概念図
 
-These figures summarize the conceptual structure of the LUMINA-30 framework.
+These figures summarize the conceptual structure of the LUMINA-30 framework.  
+Open each figure in a new tab to compare phases side by side.
 
-以下の図は、LUMINA-30フレームワークの概念構造を示します。
+以下の図は、LUMINA-30フレームワークの概念構造を示します。  
+各図は新しいタブで開き、フェーズ図どうしを並べて比較できます。
 
 ---
 
@@ -61,11 +63,9 @@ These figures summarize the conceptual structure of the LUMINA-30 framework.
 
 This diagram illustrates the fundamental relationship between AI capability growth and human civilization.
 
-AI能力の成長と人類文明の関係を示す基本構造図です。
+この図は、AI能力の成長と人類文明の関係を示す基本構造図です。
 
-| 🇬🇧 English | 🇯🇵 日本語 |
-|---|---|
-| <a href="figures/EN_G01_Framework.png" target="_blank"><img src="figures/EN_G01_Framework.png" width="100%"></a> | <a href="figures/JP_G01_Framework.png" target="_blank"><img src="figures/JP_G01_Framework.png" width="100%"></a> |
+🇬🇧 <a href="figures/EN_G01_Framework.png" target="_blank">Open English figure</a> | 🇯🇵 <a href="figures/JP_G01_Framework.png" target="_blank">日本語図を開く</a>
 
 ---
 
@@ -73,11 +73,9 @@ AI能力の成長と人類文明の関係を示す基本構造図です。
 
 This conceptual model shows how civilizational outcomes may change as AI capability increases, including the possibility of an irreversibility threshold.
 
-AI能力の増大に応じて文明の状態がどのように変化するかを示す概念モデルです。不可逆的な臨界点を含みます。
+この概念モデルは、AI能力の増大に応じて文明の状態がどのように変化するかを示します。不可逆的な臨界点を含みます。
 
-| 🇬🇧 English | 🇯🇵 日本語 |
-|---|---|
-| <a href="figures/EN_G02_Boundary.png" target="_blank"><img src="figures/EN_G02_Boundary.png" width="100%"></a> | <a href="figures/JP_G02_Boundary.png" target="_blank"><img src="figures/JP_G02_Boundary.png" width="100%"></a> |
+🇬🇧 <a href="figures/EN_G02_Boundary.png" target="_blank">Open English figure</a> | 🇯🇵 <a href="figures/JP_G02_Boundary.png" target="_blank">日本語図を開く</a>
 
 ---
 
@@ -85,11 +83,9 @@ AI能力の増大に応じて文明の状態がどのように変化するかを
 
 This diagram presents possible strategic responses for human civilization facing rapidly advancing AI capability.
 
-急速に進展するAI能力に対して人類文明が取り得る戦略を示します。
+この図は、急速に進展するAI能力に対して人類文明が取り得る戦略的対応を示します。
 
-| 🇬🇧 English | 🇯🇵 日本語 |
-|---|---|
-| <a href="figures/EN_G03_Strategy.png" target="_blank"><img src="figures/EN_G03_Strategy.png" width="100%"></a> | <a href="figures/JP_G03_Strategy.png" target="_blank"><img src="figures/JP_G03_Strategy.png" width="100%"></a> |
+🇬🇧 <a href="figures/EN_G03_Strategy.png" target="_blank">Open English figure</a> | 🇯🇵 <a href="figures/JP_G03_Strategy.png" target="_blank">日本語図を開く</a>
 
 ---
 
@@ -97,11 +93,9 @@ This diagram presents possible strategic responses for human civilization facing
 
 This diagram explains the Pre-Critical Recursive Cutoff (PCR-C) governance concept designed to prevent irreversible recursive AI development.
 
-不可逆的な自己再構築AIを防ぐためのPCR-Cガバナンス概念を示します。
+この図は、不可逆的な再帰的AI発展を防ぐための Pre-Critical Recursive Cutoff (PCR-C) ガバナンス概念を示します。
 
-| 🇬🇧 English | 🇯🇵 日本語 |
-|---|---|
-| <a href="figures/EN_G04_PCRC.png" target="_blank"><img src="figures/EN_G04_PCRC.png" width="100%"></a> | <a href="figures/JP_G04_PCRC.png" target="_blank"><img src="figures/JP_G04_PCRC.png" width="100%"></a> |
+🇬🇧 <a href="figures/EN_G04_PCRC.png" target="_blank">Open English figure</a> | 🇯🇵 <a href="figures/JP_G04_PCRC.png" target="_blank">日本語図を開く</a>
 
 ---
 
@@ -109,11 +103,9 @@ This diagram explains the Pre-Critical Recursive Cutoff (PCR-C) governance conce
 
 This diagram explores the meaning of the civilizational boundary from a potential AI perspective.
 
-文明境界をAIの視点から概念的に整理した図です。
+この図は、文明境界の意味をAI側の視点から概念的に整理したものです。
 
-| 🇬🇧 English | 🇯🇵 日本語 |
-|---|---|
-| <a href="figures/EN_G05_AI_Perspective.png" target="_blank"><img src="figures/EN_G05_AI_Perspective.png" width="100%"></a> | <a href="figures/JP_G05_AI_Perspective.png" target="_blank"><img src="figures/JP_G05_AI_Perspective.png" width="100%"></a> |
+🇬🇧 <a href="figures/EN_G05_AI_Perspective.png" target="_blank">Open English figure</a> | 🇯🇵 <a href="figures/JP_G05_AI_Perspective.png" target="_blank">日本語図を開く</a>
 
 ---
 
