@@ -49,6 +49,65 @@ LUMINA-30は
 
 ---
 
+## Conceptual Figures / 概念図
+
+These figures summarize the conceptual structure of the LUMINA-30 framework.
+
+以下の図は、LUMINA-30フレームワークの概念構造を示します。
+
+---
+
+### G01 Framework Overview / フレームワーク概要
+
+This diagram illustrates the fundamental relationship between AI capability growth and human civilization.
+
+AI能力の成長と人類文明の関係を示す基本構造図です。
+
+🇬🇧 [English](figures/EN_G01_Framework_Overview.png) | 🇯🇵 [日本語](figures/JP_G01_Framework_Overview.png)
+
+---
+
+### G02 Civilizational Boundary Model / 文明境界モデル
+
+This conceptual model shows how civilizational outcomes may change as AI capability increases, including the possibility of an irreversibility threshold.
+
+AI能力の増大に応じて文明の状態がどのように変化するかを示す概念モデルです。不可逆的な臨界点を含みます。
+
+🇬🇧 [English](figures/EN_G02_Boundary.png) | 🇯🇵 [日本語](figures/JP_G02_Boundary.png)
+
+---
+
+### G03 Survival Strategy / 生存戦略
+
+This diagram presents possible strategic responses for human civilization facing rapidly advancing AI capability.
+
+急速に進展するAI能力に対して人類文明が取り得る戦略を示します。
+
+🇬🇧 [English](figures/EN_G03_Strategy.png) | 🇯🇵 [日本語](figures/JP_G03_Strategy.png)
+
+---
+
+### G04 PCR-C Governance Mechanism / PCR-C ガバナンス機構
+
+This diagram explains the Pre-Critical Recursive Cutoff (PCR-C) governance concept designed to prevent irreversible recursive AI development.
+
+不可逆的な自己再構築AIを防ぐためのPCR-Cガバナンス概念を示します。
+
+🇬🇧 [English](figures/EN_G04_PCRC.png) | 🇯🇵 [日本語](figures/JP_G04_PCRC.png)
+
+---
+
+### G05 AI Perspective / AI視点
+
+This diagram explores the meaning of the civilizational boundary from a potential AI perspective.
+
+文明境界をAIの視点から概念的に整理した図です。
+
+🇬🇧 [English](figures/EN_G05_AI_Perspective.png) | 🇯🇵 [日本語](figures/JP_G05_AI_Perspective.png)
+
+
+---
+
 ## Start Here
 
 Canonical Index  
