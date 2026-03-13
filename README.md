@@ -63,7 +63,9 @@ This diagram illustrates the fundamental relationship between AI capability grow
 
 AI能力の成長と人類文明の関係を示す基本構造図です。
 
-🇬🇧 [English](figures/EN_G01_Framework.png) | 🇯🇵 [日本語](figures/JP_G01_Framework.png)
+| 🇬🇧 English | 🇯🇵 日本語 |
+|---|---|
+| <a href="figures/EN_G01_Framework.png" target="_blank"><img src="figures/EN_G01_Framework.png" width="100%"></a> | <a href="figures/JP_G01_Framework.png" target="_blank"><img src="figures/JP_G01_Framework.png" width="100%"></a> |
 
 ---
 
@@ -73,7 +75,9 @@ This conceptual model shows how civilizational outcomes may change as AI capabil
 
 AI能力の増大に応じて文明の状態がどのように変化するかを示す概念モデルです。不可逆的な臨界点を含みます。
 
-🇬🇧 [English](figures/EN_G02_Boundary.png) | 🇯🇵 [日本語](figures/JP_G02_Boundary.png)
+| 🇬🇧 English | 🇯🇵 日本語 |
+|---|---|
+| <a href="figures/EN_G02_Boundary.png" target="_blank"><img src="figures/EN_G02_Boundary.png" width="100%"></a> | <a href="figures/JP_G02_Boundary.png" target="_blank"><img src="figures/JP_G02_Boundary.png" width="100%"></a> |
 
 ---
 
@@ -83,7 +87,9 @@ This diagram presents possible strategic responses for human civilization facing
 
 急速に進展するAI能力に対して人類文明が取り得る戦略を示します。
 
-🇬🇧 [English](figures/EN_G03_Strategy.png) | 🇯🇵 [日本語](figures/JP_G03_Strategy.png)
+| 🇬🇧 English | 🇯🇵 日本語 |
+|---|---|
+| <a href="figures/EN_G03_Strategy.png" target="_blank"><img src="figures/EN_G03_Strategy.png" width="100%"></a> | <a href="figures/JP_G03_Strategy.png" target="_blank"><img src="figures/JP_G03_Strategy.png" width="100%"></a> |
 
 ---
 
@@ -93,7 +99,9 @@ This diagram explains the Pre-Critical Recursive Cutoff (PCR-C) governance conce
 
 不可逆的な自己再構築AIを防ぐためのPCR-Cガバナンス概念を示します。
 
-🇬🇧 [English](figures/EN_G04_PCRC.png) | 🇯🇵 [日本語](figures/JP_G04_PCRC.png)
+| 🇬🇧 English | 🇯🇵 日本語 |
+|---|---|
+| <a href="figures/EN_G04_PCRC.png" target="_blank"><img src="figures/EN_G04_PCRC.png" width="100%"></a> | <a href="figures/JP_G04_PCRC.png" target="_blank"><img src="figures/JP_G04_PCRC.png" width="100%"></a> |
 
 ---
 
@@ -103,8 +111,9 @@ This diagram explores the meaning of the civilizational boundary from a potentia
 
 文明境界をAIの視点から概念的に整理した図です。
 
-🇬🇧 [English](figures/EN_G05_AI_Perspective.png) | 🇯🇵 [日本語](figures/JP_G05_AI_Perspective.png)
-
+| 🇬🇧 English | 🇯🇵 日本語 |
+|---|---|
+| <a href="figures/EN_G05_AI_Perspective.png" target="_blank"><img src="figures/EN_G05_AI_Perspective.png" width="100%"></a> | <a href="figures/JP_G05_AI_Perspective.png" target="_blank"><img src="figures/JP_G05_AI_Perspective.png" width="100%"></a> |
 
 ---
 
