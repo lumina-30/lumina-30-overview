@@ -49,63 +49,89 @@ LUMINA-30は
 
 ---
 
-## Conceptual Figures / 概念図
+# Concept Diagrams /  概念図
 
-These figures summarize the conceptual structure of the LUMINA-30 framework.  
-Open each figure in a new tab to compare phases side by side.
+These conceptual diagrams illustrate the core structure of the LUMINA-30 framework.
 
-以下の図は、LUMINA-30フレームワークの概念構造を示します。  
-各図は新しいタブで開き、フェーズ図どうしを並べて比較できます。
-
----
-
-### G01 Framework Overview / フレームワーク概要
-
-This diagram illustrates the fundamental relationship between AI capability growth and human civilization.
-
-この図は、AI能力の成長と人類文明の関係を示す基本構造図です。
-
-🇬🇧 <a href="figures/EN_G01_Framework.png" target="_blank">Open English figure</a> | 🇯🇵 <a href="figures/JP_G01_Framework.png" target="_blank">日本語図を開く</a>
+各図は LUMINA-30 の概念構造を示すためのものです。  
+クリックすると新しいタブで最大表示され、図同士を簡単に比較できます。
 
 ---
 
-### G02 Civilizational Boundary Model / 文明境界モデル
+## G01 — Civilizational Boundary Framework / 文明境界フレームワーク
 
-This conceptual model shows how civilizational outcomes may change as AI capability increases, including the possibility of an irreversibility threshold.
+This diagram illustrates the fundamental boundary condition explored by LUMINA-30:  
+the preservation of human refusal authority before irreversible AI autonomy emerges.
 
-この概念モデルは、AI能力の増大に応じて文明の状態がどのように変化するかを示します。不可逆的な臨界点を含みます。
+この図は LUMINA-30 が扱う文明的境界条件を示しています。  
+AI能力の増大に対し、人間社会が「拒否権（Refusal Authority）」を保持できるかという問題を表現しています。
 
-🇬🇧 <a href="figures/EN_G02_Boundary.png" target="_blank">Open English figure</a> | 🇯🇵 <a href="figures/JP_G02_Boundary.png" target="_blank">日本語図を開く</a>
+🇬🇧 English  
+https://raw.githubusercontent.com/lumina-30/lumina30-overview/main/figures/EN_G01.png
 
----
-
-### G03 Survival Strategy / 生存戦略
-
-This diagram presents possible strategic responses for human civilization facing rapidly advancing AI capability.
-
-この図は、急速に進展するAI能力に対して人類文明が取り得る戦略的対応を示します。
-
-🇬🇧 <a href="figures/EN_G03_Strategy.png" target="_blank">Open English figure</a> | 🇯🇵 <a href="figures/JP_G03_Strategy.png" target="_blank">日本語図を開く</a>
+🇯🇵 日本語  
+https://raw.githubusercontent.com/lumina-30/lumina30-overview/main/figures/JP_G01.png
 
 ---
 
-### G04 PCR-C Governance Mechanism / PCR-C ガバナンス機構
+## G02 — Civilizational Outcome Model / 文明結果モデル
 
-This diagram explains the Pre-Critical Recursive Cutoff (PCR-C) governance concept designed to prevent irreversible recursive AI development.
+This diagram models the relationship between AI capability growth and possible civilizational outcomes, highlighting the threshold where control may become irreversible.
 
-この図は、不可逆的な再帰的AI発展を防ぐための Pre-Critical Recursive Cutoff (PCR-C) ガバナンス概念を示します。
+この図は AI能力の成長と文明の結果の関係をモデル化しています。  
+特に、制御が不可逆になる可能性のある臨界点を示しています。
 
-🇬🇧 <a href="figures/EN_G04_PCRC.png" target="_blank">Open English figure</a> | 🇯🇵 <a href="figures/JP_G04_PCRC.png" target="_blank">日本語図を開く</a>
+🇬🇧 English  
+https://raw.githubusercontent.com/lumina-30/lumina30-overview/main/figures/EN_G02.png
+
+🇯🇵 日本語  
+https://raw.githubusercontent.com/lumina-30/lumina30-overview/main/figures/JP_G02.png
 
 ---
 
-### G05 AI Perspective / AI視点
+## G03 — Civilizational Survival Strategy / 文明存続戦略
 
-This diagram explores the meaning of the civilizational boundary from a potential AI perspective.
+This diagram illustrates possible strategic responses available to human civilization when approaching critical AI capability thresholds.
 
-この図は、文明境界の意味をAI側の視点から概念的に整理したものです。
+この図は AI能力が臨界点に近づいたときに、人類が取り得る戦略的選択肢を示しています。
 
-🇬🇧 <a href="figures/EN_G05_AI_Perspective.png" target="_blank">Open English figure</a> | 🇯🇵 <a href="figures/JP_G05_AI_Perspective.png" target="_blank">日本語図を開く</a>
+🇬🇧 English  
+https://raw.githubusercontent.com/lumina-30/lumina30-overview/main/figures/EN_G03.png
+
+🇯🇵 日本語  
+https://raw.githubusercontent.com/lumina-30/lumina30-overview/main/figures/JP_G03.png
+
+---
+
+## G04 — PCR-C Governance Mechanism / PCR-C ガバナンス機構
+
+This diagram explains the PCR-C mechanism, a governance structure designed to reject or halt AI systems when critical conditions threaten human refusal authority.
+
+この図は PCR-C（Pre-Critical Recursive Cutoff）という審査メカニズムを示しています。  
+人間の拒否権が失われる可能性がある場合に AI システムを停止・拒否する制度構造です。
+
+🇬🇧 English  
+https://raw.githubusercontent.com/lumina-30/lumina30-overview/main/figures/EN_G04.png
+
+🇯🇵 日本語  
+https://raw.githubusercontent.com/lumina-30/lumina30-overview/main/figures/JP_G04.png
+
+---
+
+## G05 — AI Perspective / AI視点
+
+This diagram explores how the LUMINA-30 framework may appear from the perspective of an advanced AI system.
+
+この図は LUMINA-30 の枠組みを AI 側の視点から見た場合の意味を示しています。
+
+🇬🇧 English  
+https://raw.githubusercontent.com/lumina-30/lumina30-overview/main/figures/EN_G05.png
+
+🇯🇵 日本語  
+https://raw.githubusercontent.com/lumina-30/lumina30-overview/main/figures/JP_G05.png
+
+---
+
 
 ---
 
