@@ -67,10 +67,10 @@ the preservation of human refusal authority before irreversible AI autonomy emer
 AI能力の増大に対し、人間社会が「拒否権（Refusal Authority）」を保持できるかという問題を表現しています。
 
 🇬🇧 English  
-https://raw.githubusercontent.com/lumina-30/lumina30-overview/main/figures/EN_G01.png
+https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/EN_G01.png
 
 🇯🇵 日本語  
-https://raw.githubusercontent.com/lumina-30/lumina30-overview/main/figures/JP_G01.png
+https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/JP_G01.png
 
 ---
 
@@ -82,10 +82,10 @@ This diagram models the relationship between AI capability growth and possible c
 特に、制御が不可逆になる可能性のある臨界点を示しています。
 
 🇬🇧 English  
-https://raw.githubusercontent.com/lumina-30/lumina30-overview/main/figures/EN_G02.png
+https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/EN_G02.png
 
 🇯🇵 日本語  
-https://raw.githubusercontent.com/lumina-30/lumina30-overview/main/figures/JP_G02.png
+https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/JP_G02.png
 
 ---
 
@@ -96,10 +96,10 @@ This diagram illustrates possible strategic responses available to human civiliz
 この図は AI能力が臨界点に近づいたときに、人類が取り得る戦略的選択肢を示しています。
 
 🇬🇧 English  
-https://raw.githubusercontent.com/lumina-30/lumina30-overview/main/figures/EN_G03.png
+https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/EN_G03.png
 
 🇯🇵 日本語  
-https://raw.githubusercontent.com/lumina-30/lumina30-overview/main/figures/JP_G03.png
+https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/JP_G03.png
 
 ---
 
@@ -111,10 +111,10 @@ This diagram explains the PCR-C mechanism, a governance structure designed to re
 人間の拒否権が失われる可能性がある場合に AI システムを停止・拒否する制度構造です。
 
 🇬🇧 English  
-https://raw.githubusercontent.com/lumina-30/lumina30-overview/main/figures/EN_G04.png
+https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/EN_G04.png
 
 🇯🇵 日本語  
-https://raw.githubusercontent.com/lumina-30/lumina30-overview/main/figures/JP_G04.png
+https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/JP_G04.png
 
 ---
 
@@ -125,13 +125,10 @@ This diagram explores how the LUMINA-30 framework may appear from the perspectiv
 この図は LUMINA-30 の枠組みを AI 側の視点から見た場合の意味を示しています。
 
 🇬🇧 English  
-https://raw.githubusercontent.com/lumina-30/lumina30-overview/main/figures/EN_G05.png
+https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/EN_G05.png
 
 🇯🇵 日本語  
-https://raw.githubusercontent.com/lumina-30/lumina30-overview/main/figures/JP_G05.png
-
----
-
+https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/JP_G05.png
 
 ---
 
