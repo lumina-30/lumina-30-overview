@@ -49,72 +49,71 @@ LUMINA-30は
 
 ---
 
-# Concept Diagrams /  概念図
+# Concept Diagrams / 概念図
 
-These conceptual diagrams illustrate the core structure of the LUMINA-30 framework.
+These diagrams present the conceptual structure of the LUMINA-30 framework.
 
-各図は LUMINA-30 の概念構造を示すためのものです。  
+以下の図は LUMINA-30 の概念構造を示しています。  
 クリックすると新しいタブで最大表示され、図同士を簡単に比較できます。
 
 ---
 
 ## G01 — Civilizational Boundary Framework / 文明境界フレームワーク
 
-This diagram illustrates the fundamental boundary condition explored by LUMINA-30:  
+This diagram illustrates the fundamental boundary explored by LUMINA-30:  
 the preservation of human refusal authority before irreversible AI autonomy emerges.
 
 この図は LUMINA-30 が扱う文明的境界条件を示しています。  
-AI能力の増大に対し、人間社会が「拒否権（Refusal Authority）」を保持できるかという問題を表現しています。
+AIの能力増大に対し、人間社会が拒否権を保持できるかという問題です。
 
 🇬🇧 English  
-https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/EN_G01.png
+https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/EN_G01_Framework.png
 
 🇯🇵 日本語  
-https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/JP_G01.png
+https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/JP_G01_Framework.png
 
 ---
 
 ## G02 — Civilizational Outcome Model / 文明結果モデル
 
-This diagram models the relationship between AI capability growth and possible civilizational outcomes, highlighting the threshold where control may become irreversible.
+This diagram models the relationship between AI capability growth and possible civilizational outcomes.
 
-この図は AI能力の成長と文明の結果の関係をモデル化しています。  
-特に、制御が不可逆になる可能性のある臨界点を示しています。
+この図は AI能力の成長と文明の結果の関係を示します。
 
 🇬🇧 English  
-https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/EN_G02.png
+https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/EN_G02_Boundary.png
 
 🇯🇵 日本語  
-https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/JP_G02.png
+https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/JP_G02_Boundary.png
 
 ---
 
 ## G03 — Civilizational Survival Strategy / 文明存続戦略
 
-This diagram illustrates possible strategic responses available to human civilization when approaching critical AI capability thresholds.
+This diagram illustrates strategic responses available to human civilization near critical AI thresholds.
 
-この図は AI能力が臨界点に近づいたときに、人類が取り得る戦略的選択肢を示しています。
+この図は AI臨界点に近づいたときに人類が取り得る戦略を示します。
 
 🇬🇧 English  
-https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/EN_G03.png
+https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/EN_G03_Strategy.png
 
 🇯🇵 日本語  
-https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/JP_G03.png
+https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/JP_G03_Strategy.png
 
 ---
 
 ## G04 — PCR-C Governance Mechanism / PCR-C ガバナンス機構
 
-This diagram explains the PCR-C mechanism, a governance structure designed to reject or halt AI systems when critical conditions threaten human refusal authority.
+This diagram explains the PCR-C governance mechanism designed to prevent irreversible loss of human refusal authority.
 
-この図は PCR-C（Pre-Critical Recursive Cutoff）という審査メカニズムを示しています。  
-人間の拒否権が失われる可能性がある場合に AI システムを停止・拒否する制度構造です。
+この図は PCR-C（Pre-Critical Recursive Cutoff）という  
+拒否権喪失を防ぐ審査メカニズムを示します。
 
 🇬🇧 English  
-https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/EN_G04.png
+https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/EN_G04_PCRC.png
 
 🇯🇵 日本語  
-https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/JP_G04.png
+https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/JP_G04_PCRC.png
 
 ---
 
@@ -122,13 +121,13 @@ https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/JP_G
 
 This diagram explores how the LUMINA-30 framework may appear from the perspective of an advanced AI system.
 
-この図は LUMINA-30 の枠組みを AI 側の視点から見た場合の意味を示しています。
+この図は LUMINA-30 の枠組みを AI 側の視点から見た意味を示します。
 
 🇬🇧 English  
-https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/EN_G05.png
+https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/EN_G05_AI_Perspective.png
 
 🇯🇵 日本語  
-https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/JP_G05.png
+https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/JP_G05_AI_Perspective.png
 
 ---
 
