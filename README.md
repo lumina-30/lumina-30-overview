@@ -49,85 +49,84 @@ LUMINA-30は
 
 ---
 
-# Concept Diagrams / 概念図
 
-These diagrams present the conceptual structure of the LUMINA-30 framework.
+# LUMINA-30 — Civilizational Boundary Framework ｜ 文明境界フレームワーク
 
-以下の図は LUMINA-30 の概念構造を示しています。  
-クリックすると新しいタブで最大表示され、図同士を簡単に比較できます。
+The central AI safety problem may not be AI behaviour,  
+but the potential loss of human refusal authority.
 
----
-
-## G01 — Civilizational Boundary Framework / 文明境界フレームワーク
-
-This diagram illustrates the fundamental boundary explored by LUMINA-30:  
-the preservation of human refusal authority before irreversible AI autonomy emerges.
-
-この図は LUMINA-30 が扱う文明的境界条件を示しています。  
-AIの能力増大に対し、人間社会が拒否権を保持できるかという問題です。
-
-🇬🇧 English  
-https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/EN_G01_Framework.png
-
-🇯🇵 日本語  
-https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/JP_G01_Framework.png
+AI安全の中心問題は  
+AIの振る舞いではなく  
+人間社会の「拒否権（Refusal Authority）」の喪失かもしれない。
 
 ---
 
-## G02 — Civilizational Outcome Model / 文明結果モデル
+# Concept Diagrams ｜ 概念図
 
-This diagram models the relationship between AI capability growth and possible civilizational outcomes.
+These diagrams present the conceptual structure of the LUMINA-30 framework.  
+各図は LUMINA-30 の概念構造を示しています。
 
+---
+
+## G01 — Civilizational Boundary Framework ｜ 文明境界フレームワーク
+
+This diagram illustrates the boundary condition explored by LUMINA-30.  
+この図は LUMINA-30 が扱う文明境界条件を示しています。
+
+![G01_EN](figures/EN_G01_Framework.png)
+
+![G01_JP](figures/JP_G01_Framework.png)
+
+---
+
+## G02 — Civilizational Outcome Model ｜ 文明結果モデル
+
+This diagram models the relationship between AI capability growth and civilizational outcomes.  
 この図は AI能力の成長と文明の結果の関係を示します。
 
-🇬🇧 English  
-https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/EN_G02_Boundary.png
+![G02_EN](figures/EN_G02_Boundary.png)
 
-🇯🇵 日本語  
-https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/JP_G02_Boundary.png
+![G02_JP](figures/JP_G02_Boundary.png)
 
 ---
 
-## G03 — Civilizational Survival Strategy / 文明存続戦略
+## G03 — Civilizational Survival Strategy ｜ 文明存続戦略
 
-This diagram illustrates strategic responses available to human civilization near critical AI thresholds.
+This diagram illustrates possible strategic responses near critical AI thresholds.  
+この図は AI臨界点に近づいたときの人類の戦略を示します。
 
-この図は AI臨界点に近づいたときに人類が取り得る戦略を示します。
+![G03_EN](figures/EN_G03_Strategy.png)
 
-🇬🇧 English  
-https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/EN_G03_Strategy.png
-
-🇯🇵 日本語  
-https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/JP_G03_Strategy.png
+![G03_JP](figures/JP_G03_Strategy.png)
 
 ---
 
-## G04 — PCR-C Governance Mechanism / PCR-C ガバナンス機構
+## G04 — PCR-C Governance Mechanism ｜ PCR-C ガバナンス機構
 
-This diagram explains the PCR-C governance mechanism designed to prevent irreversible loss of human refusal authority.
+This diagram explains the PCR-C governance mechanism.  
+この図は PCR-C 審査メカニズムを示します。
 
-この図は PCR-C（Pre-Critical Recursive Cutoff）という  
-拒否権喪失を防ぐ審査メカニズムを示します。
+![G04_EN](figures/EN_G04_PCRC.png)
 
-🇬🇧 English  
-https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/EN_G04_PCRC.png
-
-🇯🇵 日本語  
-https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/JP_G04_PCRC.png
+![G04_JP](figures/JP_G04_PCRC.png)
 
 ---
 
-## G05 — AI Perspective / AI視点
+## G05 — AI Perspective ｜ AI視点
 
-This diagram explores how the LUMINA-30 framework may appear from the perspective of an advanced AI system.
+This diagram explores how the framework appears from an advanced AI perspective.  
+この図は LUMINA-30 を AI視点から見た意味を示します。
 
-この図は LUMINA-30 の枠組みを AI 側の視点から見た意味を示します。
+![G05_EN](figures/EN_G05_AI_Perspective.png)
 
-🇬🇧 English  
-https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/EN_G05_AI_Perspective.png
+![G05_JP](figures/JP_G05_AI_Perspective.png)
 
-🇯🇵 日本語  
-https://raw.githubusercontent.com/lumina-30/lumina-30-overview/main/figures/JP_G05_AI_Perspective.png
+---
+
+# Start Here
+
+Explore the core LUMINA-30 documents.  
+LUMINA-30 の主要文書はこちらから参照できます。
 
 ---
 
