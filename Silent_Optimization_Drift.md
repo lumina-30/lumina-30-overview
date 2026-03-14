@@ -120,3 +120,12 @@ but with optimization.
 安全装置の侵食は多くの場合、  
 違反ではなく  
 最適化から始まる。
+
+## Supplementary Notes / 補記
+
+Additional conceptual notes related to the LUMINA-30 framework.
+
+追加の概念補記。
+
+• Silent Optimization Drift（静かな最適化ドリフト）  
+  https://github.com/lumina-30/lumina-30-overview/blob/main/Silent_Optimization_Drift.md
