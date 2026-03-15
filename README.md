@@ -67,14 +67,12 @@ These diagrams present the conceptual structure of the LUMINA-30 framework.
 
 ---
 
-## G00 — Civilizational Boundary 
+## G00 — Civilizational Boundary ｜ 文明の境界線
 
 Civilizational Boundary: Human Veto vs Irreversible AI Autonomy
+文明の境界線：人類の拒絶権と不可逆的AI自律性
 
-Full Image (English)
- → EN_G00_Civilizational_Boundary.png
-Full Image (Japanese)
- → JP_G00_Civilizational_Boundary.png
+EN: [G01](figures/EN_G00_Civilizational_Boundary.png) ｜ JP: [G01](figures/JP_G00_Civilizational_Boundary.png)
 
 Overview
 This diagram illustrates the fundamental civilizational boundary addressed by LUMINA-30.
@@ -85,7 +83,6 @@ Irreversibility threshold
 Irreversible AI autonomy
 The boundary represents the point where human veto authority must remain preserved before irreversible external consequences emerge.
 
-文明の境界線：人類の拒絶権と不可逆的AI自律性
 この図は、LUMINA-30が扱う文明的境界を示す概念図です。
 この図は次の構造的移行を視覚化しています：
 人間の拒絶権限
