@@ -67,19 +67,19 @@ The following diagrams summarize the structural components of the LUMINA-30 fram
 以下の図は LUMINA-30 フレームワークの構造要素を示します。
 ---
 ## A01 Architecture
-![A01](figures/A01_architecture.png)
+[A01](figures/A01_architecture.png)
 
 ## A02 Civilizational Gate
-![A02](figures/A02_gate.png)
+[A02](figures/A02_gate.png)
 
 ## A03 Capability Dimensions
-![A03](figures/A03_capability.png)
+[A03](figures/A03_capability.png)
 
 ## A04 Human Refusal Authority
-![A04](figures/A04_human_refusal.png)
+[A04](figures/A04_human_refusal.png)
 
 ## A05 Incident Review Framework
-![A05](figures/A05_incident_review.png)
+[A05](figures/A05_incident_review.png)
 ---
 
 # Concept Diagrams ｜ 概念図
