@@ -67,7 +67,8 @@ These diagrams present the conceptual structure of the LUMINA-30 framework.
 
 ---
 
-## G00 — Civilizational Boundary / 文明の境界線：人類の拒絶権と不可逆的AI自律性
+## G00 — Civilizational Boundary 
+ / 文明の境界線：人類の拒絶権と不可逆的AI自律性
 Civilizational Boundary: Human Veto vs Irreversible AI Autonomy
 
 Full Image (English)
