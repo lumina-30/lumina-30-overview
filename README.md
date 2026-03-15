@@ -80,6 +80,7 @@ The following diagrams summarize the structural components of the LUMINA-30 fram
 
 ## A05 Incident Review Framework
 [A05](figures/A05_incident_review.png)
+
 ---
 
 # Concept Diagrams ｜ 概念図
