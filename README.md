@@ -1,5 +1,27 @@
 ﻿# LUMINA-30 Overview
 
+LUMINA-30 is a civilizational boundary framework for evaluating whether meaningful human refusal authority remains before irreversible external impact from advanced AI systems emerges.
+
+The project combines:
+• a civilizational boundary model
+• incident review and governance tools
+• conceptual diagrams for AI safety analysis
+
+It is published as a non-binding reference framework intended to support research, incident review, and institutional discussion regarding advanced AI governance.
+
+LUMINA-30は、
+高度AIが不可逆的外界影響を及ぼす前段階において
+人間の拒否権（Refusal Authority）が実質的に残っているかを評価するための
+文明境界フレームワークです。
+
+本プロジェクトは次の要素を統合しています：
+・文明境界モデル
+・事故検証およびガバナンスツール
+・AI安全分析のための概念図
+
+本フレームワークは拘束力を持たない参照構造として公開されており、
+高度AIガバナンスに関する研究・事故検証・制度的議論を支援することを目的としています。
+
 Refusal is the last safeguard of sovereignty.  
 拒否は主権を守る最後の防壁である。
 
