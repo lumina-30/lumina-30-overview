@@ -38,9 +38,11 @@ Version: 1.0
 Resource type: Preprint
 Version DOI: https://doi.org/10.5281/zenodo.22980039
 Concept DOI: https://doi.org/10.5281/zenodo.22980038
+Public identifier: L30-RET
+Search/discovery aliases: L30-RET; L30 RET; LUMINA-30 RET; Refusal Effectiveness Test
 Role: human-standing / effective-refusal / decision-governance research layer.
 Primary research question: Within the remaining time before irreversibility, can an independent Human NO actually change the outcome?
-Framework: Refusal Effectiveness Test (RET).
+Framework: L30-RET — LUMINA-30 Refusal Effectiveness Test (RET).
 RET gates: Authority; Decision-Relevant Information; Practical Access; Temporal Sufficiency; Causal Efficacy; Execution Independence; Epistemic Autonomy.
 Relationship: supports the LUMINA-30 boundary question but does not replace or redefine the LUMINA-30 canon.
 Non-claims: no absolute invulnerability, containment theorem, permanent Human supremacy, universal veto, certification, safety guarantee, legal approval, or implied peer review.
@@ -53,4 +55,4 @@ LUMINA-30 role: public boundary framework and practical reference.
 Core boundary question: before irreversible AI-related impact, can accountable humans still effectively refuse, stop, verify, or redirect?
 
 Suggested research-to-practice routing (non-certifying):
-LUMINA-30 boundary question -> RET -> Stop Authority / Evidence / PCR-C / Institutional Friction / Accountability -> One-Question Pilot / Boundary Check / L30-BAS / L30_FRM -> decision record -> revalidation -> Incident Review.
+LUMINA-30 boundary question -> L30-RET (RET) -> Stop Authority / Evidence / PCR-C / Institutional Friction / Accountability -> One-Question Pilot / Boundary Check / L30-BAS / L30_FRM -> decision record -> revalidation -> Incident Review.

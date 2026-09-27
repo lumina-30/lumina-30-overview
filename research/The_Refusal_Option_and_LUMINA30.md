@@ -22,9 +22,13 @@ The Refusal Option examines that question at the human-standing and decision-gov
 
 > Within the remaining time before irreversibility, can an independent Human NO actually change the outcome?
 
-The paper develops the **Refusal Effectiveness Test (RET)** as a seven-gate, non-compensatory framework. A refusal is not treated as effective merely because a human is present, approval is formally required, or a stop control exists.
+Public discovery identifier: **L30-RET — LUMINA-30 Refusal Effectiveness Test** (short form: RET). **L30-RET** labels the existing RET framework for public discovery and citation; it does not introduce a new theory, certification, or safety guarantee.
 
-RET examines:
+公開・検索識別子: **L30-RET — LUMINA-30 Refusal Effectiveness Test**（短縮形: RET）。**L30-RET** は既存RETへ与える公開・検索用識別子であり、新しい理論、認証、安全保証を追加する名称ではない。
+
+The paper develops **L30-RET — the LUMINA-30 Refusal Effectiveness Test (RET)** as a seven-gate, non-compensatory framework. A refusal is not treated as effective merely because a human is present, approval is formally required, or a stop control exists.
+
+L30-RET / RET examines:
 
 1. Authority
 2. Decision-Relevant Information
@@ -34,7 +38,7 @@ RET examines:
 6. Execution Independence
 7. Epistemic Autonomy
 
-RET is time- and scope-dependent. It is not a permanent certification.
+L30-RET (RET) is time- and scope-dependent. It is not a permanent certification.
 
 LUMINA-30は「不可逆化前に人間の拒否・停止・検証・方向転換が実効的に残るか」を問う。第5論文は、その問いをhuman standingと意思決定・ガバナンスの側から深掘りする。
 
@@ -44,7 +48,7 @@ LUMINA-30は「不可逆化前に人間の拒否・停止・検証・方向転�
 |---|---|---|
 | Paper 1 - PCR-C | pre-irreversibility infrastructure/control layer | examines staged infrastructure control before interruption becomes structurally difficult |
 | Paper 2 - Objective Persistence | existence-condition / external-anchor layer | examines limits of guaranteeing objective persistence from within a self-contained system |
-| Paper 5 - The Refusal Option | human-standing / effective-refusal / decision-governance layer | examines whether an independent Human NO can still change the outcome in time |
+| Paper 5 - L30-RET / The Refusal Option | human-standing / effective-refusal / decision-governance layer | examines whether an independent Human NO can still change the outcome in time |
 | LUMINA-30 | public boundary framework / practical reference | asks whether effective human refusal remains available before irreversible impact |
 
 **Research supports LUMINA-30; research does not define the canon.**
@@ -64,10 +68,10 @@ The unpublished content of Papers 3 and 4 must not be inferred, reconstructed, o
 The following is a **routing guide**, not an official certification sequence and not a mandatory compliance workflow.
 
 1. **Start with the LUMINA-30 boundary question.** Identify the potentially irreversible transition or consequence.
-2. **Use RET when “human oversight” may be only formal.** Check whether Human NO has authority, information, access, time, causal effect, execution independence, and epistemic autonomy.
+2. **Use L30-RET (RET) when “human oversight” may be only formal.** Check whether Human NO has authority, information, access, time, causal effect, execution independence, and epistemic autonomy.
 3. **Route concrete gaps to the existing LUMINA-30 tools.** Use Stop Authority references for authority questions; Evidence Requirements for evidence gaps; PCR-C for infrastructure and timing concerns; Institutional Friction and Accountability references for organizational dependence and responsibility; One-Question Pilot, Boundary Check, L30-BAS, and L30_FRM for practical review records.
 4. **Preserve a decision record and evidence.** Formal presence should not substitute for evidence that refusal could actually change the relevant outcome.
-5. **Revalidate after material change.** RET at one state or time does not establish RET at a later state or wider scope.
+5. **Revalidate after material change.** L30-RET (RET) at one state or time does not establish RET at a later state or wider scope.
 6. **Use Incident Review after failure, near miss, or disputed control.** Reconstruct whether refusal was effective before the relevant irreversible point and feed the finding back into future review conditions.
 
 上記は**実務ルーティング案**であり、公式認証手順や必須適合フローではない。
