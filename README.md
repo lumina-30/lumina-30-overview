@@ -881,6 +881,14 @@ This paper supports the background necessity of an external anchor; it does not 
 Version DOI: [10.5281/zenodo.19896405](https://doi.org/10.5281/zenodo.19896405)  
 Concept DOI: [10.5281/zenodo.19887869](https://doi.org/10.5281/zenodo.19887869)
 
+**Human-centered research layer — effective refusal ｜ 人間側研究レイヤー・実効的拒否**  
+[The Refusal Option: Effective Human Control Before and Beyond Irreversible AI Transitions](./research/The_Refusal_Option_and_LUMINA30.md) examines whether an independent Human NO remains operationally effective, temporally sufficient, causally meaningful, and sufficiently independent before irreversibility.  
+The Refusal Optionは、不可逆化前に独立した人間のNOが、実務上行使可能で、時間的に間に合い、因果的に結果を変え、十分な独立性を保っているかを検討する人間側の研究レイヤーです。  
+It supports the LUMINA-30 boundary question but does not replace or redefine the LUMINA-30 canon.  
+LUMINA-30の境界問いを支えますが、LUMINA-30正典を置き換えたり再定義したりしません。  
+Version DOI: [10.5281/zenodo.22980039](https://doi.org/10.5281/zenodo.22980039)  
+Concept DOI: [10.5281/zenodo.22980038](https://doi.org/10.5281/zenodo.22980038)
+
 This repository provides the conceptual and visual framework that supports the paper, including:
 - Civilizational boundary model (LUMINA-30)
 - Irreversibility structure
@@ -948,7 +956,17 @@ This paper supports the background necessity of an external anchor; it does not 
 
 Note: This paper is an existence-condition supporting research artifact. It does not modify the canonical LUMINA-30 boundary definition, and it does not define an operational checklist, compliance rule, certification status, or institutional mandate.
 
+
 注記：本論文は、存在条件を扱う補助研究成果物である。LUMINA-30の正典的境界定義を変更せず、実務チェックリスト、適合規則、認証状態、制度命令を定義しない。
+
+Human-centered research on effective refusal:  
+実効的人間拒否を扱う人間側の研究：  
+<br>
+[The Refusal Option: Effective Human Control Before and Beyond Irreversible AI Transitions](./research/The_Refusal_Option_and_LUMINA30.md)  
+Version DOI: [10.5281/zenodo.22980039](https://doi.org/10.5281/zenodo.22980039) ｜ Concept DOI: [10.5281/zenodo.22980038](https://doi.org/10.5281/zenodo.22980038)
+
+This paper provides the human-centered research layer for LUMINA-30; research supports LUMINA-30 but does not define the canon. RET is not a certification, safety guarantee, or official safety test.  
+本論文はLUMINA-30を支える人間側の研究レイヤーです。研究はLUMINA-30を支えますが、正典を定義しません。RETは認証、安全保証、公式安全テストではありません。
 
 
 <a id="operational-review-governance-network"></a>
