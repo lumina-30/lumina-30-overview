@@ -1197,6 +1197,28 @@ LUMINA-30が何であり、何ではないかを確認する場合。</p></li>
 })();
 /* L30_THEME_FALLBACK_RUNTIME_END */
 </script>
+<script>
+/* L30_DEEP_LINK_STABILIZER_BEGIN */
+(function(){
+  function alignResearchStack(){
+    if (location.hash !== '#public-research-stack' && location.hash !== '#paper-reference') return;
+    var target = document.getElementById('public-research-stack');
+    if (!target) return;
+    target.style.scrollMarginTop = '16px';
+    requestAnimationFrame(function(){
+      requestAnimationFrame(function(){
+        target.scrollIntoView({block:'start'});
+      });
+    });
+  }
+  window.addEventListener('load', alignResearchStack, {once:true});
+  window.addEventListener('pageshow', function(event){
+    if (event.persisted) alignResearchStack();
+  });
+  window.addEventListener('hashchange', alignResearchStack);
+})();
+/* L30_DEEP_LINK_STABILIZER_END */
+</script>
 </body>
 </html>
 
