@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Worked Research Cases | LUMINA-30 公開研究</title><meta name="description" content="PISFのR1 Threshold Release Gate、R2 Time-Bounded Emergency Refusal、R3 Fallback-Capacity Dynamicsを整理する研究例。">
+<meta name="robots" content="index,follow,max-snippet:-1">
+<link rel="canonical" href="https://lumina-30.github.io/lumina-30-overview/research/worked-cases-ja.html">
+<link rel="alternate" hreflang="en" href="https://lumina-30.github.io/lumina-30-overview/research/worked-cases.html">
+<link rel="alternate" hreflang="ja" href="https://lumina-30.github.io/lumina-30-overview/research/worked-cases-ja.html">
+<style>
+body{margin:0;background:Canvas;color:CanvasText;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",Arial,sans-serif;line-height:1.72}
+main{max-width:980px;margin:auto;padding:28px 20px 72px}
+a{color:LinkText}
+h1{font-size:clamp(2rem,5vw,3.35rem);line-height:1.08;margin:.35em 0}
+h2{margin-top:2.15em;border-top:1px solid GrayText;padding-top:.75em}
+h3{margin-top:1.45em}
+.box{border:1px solid GrayText;border-radius:16px;padding:16px 18px;margin:18px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.card{border:1px solid GrayText;border-radius:14px;padding:14px}
+.muted{opacity:.78}
+.nav{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:26px}
+.nav a{border:1px solid GrayText;border-radius:999px;padding:6px 10px;text-decoration:none}
+table{border-collapse:collapse;width:100%;display:block;overflow:auto}
+th,td{border:1px solid GrayText;padding:9px;vertical-align:top}
+code{overflow-wrap:anywhere}
+.kicker{font-weight:700;letter-spacing:.02em}
+.callout{border-left:4px solid GrayText;padding:10px 14px;margin:16px 0}
+.small{font-size:.94rem}
+ul.tight li{margin:.35em 0}
+</style></head><body><main>
+<nav class="nav"><a href="public-research-stack-ja.html">公開研究スタック</a><a href="worked-cases.html" hreflang="en">English</a><a href="pre-irreversibility-safety-ja.html">PISF</a></nav>
+<h1>Worked Research Cases</h1>
+<p class="muted">概念を「再計算可能な境界挙動」まで下ろす公開研究例</p>
+<div class="box"><strong>位置づけ：</strong>ここで要約するPISFのR1〜R3は公開論文のtoy/reference caseです。実世界のAIシステムに対するempirical validationではありません。</div>
+<h2>R1 — Threshold Release Gate</h2>
+<p><strong>設定：</strong>3-of-5 release gateとshared-root dependence。</p>
+<p><strong>研究目的：</strong>形式上は別々のauthority domainでも、共通rootや共通依存がある場合に、その独立性がロバストに残るかを調べます。</p>
+<p><strong>境界の見方：</strong>署名者や承認者の人数だけでは不十分です。複数主体が同じ基盤権限へ依存していれば、名目上の分散が実効的分散にならない可能性があります。そこでPISFはnominal thresholdと <code>κ̲_E</code> のようなrobust thresholdを分けて扱います。</p>
+<h2>R2 — Time-Bounded Emergency Refusal</h2>
+<p><strong>設定：</strong>介入時間を detection / decision / authorization / enforcement / verification に分解します。</p>
+<p><strong>研究目的：</strong>STOP手順の存在ではなく、最後の安全介入点より前に拒否処理全体が完了できるかを調べます。</p>
+<p><strong>L30-RETとの接続：</strong>これはTemporal Sufficiencyと直接つながります。権限が形式上存在しても、残された安全時間内に完了できなければ、拒否はそれだけでは実効的になりません。</p>
+<h2>R3 — Fallback-Capacity Dynamics</h2>
+<p><strong>設定：</strong><code>h(t+1)=h(t)-αa(t)+βm(t)</code> を使うfinite-horizon model。</p>
+<p><strong>研究目的：</strong>automation/dependencyがfallback capacityを減らし、maintenanceやinvestmentがそれを支える関係と、horizonによる感度を調べます。</p>
+<p><strong>境界の見方：</strong>revisabilityは大事故がなくても失われ得ます。通常の導入・依存の積み重ねだけで、人間が別の道を選び直せる領域の外へ徐々に移る可能性があります。</p>
+<h2>何を再計算するのか</h2>
+<table><tr><th>Case</th><th>対象</th><th>問い</th></tr><tr><td>R1</td><td>nominal / robust authority threshold</td><td>共通root依存によって実効的独立性が減っていないか。</td></tr><tr><td>R2</td><td>intervention / refusal margin</td><td>拒否処理全体が最後の安全介入点より前に完了できるか。</td></tr><tr><td>R3</td><td>finite-horizon revisability</td><td>automationとmaintenanceの動学の中でfallback capacityがhuman-revisable region内に残るか。</td></tr></table>
+<h2>この例の目的</h2><p>実システムが安全だと証明することではありません。定義を実行可能にし、評価手順を再現可能にし、parameter boundaryを独立に再計算できる形へ落とし、境界挙動を検査可能にすることが目的です。</p>
+</main></body></html>

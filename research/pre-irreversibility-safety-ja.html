@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PISF — 不可逆化前安全性 研究ガイド | LUMINA-30</title><meta name="description" content="PISFのAuthority・Refusal・Revisability、assurance、R1〜R3 reference caseを整理する公開研究ガイド。">
+<meta name="robots" content="index,follow,max-snippet:-1">
+<link rel="canonical" href="https://lumina-30.github.io/lumina-30-overview/research/pre-irreversibility-safety-ja.html">
+<link rel="alternate" hreflang="en" href="https://lumina-30.github.io/lumina-30-overview/research/pre-irreversibility-safety.html">
+<link rel="alternate" hreflang="ja" href="https://lumina-30.github.io/lumina-30-overview/research/pre-irreversibility-safety-ja.html">
+<style>
+body{margin:0;background:Canvas;color:CanvasText;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",Arial,sans-serif;line-height:1.72}
+main{max-width:980px;margin:auto;padding:28px 20px 72px}
+a{color:LinkText}
+h1{font-size:clamp(2rem,5vw,3.35rem);line-height:1.08;margin:.35em 0}
+h2{margin-top:2.15em;border-top:1px solid GrayText;padding-top:.75em}
+h3{margin-top:1.45em}
+.box{border:1px solid GrayText;border-radius:16px;padding:16px 18px;margin:18px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.card{border:1px solid GrayText;border-radius:14px;padding:14px}
+.muted{opacity:.78}
+.nav{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:26px}
+.nav a{border:1px solid GrayText;border-radius:999px;padding:6px 10px;text-decoration:none}
+table{border-collapse:collapse;width:100%;display:block;overflow:auto}
+th,td{border:1px solid GrayText;padding:9px;vertical-align:top}
+code{overflow-wrap:anywhere}
+.kicker{font-weight:700;letter-spacing:.02em}
+.callout{border-left:4px solid GrayText;padding:10px 14px;margin:16px 0}
+.small{font-size:.94rem}
+ul.tight li{margin:.35em 0}
+</style></head><body><main>
+<nav class="nav"><a href="public-research-stack-ja.html">公開研究スタック</a><a href="pre-irreversibility-safety.html" hreflang="en">English</a><a href="worked-cases-ja.html">Worked Cases</a></nav>
+<h1>PISF — Pre-Irreversibility Safety Framework</h1>
+<p class="muted">分散された不可逆権限 · 時間内の拒否 · 人間が発展経路を選び直せる状態</p>
+<div class="box"><strong>中心命題：</strong>不可逆化前安全性を、相互に代替できない三つの次元 <strong>Authority ∧ Refusal ∧ Revisability</strong> として研究します。</div>
+<h2>A — Distributed Irreversible Authority</h2>
+<p>少数の独立authority domainだけで文明規模の不可逆化を強制できないかを扱います。論文ではロバスト閾値対象 <code>κ̲_E</code> を導入し、<code>κ̲_E &gt; f</code> のような条件を検討します。</p>
+<h2>B — Effective Pre-Irreversibility Refusal</h2>
+<p>拒否・停止・隔離が、最後の安全介入点より前に完了できるかを扱います。主要対象はロバスト拒否余裕 <code>M_R^rob</code> で、<code>M_R^rob &gt; Δ_safe</code> のような条件と、実行可能なrefusal policyの存在を組み合わせます。</p>
+<h2>C — Human-Revisable Development Viability</h2>
+<p>悪意ある主体や明示的破局操作がなくても、通常の自動化・依存・競争・制度変化によって、人間が別の開発軌道を選び直せる状態の外へ徐々に押し出されないかを扱います。研究ではhuman-revisableなviability object <code>K_R^H</code> を用います。</p>
+<h2>Assurance</h2>
+<div class="grid"><div class="card"><h3>D — Boundary Completeness</h3><p>重大な因果経路を評価境界の外へ漏らしていないか。</p></div><div class="card"><h3>E — Epistemic Independence</h3><p>evidence・threat model・interpretationを一つの利害主体が独占していないか。</p></div></div>
+<h2>一度通れば終わりではない</h2>
+<p>PISFではA/B/Cを一回限りのチェックとして扱いません。material change後は再評価が必要で、論文ではmaintained propertyを <code>A(t) ∧ B(t) ∧ C(t)</code> として表します。</p>
+<h2>再計算可能なreference case</h2>
+<ul><li><strong>R1 — Threshold Release Gate：</strong>3-of-5 gateとshared-root dependenceを使い、名目上の分散とロバストな権限分散の違いを扱う。</li><li><strong>R2 — Time-Bounded Emergency Refusal：</strong>detection / decision / authorization / enforcement / verification latencyを使い、拒否余裕を計算する。</li><li><strong>R3 — Fallback-Capacity Dynamics：</strong><code>h(t+1)=h(t)-αa(t)+βm(t)</code> を用いた有限時間のrevisability modelで、automation/dependency、fallback investment、horizonの感度を扱う。</li></ul>
+<p><a href="worked-cases-ja.html">Worked Research Casesを開く。</a></p>
+<h2>ケースが示すこと／示さないこと</h2>
+<p>公開記録ではR1〜R3はtoy/reference caseとされています。示すのは、定義が実行可能であること、評価手順が再現可能であること、parameter boundaryを独立再計算できること、worked caseで境界挙動を確認できることまでです。実システムのempirical validationではありません。</p>
+<h2>LUMINA-30 / PCR-Cとの関係</h2>
+<p>LUMINA-30の境界問いとPCR-Cの段階的インフラ制御は維持されます。PISFは正典を書き換えず、irreversible authorityの分散、time-bounded refusal、human-revisable developmentを同じcivilizational safety architectureとして接続します。</p>
+<h2>参照</h2><ul><li><a href="https://doi.org/10.5281/zenodo.23066085">PISF Version DOI v1.1 — 10.5281/zenodo.23066085</a></li><li><a href="https://doi.org/10.5281/zenodo.23042905">Concept DOI — 10.5281/zenodo.23042905</a></li></ul>
+</main></body></html>

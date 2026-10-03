@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PISF — Pre-Irreversibility Safety Framework | LUMINA-30</title><meta name="description" content="Research guide to PISF: distributed irreversible authority, timely refusal, human-revisable development, assurance, and reference cases.">
+<meta name="robots" content="index,follow,max-snippet:-1">
+<link rel="canonical" href="https://lumina-30.github.io/lumina-30-overview/research/pre-irreversibility-safety.html">
+<link rel="alternate" hreflang="en" href="https://lumina-30.github.io/lumina-30-overview/research/pre-irreversibility-safety.html">
+<link rel="alternate" hreflang="ja" href="https://lumina-30.github.io/lumina-30-overview/research/pre-irreversibility-safety-ja.html">
+<style>
+body{margin:0;background:Canvas;color:CanvasText;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",Arial,sans-serif;line-height:1.72}
+main{max-width:980px;margin:auto;padding:28px 20px 72px}
+a{color:LinkText}
+h1{font-size:clamp(2rem,5vw,3.35rem);line-height:1.08;margin:.35em 0}
+h2{margin-top:2.15em;border-top:1px solid GrayText;padding-top:.75em}
+h3{margin-top:1.45em}
+.box{border:1px solid GrayText;border-radius:16px;padding:16px 18px;margin:18px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.card{border:1px solid GrayText;border-radius:14px;padding:14px}
+.muted{opacity:.78}
+.nav{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:26px}
+.nav a{border:1px solid GrayText;border-radius:999px;padding:6px 10px;text-decoration:none}
+table{border-collapse:collapse;width:100%;display:block;overflow:auto}
+th,td{border:1px solid GrayText;padding:9px;vertical-align:top}
+code{overflow-wrap:anywhere}
+.kicker{font-weight:700;letter-spacing:.02em}
+.callout{border-left:4px solid GrayText;padding:10px 14px;margin:16px 0}
+.small{font-size:.94rem}
+ul.tight li{margin:.35em 0}
+</style></head><body><main>
+<nav class="nav"><a href="public-research-stack.html">Public Research Stack</a><a href="pre-irreversibility-safety-ja.html" hreflang="ja">日本語</a><a href="worked-cases.html">Worked Cases</a></nav>
+<h1>PISF — Pre-Irreversibility Safety Framework</h1>
+<p class="muted">Distributed irreversible authority · timely refusal · human-revisable development</p>
+<div class="box"><strong>Core research proposition:</strong> pre-irreversibility safety is studied through three non-substitutable dimensions: Authority ∧ Refusal ∧ Revisability.</div>
+<h2>A — Distributed Irreversible Authority</h2>
+<p>The first dimension asks whether a small number of independent authority domains can force civilization-scale irreversibility. The paper introduces a robust threshold object, <code>κ̲_E</code>, and studies conditions such as <code>κ̲_E &gt; f</code>.</p>
+<h2>B — Effective Pre-Irreversibility Refusal</h2>
+<p>The second dimension asks whether refusal, stop, or isolation can complete before the last safe intervention point. The paper uses a robust refusal margin <code>M_R^rob</code> and a condition of the form <code>M_R^rob &gt; Δ_safe</code>, together with the existence of an executable refusal policy.</p>
+<h2>C — Human-Revisable Development Viability</h2>
+<p>The third dimension asks whether ordinary automation, dependency, competition, and institutional change can gradually move society outside the set of states from which humans can still choose another development trajectory. The research uses a human-revisable viability object <code>K_R^H</code>.</p>
+<h2>Assurance dimensions</h2>
+<div class="grid"><div class="card"><h3>D — Boundary Completeness</h3><p>Do major causal pathways remain inside the evaluation boundary?</p></div><div class="card"><h3>E — Epistemic Independence</h3><p>Are evidence, threat model, and interpretation independent enough that one interested party does not monopolize the safety claim?</p></div></div>
+<h2>Safety as a maintained property</h2>
+<p>PISF does not treat A/B/C as a one-time check. After material change, the relevant property must be re-evaluated. The paper frames the maintained condition as <code>A(t) ∧ B(t) ∧ C(t)</code>.</p>
+<h2>Reproducible reference cases</h2>
+<ul><li><strong>R1 — Threshold Release Gate:</strong> a 3-of-5 gate with shared-root dependence, used to examine nominal versus robust authority distribution.</li><li><strong>R2 — Time-Bounded Emergency Refusal:</strong> detection, decision, authorization, enforcement, and verification latency, used to compute refusal margin.</li><li><strong>R3 — Fallback-Capacity Dynamics:</strong> a finite-horizon revisability model using <code>h(t+1)=h(t)-αa(t)+βm(t)</code> to study automation/dependency, fallback investment, and horizon sensitivity.</li></ul>
+<p><a href="worked-cases.html">Open the Worked Research Cases guide.</a></p>
+<h2>What the cases establish — and do not establish</h2>
+<p>The published record describes the cases as toy/reference cases. They show executable definitions, reproducible evaluation procedures, independently recomputable parameter boundaries, and boundary behavior. They are not real-system empirical validation.</p>
+<h2>Relationship to LUMINA-30 and PCR-C</h2>
+<p>LUMINA-30 retains the boundary question; PCR-C remains the staged infrastructure-control layer. PISF adds a broader civilizational safety architecture connecting irreversible authority distribution, time-bounded refusal, and human-revisable development without redefining the LUMINA-30 canon.</p>
+<h2>References</h2><ul><li><a href="https://doi.org/10.5281/zenodo.23066085">PISF Version DOI v1.1 — 10.5281/zenodo.23066085</a></li><li><a href="https://doi.org/10.5281/zenodo.23042905">Concept DOI — 10.5281/zenodo.23042905</a></li></ul>
+</main></body></html>

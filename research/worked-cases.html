@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Worked Research Cases | LUMINA-30 Public Research</title><meta name="description" content="Worked public research cases for PISF: threshold release, time-bounded refusal, and fallback-capacity dynamics.">
+<meta name="robots" content="index,follow,max-snippet:-1">
+<link rel="canonical" href="https://lumina-30.github.io/lumina-30-overview/research/worked-cases.html">
+<link rel="alternate" hreflang="en" href="https://lumina-30.github.io/lumina-30-overview/research/worked-cases.html">
+<link rel="alternate" hreflang="ja" href="https://lumina-30.github.io/lumina-30-overview/research/worked-cases-ja.html">
+<style>
+body{margin:0;background:Canvas;color:CanvasText;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",Arial,sans-serif;line-height:1.72}
+main{max-width:980px;margin:auto;padding:28px 20px 72px}
+a{color:LinkText}
+h1{font-size:clamp(2rem,5vw,3.35rem);line-height:1.08;margin:.35em 0}
+h2{margin-top:2.15em;border-top:1px solid GrayText;padding-top:.75em}
+h3{margin-top:1.45em}
+.box{border:1px solid GrayText;border-radius:16px;padding:16px 18px;margin:18px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.card{border:1px solid GrayText;border-radius:14px;padding:14px}
+.muted{opacity:.78}
+.nav{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:26px}
+.nav a{border:1px solid GrayText;border-radius:999px;padding:6px 10px;text-decoration:none}
+table{border-collapse:collapse;width:100%;display:block;overflow:auto}
+th,td{border:1px solid GrayText;padding:9px;vertical-align:top}
+code{overflow-wrap:anywhere}
+.kicker{font-weight:700;letter-spacing:.02em}
+.callout{border-left:4px solid GrayText;padding:10px 14px;margin:16px 0}
+.small{font-size:.94rem}
+ul.tight li{margin:.35em 0}
+</style></head><body><main>
+<nav class="nav"><a href="public-research-stack.html">Public Research Stack</a><a href="worked-cases-ja.html" hreflang="ja">日本語</a><a href="pre-irreversibility-safety.html">PISF</a></nav>
+<h1>Worked Research Cases</h1>
+<p class="muted">How the public stack moves from concepts to recomputable boundary behavior</p>
+<div class="box"><strong>Status:</strong> The PISF cases summarized here are published toy/reference cases. They are not empirical validation of real-world AI systems.</div>
+<h2>R1 — Threshold Release Gate</h2>
+<p><strong>Setup:</strong> a 3-of-5 release gate with shared-root dependence.</p>
+<p><strong>Research purpose:</strong> test whether nominally separate authority domains remain robustly independent when a common root or common dependency can collapse that independence.</p>
+<p><strong>Boundary idea:</strong> counting signers is not sufficient if several signers are controlled through the same underlying authority path. PISF therefore distinguishes nominal threshold structure from a robust threshold such as <code>κ̲_E</code>.</p>
+<h2>R2 — Time-Bounded Emergency Refusal</h2>
+<p><strong>Setup:</strong> intervention latency is decomposed into detection, decision, authorization, enforcement, and verification.</p>
+<p><strong>Research purpose:</strong> determine whether refusal can complete before the last safe intervention point, rather than merely whether a stop procedure exists.</p>
+<p><strong>Connection to L30-RET:</strong> this case directly connects to Temporal Sufficiency. A refusal that cannot complete in the remaining safe interval is not made effective simply by formal authority.</p>
+<h2>R3 — Fallback-Capacity Dynamics</h2>
+<p><strong>Setup:</strong> a finite-horizon model <code>h(t+1)=h(t)-αa(t)+βm(t)</code>.</p>
+<p><strong>Research purpose:</strong> study how automation/dependency can reduce fallback capacity while maintenance or investment can preserve it, and how the result changes with the time horizon.</p>
+<p><strong>Boundary idea:</strong> no dramatic failure event is required for revisability to erode. Ordinary adoption and dependency can gradually move a system outside the human-revisable region.</p>
+<h2>What to recompute</h2>
+<table><tr><th>Case</th><th>Object</th><th>Question</th></tr><tr><td>R1</td><td>Nominal vs robust authority threshold</td><td>Does common-root dependence reduce effective independence?</td></tr><tr><td>R2</td><td>Intervention/refusal margin</td><td>Can the full refusal process complete before the last safe intervention point?</td></tr><tr><td>R3</td><td>Finite-horizon revisability</td><td>Does fallback capacity remain inside a human-revisable region under automation and maintenance dynamics?</td></tr></table>
+<h2>What these examples are for</h2><p>The point is not to prove that real systems are safe. The cases make definitions executable, procedures reproducible, parameter boundaries independently recomputable, and boundary behavior inspectable.</p>
+</main></body></html>

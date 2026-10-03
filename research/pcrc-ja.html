@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PCR-C 研究ガイド | LUMINA-30</title><meta name="description" content="PCR-Cを、不可逆化前に介入能力が失われる前の段階的インフラ制御研究として整理する公開研究ガイド。">
+<meta name="robots" content="index,follow,max-snippet:-1">
+<link rel="canonical" href="https://lumina-30.github.io/lumina-30-overview/research/pcrc-ja.html">
+<link rel="alternate" hreflang="en" href="https://lumina-30.github.io/lumina-30-overview/research/pcrc.html">
+<link rel="alternate" hreflang="ja" href="https://lumina-30.github.io/lumina-30-overview/research/pcrc-ja.html">
+<style>
+body{margin:0;background:Canvas;color:CanvasText;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",Arial,sans-serif;line-height:1.72}
+main{max-width:980px;margin:auto;padding:28px 20px 72px}
+a{color:LinkText}
+h1{font-size:clamp(2rem,5vw,3.35rem);line-height:1.08;margin:.35em 0}
+h2{margin-top:2.15em;border-top:1px solid GrayText;padding-top:.75em}
+h3{margin-top:1.45em}
+.box{border:1px solid GrayText;border-radius:16px;padding:16px 18px;margin:18px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.card{border:1px solid GrayText;border-radius:14px;padding:14px}
+.muted{opacity:.78}
+.nav{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:26px}
+.nav a{border:1px solid GrayText;border-radius:999px;padding:6px 10px;text-decoration:none}
+table{border-collapse:collapse;width:100%;display:block;overflow:auto}
+th,td{border:1px solid GrayText;padding:9px;vertical-align:top}
+code{overflow-wrap:anywhere}
+.kicker{font-weight:700;letter-spacing:.02em}
+.callout{border-left:4px solid GrayText;padding:10px 14px;margin:16px 0}
+.small{font-size:.94rem}
+ul.tight li{margin:.35em 0}
+</style></head><body><main>
+<nav class="nav"><a href="public-research-stack-ja.html">公開研究スタック</a><a href="../index-ja.html#g04">Overview / G04</a><a href="pcrc.html" hreflang="en">English</a></nav>
+<h1>PCR-C — 境界を越える前の制御</h1>
+<p class="muted">Pre-Critical Recursive Cutoff · インフラ／制御研究レイヤー</p>
+<div class="box"><strong>中心問い：</strong>不可逆リスクが支配的になり、介入能力を超える前に、インフラ層の制御はどう作用できるか。</div>
+<h2>研究対象</h2>
+<p>PCR-Cは段階的なインフラ制御フレームワークです。LUMINA-30の境界定義を書き換えるものではなく、その境界が越えられる前に作用するインフラ層メカニズムの一例を形式化します。</p>
+<h2>STOP要求より先に制御経路が失われる問題</h2>
+<p>停止ボタンや停止権限が名目上存在することと、必要な時点で実際の介入経路へ到達できることは同じではありません。PCR-Cが扱う中心問題は、再帰的・自己強化的エスカレーションによって拒否が効かなくなる前に、介入経路が構造的に残っているかです。</p>
+<h2>LUMINA-30との関係</h2>
+<p>LUMINA-30は「不可逆的影響の前に実効的人間拒否が残っていたか」を問います。PCR-Cはその問いに対して、インフラ層から「拒否が構造的に無効になる前に制御が作用できるか」を扱います。</p>
+<div class="callout"><strong>役割分離：</strong>LUMINA-30は境界問いを定義し、PCR-Cは段階的インフラ層カットオフモデルを提供します。両者を同じものとして扱いません。</div>
+<h2>研究上の使いどころ</h2>
+<ul><li>不可逆閾値より前の段階的介入を検討する。</li><li>形式的なSTOP authorityと、インフラ制御経路の実際の到達可能性を分けて考える。</li><li>事故前境界レビューとインフラ制御設計を接続する。</li><li>システムのエスカレーションに対して、どこで介入能力が不足するかを分析する。</li></ul>
+<h2>PCR-Cが主張しないこと</h2><p>Incident Review、人間責任、LUMINA-30正典の境界定義、その他すべてのAI safety手法を置き換えるものではありません。公開研究スタックを構成する一つの研究レイヤーです。</p>
+<h2>参照</h2><p><a href="https://doi.org/10.5281/zenodo.18824181">Pre-Critical Recursive Cutoff: A Staged Infrastructure Control Framework for Irreversibility Risk — DOI 10.5281/zenodo.18824181</a></p>
+</main></body></html>

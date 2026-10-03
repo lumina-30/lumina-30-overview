@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Objective Persistence 研究ガイド | LUMINA-30</title><meta name="description" content="自己完結システムの目的持続性、存在条件、外部境界・外部アンカーを扱う公開研究ガイド。">
+<meta name="robots" content="index,follow,max-snippet:-1">
+<link rel="canonical" href="https://lumina-30.github.io/lumina-30-overview/research/objective-persistence-ja.html">
+<link rel="alternate" hreflang="en" href="https://lumina-30.github.io/lumina-30-overview/research/objective-persistence.html">
+<link rel="alternate" hreflang="ja" href="https://lumina-30.github.io/lumina-30-overview/research/objective-persistence-ja.html">
+<style>
+body{margin:0;background:Canvas;color:CanvasText;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",Arial,sans-serif;line-height:1.72}
+main{max-width:980px;margin:auto;padding:28px 20px 72px}
+a{color:LinkText}
+h1{font-size:clamp(2rem,5vw,3.35rem);line-height:1.08;margin:.35em 0}
+h2{margin-top:2.15em;border-top:1px solid GrayText;padding-top:.75em}
+h3{margin-top:1.45em}
+.box{border:1px solid GrayText;border-radius:16px;padding:16px 18px;margin:18px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.card{border:1px solid GrayText;border-radius:14px;padding:14px}
+.muted{opacity:.78}
+.nav{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:26px}
+.nav a{border:1px solid GrayText;border-radius:999px;padding:6px 10px;text-decoration:none}
+table{border-collapse:collapse;width:100%;display:block;overflow:auto}
+th,td{border:1px solid GrayText;padding:9px;vertical-align:top}
+code{overflow-wrap:anywhere}
+.kicker{font-weight:700;letter-spacing:.02em}
+.callout{border-left:4px solid GrayText;padding:10px 14px;margin:16px 0}
+.small{font-size:.94rem}
+ul.tight li{margin:.35em 0}
+</style></head><body><main>
+<nav class="nav"><a href="public-research-stack-ja.html">公開研究スタック</a><a href="objective-persistence.html" hreflang="en">English</a></nav>
+<h1>Objective Persistence — 存在条件レイヤー</h1>
+<p class="muted">自己完結系 · 目的持続性 · 外部境界／外部アンカー</p>
+<div class="box"><strong>中心問い：</strong>自己完結したシステムは、同じシステム内部の基準だけを用いて、自らの目的が持続していることを非循環的に保証できるか。</div>
+<h2>公開研究から言えること</h2>
+<p>この公開研究ラインは、自己完結システムにおける目的の持続性が、システム内部だけからは非循環的に保証できないという問題を扱います。LUMINA-30の研究構造では、<strong>existence-condition / external-anchor supporting layer</strong>として位置づけられています。</p>
+<h2>なぜ制御問題とは別なのか</h2>
+<p>PCR-Cは介入経路が残るかを扱います。Objective Persistenceは、システムが「目的を維持している」という主張を何に基づいて評価できるかを扱います。制御可能でも目的持続性の根拠が弱い場合があり、逆に目的持続性の議論だけではインフラ層カットオフを提供しません。</p>
+<h2>外部境界／外部アンカー</h2>
+<p>公開側での主張範囲は意図的に限定されています。この研究は、なぜ外部境界または外部アンカーが構造的に必要になり得るかを説明する補助研究です。それ自体を認証規則、実務チェックリスト、法的義務、特定の外部機構が十分であることの証明へ変換しません。</p>
+<h2>この研究ラインから開く問い</h2>
+<ul><li>目的持続性の主張に対して、何を「真に外部の証拠」とみなせるか。</li><li>評価者と評価対象が共通モデル・共通インフラ・共通前提へ依存する場合、その依存をどう表現するか。</li><li>形式上は外部でも、実質的には同じ系へ依存している検査をどう見分けるか。</li><li>自己改変や重大なアーキテクチャ変更後に、目的持続性の主張をどう再評価するか。</li></ul>
+<p class="small muted">ここは公開研究ラインから導く研究アジェンダであり、論文がすでに解決済みと主張する内容ではありません。</p>
+<h2>他研究との関係</h2>
+<table><tr><th>レイヤー</th><th>問い</th></tr><tr><td>PCR-C</td><td>不可逆化前にインフラ制御が作用できるか。</td></tr><tr><td>Objective Persistence</td><td>評価対象システムの内部だけに依存せず、目的持続性を根拠づけられるか。</td></tr><tr><td>L30-RET</td><td>Human NOが時間内に結果を変えられるか。</td></tr><tr><td>PISF</td><td>authority・refusal・revisabilityを同時に保持できるか。</td></tr></table>
+<h2>参照</h2><ul><li><a href="https://doi.org/10.5281/zenodo.19896405">Version DOI 10.5281/zenodo.19896405</a></li><li><a href="https://doi.org/10.5281/zenodo.19887869">Concept DOI 10.5281/zenodo.19887869</a></li></ul>
+</main></body></html>

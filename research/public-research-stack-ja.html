@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LUMINA-30 公開研究スタック</title><meta name="description" content="PCR-C、Objective Persistence、L30-RET、PISFの4研究ラインを、制御経路・目的持続性・実効的人間拒否・不可逆化前安全性から辿る研究ハブ。">
+<meta name="robots" content="index,follow,max-snippet:-1">
+<link rel="canonical" href="https://lumina-30.github.io/lumina-30-overview/research/public-research-stack-ja.html">
+<link rel="alternate" hreflang="en" href="https://lumina-30.github.io/lumina-30-overview/research/public-research-stack.html">
+<link rel="alternate" hreflang="ja" href="https://lumina-30.github.io/lumina-30-overview/research/public-research-stack-ja.html">
+<style>
+body{margin:0;background:Canvas;color:CanvasText;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",Arial,sans-serif;line-height:1.72}
+main{max-width:980px;margin:auto;padding:28px 20px 72px}
+a{color:LinkText}
+h1{font-size:clamp(2rem,5vw,3.35rem);line-height:1.08;margin:.35em 0}
+h2{margin-top:2.15em;border-top:1px solid GrayText;padding-top:.75em}
+h3{margin-top:1.45em}
+.box{border:1px solid GrayText;border-radius:16px;padding:16px 18px;margin:18px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.card{border:1px solid GrayText;border-radius:14px;padding:14px}
+.muted{opacity:.78}
+.nav{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:26px}
+.nav a{border:1px solid GrayText;border-radius:999px;padding:6px 10px;text-decoration:none}
+table{border-collapse:collapse;width:100%;display:block;overflow:auto}
+th,td{border:1px solid GrayText;padding:9px;vertical-align:top}
+code{overflow-wrap:anywhere}
+.kicker{font-weight:700;letter-spacing:.02em}
+.callout{border-left:4px solid GrayText;padding:10px 14px;margin:16px 0}
+.small{font-size:.94rem}
+ul.tight li{margin:.35em 0}
+</style></head><body><main>
+<nav class="nav"><a href="../index-ja.html">Overview</a><a href="public-research-stack.html" hreflang="en">English</a><a href="the-refusal-option-ja.html">L30-RET</a></nav>
+<p class="kicker">LUMINA-30 PUBLIC RESEARCH</p>
+<h1>公開研究スタック / Public Research Stack</h1>
+<p class="muted">4つの補完的研究ライン · 制御経路 · 目的持続性 · 実効的人間拒否 · 不可逆化前安全性</p>
+<div class="box"><strong>このページの役割：</strong>LUMINA-30を支える4つの公開研究ラインを、論文一覧ではなく「何を研究しているのか」で辿る研究ハブです。研究論文はLUMINA-30正典を定義せず、認証状態や安全保証を作りません。</div>
+
+<h2>一つの問題を、4つの異なる失敗場所に分ける</h2>
+<p>この研究スタックでは「AI safety」を一つの変数へまとめません。不可逆化へ向かう過程で、別々に壊れ得る4つの問いを分離します。</p>
+<div class="grid">
+<div class="card"><h3>PCR-C</h3><p><strong>不可逆化前まで、制御経路へ到達できるか。</strong></p><p>介入能力を超える前に作用する、段階的なインフラ層カットオフ研究。</p><p><a href="pcrc-ja.html">研究ガイドを開く</a></p></div>
+<div class="card"><h3>Objective Persistence</h3><p><strong>自己完結系は、目的が持続していることを内部だけで非循環的に保証できるか。</strong></p><p>存在条件と外部アンカーを扱う研究レイヤー。</p><p><a href="objective-persistence-ja.html">研究ガイドを開く</a></p></div>
+<div class="card"><h3>L30-RET</h3><p><strong>独立したHuman NOは、時間内に本当に結果を変えられるか。</strong></p><p>human standing・実効的拒否・意思決定ガバナンスの研究。</p><p><a href="the-refusal-option-ja.html">L30-RETガイドを開く</a></p></div>
+<div class="card"><h3>PISF</h3><p><strong>authority・refusal・revisabilityを不可逆化前に同時に保てるか。</strong></p><p>複数の非代替的安全次元を統合したpre-irreversibility safety case。</p><p><a href="pre-irreversibility-safety-ja.html">研究ガイドを開く</a></p></div>
+</div>
+
+<h2>Research Landscape</h2>
+<table>
+<tr><th>研究ライン</th><th>主な対象</th><th>典型的な失敗</th><th>研究上の役割</th></tr>
+<tr><td><strong>PCR-C</strong></td><td>インフラ／制御経路</td><td>介入能力を実質的に超えた後で、システムが不可逆閾値を越える。</td><td>境界を越える前に作用する段階的インフラ層カットオフモデル。</td></tr>
+<tr><td><strong>Objective Persistence</strong></td><td>目的持続性／外部アンカー</td><td>自己完結系が、評価対象である目的の持続性を、同じ内部系の基準だけで評価する。</td><td>なぜ外部境界・外部アンカーが構造的に必要になり得るかを扱う存在条件論。</td></tr>
+<tr><td><strong>L30-RET</strong></td><td>人間の拒否</td><td>人間や承認手続きは存在するが、権限・情報・アクセス・時間・因果効果・独立性・認識自律性のどこかが欠け、NOが結果を変えられない。</td><td>拒否が形式ではなく実務上有効かを7つの非補償的ゲートで検査。</td></tr>
+<tr><td><strong>PISF</strong></td><td>Authority + Refusal + Revisability</td><td>局所的停止手段があっても、不可逆権限が集中する、拒否が間に合わない、または社会が別の発展経路を選び直せなくなる。</td><td>単一スコアではなく、代替不能な複数安全次元を同じsafety caseで扱う。</td></tr>
+</table>
+
+<h2>4本を一緒に読むと何が見えるか</h2>
+<p><strong>PCR-C</strong>は制御経路が残るかを問います。<strong>Objective Persistence</strong>は、目的持続性の主張を評価対象システムの内部だけに依存せず根拠づけられるかを問います。<strong>L30-RET</strong>はHuman NOが現実に結果を変えられるかを問います。<strong>PISF</strong>は、不可逆権限の分散、時間内の拒否、人間が発展経路を選び直せる状態を同時に維持できるかを問います。</p>
+<div class="callout"><strong>4つは補完的ですが、相互に置換できません。</strong> 一つの研究ラインで良い結果が出ても、別の研究ラインの失敗を相殺したことにはなりません。そのため単一の認証スコアへ圧縮せず、どの失敗モードが問題かを分けて見ます。</div>
+
+<h2>論文ではなく「研究対象」から入る</h2>
+<ul class="tight">
+<li><strong>制御経路：</strong><a href="pcrc-ja.html">PCR-C研究ガイド</a></li>
+<li><strong>存在条件：</strong><a href="objective-persistence-ja.html">Objective Persistence研究ガイド</a></li>
+<li><strong>Human NO：</strong><a href="the-refusal-option-ja.html">L30-RET研究・実務ガイド</a></li>
+<li><strong>統合安全ケース：</strong><a href="pre-irreversibility-safety-ja.html">PISF研究ガイド</a></li>
+<li><strong>再計算可能な例：</strong><a href="worked-cases-ja.html">Worked Research Cases</a></li>
+<li><strong>未解決研究課題：</strong><a href="open-research-questions-ja.html">Open Research Questions</a></li>
+</ul>
+
+<h2>Research → Practice</h2>
+<p>研究で見つかった問題はLUMINA-30の実務層へ接続できます。ただし、論文群を公式認証フローへ変換するものではありません。制御経路の問題はPCR-Cや事故前境界レビュー、拒否の問題はL30-RET・Stop Authority・Evidence Requirements、事故やニアミスはIncident Review、より広いauthority/revisability問題はPISF型のsafety-case分析へ接続できます。</p>
+
+<h2>公開参照</h2>
+<ul>
+<li>PCR-C: <a href="https://doi.org/10.5281/zenodo.18824181">10.5281/zenodo.18824181</a></li>
+<li>Objective Persistence — Version DOI: <a href="https://doi.org/10.5281/zenodo.19896405">10.5281/zenodo.19896405</a> / Concept DOI: <a href="https://doi.org/10.5281/zenodo.19887869">10.5281/zenodo.19887869</a></li>
+<li>L30-RET / The Refusal Option v1.1: <a href="https://doi.org/10.5281/zenodo.23065045">10.5281/zenodo.23065045</a> / Concept DOI: <a href="https://doi.org/10.5281/zenodo.22980038">10.5281/zenodo.22980038</a></li>
+<li>PISF v1.1: <a href="https://doi.org/10.5281/zenodo.23066085">10.5281/zenodo.23066085</a> / Concept DOI: <a href="https://doi.org/10.5281/zenodo.23042905">10.5281/zenodo.23042905</a></li>
+</ul>
+</main></body></html>

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Open Research Questions | LUMINA-30 公開研究</title><meta name="description" content="PCR-C、Objective Persistence、L30-RET、PISFから導く未解決研究課題を、既存論文の確立済み主張と分離して整理。">
+<meta name="robots" content="index,follow,max-snippet:-1">
+<link rel="canonical" href="https://lumina-30.github.io/lumina-30-overview/research/open-research-questions-ja.html">
+<link rel="alternate" hreflang="en" href="https://lumina-30.github.io/lumina-30-overview/research/open-research-questions.html">
+<link rel="alternate" hreflang="ja" href="https://lumina-30.github.io/lumina-30-overview/research/open-research-questions-ja.html">
+<style>
+body{margin:0;background:Canvas;color:CanvasText;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",Arial,sans-serif;line-height:1.72}
+main{max-width:980px;margin:auto;padding:28px 20px 72px}
+a{color:LinkText}
+h1{font-size:clamp(2rem,5vw,3.35rem);line-height:1.08;margin:.35em 0}
+h2{margin-top:2.15em;border-top:1px solid GrayText;padding-top:.75em}
+h3{margin-top:1.45em}
+.box{border:1px solid GrayText;border-radius:16px;padding:16px 18px;margin:18px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.card{border:1px solid GrayText;border-radius:14px;padding:14px}
+.muted{opacity:.78}
+.nav{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:26px}
+.nav a{border:1px solid GrayText;border-radius:999px;padding:6px 10px;text-decoration:none}
+table{border-collapse:collapse;width:100%;display:block;overflow:auto}
+th,td{border:1px solid GrayText;padding:9px;vertical-align:top}
+code{overflow-wrap:anywhere}
+.kicker{font-weight:700;letter-spacing:.02em}
+.callout{border-left:4px solid GrayText;padding:10px 14px;margin:16px 0}
+.small{font-size:.94rem}
+ul.tight li{margin:.35em 0}
+</style></head><body><main>
+<nav class="nav"><a href="public-research-stack-ja.html">公開研究スタック</a><a href="open-research-questions.html" hreflang="en">English</a></nav>
+<h1>Open Research Questions</h1>
+<p class="muted">公開研究スタックから導く研究アジェンダ · 論文ですでに解決済みという意味ではありません</p>
+<div class="box"><strong>解釈ルール：</strong>以下は今後の研究対象を明確にするための問いです。掲載されているからといって、現在の論文がすでに解決・実証したことにはなりません。</div>
+<h2>1. 実効的独立性をどう測るか</h2>
+<ul><li>クラウド基盤、モデル提供者、credentials、root administrator、法的支配を共有するauthority domainを、どこまで独立と数えるべきか。</li><li>組織上の分離と因果的独立性を区別するには、どの証拠が必要か。</li></ul>
+<h2>2. Dynamic refusal margin</h2>
+<ul><li>モデル速度、自動化深度、deployment topologyが変わるとき、refusal latencyをどう更新するか。</li><li>detectionやverificationの時間が固定値でなく不確実なとき、どれだけの安全余裕が必要か。</li></ul>
+<h2>3. Objective Persistenceの証拠</h2>
+<ul><li>評価者が評価対象とデータ・モデル・インフラ・前提を共有するとき、何をexternal anchorとみなせるか。</li><li>反復的自己改変後も、目的持続性の評価をinternal self-attestationへ崩さず維持できるか。</li></ul>
+<h2>4. Human-Revisable Development</h2>
+<ul><li>fallback capacity、人間側技能、制度的代替手段、代替の可逆性を、どの観測指標で表現できるか。</li><li>単独のdeploymentは不可逆でなくても、累積依存が不可逆化する場合をどう評価するか。</li></ul>
+<h2>5. レイヤー横断失敗</h2>
+<ul><li>PCR-C型のインフラ条件を満たしても、人間の意思決定が遅くL30-RETを満たさないシステムをどうsafety caseに表現するか。</li><li>局所的なrefusalは有効でも、PISF型のauthority concentrationや社会依存によって広いrevisabilityが失われる場合をどう扱うか。</li></ul>
+<h2>6. Empirical Program</h2>
+<ul><li>認証を目的としないcase studyとして、どの実世界のガバナンス／インフラ系が適しているか。</li><li>独立reviewer間でRET gateの評価はどの程度再現するか。</li><li>実運用系へ適用したとき、どのfalse positive / false negativeが現れるか。</li></ul>
+<h2>研究上の規律</h2><p>概念定義、toy/reference case、観測研究、empirical validationを明確に区別し、研究上の証拠とLUMINA-30正典の境界フレームワークも分離して扱います。</p>
+</main></body></html>
