@@ -15,14 +15,14 @@ The public research stack separates four complementary research lines. It is not
 | Research line | Primary question | Role |
 |---|---|---|
 | PCR-C | Can the infrastructure control path still act before irreversibility risk becomes dominant? | staged infrastructure/control layer |
-| Objective Persistence | Can a self-contained system non-circularly guarantee the persistence of its own objective? | existence-condition / external-anchor layer |
+| Objective Persistence | When does a persistence verdict cease to be independent because the same amendment authority can alter both the objective and the persistence-relevant assurance basis? | existence-condition / assurance-independence layer |
 | L30-RET | Can an independent Human NO still change the outcome within the remaining time before irreversibility? | human-standing / effective-refusal / decision-governance layer |
 | PISF | Can irreversible authority, timely refusal, and human-revisable development remain jointly preservable? | integrated pre-irreversibility safety-case layer |
 
 | 研究ライン | 中心問い | 役割 |
 |---|---|---|
 | PCR-C | 不可逆リスクが支配的になる前に、インフラ制御経路は作用できるか | 段階的インフラ／制御レイヤー |
-| Objective Persistence | 自己完結系は、自らの目的が持続していることを内部だけで非循環的に保証できるか | 存在条件／外部アンカーレイヤー |
+| Objective Persistence | 同じamendment authorityが目的とpersistence-relevantなassurance basisの両方を変更できるとき、目的持続性の正判定はどの条件で独立した証拠としての効力を失うか | 存在条件／assurance-independenceレイヤー |
 | L30-RET | 不可逆化までの残り時間内に、独立したHuman NOは実際に結果を変えられるか | human standing／実効的拒否／意思決定ガバナンス |
 | PISF | 不可逆権限の分散、時間内の拒否、人間が発展経路を選び直せる状態を同時に保てるか | 統合pre-irreversibility safety case |
 
@@ -34,17 +34,18 @@ LUMINA-30 defines the boundary question; PCR-C provides one infrastructure-layer
 
 PCR-Cは、介入能力を超える前に不可逆閾値を越えることを防ぐための段階的インフラ制御研究である。LUMINA-30の境界定義そのものではない。
 
-DOI: https://doi.org/10.5281/zenodo.18824181
+Version DOI v16: https://doi.org/10.5281/zenodo.23288056
+Concept DOI: https://doi.org/10.5281/zenodo.18824181
 
 ## Objective Persistence
 
-The public existence-condition research argues that objective persistence cannot be non-circularly guaranteed solely from within a self-contained system. Its role is to explain why an external boundary or anchor may be structurally necessary.
+The current public research states a narrower conditional result: if an amendment authority can jointly alter the objective, the semantics of objective identity, and the validation basis while preserving a positive verdict, that verdict is not amendment-independent evidence of persistence. Defensible assurance therefore requires either a verified invariant excluding such masking amendments or a persistence-relevant validation basis outside the amendment authority being assessed; that basis need not be physically external.
 
 It does not define an operational checklist, certification state, compliance rule, or institutional mandate.
 
-公開の存在条件研究は、自己完結システムにおける目的持続性がシステム内部だけから非循環的に保証できないという問題を扱い、外部境界・外部アンカーが構造的に必要になり得る理由を説明する。
+現行の公開研究は、より限定された条件付き結果を扱う。目的、目的同一性の意味論、検証基盤を同じamendment authorityが共同で変更でき、目的持続性に反する変更を正の判定で覆い隠せる場合、その正の判定はamendment-independentな持続性証拠にはならない。防御可能なassuranceには、そのようなmasking amendmentを排除するverified invariant、または評価対象のamendment authorityから外れたpersistence-relevant validation basisの少なくとも一方が必要であり、その基盤は物理的に外部である必要はない。
 
-Version DOI: https://doi.org/10.5281/zenodo.19896405  
+Version DOI v3: https://doi.org/10.5281/zenodo.23282068  
 Concept DOI: https://doi.org/10.5281/zenodo.19887869
 
 ## L30-RET
@@ -65,7 +66,7 @@ A positive RET result is time- and scope-dependent. Human presence, formal appro
 
 L30-RETは、Human NOが不可逆化前に実際に結果を変えられるかを、7つの非補償的ゲートで検査する。
 
-Version DOI v1.1: https://doi.org/10.5281/zenodo.23065045  
+Version DOI v1.3: https://doi.org/10.5281/zenodo.23282593  
 Concept DOI: https://doi.org/10.5281/zenodo.22980038
 
 ## PISF
@@ -76,21 +77,22 @@ PISF — Pre-Irreversibility Safety Framework — integrates three non-substitut
 - B — Effective Pre-Irreversibility Refusal
 - C — Human-Revisable Development Viability
 
-Assurance dimensions:
+Assurance conditions:
 
-- D — Boundary Completeness
-- E — Epistemic Independence
+- Boundary Completeness
+- Model Adequacy
+- Independent Assurance
 
 A/B/C are treated as a maintained property rather than a one-time pass.
 
 PISFは、Authority・Refusal・Revisabilityを同一のpre-irreversibility safety caseで扱う。各次元は相互に代替できない。
 
-Version DOI v1.1: https://doi.org/10.5281/zenodo.23066085  
+Version DOI v1.2: https://doi.org/10.5281/zenodo.23283256  
 Concept DOI: https://doi.org/10.5281/zenodo.23042905
 
 ## Worked research cases ｜ 研究例
 
-PISF includes three explicit toy/reference cases:
+PISF v1.2 includes four explicit toy/reference cases:
 
 1. R1 — Threshold Release Gate
    - 3-of-5 gate
@@ -105,6 +107,10 @@ PISF includes three explicit toy/reference cases:
    - h(t+1) = h(t) - αa(t) + βm(t)
    - finite-horizon revisability
    - automation/dependency, fallback investment, and horizon sensitivity
+
+4. R4 — Viable but path-locked
+   - compares states that both remain viable while preserving different numbers of materially distinct future options
+   - shows that viability alone does not establish preservation of materially distinct future choices
 
 These are not real-system empirical validation.
 

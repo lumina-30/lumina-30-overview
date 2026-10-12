@@ -18,7 +18,9 @@ https://lumina-30.github.io/lumina-30-overview/research/public-research-stack.ht
 
 Title: Pre-Critical Recursive Cutoff: A Staged Infrastructure Control Framework for Irreversibility Risk
 Author: Elias Arden
-DOI: https://doi.org/10.5281/zenodo.18824181
+Current public version: v16
+Version DOI: https://doi.org/10.5281/zenodo.23288056
+Concept DOI: https://doi.org/10.5281/zenodo.18824181
 Role: pre-irreversibility infrastructure/control research layer.
 Primary research object: staged infrastructure-level control before irreversibility thresholds are crossed and intervention capacity is exceeded.
 Relationship: supports practical reasoning about acting before interruption becomes structurally difficult; does not redefine the LUMINA-30 canon.
@@ -28,10 +30,11 @@ Human-readable guide: https://lumina-30.github.io/lumina-30-overview/research/pc
 
 Title: On the Structural Instability of Objective Persistence in Self-Contained Systems
 Author: Elias Arden
-Version DOI: https://doi.org/10.5281/zenodo.19896405
+Current public version: v3
+Version DOI: https://doi.org/10.5281/zenodo.23282068
 Concept DOI: https://doi.org/10.5281/zenodo.19887869
-Role: existence-condition / external-anchor supporting research layer.
-Relationship: examines why objective persistence cannot be non-circularly guaranteed solely from within a self-contained system; does not redefine the LUMINA-30 canon.
+Role: existence-condition / assurance-independence supporting research layer.
+Relationship: studies a conditional assurance-independence limit: if an amendment authority can admit a masking amendment that co-amends the persistence-relevant assurance basis while preserving a positive verdict, that verdict is not amendment-independent evidence of persistence. Defensible assurance requires either a verified invariant excluding such masking amendments or a persistence-relevant validation basis outside the amendment authority being assessed; that basis need not be physically external. This does not redefine the LUMINA-30 canon.
 Non-claims: no operational checklist, certification state, compliance rule, or institutional mandate.
 Human-readable guide: https://lumina-30.github.io/lumina-30-overview/research/objective-persistence.html
 
@@ -41,10 +44,9 @@ Title: The Refusal Option: Effective Human Control Before and Beyond Irreversibl
 Author: Elias Arden
 Affiliation: Independent Researcher
 Published: 2026-09-27
-Current public version: 1.1
-Version 1.1 publication date: 2026-09-30
+Current public version: 1.3
 Resource type: Preprint
-Version DOI (v1.1): https://doi.org/10.5281/zenodo.23065045
+Version DOI (v1.3): https://doi.org/10.5281/zenodo.23282593
 Concept DOI: https://doi.org/10.5281/zenodo.22980038
 Previous Version DOI (v1.0): https://doi.org/10.5281/zenodo.22980039
 Public identifier: L30-RET
@@ -56,7 +58,7 @@ RET gates: Authority; Decision-Relevant Information; Practical Access; Temporal 
 Relationship: supports the LUMINA-30 boundary question but does not replace or redefine the LUMINA-30 canon.
 Non-claims: no absolute invulnerability, containment theorem, permanent Human supremacy, universal veto, certification, safety guarantee, legal approval, or implied peer review.
 Human-readable guide: https://lumina-30.github.io/lumina-30-overview/research/the-refusal-option.html
-Zenodo version record: https://doi.org/10.5281/zenodo.23065045
+Zenodo version record: https://doi.org/10.5281/zenodo.23282593
 
 ## Paper 6
 
@@ -65,15 +67,15 @@ Author: Elias Arden
 Affiliation: Independent Researcher
 Resource type: Preprint
 Framework abbreviation: PISF — Pre-Irreversibility Safety Framework
-Current public version: 1.1
-Version DOI (v1.1): https://doi.org/10.5281/zenodo.23066085
+Current public version: 1.2
+Version DOI (v1.2): https://doi.org/10.5281/zenodo.23283256
 Concept DOI: https://doi.org/10.5281/zenodo.23042905
 Previous Version DOI (v1.0): https://doi.org/10.5281/zenodo.23042906
 Role: integrated pre-irreversibility safety research layer.
 Core dimensions: A — Distributed Irreversible Authority; B — Effective Pre-Irreversibility Refusal; C — Human-Revisable Development Viability.
-Assurance dimensions: D — Boundary Completeness; E — Epistemic Independence.
+Assurance conditions: Boundary Completeness; Model Adequacy; Independent Assurance.
 Persistence rule: A/B/C are treated as a maintained property and require re-evaluation after material change.
-Reference cases: R1 — Threshold Release Gate; R2 — Time-Bounded Emergency Refusal; R3 — Fallback-Capacity Dynamics.
+Reference cases: R1 — Threshold Release Gate; R2 — Time-Bounded Emergency Refusal; R3 — Fallback-Capacity Dynamics; R4 — Viable but path-locked.
 Reference-case boundary: toy/reference cases; not real-system empirical validation.
 Relationship: integrates authority distribution, time-bounded refusal, and human-revisable development into one pre-irreversibility safety case without redefining the LUMINA-30 canon.
 Human-readable guide: https://lumina-30.github.io/lumina-30-overview/research/pre-irreversibility-safety.html

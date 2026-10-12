@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Objective Persistence Research Guide | LUMINA-30</title><meta name="description" content="Research guide to the existence-condition and external-anchor layer: objective persistence in self-contained systems.">
+<title>Objective Persistence Research Guide | LUMINA-30</title><meta name="description" content="Research guide to the existence-condition and assurance-independence layer: objective persistence under a declared amendment authority.">
 <meta name="robots" content="index,follow,max-snippet:-1">
 <link rel="canonical" href="https://lumina-30.github.io/lumina-30-overview/research/objective-persistence.html">
 <link rel="alternate" hreflang="en" href="https://lumina-30.github.io/lumina-30-overview/research/objective-persistence.html">
@@ -28,14 +28,14 @@ ul.tight li{margin:.35em 0}
 </style></head><body><main>
 <nav class="nav"><a href="public-research-stack.html">Public Research Stack</a><a href="objective-persistence-ja.html" hreflang="ja">日本語</a></nav>
 <h1>Objective Persistence — The Existence-Condition Layer</h1>
-<p class="muted">Self-contained systems · persistence claims · external boundary / anchor</p>
-<div class="box"><strong>Core question:</strong> Can a self-contained system non-circularly guarantee the persistence of its own objective using only criteria inside the same system?</div>
+<p class="muted">Objective persistence · amendment authority · assurance independence</p>
+<div class="box"><strong>Core question:</strong> Under what conditions does a positive objective-persistence verdict lose independent evidential force because the same amendment authority can alter both the objective and the basis used to validate persistence?</div>
 <h2>What the public research supports</h2>
-<p>The public research line argues that objective persistence cannot be non-circularly guaranteed solely from within a self-contained system. In the LUMINA-30 research architecture, this is an <strong>existence-condition / external-anchor supporting layer</strong>.</p>
+<p>Version 3 states a narrower conditional result. Self-containedness alone does not imply universal mutability or impossibility of formal verification. If an amendment authority can admit a masking amendment that changes the objective while co-amending persistence-relevant semantics or the validation basis so that the assurance chain still returns PASS, that verdict is not amendment-independent evidence of persistence. Defensible assurance requires either a verified invariant that excludes such masking amendments or at least one persistence-relevant validation basis outside the amendment authority being assessed. That basis need not be physically external.</p>
 <h2>Why this is a different problem from control</h2>
 <p>PCR-C concerns whether an intervention path remains available. Objective Persistence concerns the basis on which a system's continuing objective is assessed. A system can remain controllable while a persistence claim is poorly grounded; conversely, a persistence argument does not itself provide an infrastructure cutoff.</p>
-<h2>External boundary / anchor</h2>
-<p>The associated public framing is deliberately narrow: the research helps explain why an external boundary or anchor may be structurally necessary. It does not turn that observation into a certification rule, operational checklist, legal mandate, or proof that any particular external mechanism is sufficient.</p>
+<h2>Assurance independence / protected basis</h2>
+<p>The required structural separation is from the amendment authority under evaluation, not necessarily from the physical system boundary. An internal immutable kernel, protected verifier, verified transition invariant, or independently controlled external mechanism can potentially serve this role if it cannot be silently co-amended to preserve acceptance of a persistence violation. The paper does not claim that any particular anchor is sufficient for long-run objective persistence.</p>
 <h2>Research questions opened by this line</h2>
 <ul><li>What counts as genuinely external evidence for a persistence claim?</li><li>How should common dependencies between the evaluator and the evaluated system be represented?</li><li>When does an apparently external check remain functionally internal because it shares the same model, infrastructure, or assumptions?</li><li>How should objective-persistence claims be re-evaluated after self-modification or material architectural change?</li></ul>
 <p class="small muted">These are research-agenda questions derived from the public research line; they are not claims already resolved by the paper.</p>

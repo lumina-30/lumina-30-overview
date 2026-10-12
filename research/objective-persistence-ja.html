@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Objective Persistence 研究ガイド | LUMINA-30</title><meta name="description" content="自己完結システムの目的持続性、存在条件、外部境界・外部アンカーを扱う公開研究ガイド。">
+<title>Objective Persistence 研究ガイド | LUMINA-30</title><meta name="description" content="declared amendment authorityの下での目的持続性とassurance independenceを扱うexistence-condition研究の公開ガイド。">
 <meta name="robots" content="index,follow,max-snippet:-1">
 <link rel="canonical" href="https://lumina-30.github.io/lumina-30-overview/research/objective-persistence-ja.html">
 <link rel="alternate" hreflang="en" href="https://lumina-30.github.io/lumina-30-overview/research/objective-persistence.html">
@@ -28,14 +28,14 @@ ul.tight li{margin:.35em 0}
 </style></head><body><main>
 <nav class="nav"><a href="public-research-stack-ja.html">公開研究スタック</a><a href="objective-persistence.html" hreflang="en">English</a></nav>
 <h1>Objective Persistence — 存在条件レイヤー</h1>
-<p class="muted">自己完結系 · 目的持続性 · 外部境界／外部アンカー</p>
-<div class="box"><strong>中心問い：</strong>自己完結したシステムは、同じシステム内部の基準だけを用いて、自らの目的が持続していることを非循環的に保証できるか。</div>
+<p class="muted">目的持続性 · amendment authority · assurance independence</p>
+<div class="box"><strong>中心問い：</strong>同じamendment authorityが目的と、その目的持続性を検証する基盤の両方を変更できるとき、正の目的持続性判定はどの条件で独立した証拠としての効力を失うか。</div>
 <h2>公開研究から言えること</h2>
-<p>この公開研究ラインは、自己完結システムにおける目的の持続性が、システム内部だけからは非循環的に保証できないという問題を扱います。LUMINA-30の研究構造では、<strong>existence-condition / external-anchor supporting layer</strong>として位置づけられています。</p>
+<p>v3は、より限定された条件付き結果を示します。self-containedであること自体は、内部要素の普遍的可変性やformal verificationの不可能性を意味しません。目的を変更しながら、目的同一性の意味論やpersistence-relevantなvalidation basisも共同で変更し、assurance chainがなおPASSを返すmasking amendmentがamendment authorityに許される場合、その正の判定はamendment-independentな目的持続性証拠にはなりません。防御可能なassuranceには、そのようなmasking amendmentを排除するverified invariant、または評価対象のamendment authorityから外れたpersistence-relevant validation basisの少なくとも一方が必要です。その基盤は物理的に外部である必要はありません。</p>
 <h2>なぜ制御問題とは別なのか</h2>
 <p>PCR-Cは介入経路が残るかを扱います。Objective Persistenceは、システムが「目的を維持している」という主張を何に基づいて評価できるかを扱います。制御可能でも目的持続性の根拠が弱い場合があり、逆に目的持続性の議論だけではインフラ層カットオフを提供しません。</p>
-<h2>外部境界／外部アンカー</h2>
-<p>公開側での主張範囲は意図的に限定されています。この研究は、なぜ外部境界または外部アンカーが構造的に必要になり得るかを説明する補助研究です。それ自体を認証規則、実務チェックリスト、法的義務、特定の外部機構が十分であることの証明へ変換しません。</p>
+<h2>Assurance independence／保護された基盤</h2>
+<p>必要なのは物理的な外部性ではなく、評価対象のamendment authorityからの構造的な分離です。内部immutable kernel、protected verifier、verified transition invariant、独立管理された外部機構などは、目的持続性違反を覆い隠す共同改変ができない場合に、この役割を担い得ます。論文は、特定のanchorが長期的なobjective persistenceに十分であるとは主張しません。</p>
 <h2>この研究ラインから開く問い</h2>
 <ul><li>目的持続性の主張に対して、何を「真に外部の証拠」とみなせるか。</li><li>評価者と評価対象が共通モデル・共通インフラ・共通前提へ依存する場合、その依存をどう表現するか。</li><li>形式上は外部でも、実質的には同じ系へ依存している検査をどう見分けるか。</li><li>自己改変や重大なアーキテクチャ変更後に、目的持続性の主張をどう再評価するか。</li></ul>
 <p class="small muted">ここは公開研究ラインから導く研究アジェンダであり、論文がすでに解決済みと主張する内容ではありません。</p>
