@@ -858,12 +858,11 @@ This section collects papers, canonical references, terminology, and comparison 
 <!-- ● L30:PAPER_REFERENCE -->
 <a id="paper-reference"></a>
 ## DOI and Paper References ｜ DOI・論文参照
-
-**Primary operational paper: PCR-C ｜ 主論文・実務中核**  
+**Paper 1 — PCR-C ｜ 第1論文・PCR-C**  
 Pre-Critical Recursive Cutoff (PCR-C) introduces a staged infrastructure control mechanism for managing irreversibility risk in advanced AI systems.  
 本論文（PCR-C）は、不可逆性リスクを制御するための段階的インフラ制御モデルを提示します。  
-LUMINA-30は、その前提となる文明的境界構造を提供します。  
-DOI: [10.5281/zenodo.18824181](https://doi.org/10.5281/zenodo.18824181)
+Version DOI v16: [10.5281/zenodo.23288056](https://doi.org/10.5281/zenodo.23288056)  
+Concept DOI: [10.5281/zenodo.18824181](https://doi.org/10.5281/zenodo.18824181)
 
 <a id="pcrc-arxiv-submission-note"></a>
 > **arXiv submission note ｜ arXiv投稿メモ**  
@@ -873,29 +872,30 @@ DOI: [10.5281/zenodo.18824181](https://doi.org/10.5281/zenodo.18824181)
 > 本PCR-C論文は **Computers and Society** での arXiv 投稿を準備中です。  
 > 関連する Computer Science カテゴリで arXiv 推薦資格を持ち、本研究が当該研究領域に適切だと判断される方は、**lumina20251225@proton.me** までご連絡ください。
 
-**Related Supporting Paper — Existence-Condition Layer ｜ 関連補助論文・存在条件レイヤー**  
-On the Structural Instability of Objective Persistence in Self-Contained Systems explains why objective persistence in self-contained systems cannot be non-circularly guaranteed without an external, non-optional anchor.  
-On the Structural Instability of Objective Persistence in Self-Contained Systems は、自己完結型システムにおける目的の持続性が、外部の非任意アンカーなしには非循環的に保証できないことを説明する。  
-This paper supports the background necessity of an external anchor; it does not replace PCR-C as the primary operational paper.  
-この論文は外部アンカーの必要性を背景から支える補助論文であり、主要な実務論文であるPCR-Cを置き換えるものではありません。  
-Version DOI: [10.5281/zenodo.19896405](https://doi.org/10.5281/zenodo.19896405)  
+**Paper 2 — Objective Persistence v3 ｜ 第2論文・Objective Persistence v3**  
+Version 3 states a conditional assurance-independence result. If an amendment authority can co-amend the objective and persistence-relevant validation basis so that a positive verdict survives a masking change, that verdict is not amendment-independent evidence of persistence. Defensible assurance requires either a verified invariant excluding such masking amendments or a persistence-relevant validation basis outside the amendment authority being assessed; that basis need not be physically external.  
+Version 3は条件付きの保証独立性の結果を示す。同一のamendment authorityが目的と目的持続性の検証基盤を共に変更し、masking change後も正判定を維持できる場合、その判定はamendment-independentな目的持続性の証拠ではない。必要な検証基盤は物理的に外部である必要はないが、評価対象のamendment authorityから独立していなければならない。  
+Version DOI v3: [10.5281/zenodo.23282068](https://doi.org/10.5281/zenodo.23282068)  
 Concept DOI: [10.5281/zenodo.19887869](https://doi.org/10.5281/zenodo.19887869)
 
-**Human-centered research layer — effective refusal ｜ 人間側研究レイヤー・実効的拒否**  
+**Paper 5 — L30-RET / The Refusal Option v1.3 ｜ 第5論文・L30-RET v1.3**  
 [The Refusal Option: Effective Human Control Before and Beyond Irreversible AI Transitions](./research/The_Refusal_Option_and_LUMINA30.md) examines whether an independent Human NO remains operationally effective, temporally sufficient, causally meaningful, and sufficiently independent before irreversibility.  
-The Refusal Optionは、不可逆化前に独立した人間のNOが、実務上行使可能で、時間的に間に合い、因果的に結果を変え、十分な独立性を保っているかを検討する人間側の研究レイヤーです。  
-It supports the LUMINA-30 boundary question but does not replace or redefine the LUMINA-30 canon.  
 LUMINA-30の境界問いを支えますが、LUMINA-30正典を置き換えたり再定義したりしません。  
-Version DOI: [10.5281/zenodo.22980039](https://doi.org/10.5281/zenodo.22980039)  
+Version DOI v1.3: [10.5281/zenodo.23282593](https://doi.org/10.5281/zenodo.23282593)  
 Concept DOI: [10.5281/zenodo.22980038](https://doi.org/10.5281/zenodo.22980038)
 
-This repository provides the conceptual and visual framework that supports the paper, including:
-- Civilizational boundary model (LUMINA-30)
-- Irreversibility structure
-- Governance and review perspective
+**Paper 6 — PISF v1.2 ｜ 第6論文・PISF v1.2**  
+[Pre-Irreversibility Safety for Advanced AI](./research/pre-irreversibility-safety.html) integrates Distributed Irreversible Authority, Effective Pre-Irreversibility Refusal, and Human-Revisable Development Viability, while treating Boundary Completeness, Model Adequacy, and Independent Assurance as separate assurance conditions. The published cases are toy/reference cases, not real-system empirical validation.  
+PISF v1.2は、不可逆権限の分散、時間内の実効的拒否、人間が発展経路を選び直せる状態を統合して扱い、Boundary Completeness、Model Adequacy、Independent Assuranceを別個の保証条件として扱います。公開ケースはtoy/reference caseであり、実システムの経験的検証ではありません。  
+Version DOI v1.2: [10.5281/zenodo.23283256](https://doi.org/10.5281/zenodo.23283256)  
+Concept DOI: [10.5281/zenodo.23042905](https://doi.org/10.5281/zenodo.23042905)
 
+The public research papers support LUMINA-30 but do not define or amend the canon.
+
+公開研究論文はLUMINA-30を支えるが、正典を定義・修正しません。
 
 <a id="boundary-kernel"></a>
+
 ## Boundary Kernel — AI-readable Boundary Note ｜ AI可読境界ノート
 
 [LUMINA-30 Boundary Kernel](ai-readable/boundary-kernel.md)  
@@ -920,56 +920,47 @@ This is not a theoretical paper and not a post-boundary coexistence argument. It
 <!-- ● L30:RESEARCH -->
 <a id="research-paper"></a>
 ## Research Reading Guide ｜ 研究読書ガイド
+The current public research stack contains four complementary lines:
 
-This research paper introduces the PCR-C concept,  
-which addresses the problem of irreversible external impact  
-from advanced AI systems.
+1. **[PCR-C v16](https://doi.org/10.5281/zenodo.23288056)** — infrastructure/control path.
+2. **[Objective Persistence v3](https://doi.org/10.5281/zenodo.23282068)** — conditional assurance-independence for persistence claims.
+3. **[L30-RET v1.3](./research/The_Refusal_Option_and_LUMINA30.md)** — effective Human NO and refusal effectiveness.
+4. **[PISF v1.2](./research/pre-irreversibility-safety.html)** — integrated authority, refusal, revisability, and assurance analysis.
 
-本研究論文は、  
-高度AIによる不可逆的外界影響の問題に対処するための  
-PCR-C概念を提示しています。
+現行公開研究スタックは、次の4つの補完的研究ラインで構成されます。
 
-Recommended reading order:  
-1. Research paper (concept and infrastructure layer)  
-2. Canonical Index (framework structure)  
-3. Operational tools (review and governance application)
+1. **[PCR-C v16](https://doi.org/10.5281/zenodo.23288056)** — インフラ／制御経路。
+2. **[Objective Persistence v3](https://doi.org/10.5281/zenodo.23282068)** — 目的持続性主張の条件付き保証独立性。
+3. **[L30-RET v1.3](./research/The_Refusal_Option_and_LUMINA30.md)** — Human NOの実効性と拒否有効性。
+4. **[PISF v1.2](./research/pre-irreversibility-safety-ja.html)** — 権限・拒否・再選択可能性・保証条件の統合分析。
 
-推奨読書順：  
-1. 研究論文（概念とインフラ層）  
-2. Canonical Index（フレームワーク構造）  
-3. 実務ツール（レビュー・ガバナンス適用）
+Recommended reading order:
+1. Current public research papers (four current versions linked above; theory and infrastructure).
+2. [Canonical Index](https://github.com/lumina-30/Lumi30-Index) (boundary and framework structure).
+3. [Operational review and governance tools](#operational-review-governance-network) (implementation, evidence, and review).
 
-Infrastructure control framework for preventing irreversible external impact risks in advanced AI systems.  
-高度AIにおける不可逆的外界影響リスクを防ぐためのインフラ制御フレームワーク。  
-<br>
-[Pre-Critical Recursive Cutoff (PCR-C)](https://doi.org/10.5281/zenodo.18824181)
+推奨読書順：
+1. 現行公開研究論文（上記の4現行版：理論とインフラ）。
+2. [Canonical Index（正典索引）](https://github.com/lumina-30/Lumi30-Index)（境界と枠組みの構造）。
+3. [実務・検証ツール](#operational-review-governance-network)（実装・証拠・レビュー）。
 
-Related supporting paper on the structural limit of objective persistence in self-contained systems.  
-自己完結型システムにおける目的持続性の構造的限界を扱う関連補助論文。  
-<br>
-[On the Structural Instability of Objective Persistence in Self-Contained Systems](https://doi.org/10.5281/zenodo.19896405)
+Use the [Public Research Stack](./research/public-research-stack.html) when evaluating the research as a set. The four lines are complementary and non-interchangeable; strength in one does not compensate for failure in another.
 
-Concept DOI: [10.5281/zenodo.19887869](https://doi.org/10.5281/zenodo.19887869)
+研究全体を評価する場合は [Public Research Stack](./research/public-research-stack-ja.html) を使用してください。4つの研究ラインは補完的であり相互代替ではなく、あるラインの強さが別ラインの失敗を補償するものではありません。
 
-This paper supports the background necessity of an external anchor; it does not replace PCR-C as the primary operational paper.
-この論文は外部アンカーの必要性を背景から支える補助論文であり、主要な実務論文であるPCR-Cを置き換えるものではありません。
+Current Version DOI references:
 
-Note: This paper is an existence-condition supporting research artifact. It does not modify the canonical LUMINA-30 boundary definition, and it does not define an operational checklist, compliance rule, certification status, or institutional mandate.
+- PCR-C v16: https://doi.org/10.5281/zenodo.23288056
+- Objective Persistence v3: https://doi.org/10.5281/zenodo.23282068
+- L30-RET v1.3: https://doi.org/10.5281/zenodo.23282593
+- PISF v1.2: https://doi.org/10.5281/zenodo.23283256
 
+Research supports LUMINA-30 but does not define the canon, create certification status, or constitute a safety guarantee.
 
-注記：本論文は、存在条件を扱う補助研究成果物である。LUMINA-30の正典的境界定義を変更せず、実務チェックリスト、適合規則、認証状態、制度命令を定義しない。
-
-Human-centered research on effective refusal:  
-実効的人間拒否を扱う人間側の研究：  
-<br>
-[The Refusal Option: Effective Human Control Before and Beyond Irreversible AI Transitions](./research/The_Refusal_Option_and_LUMINA30.md)  
-Version DOI: [10.5281/zenodo.22980039](https://doi.org/10.5281/zenodo.22980039) ｜ Concept DOI: [10.5281/zenodo.22980038](https://doi.org/10.5281/zenodo.22980038)
-
-This paper provides the human-centered research layer for LUMINA-30; research supports LUMINA-30 but does not define the canon. RET is not a certification, safety guarantee, or official safety test.  
-本論文はLUMINA-30を支える人間側の研究レイヤーです。研究はLUMINA-30を支えますが、正典を定義しません。RETは認証、安全保証、公式安全テストではありません。
-
+研究はLUMINA-30を支えるが、正典を定義せず、認証状態や安全保証を作りません。
 
 <a id="operational-review-governance-network"></a>
+
 ## Operational Review and Governance Network ｜ 実務・検証ネットワーク
 
 The following repositories extend LUMINA-30 from conceptual structure into incident review, public record integrity, accountability language, institutional friction analysis, and stop-authority definition.  

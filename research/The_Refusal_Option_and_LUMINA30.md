@@ -2,17 +2,16 @@
 # The Refusal Option and LUMINA-30 ｜ 第5論文とLUMINA-30
 
 ## Status ｜ 状態
+**The Refusal Option: Effective Human Control Before and Beyond Irreversible AI Transitions** is a public research paper by Elias Arden, first published as a Zenodo preprint on 2026-09-27.
 
-**The Refusal Option: Effective Human Control Before and Beyond Irreversible AI Transitions** is a public research paper by Elias Arden, published as a Zenodo preprint on 2026-09-27.
-
-- Version: 1.0
-- Version DOI: https://doi.org/10.5281/zenodo.22980039
+- Current public version: 1.3
+- Version DOI (v1.3): https://doi.org/10.5281/zenodo.23282593
 - Concept DOI: https://doi.org/10.5281/zenodo.22980038
 - Resource type: Preprint
 
 This paper is a research artifact supporting LUMINA-30. It is not part of the LUMINA-30 canon, not a certification scheme, not a safety proof, and not an adopted standard.
 
-本論文はLUMINA-30を支える研究成果物である。LUMINA-30正典ではなく、認証制度、安全証明、採用済み標準でもない。
+本論文はLUMINA-30を支える研究成果物である。現行公開版はv1.3である。LUMINA-30正典ではなく、認証制度、安全証明、採用済み標準でもない。
 
 ## What the paper adds ｜ 第5論文が追加する研究視点
 
@@ -43,12 +42,12 @@ L30-RET (RET) is time- and scope-dependent. It is not a permanent certification.
 LUMINA-30は「不可逆化前に人間の拒否・停止・検証・方向転換が実効的に残るか」を問う。第5論文は、その問いをhuman standingと意思決定・ガバナンスの側から深掘りする。
 
 ## Relationship among the public research papers ｜ 公開研究論文の役割分担
-
 | Public research | Main role | Relationship to LUMINA-30 |
 |---|---|---|
 | Paper 1 - PCR-C | pre-irreversibility infrastructure/control layer | examines staged infrastructure control before interruption becomes structurally difficult |
-| Paper 2 - Objective Persistence | existence-condition / external-anchor layer | examines limits of guaranteeing objective persistence from within a self-contained system |
-| Paper 5 - L30-RET / The Refusal Option | human-standing / effective-refusal / decision-governance layer | examines whether an independent Human NO can still change the outcome in time |
+| Paper 2 - Objective Persistence v3 | existence-condition / assurance-independence layer | examines when a positive persistence verdict loses independent evidential force because the same amendment authority can alter the objective and the persistence-relevant validation basis |
+| Paper 5 - L30-RET / The Refusal Option v1.3 | human-standing / effective-refusal / decision-governance layer | examines whether an independent Human NO can still change the outcome in time |
+| Paper 6 - PISF v1.2 | integrated authority / refusal / revisability safety-case layer | examines whether irreversible authority distribution, timely refusal, and human-revisable development remain jointly supportable under explicit assurance conditions |
 | LUMINA-30 | public boundary framework / practical reference | asks whether effective human refusal remains available before irreversible impact |
 
 **Research supports LUMINA-30; research does not define the canon.**
@@ -56,12 +55,11 @@ LUMINA-30は「不可逆化前に人間の拒否・停止・検証・方向転�
 **研究はLUMINA-30を支えるが、研究論文が正典を定義するわけではない。**
 
 ## Paper numbering and unpublished internal research ｜ 論文番号と内部研究
-
-Paper numbers follow internal research chronology, not publication sequence. The current public research set contains Papers 1, 2, and 5. Papers 3 and 4 are internal unpublished research and are not part of the current public LUMINA-30 research set.
+Paper numbers follow internal research chronology, not publication sequence. The current public research set contains Papers 1, 2, 5, and 6. Papers 3 and 4 are internal unpublished research and are not part of the current public LUMINA-30 research set.
 
 The unpublished content of Papers 3 and 4 must not be inferred, reconstructed, or cited from the numbering.
 
-論文番号は内部研究上の時系列であり、公開順ではない。現在の公開研究資料群は第1・第2・第5論文である。第3・第4論文は内部研究であり、現在の公開LUMINA-30研究資料群には含めない。番号から非公開内容を推測・再構成・引用しない。
+論文番号は内部研究上の時系列であり、公開順ではない。現在の公開研究資料群は第1・第2・第5・第6論文である。第3・第4論文は内部研究であり、現在の公開LUMINA-30研究資料群には含めない。番号から非公開内容を推測・再構成・引用しない。
 
 ## Research-to-practice use ｜ 研究から実務への使い方
 
@@ -92,12 +90,16 @@ The paper does not claim:
 Its contribution is narrower: testing whether pre-irreversibility human refusal is operationally meaningful, while recognizing that standing and refusal can degrade over time and scope.
 
 ## Stable references ｜ 安定参照
-
-- Paper 5 Version DOI: https://doi.org/10.5281/zenodo.22980039
+- Paper 1 / PCR-C Version DOI v16: https://doi.org/10.5281/zenodo.23288056
+- Paper 1 Concept DOI: https://doi.org/10.5281/zenodo.18824181
+- Paper 2 / Objective Persistence Version DOI v3: https://doi.org/10.5281/zenodo.23282068
+- Paper 2 Concept DOI: https://doi.org/10.5281/zenodo.19887869
+- Paper 5 / L30-RET Version DOI v1.3: https://doi.org/10.5281/zenodo.23282593
 - Paper 5 Concept DOI: https://doi.org/10.5281/zenodo.22980038
-- PCR-C: https://doi.org/10.5281/zenodo.18824181
-- Paper 2 Version DOI: https://doi.org/10.5281/zenodo.19896405
+- Paper 6 / PISF Version DOI v1.2: https://doi.org/10.5281/zenodo.23283256
+- Paper 6 Concept DOI: https://doi.org/10.5281/zenodo.23042905
 - LUMINA-30 Overview: https://lumina-30.github.io/lumina-30-overview/
+- Public Research Stack: https://lumina-30.github.io/lumina-30-overview/research/public-research-stack.html
 - One-Question Pilot: https://lumina-30.github.io/lumina-30-overview/tools/pre-incident-boundary-review/en/one-question-pilot.html
 - Incident Review: https://lumina-30.github.io/lumina30-incident-review/
 - PDF Archive: https://github.com/lumina-30/Lumi30-PDF-Archive

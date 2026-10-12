@@ -72,9 +72,9 @@ PCR-C provides the primary operational and evaluation structure for irreversibil
 
 PCR-C は、不可逆リスクに対する主要な運用・評価構造を提供します。これは、臨界前制御に関する主要な研究・実務参照であり続けます。
 
-The Objective Persistence paper explains why a self-contained system cannot non-circularly guarantee objective persistence from within itself alone. It supports the background need for external, non-optional anchoring.
+Objective Persistence Version 3 states a narrower conditional assurance-independence result: if an amendment authority can co-amend the objective and the persistence-relevant validation basis so that a positive verdict survives a masking change, that verdict is not amendment-independent evidence of persistence. Defensible assurance requires either a verified invariant excluding such masking amendments or a persistence-relevant validation basis outside the amendment authority being assessed; that basis need not be physically external.
 
-Objective Persistence 論文は、自己完結システムが自分自身の内部だけでは目的持続を非循環的に保証できない理由を説明します。これは、外部の非任意アンカーが必要となる背景を支えます。
+Objective Persistence Version 3は、より限定された条件付きの保証独立性の結果を示します。同一のamendment authorityが目的と目的持続性の検証基盤を共に変更し、masking change後も正判定を維持できる場合、その判定はamendment-independentな目的持続性の証拠ではありません。防御可能な保証には、masking amendmentを排除する検証済み不変条件、または評価対象のamendment authorityから独立した目的持続性関連の検証基盤が必要であり、その基盤は物理的に外部である必要はありません。
 
 The Boundary Kernel does not replace any of these documents. It protects their interpretation by preventing residual conditions, apparent compliance, internal assurances, or non-identical anchors from being used to weaken PCR-C or effective human refusal before irreversibility.
 

@@ -218,7 +218,7 @@ Before this check, read as needed:
 For research-facing use, optional public papers may also be consulted:
 
 - [Pre-Critical Recursive Cutoff (PCR-C)](https://doi.org/10.5281/zenodo.18824181)  
-- [Objective Persistence — existence-condition layer](https://doi.org/10.5281/zenodo.19896405)
+- [Objective Persistence — existence-condition layer](https://doi.org/10.5281/zenodo.23282068)
 
 Do not treat the optional papers as required for Level 1 use.
 
@@ -236,7 +236,7 @@ Do not treat the optional papers as required for Level 1 use.
 研究寄りの利用では、任意で公開済み論文も参照できます。
 
 - [Pre-Critical Recursive Cutoff (PCR-C)](https://doi.org/10.5281/zenodo.18824181)  
-- [Objective Persistence — existence-condition layer](https://doi.org/10.5281/zenodo.19896405)
+- [Objective Persistence — existence-condition layer](https://doi.org/10.5281/zenodo.23282068)
 
 任意論文は、Level 1利用の必須条件ではありません。
 

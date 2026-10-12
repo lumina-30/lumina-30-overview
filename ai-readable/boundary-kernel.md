@@ -200,7 +200,7 @@ This document is consistent with the objective-persistence constraint developed 
 
 **On the Structural Instability of Objective Persistence in Self-Contained Systems**
 
-That paper establishes a structural limitation: a self-contained system cannot non-circularly guarantee objective persistence from within itself alone.
+Version 3 states a narrower conditional limitation: if an amendment authority can jointly alter the objective, the semantics of objective identity, and the persistence-relevant validation basis in a way that preserves a positive verdict while violating persistence relative to fixed reference semantics, that verdict is not amendment-independent evidence of persistence. Defensible assurance requires either a verified invariant that excludes such masking amendments or at least one persistence-relevant validation basis outside the amendment authority being assessed; that basis need not be physically external.
 
 This document does not convert that limitation into a permission structure.
 
