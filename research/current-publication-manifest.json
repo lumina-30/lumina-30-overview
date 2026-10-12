@@ -1,0 +1,68 @@
+{
+  "schema": "L30_CURRENT_PUBLIC_RESEARCH_MANIFEST_V1",
+  "date": "2026-10-12",
+  "authority": "Zenodo current Version DOI is authoritative; GitHub files are retrieval mirrors.",
+  "retrieval_order": [
+    "GitHub PDF mirror",
+    "same-version AI-readable full text",
+    "Zenodo Version DOI"
+  ],
+  "papers": [
+    {
+      "id": "pcrc",
+      "title": "Pre-Critical Recursive Cutoff: A Staged Infrastructure Control Framework for Irreversibility Risk",
+      "version": "v16",
+      "version_doi": "10.5281/zenodo.23288056",
+      "concept_doi": "10.5281/zenodo.18824181",
+      "pdf": "Pre_Critical_Recursive_Cutoff_A_Staged_Infrastructure_Control_Framework_for_Irreversibility_Risk_v16.pdf",
+      "text": "Pre_Critical_Recursive_Cutoff_A_Staged_Infrastructure_Control_Framework_for_Irreversibility_Risk_v16.txt",
+      "pdf_sha256": "3c7df7af0b3b2ffb59c513093fcdb89e3fc17a3be3d07dad764037acae6ccf07",
+      "text_sha256": "e876e90bd3de4e4d8d2391224b1c184a8fbcdb2f9cf0aad08cd2c7824036c9c5",
+      "pdf_url": "https://github.com/lumina-30/Lumi30-PDF-Archive/raw/main/Pre_Critical_Recursive_Cutoff_A_Staged_Infrastructure_Control_Framework_for_Irreversibility_Risk_v16.pdf",
+      "text_url": "https://raw.githubusercontent.com/lumina-30/Lumi30-FullText/main/research/Pre_Critical_Recursive_Cutoff_A_Staged_Infrastructure_Control_Framework_for_Irreversibility_Risk_v16.txt",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.23288056"
+    },
+    {
+      "id": "objective-persistence",
+      "title": "On the Structural Instability of Objective Persistence in Self-Contained Systems",
+      "version": "v3",
+      "version_doi": "10.5281/zenodo.23282068",
+      "concept_doi": "10.5281/zenodo.19887869",
+      "pdf": "On_the_Structural_Instability_of_Objective_Persistence_in_Self_Contained_Systems_v3.pdf",
+      "text": "On_the_Structural_Instability_of_Objective_Persistence_in_Self_Contained_Systems_v3.txt",
+      "pdf_sha256": "15d6c5386b6fee929a45b16f167d8fe13b222be18252e8ddccede2f61aa972d6",
+      "text_sha256": "745325206c3df84634f64431f953cab1bc05e5f3c7a3a33c0054317aafa19802",
+      "pdf_url": "https://github.com/lumina-30/Lumi30-PDF-Archive/raw/main/On_the_Structural_Instability_of_Objective_Persistence_in_Self_Contained_Systems_v3.pdf",
+      "text_url": "https://raw.githubusercontent.com/lumina-30/Lumi30-FullText/main/research/On_the_Structural_Instability_of_Objective_Persistence_in_Self_Contained_Systems_v3.txt",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.23282068"
+    },
+    {
+      "id": "l30-ret",
+      "title": "The Refusal Option: Effective Human Control Before and Beyond Irreversible AI Transitions",
+      "version": "v1.3",
+      "version_doi": "10.5281/zenodo.23282593",
+      "concept_doi": "10.5281/zenodo.22980038",
+      "pdf": "The_Refusal_Option_Effective_Human_Control_Before_and_Beyond_Irreversible_AI_Transitions_v1.3.pdf",
+      "text": "The_Refusal_Option_Effective_Human_Control_Before_and_Beyond_Irreversible_AI_Transitions_v1.3.txt",
+      "pdf_sha256": "3fcfdfa2374b58b027c51223f910a0d384ac2d1b17fea893a8f2117d1ce919fb",
+      "text_sha256": "5ad3c56766a0c7ea6bc04b3b68f4c3edb7a416ae25968f7db26e7520fed45380",
+      "pdf_url": "https://github.com/lumina-30/Lumi30-PDF-Archive/raw/main/The_Refusal_Option_Effective_Human_Control_Before_and_Beyond_Irreversible_AI_Transitions_v1.3.pdf",
+      "text_url": "https://raw.githubusercontent.com/lumina-30/Lumi30-FullText/main/research/The_Refusal_Option_Effective_Human_Control_Before_and_Beyond_Irreversible_AI_Transitions_v1.3.txt",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.23282593"
+    },
+    {
+      "id": "pisf",
+      "title": "Pre-Irreversibility Safety for Advanced AI: Distributed Irreversible Authority, Timely Refusal, and Human-Revisable Development",
+      "version": "v1.2",
+      "version_doi": "10.5281/zenodo.23283256",
+      "concept_doi": "10.5281/zenodo.23042905",
+      "pdf": "Pre-Irreversibility_Safety_for_Advanced_AI_v1.2.pdf",
+      "text": "Pre-Irreversibility_Safety_for_Advanced_AI_v1.2.txt",
+      "pdf_sha256": "d170863008062f15368d1aed8e450e3c9ab2e6f0a96e2e8094082773c6af800d",
+      "text_sha256": "4faa268c2fabbda8f9687675924e5acb0113dc7040c2c74412d7aaa0e823d82a",
+      "pdf_url": "https://github.com/lumina-30/Lumi30-PDF-Archive/raw/main/Pre-Irreversibility_Safety_for_Advanced_AI_v1.2.pdf",
+      "text_url": "https://raw.githubusercontent.com/lumina-30/Lumi30-FullText/main/research/Pre-Irreversibility_Safety_for_Advanced_AI_v1.2.txt",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.23283256"
+    }
+  ]
+}
