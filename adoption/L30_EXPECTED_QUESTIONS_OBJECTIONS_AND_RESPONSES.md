@@ -23,13 +23,13 @@ LUMINA-30 is not a demand to stop progress; it is a boundary framework for prese
 
 ### 1. “Is this just saying no to everything?”
 
-No. LUMINA-30 does not reject AI, technology, or progress. It rejects pathways in which the ability to refuse, stop, review, correct, or reverse is lost before irreversible consequences occur.
+No. LUMINA-30 does not reject AI, technology, or progress. It identifies a boundary failure when the practical ability to refuse, stop, review, correct, or reverse is lost before irreversible consequences occur.
 
 If a trajectory remains stoppable, reviewable, correctable, and reversible before the relevant boundary, LUMINA-30 does not treat progress itself as invalid.
 
 ### 2. “Does it block innovation?”
 
-It blocks refusal-collapse, not innovation. A resilient innovation process should be able to preserve review, refusal, correction, and evidence before irreversible escalation.
+Its concern is refusal-collapse, not innovation. When review, refusal, correction, and evidence remain practically available before irreversible escalation, innovation itself is not the boundary problem.
 
 ### 3. “If there is no penalty, why does it matter?”
 
@@ -117,13 +117,13 @@ LUMINA-30は、進歩を止める要求ではありません。不可逆な結�
 
 ### 1. 「結局なんでもダメと言っているだけでは？」
 
-違います。LUMINA-30は、AI、技術、進歩を否定していません。否定しているのは、不可逆な結果が生じる前に、拒否・停止・検証・修正・撤回する能力が失われる進め方です。
+違います。LUMINA-30は、AI、技術、進歩を否定していません。不可逆な結果が生じる前に、拒否・停止・検証・修正・撤回する実効的能力が失われる状態を、境界喪失として可視化します。
 
 対象となる境界の前に、進行が停止可能・検証可能・修正可能・可逆的であるなら、LUMINA-30は進歩そのものを無効とは扱いません。
 
 ### 2. 「イノベーションを止めるのでは？」
 
-止めるのはイノベーションではなく、拒否不能化です。強いイノベーション過程は、不可逆化の前にレビュー、拒否、修正、証拠保存を保てるはずです。
+焦点はイノベーションの停止ではなく、拒否不能化です。不可逆化の前にレビュー、拒否、修正、証拠保存が実効的に残っているなら、イノベーションそのものを境界問題として扱いません。
 
 ### 3. 「罰則がないなら意味がないのでは？」
 

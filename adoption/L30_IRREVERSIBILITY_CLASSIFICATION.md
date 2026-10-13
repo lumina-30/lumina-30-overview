@@ -46,7 +46,7 @@ If reversibility is unknown, LUMINA-30 should not treat the boundary as cleared.
 | Reputation and social trust damage | Irreversible public accusation, scoring, exclusion, reputational collapse, or social labeling. | Can affected people challenge or stop the action before the damage becomes practically unrecoverable? |
 | Institutional lock-in | Procurement, contract, policy, staffing, or governance decisions that make reversal politically or operationally unrealistic. | Is refusal still meaningful before commitments harden? |
 | Public or democratic displacement | Decisions that remove meaningful public objection, affected-stakeholder input, or representative review. | Is there an actual refusal path for the affected humans or their representatives? |
-| Loss of human refusal authority | Delegation, automation, secrecy, timing, pressure, dependency, or system design that makes human refusal nominal only. | Does the action itself eliminate the condition LUMINA-30 requires? |
+| Loss of human refusal authority | Delegation, automation, secrecy, timing, pressure, dependency, or system design that makes human refusal nominal only. | Does the action itself eliminate the boundary condition LUMINA-30 evaluates: effective human refusal before irreversibility? |
 
 ### Minimal classification record
 
@@ -130,7 +130,7 @@ LUMINA-30は、すべてのリスクを不可逆と扱うものではありま�
 | 信用・社会的信頼の破壊 | 取り返しにくい公開告発、スコアリング、排除、評判崩壊、社会的ラベリング。 | 被影響者が、被害が実務上回復不能になる前に異議申立てや停止を行えるか。 |
 | 制度的ロックイン | 調達、契約、方針、人員配置、ガバナンス決定が政治的・運用上戻せなくなること。 | コミットメントが固まる前に、拒否がまだ意味を持つか。 |
 | 公共的・民主的拒否の排除 | 公共的異議、被影響者の入力、代表的レビューが意味を失う決定。 | 被影響者またはその代表に、実際の拒否経路があるか。 |
-| 人間の拒否権喪失 | 委任、自動化、秘匿、タイミング、圧力、依存、設計によって拒否が名目化すること。 | その行為自体が、LUMINA-30が要求する条件を消していないか。 |
+| 人間の拒否権喪失 | 委任、自動化、秘匿、タイミング、圧力、依存、設計によって拒否が名目化すること。 | その行為自体が、LUMINA-30が評価対象とする境界条件――不可逆化前の実効的人間拒否――を消していないか。 |
 
 ### 最小分類記録
 
