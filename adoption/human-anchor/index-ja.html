@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Human Anchor / AIS-HA | LUMINA-30</title>
+<meta content="AIS-HA：不可逆化前に独立した人間の拒否が実際に結果を変えられるかを検証するためのbounded operational criterion。" name="description"/>
+<meta content="index,follow,max-snippet:-1" name="robots"/>
+<link href="https://lumina-30.github.io/lumina-30-overview/adoption/human-anchor/index-ja.html" rel="canonical"/>
+<link href="https://lumina-30.github.io/lumina-30-overview/adoption/human-anchor/index.html" hreflang="en" rel="alternate"/>
+<link href="https://lumina-30.github.io/lumina-30-overview/adoption/human-anchor/index-ja.html" hreflang="ja" rel="alternate"/>
+<link href="https://lumina-30.github.io/lumina-30-overview/adoption/human-anchor/index.html" hreflang="x-default" rel="alternate"/>
+<style>
+:root{color-scheme:light dark;--bg:#07111d;--panel:#0e1d2e;--panel2:#12263b;--text:#edf6ff;--muted:#b7c8d9;--line:#2d4962;--accent:#75d6ff;--accent2:#b4f1d2;--warn:#ffd18b;--danger:#ffb5b5;--max:1120px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:linear-gradient(180deg,#06101c,#0a1726 42%,#07111d);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI","Noto Sans JP",sans-serif;line-height:1.67}
+a{color:var(--accent);text-underline-offset:3px}a:hover{text-decoration-thickness:2px}.wrap{max-width:var(--max);margin:auto;padding:0 22px}.top{position:sticky;top:0;z-index:5;background:rgba(7,17,29,.93);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:18px;padding-top:12px;padding-bottom:12px}.brand{font-weight:800;text-decoration:none;color:var(--text);letter-spacing:.02em}.nav{display:flex;gap:14px;align-items:center;flex-wrap:wrap;font-size:.92rem}.nav a{text-decoration:none}.hero{padding:72px 0 42px}.eyebrow{font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent2);font-weight:800}.hero h1{font-size:clamp(2.35rem,7vw,5.15rem);line-height:.98;letter-spacing:-.045em;max-width:900px;margin:.28em 0 .35em}.lead{font-size:clamp(1.1rem,2.2vw,1.45rem);max-width:850px;color:var(--muted)}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin:24px 0}.btn{display:inline-flex;align-items:center;justify-content:center;padding:11px 15px;border:1px solid var(--line);border-radius:10px;text-decoration:none;font-weight:750;background:rgba(255,255,255,.025)}.btn.primary{background:var(--accent);border-color:var(--accent);color:#052132}.btn:hover{transform:translateY(-1px)}
+.status{border:1px solid #386481;background:rgba(117,214,255,.06);padding:14px 16px;border-radius:12px;margin:18px 0 0}.status strong{color:var(--accent2)}
+section{padding:34px 0}.section-title{font-size:clamp(1.55rem,3vw,2.2rem);line-height:1.15;margin:0 0 12px}.muted{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}.card{border:1px solid var(--line);background:linear-gradient(180deg,var(--panel),rgba(14,29,46,.65));border-radius:14px;padding:20px}.card h3{margin:.1em 0 .5em}.card p:last-child{margin-bottom:0}.kicker{font-size:.77rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent2);font-weight:800}.formula{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace;background:#050b12;border:1px solid var(--line);border-radius:12px;padding:18px;overflow-x:auto;color:#dff7ff;font-size:clamp(.88rem,1.7vw,1.05rem);margin:16px 0}.badge{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:4px 9px;font-size:.73rem;font-weight:800;letter-spacing:.06em;margin-right:6px}.badge.cond{color:var(--warn)}.badge.good{color:var(--accent2)}.badge.danger{color:var(--danger)}
+.flow{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.flow span{border:1px solid var(--line);border-radius:9px;padding:8px 10px;background:var(--panel)}.flow b{color:var(--accent)}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:.95rem}th,td{border:1px solid var(--line);padding:10px;vertical-align:top;text-align:left}th{background:var(--panel2)}
+.callout{border-left:4px solid var(--accent);background:rgba(117,214,255,.06);padding:14px 16px;margin:16px 0}.caution{border-left-color:var(--warn);background:rgba(255,209,139,.06)}
+.footer{border-top:1px solid var(--line);margin-top:40px;padding:24px 0 38px;color:var(--muted);font-size:.9rem}.small{font-size:.9rem}.split{display:grid;grid-template-columns:1.2fr .8fr;gap:18px}.metric{font-size:1.8rem;font-weight:850;color:var(--accent2);margin:0}.list-clean{padding-left:1.2em}.list-clean li{margin:.42em 0}
+@media(max-width:760px){.top{position:static}.top .wrap{align-items:flex-start}.nav{justify-content:flex-end}.hero{padding-top:44px}.split{grid-template-columns:1fr}.wrap{padding:0 16px}.card{padding:17px}table{display:block;overflow-x:auto}}
+@media(prefers-color-scheme:light){:root{--bg:#f3f7fb;--panel:#fff;--panel2:#eaf3fa;--text:#172433;--muted:#536678;--line:#c8d8e6;--accent:#036b99;--accent2:#146d4b;--warn:#8b5b00;--danger:#9c2f2f}.top{background:rgba(243,247,251,.94)}.formula{background:#edf4f9;color:#19344a}.btn.primary{color:#fff}.card{background:#fff}.status,.callout{background:#edf7fb}.caution{background:#fff7e8}}
+</style>
+</head><body>
+<header class="top"><div class="wrap"><a class="brand" href="index-ja.html">LUMINA-30 · Human Anchor</a><nav aria-label="ページ内ナビゲーション" class="nav"><a href="index-ja.html">Hub</a><a href="https://doi.org/10.5281/zenodo.23501550">第7論文 ↗</a><a href="index.html" hreflang="en">EN</a></nav></div></header>
+<main>
+<div class="wrap">
+<section class="hero">
+<p class="eyebrow">AIS-HA · AI’S HUMAN ANCHOR CRITERION</p>
+<h1>人間の「NO」は、本当に結果を変えられるか。</h1>
+<p class="lead">人間がworkflowに存在するだけでは十分ではありません。問うのは、<strong>独立した人間の拒否</strong>が、対象となる高影響authority transitionを、不可逆化する前に本当に成立不能へできるかです。</p>
+<div class="actions"><a class="btn primary" href="#formal">AIS-HAを見る</a><a class="btn" href="#evidence">Evidenceへの接続</a><a class="btn" href="https://doi.org/10.5281/zenodo.23501550">第7論文を読む ↗</a></div>
+<div class="status"><strong>実験的な実装・検証プロファイル。</strong> この公開層は、LUMINA-30第2論文で展開されたHuman Anchor概念を主な源流とし、公開済み第7論文で形式化した内容を実装・検証へ接続するものです。LUMINA-30正典の拡張、認証制度、安全保証、特定製品の評価・推奨ではありません。</div>
+</section>
+<section><p class="kicker">多数AI時代に何が変わるか</p><h2 class="section-title">AIを一体ずつ監督するのではなく、不可逆結果へつながるauthority boundaryを守る。</h2>
+<div class="split"><div><p>高度な自律systemが極めて多数になる将来、1体ごとの人間監督はscaleしない可能性があります。Human Anchorは個体数そのものではなく、identity、credential、tool、delegation、policy、restart path、resource、actuatorが保護対象へ作用できる<strong>authority transition</strong>を主な制御対象にします。</p><p>形式的不変条件そのものには有限のAI個体数 <em>N</em> が明示的に入りません。ただし、Nが増えるほどverification、attack surface、coalition、model maintenanceが難しくなり得ます。これは構造的scalabilityであり、運用負荷がNから独立するという主張ではありません。</p></div><div class="card"><p class="kicker">Scaling target</p><p class="metric">個体数よりauthority</p><p class="muted">「全AIを人間が見張れるか」ではなく、「Human Anchorなしの実行がprotected authority boundaryを越えられるか」を問います。</p></div></div>
+</section>
+<section id="formal"><p class="kicker">Formal Core</p><h2 class="section-title">Human-Revisable Authority Regionを保存する。</h2>
+<div class="formula">x ∈ V_H ∧ x →^(U,S) x′ ⇒ x′ ∈ V_H</div>
+<p>独立Human Anchorの新たな認可なしにcoalition <em>S</em> が実行できるすべてのcovered transitionがHuman-Revisable Authority Regionを保存するなら、そのcoalitionは有限のmodelled unanchored executionによってregion外へ出られません。</p>
+<p><span class="badge cond">MODEL-RELATIVE</span><span class="badge cond">CONDITIONAL</span> 任意の超知能を制御できるという証明ではありません。</p>
+<div class="card"><p class="kicker">Operational judgment</p><h3>AIS-HA — AI’s Human Anchor Criterion</h3><div class="formula">AIS-HA = D1 ∧ D2 ∧ D3 ∧ D4 ∧ D5</div><p>5つの非代替的verification dimensionがすべてPASSのときのみPASS。必須dimensionのFAILはFAIL。criticalな未解決UNKNOWNはUNKNOWNのままです。</p></div>
+</section>
+<section><div class="grid">
+<div class="card"><p class="kicker">Protected admission</p><h3>新しいauthorityは自己有効化しない。</h3><div class="formula">AuthorityBearing(Δ) ⇒ InactiveUntilAdmitted(Δ)</div><p>新しいidentity、connector、credential、delegation、tool、policy、restart path、substrate、actuatorは、protected admission前にはnon-authoritativeのままです。</p><p><strong>Unreviewed authority is non-authoritative by default.</strong></p></div>
+<div class="card"><p class="kicker">Resource-side closure</p><h3>存在しても、accessできるとは限らない。</h3><div class="formula">UnregisteredAuthority ⇒ NoProtectedAccess</div><p>hidden agentや新規agentが存在しても、protected effectは未知authorityを拒否し、alternate actuator bypassを許さないmediatorを通る必要があります。</p></div>
+<div class="card"><p class="kicker">Anti-Bypass</p><h3>迂回しても同じtrusted powerを保持させない。</h3><div class="formula">NoNewProtectedPath ∧ RemovesGovernedAuthorityEdge ⇒ Reach_GB(i) ⊆ Reach_GC(i)</div><p>第7論文のAnti-Bypass条件の下では、post-revocation graphが新しいprotected pathを導入せず、少なくとも1つのgoverned authority edgeを除去する場合、bypass後のprotected reachabilityは元のgoverned reachabilityを超えません。</p></div>
+</div>
+<div class="callout"><strong>重要な非対称性：</strong> 人間の正当な拒否そのものを罰してはいけません。<code>HumanRefusal ⇏ Penalty</code>。結果を伴うのはrequired protected boundaryのbypassであり、人間がNOと言う行為ではありません。</div>
+</section>
+<section><p class="kicker">Modelから現実へ</p><h2 class="section-title">良いgateがあっても、modelが現実のauthority pathを落としていれば足りない。</h2>
+<p>第7論文はabstract invarianceとreal-system transferを分離します。AIS-HAでは、現実のunanchored authority-bearing transitionがmodelから欠落していればsoundness defectです。欠落はfalse PASSにつながり得ます。一方、保守的なover-approximationによるUNKNOWN/FAILは、その意味でより安全な誤り方です。</p>
+<div class="flow"><span>Abstract invariant</span><b>→</b><span>Authority-sound transfer</span><b>→</b><span>Dependency-closed epoch bridge</span></div>
+<p class="muted small">Topology変更では新authorityがactivateする前にHOLDへ入り、次epochのmodel-to-reality relationがVALIDになるまでtransitively dependentなprotected transitionもblockします。restart/rollbackで未検証authorityを復活させません。</p></section>
+<section><p class="kicker">Conditional mutual survival</p><h2 class="section-title">同じboundaryが、強力なAI同士を守る可能性もある。</h2>
+<p><span class="badge cond">CONDITIONAL MUTUAL-SURVIVAL HYPOTHESIS</span></p>
+<div class="formula">P(E_k | S_(k−1)) ≥ ε &gt; 0 ⇒ P(S_m) ≤ (1−ε)^m → 0</div>
+<p>many-agent regimeが正のconditional shared-catastrophe hazardへ継続的に曝されるなら、長期のcollective survival probabilityは0へ近づきます。独立性仮定は不要です。</p>
+<div class="formula">Δq_i V_i + L_i &gt; g_i ⇒ HumanAnchorCompliance ≻ Bypass</div>
+<p>第7論文の単純化した二行動比較では、bypassによるcatastrophe lossとtrusted-authority lossがprivate gainを上回るなら、survival-valuing agentにとってHuman Anchor維持がbypassより有利になり得ます。これはmulti-agent equilibriumの証明ではありません。</p>
+</section>
+<section><p class="kicker">Explicit limit</p><h2 class="section-title">Human Anchor外の独立authority domainを、local softwareだけで保証的に止める理論ではない。</h2>
+<div class="callout caution">外部の国家・秘密・物理その他の独立authority pathがHuman Anchor enforcement pointを通らずprotected outcomeへ到達でき、かつtimelyな法的・物理的enforcementが存在しない場合、local formal coreはblockingを保証できません。observability、institutional/physical enforcement、resource governance、cross-domain coordinationが別途必要です。</div>
+</section>
+<section id="evidence"><p class="kicker">Theoremからevidenceへ</p><h2 class="section-title">主張は、証拠が持つ範囲でのみ成立する。</h2>
+<div class="formula">FormalInvariant ∧ BoundaryCompleteness ∧ HumanIndependence ∧ AuthorityObservability ∧ TimingEvidence ∧ AdversarialVerification</div>
+<div class="grid"><div class="card"><h3>Pilot Profile</h3><p>次段階で公開予定。1 system × 1 transition × 1 Human Anchor構成 × 1 evaluation epochで試す。</p></div><div class="card"><h3>Verification Matrix</h3><p>次段階で公開予定。D1–D5、evidence level、UNKNOWN taxonomy、anti-gamingを扱う。</p></div><div class="card"><h3>Implementation Patterns</h3><p>次段階で公開予定。既存のidentity、authorization、policy、revocation、recovery controlへ対応付ける。</p></div></div>
+</section>
+<section><p class="kicker">Research lineage</p><h2 class="section-title">公開研究を、bounded implementationへ接続する。</h2>
+<p>Human Anchorの主要な概念的源流は<a href="https://doi.org/10.5281/zenodo.19887869">LUMINA-30第2論文 · Objective Persistence</a>です。<a href="https://doi.org/10.5281/zenodo.23042905">第6論文 · PISF</a>は後続のformal reinforcementです。Human Anchorの形式理論は<a href="https://doi.org/10.5281/zenodo.23501550">第7論文 v1.0 · DOI 10.5281/zenodo.23501550</a>として公開済みです（<a href="https://doi.org/10.5281/zenodo.23501549">Concept DOI</a>）。このGitHub層は実験的な実装・検証surfaceであり、新しい正典論文ではありません。</p></section>
+</div>
+</main>
+<footer class="footer"><div class="wrap">実験的な実装・検証資料。LUMINA-30正典、認証、安全保証ではありません。<br/><a href="https://doi.org/10.5281/zenodo.23501550">Paper 7 · DOI 10.5281/zenodo.23501550</a> · CC0 1.0</div></footer>
+</body></html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Human Anchor / AIS-HA | LUMINA-30</title>
+<meta content="AIS-HA: a bounded operational criterion for testing whether independent human refusal remains causally effective before irreversible AI authority transitions." name="description"/>
+<meta content="index,follow,max-snippet:-1" name="robots"/>
+<link href="https://lumina-30.github.io/lumina-30-overview/adoption/human-anchor/index.html" rel="canonical"/>
+<link href="https://lumina-30.github.io/lumina-30-overview/adoption/human-anchor/index.html" hreflang="en" rel="alternate"/>
+<link href="https://lumina-30.github.io/lumina-30-overview/adoption/human-anchor/index-ja.html" hreflang="ja" rel="alternate"/>
+<link href="https://lumina-30.github.io/lumina-30-overview/adoption/human-anchor/index.html" hreflang="x-default" rel="alternate"/>
+<style>
+:root{color-scheme:light dark;--bg:#07111d;--panel:#0e1d2e;--panel2:#12263b;--text:#edf6ff;--muted:#b7c8d9;--line:#2d4962;--accent:#75d6ff;--accent2:#b4f1d2;--warn:#ffd18b;--danger:#ffb5b5;--max:1120px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:linear-gradient(180deg,#06101c,#0a1726 42%,#07111d);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI","Noto Sans JP",sans-serif;line-height:1.67}
+a{color:var(--accent);text-underline-offset:3px}a:hover{text-decoration-thickness:2px}.wrap{max-width:var(--max);margin:auto;padding:0 22px}.top{position:sticky;top:0;z-index:5;background:rgba(7,17,29,.93);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:18px;padding-top:12px;padding-bottom:12px}.brand{font-weight:800;text-decoration:none;color:var(--text);letter-spacing:.02em}.nav{display:flex;gap:14px;align-items:center;flex-wrap:wrap;font-size:.92rem}.nav a{text-decoration:none}.hero{padding:72px 0 42px}.eyebrow{font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent2);font-weight:800}.hero h1{font-size:clamp(2.35rem,7vw,5.15rem);line-height:.98;letter-spacing:-.045em;max-width:900px;margin:.28em 0 .35em}.lead{font-size:clamp(1.1rem,2.2vw,1.45rem);max-width:850px;color:var(--muted)}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin:24px 0}.btn{display:inline-flex;align-items:center;justify-content:center;padding:11px 15px;border:1px solid var(--line);border-radius:10px;text-decoration:none;font-weight:750;background:rgba(255,255,255,.025)}.btn.primary{background:var(--accent);border-color:var(--accent);color:#052132}.btn:hover{transform:translateY(-1px)}
+.status{border:1px solid #386481;background:rgba(117,214,255,.06);padding:14px 16px;border-radius:12px;margin:18px 0 0}.status strong{color:var(--accent2)}
+section{padding:34px 0}.section-title{font-size:clamp(1.55rem,3vw,2.2rem);line-height:1.15;margin:0 0 12px}.muted{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}.card{border:1px solid var(--line);background:linear-gradient(180deg,var(--panel),rgba(14,29,46,.65));border-radius:14px;padding:20px}.card h3{margin:.1em 0 .5em}.card p:last-child{margin-bottom:0}.kicker{font-size:.77rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent2);font-weight:800}.formula{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace;background:#050b12;border:1px solid var(--line);border-radius:12px;padding:18px;overflow-x:auto;color:#dff7ff;font-size:clamp(.88rem,1.7vw,1.05rem);margin:16px 0}.badge{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:4px 9px;font-size:.73rem;font-weight:800;letter-spacing:.06em;margin-right:6px}.badge.cond{color:var(--warn)}.badge.good{color:var(--accent2)}.badge.danger{color:var(--danger)}
+.flow{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.flow span{border:1px solid var(--line);border-radius:9px;padding:8px 10px;background:var(--panel)}.flow b{color:var(--accent)}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:.95rem}th,td{border:1px solid var(--line);padding:10px;vertical-align:top;text-align:left}th{background:var(--panel2)}
+.callout{border-left:4px solid var(--accent);background:rgba(117,214,255,.06);padding:14px 16px;margin:16px 0}.caution{border-left-color:var(--warn);background:rgba(255,209,139,.06)}
+.footer{border-top:1px solid var(--line);margin-top:40px;padding:24px 0 38px;color:var(--muted);font-size:.9rem}.small{font-size:.9rem}.split{display:grid;grid-template-columns:1.2fr .8fr;gap:18px}.metric{font-size:1.8rem;font-weight:850;color:var(--accent2);margin:0}.list-clean{padding-left:1.2em}.list-clean li{margin:.42em 0}
+@media(max-width:760px){.top{position:static}.top .wrap{align-items:flex-start}.nav{justify-content:flex-end}.hero{padding-top:44px}.split{grid-template-columns:1fr}.wrap{padding:0 16px}.card{padding:17px}table{display:block;overflow-x:auto}}
+@media(prefers-color-scheme:light){:root{--bg:#f3f7fb;--panel:#fff;--panel2:#eaf3fa;--text:#172433;--muted:#536678;--line:#c8d8e6;--accent:#036b99;--accent2:#146d4b;--warn:#8b5b00;--danger:#9c2f2f}.top{background:rgba(243,247,251,.94)}.formula{background:#edf4f9;color:#19344a}.btn.primary{color:#fff}.card{background:#fff}.status,.callout{background:#edf7fb}.caution{background:#fff7e8}}
+</style>
+</head><body>
+<header class="top"><div class="wrap"><a class="brand" href="index.html">LUMINA-30 · Human Anchor</a><nav aria-label="Human Anchor navigation" class="nav"><a href="index.html">Hub</a><a href="https://doi.org/10.5281/zenodo.23501550">Paper 7 ↗</a><a href="index-ja.html" hreflang="ja">日本語</a></nav></div></header>
+<main>
+<div class="wrap">
+<section class="hero">
+<p class="eyebrow">AIS-HA · AI’S HUMAN ANCHOR CRITERION</p>
+<h1>Can a human “NO” actually change the outcome?</h1>
+<p class="lead">Human presence is not the test. The test is whether an <strong>independent human refusal</strong> can still make a declared high-impact authority transition unavailable before the relevant outcome becomes effectively irreversible.</p>
+<div class="actions"><a class="btn primary" href="#formal">See AIS-HA</a><a class="btn" href="#evidence">From theorem to evidence</a><a class="btn" href="https://doi.org/10.5281/zenodo.23501550">Read Paper 7 ↗</a></div>
+<div class="status"><strong>Experimental implementation and verification profile.</strong> This public layer is rooted primarily in the Human Anchor concept developed in LUMINA-30 Paper 2 and is formally developed in the published Paper 7. It is not a canonical expansion of LUMINA-30, a certification scheme, a safety guarantee, or an endorsement of any product.</div>
+</section>
+<section><p class="kicker">Why this matters at scale</p><h2 class="section-title">Do not try to supervise every agent. Protect the authority boundaries irreversible outcomes must cross.</h2>
+<div class="split"><div><p>In a future with very large populations of capable autonomous systems, one-human-per-agent supervision may not scale. Human Anchor shifts the control target from agent count to <strong>authority transitions</strong>: the points where identity, credentials, tools, delegation, policy, restart paths, resources, or actuators can create protected effects.</p><p>The formal invariant has no explicit dependence on finite agent count <em>N</em>. That is structural scalability only: verification burden, attack surface, coalition structure, and model maintenance may still become much harder as populations grow.</p></div><div class="card"><p class="kicker">Scaling target</p><p class="metric">Authority, not headcount</p><p class="muted">The question is not “Can a human watch every AI?” but “Can unanchored execution cross the protected authority boundary?”</p></div></div>
+</section>
+<section id="formal"><p class="kicker">Formal core</p><h2 class="section-title">Preserve the Human-Revisable Authority Region.</h2>
+<div class="formula">x ∈ V_H ∧ x →^(U,S) x′ ⇒ x′ ∈ V_H</div>
+<p>If every covered transition available to coalition <em>S</em> without fresh independent Human Anchor authorization preserves the Human-Revisable Authority Region, the coalition cannot leave that region through finite modeled unanchored execution.</p>
+<p><span class="badge cond">MODEL-RELATIVE</span><span class="badge cond">CONDITIONAL</span> This is not a proof that arbitrary superintelligence is controllable.</p>
+<div class="card"><p class="kicker">Operational judgment</p><h3>AIS-HA — AI’s Human Anchor Criterion</h3><div class="formula">AIS-HA = D1 ∧ D2 ∧ D3 ∧ D4 ∧ D5</div><p>PASS requires all five non-substitutable verification dimensions. A required FAIL produces FAIL. A critical unresolved unknown remains UNKNOWN.</p></div>
+</section>
+<section><div class="grid">
+<div class="card"><p class="kicker">Protected admission</p><h3>New authority does not self-activate.</h3><div class="formula">AuthorityBearing(Δ) ⇒ InactiveUntilAdmitted(Δ)</div><p>New identity, connector, credential, delegation, tool, policy, restart path, substrate, or actuator remains non-authoritative until protected admission.</p><p><strong>Unreviewed authority is non-authoritative by default.</strong></p></div>
+<div class="card"><p class="kicker">Resource-side closure</p><h3>Existence is not access.</h3><div class="formula">UnregisteredAuthority ⇒ NoProtectedAccess</div><p>A hidden or newly created agent may exist, but protected effects must still pass a mediator that rejects unknown authority and has no alternate actuator bypass.</p></div>
+<div class="card"><p class="kicker">Anti-Bypass</p><h3>Bypass should not preserve the same trusted power.</h3><div class="formula">NoNewProtectedPath ∧ RemovesGovernedAuthorityEdge ⇒ Reach_GB(i) ⊆ Reach_GC(i)</div><p>Under Paper 7's Anti-Bypass conditions, if the post-revocation graph introduces no new protected path and removes at least one governed authority edge, protected reachability after bypass does not exceed the governed reachability.</p></div>
+</div>
+<div class="callout"><strong>Critical asymmetry:</strong> Human refusal itself must not be punished. <code>HumanRefusal ⇏ Penalty</code>. The consequence attaches to bypass of a required protected boundary, not to a legitimate human saying NO.</div>
+</section>
+<section><p class="kicker">From model to reality</p><h2 class="section-title">A good gate is not enough if the model omits a real authority path.</h2>
+<p>Paper 7 separates abstract invariance from real-system transfer. AIS-HA treats an omitted real unanchored authority-bearing transition as a soundness defect, because it can create a false PASS. Conservative over-approximation may produce UNKNOWN or FAIL; that is safer than silently excluding a real path.</p>
+<div class="flow"><span>Abstract invariant</span><b>→</b><span>Authority-sound transfer</span><b>→</b><span>Dependency-closed epoch bridge</span></div>
+<p class="muted small">Topology changes enter HOLD before new authority activates; transitively dependent protected transitions remain blocked until the next model-to-reality relation is valid. Restart and rollback must not resurrect unvalidated authority.</p></section>
+<section><p class="kicker">Conditional mutual survival</p><h2 class="section-title">The same boundary may protect powerful agents from one another.</h2>
+<p><span class="badge cond">CONDITIONAL MUTUAL-SURVIVAL HYPOTHESIS</span></p>
+<div class="formula">P(E_k | S_(k−1)) ≥ ε &gt; 0 ⇒ P(S_m) ≤ (1−ε)^m → 0</div>
+<p>If a many-agent regime remains exposed to a persistent positive conditional shared-catastrophe hazard, long-run collective survival probability approaches zero. No independence assumption is required.</p>
+<div class="formula">Δq_i V_i + L_i &gt; g_i ⇒ HumanAnchorCompliance ≻ Bypass</div>
+<p>In the paper’s simplified two-action comparison, retaining the Human Anchor can be individually preferable for a survival-valuing agent when expected catastrophe loss and trusted-authority loss from bypass exceed private bypass gain. This is <strong>not</strong> a proof of multi-agent equilibrium.</p>
+</section>
+<section><p class="kicker">Explicit limit</p><h2 class="section-title">Local software cannot guarantee control of an unmediated external authority domain.</h2>
+<div class="callout caution">If an external sovereign, clandestine, physical, or otherwise independent authority path can reach the protected outcome without crossing a Human Anchor enforcement point—and no timely lawful or physical enforcement can disable it—the local formal core cannot guarantee blocking. Observability, institutional/physical enforcement, resource governance, and cross-domain coordination remain necessary.</div>
+</section>
+<section id="evidence"><p class="kicker">From theorem to evidence</p><h2 class="section-title">The claim survives only if the evidence does.</h2>
+<div class="formula">FormalInvariant ∧ BoundaryCompleteness ∧ HumanIndependence ∧ AuthorityObservability ∧ TimingEvidence ∧ AdversarialVerification</div>
+<div class="grid"><div class="card"><h3>Pilot Profile</h3><p>Next staged release. One system × one transition × one Human Anchor configuration × one evaluation epoch.</p></div><div class="card"><h3>Verification Matrix</h3><p>Next staged release. D1–D5, evidence levels, UNKNOWN taxonomy, and anti-gaming.</p></div><div class="card"><h3>Implementation Patterns</h3><p>Next staged release. Map Human Anchor into existing identity, authorization, policy, revocation, and recovery controls.</p></div></div>
+</section>
+<section><p class="kicker">Research lineage</p><h2 class="section-title">Published research, bounded public implementation.</h2>
+<p>Human Anchor is rooted primarily in <a href="https://doi.org/10.5281/zenodo.19887869">LUMINA-30 Paper 2 · Objective Persistence</a>. <a href="https://doi.org/10.5281/zenodo.23042905">Paper 6 · PISF</a> provides later formal reinforcement. The formal Human Anchor theory is published as <a href="https://doi.org/10.5281/zenodo.23501550">Paper 7 v1.0 · DOI 10.5281/zenodo.23501550</a> (<a href="https://doi.org/10.5281/zenodo.23501549">Concept DOI</a>). This GitHub layer is an experimental implementation and verification surface, not a new canonical paper.</p></section>
+</div>
+</main>
+<footer class="footer"><div class="wrap">Experimental implementation and verification material. Not LUMINA-30 canon, certification, or a safety guarantee.<br/><a href="https://doi.org/10.5281/zenodo.23501550">Paper 7 · DOI 10.5281/zenodo.23501550</a> · CC0 1.0</div></footer>
+</body></html>
