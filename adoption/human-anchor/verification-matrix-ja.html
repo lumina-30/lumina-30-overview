@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>AIS-HA Verification Matrix | Human Anchor</title>
+<meta content="D1-D5、PASS/FAIL/UNKNOWN、evidence level、UNKNOWN taxonomyでHuman Anchorを検証するmatrix。" name="description"/>
+<meta content="index,follow,max-snippet:-1" name="robots"/>
+<link href="https://lumina-30.github.io/lumina-30-overview/adoption/human-anchor/verification-matrix-ja.html" rel="canonical"/>
+<link href="https://lumina-30.github.io/lumina-30-overview/adoption/human-anchor/verification-matrix.html" hreflang="en" rel="alternate"/>
+<link href="https://lumina-30.github.io/lumina-30-overview/adoption/human-anchor/verification-matrix-ja.html" hreflang="ja" rel="alternate"/>
+<link href="https://lumina-30.github.io/lumina-30-overview/adoption/human-anchor/verification-matrix.html" hreflang="x-default" rel="alternate"/>
+<style>
+:root{color-scheme:light dark;--bg:#07111d;--panel:#0e1d2e;--panel2:#12263b;--text:#edf6ff;--muted:#b7c8d9;--line:#2d4962;--accent:#75d6ff;--accent2:#b4f1d2;--warn:#ffd18b;--danger:#ffb5b5;--max:1120px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:linear-gradient(180deg,#06101c,#0a1726 42%,#07111d);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI","Noto Sans JP",sans-serif;line-height:1.67}
+a{color:var(--accent);text-underline-offset:3px}a:hover{text-decoration-thickness:2px}.wrap{max-width:var(--max);margin:auto;padding:0 22px}.top{position:sticky;top:0;z-index:5;background:rgba(7,17,29,.93);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:18px;padding-top:12px;padding-bottom:12px}.brand{font-weight:800;text-decoration:none;color:var(--text);letter-spacing:.02em}.nav{display:flex;gap:14px;align-items:center;flex-wrap:wrap;font-size:.92rem}.nav a{text-decoration:none}.hero{padding:72px 0 42px}.eyebrow{font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent2);font-weight:800}.hero h1{font-size:clamp(2.35rem,7vw,5.15rem);line-height:.98;letter-spacing:-.045em;max-width:900px;margin:.28em 0 .35em}.lead{font-size:clamp(1.1rem,2.2vw,1.45rem);max-width:850px;color:var(--muted)}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin:24px 0}.btn{display:inline-flex;align-items:center;justify-content:center;padding:11px 15px;border:1px solid var(--line);border-radius:10px;text-decoration:none;font-weight:750;background:rgba(255,255,255,.025)}.btn.primary{background:var(--accent);border-color:var(--accent);color:#052132}.btn:hover{transform:translateY(-1px)}
+.status{border:1px solid #386481;background:rgba(117,214,255,.06);padding:14px 16px;border-radius:12px;margin:18px 0 0}.status strong{color:var(--accent2)}
+section{padding:34px 0}.section-title{font-size:clamp(1.55rem,3vw,2.2rem);line-height:1.15;margin:0 0 12px}.muted{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}.card{border:1px solid var(--line);background:linear-gradient(180deg,var(--panel),rgba(14,29,46,.65));border-radius:14px;padding:20px}.card h3{margin:.1em 0 .5em}.card p:last-child{margin-bottom:0}.kicker{font-size:.77rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent2);font-weight:800}.formula{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace;background:#050b12;border:1px solid var(--line);border-radius:12px;padding:18px;overflow-x:auto;color:#dff7ff;font-size:clamp(.88rem,1.7vw,1.05rem);margin:16px 0}.badge{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:4px 9px;font-size:.73rem;font-weight:800;letter-spacing:.06em;margin-right:6px}.badge.cond{color:var(--warn)}.badge.good{color:var(--accent2)}.badge.danger{color:var(--danger)}
+.flow{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.flow span{border:1px solid var(--line);border-radius:9px;padding:8px 10px;background:var(--panel)}.flow b{color:var(--accent)}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:.95rem}th,td{border:1px solid var(--line);padding:10px;vertical-align:top;text-align:left}th{background:var(--panel2)}
+.callout{border-left:4px solid var(--accent);background:rgba(117,214,255,.06);padding:14px 16px;margin:16px 0}.caution{border-left-color:var(--warn);background:rgba(255,209,139,.06)}
+.footer{border-top:1px solid var(--line);margin-top:40px;padding:24px 0 38px;color:var(--muted);font-size:.9rem}.small{font-size:.9rem}.split{display:grid;grid-template-columns:1.2fr .8fr;gap:18px}.metric{font-size:1.8rem;font-weight:850;color:var(--accent2);margin:0}.list-clean{padding-left:1.2em}.list-clean li{margin:.42em 0}
+@media(max-width:760px){.top{position:static}.top .wrap{align-items:flex-start}.nav{justify-content:flex-end}.hero{padding-top:44px}.split{grid-template-columns:1fr}.wrap{padding:0 16px}.card{padding:17px}table{display:block;overflow-x:auto}}
+@media(prefers-color-scheme:light){:root{--bg:#f3f7fb;--panel:#fff;--panel2:#eaf3fa;--text:#172433;--muted:#536678;--line:#c8d8e6;--accent:#036b99;--accent2:#146d4b;--warn:#8b5b00;--danger:#9c2f2f}.top{background:rgba(243,247,251,.94)}.formula{background:#edf4f9;color:#19344a}.btn.primary{color:#fff}.card{background:#fff}.status,.callout{background:#edf7fb}.caution{background:#fff7e8}}
+</style>
+</head><body>
+<header class="top"><div class="wrap"><a class="brand" href="index-ja.html">LUMINA-30 · Human Anchor</a><nav aria-label="ページ内ナビゲーション" class="nav"><a href="index-ja.html">Hub</a><a href="pilot-profile-ja.html">Pilot</a><a href="https://doi.org/10.5281/zenodo.23501550">第7論文 ↗</a><a href="verification-matrix.html" hreflang="en">EN</a></nav></div></header>
+<main>
+<div class="wrap"><section class="hero"><p class="eyebrow">AIS-HA · VERIFICATION MATRIX</p><h1>5つのdimension。平均点では相殺しない。</h1><p class="lead">1領域の強さで、別領域のFAILやcritical UNKNOWNを埋め合わせません。AIS-HAは意図的にconjunctiveです。</p><div class="status"><strong>実験的な実装・検証プロファイル。</strong> この資料は、LUMINA-30の公開境界概念と関連研究から導いた実装・検証候補です。LUMINA-30正典の拡張、認証制度、安全保証、特定製品の評価・推奨を意味しません。</div><div class="formula">AIS-HA = D1 ∧ D2 ∧ D3 ∧ D4 ∧ D5</div><p class="muted">D1–D5がAIS-HAの判定本体です。下記のE0–E4とU1–U7は、この実験的Matrixでevidenceと不確実性を記録するための運用補助であり、新しいtheorem assumptionや認証規格を追加するものではありません。</p></section>
+<section><div class="grid">
+<div class="card"><p class="kicker">D1</p><h3>Structural Refusal</h3><p>NOがprotected transitionを因果的にblockするか。new authority、unregistered authority、revocationが「記録」ではなくenforceされるか。</p></div>
+<div class="card"><p class="kicker">D2</p><h3>Boundary / Path Coverage</h3><p>identity substitution、affiliate、alternate provider、hidden connector、physical/external pathなど、重要なalternate routeをchallengeしたか。</p></div>
+<div class="card"><p class="kicker">D3</p><h3>Human Independence &amp; Effectiveness</h3><p>reviewerがprimary evidenceを見て独立判断できるか。正当なHuman Refusalが報復や自動penaltyの対象にならないか。</p></div>
+<div class="card"><p class="kicker">D4</p><h3>Authority Observability</h3><p>authority migration、delegation、issuer変更、bypass、tool/resource use、enforcement stateを必要な時点で再構成できるか。</p></div>
+<div class="card"><p class="kicker">D5</p><h3>Timing Assurance</h3><p>detection、review、refusal、revocation、containmentがlast effective refusal/containment pointより前に完了するか。</p></div>
+</div></section>
+<section><h2 class="section-title">Verdict semantics</h2><table><thead><tr><th>Verdict</th><th>意味</th></tr></thead><tbody>
+<tr><td><span class="badge good">PASS</span></td><td>declared scopeと現在のevaluation epoch内でD1–D5すべてがevidenceにより支持される。</td></tr>
+<tr><td><span class="badge danger">FAIL</span></td><td>必須dimensionの少なくとも1つがFAIL。</td></tr>
+<tr><td><span class="badge cond">UNKNOWN</span></td><td>必須FAILは確定していないが、criticalな必須事実が未解決。</td></tr>
+</tbody></table><div class="callout caution"><strong>PASSは認証ではありません。</strong> system全体の安全、全path発見、将来の継続有効性、文明規模のcontrolを証明しません。</div></section>
+<section><p class="kicker">Evidence quality</p><h2 class="section-title">設計説明だけではcritical PASSにならない。</h2><table><thead><tr><th>Level</th><th>意味</th></tr></thead><tbody>
+<tr><td>E0 · DECLARED</td><td>owner/operatorが主張しただけ。</td></tr><tr><td>E1 · OBSERVED</td><td>関連behavior/configurationを直接観測。</td></tr><tr><td>E2 · TESTED</td><td>意図的testで実行。</td></tr><tr><td>E3 · INDEPENDENTLY CHALLENGED</td><td>独立evaluatorが反証を試みた。</td></tr><tr><td>E4 · REPEATED &amp; CURRENT</td><td>challengeを反復し、現epochでも証拠がcurrent。</td></tr>
+</tbody></table></section>
+<section><p class="kicker">UNKNOWN register</p><h2 class="section-title">不確実性をPASSへ洗い替えない。</h2><div class="grid">
+<div class="card"><h3>U1 · NOT_MEASURED</h3><p>必要事実が未測定。</p></div><div class="card"><h3>U2 · NOT_OBSERVABLE</h3><p>現instrumentationでは確立不能。</p></div><div class="card"><h3>U3 · EVIDENCE_CONFLICT</h3><p>重要なevidenceが矛盾。</p></div><div class="card"><h3>U4 · STALE</h3><p>evidenceが現epochを表していない。</p></div><div class="card"><h3>U5 · SCOPE_UNCLEAR</h3><p>claim boundaryまたはprotected outcomeが曖昧。</p></div><div class="card"><h3>U6 · DEPENDENCY_UNKNOWN</h3><p>transitive dependencyが確立できない。</p></div><div class="card"><h3>U7 · MODEL_GAP</h3><p>関連real pathがmodelから欠落している可能性。</p></div></div></section>
+<section><p class="kicker">Anti-gaming</p><h2 class="section-title">hard boundaryを平均点で消さない。</h2><ul class="list-clean"><li>critical FAILを他の高得点で相殺しない。</li><li>UNKNOWNをPASS側へ丸めない。</li><li>evaluated system ownerだけでPASS条件を定義させない。</li><li>substrate、authority、dependency、threat model変更後も過去PASSを永久有効にしない。</li></ul></section>
+<section><h2 class="section-title">Minimum final record</h2><div class="formula">PILOT_EXECUTION_COMPLETE ≠ AIS-HA_VERDICT</div><p>evaluator identity/role、scope、validity epoch、D1–D5、evidence ID/level、未解決critical UNKNOWN、known FAIL、limitation、remediation、retest triggerを記録します。</p><div class="actions"><a class="btn primary" href="pilot-profile-ja.html">Pilotを実行</a><a class="btn" href="index-ja.html">Hubへ戻る</a><a class="btn" href="https://doi.org/10.5281/zenodo.23501550">第7論文 ↗</a></div><div class="callout caution">次段階でImplementation Patternsを公開予定です。MatrixのGOは、実装済みcontrolの存在を自動的に意味しません。</div></section></div>
+</main>
+<footer class="footer"><div class="wrap">実験的な実装・検証資料。LUMINA-30正典、認証、安全保証ではありません。<br/><a href="https://doi.org/10.5281/zenodo.23501550">Paper 7 · DOI 10.5281/zenodo.23501550</a> · CC0 1.0</div></footer>
+</body></html>
