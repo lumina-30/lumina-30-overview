@@ -1,6 +1,6 @@
 {
   "schema": "L30_CURRENT_PUBLIC_RESEARCH_MANIFEST_V1",
-  "date": "2026-10-12",
+  "date": "2026-10-22",
   "authority": "Zenodo current Version DOI is authoritative; GitHub files are retrieval mirrors.",
   "retrieval_order": [
     "GitHub PDF mirror",
@@ -63,6 +63,23 @@
       "pdf_url": "https://github.com/lumina-30/Lumi30-PDF-Archive/raw/main/Pre-Irreversibility_Safety_for_Advanced_AI_v1.2.pdf",
       "text_url": "https://raw.githubusercontent.com/lumina-30/Lumi30-FullText/main/research/Pre-Irreversibility_Safety_for_Advanced_AI_v1.2.txt",
       "zenodo_url": "https://doi.org/10.5281/zenodo.23283256"
+    },
+    {
+      "id": "human-anchor",
+      "paper_number": 7,
+      "title": "Human Anchor: A Cross-Layer Authority Invariant for Many-Agent AI Systems",
+      "version": "v1.0",
+      "version_doi": "10.5281/zenodo.23501550",
+      "concept_doi": "10.5281/zenodo.23501549",
+      "pdf": "Human_Anchor_A_Cross_Layer_Authority_Invariant_for_Many_Agent_AI_Systems_v1.0.pdf",
+      "text": "Human_Anchor_A_Cross_Layer_Authority_Invariant_for_Many_Agent_AI_Systems_v1.0.txt",
+      "pdf_sha256": "a441529cfe40c26c479540e2fde9134711152527730de5e2218558fd5b59440b",
+      "text_sha256": "89eaade3ac655d57c2b718289807458c7308c940637f16bb7598b7b18c108ec4",
+      "pdf_url": "https://github.com/lumina-30/Lumi30-PDF-Archive/raw/main/Human_Anchor_A_Cross_Layer_Authority_Invariant_for_Many_Agent_AI_Systems_v1.0.pdf",
+      "text_url": "https://raw.githubusercontent.com/lumina-30/Lumi30-FullText/main/research/Human_Anchor_A_Cross_Layer_Authority_Invariant_for_Many_Agent_AI_Systems_v1.0.txt",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.23501550",
+      "retrieval_status": "GITHUB_MIRRORS_READY",
+      "implementation_hub": "https://lumina-30.github.io/lumina-30-overview/adoption/human-anchor/"
     }
   ]
 }

@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>LUMINA-30 公開研究スタック</title><meta name="description" content="PCR-C、Objective Persistence、L30-RET、PISFの4研究ラインを、制御経路・目的持続性・実効的人間拒否・不可逆化前安全性から辿る研究ハブ。">
+<title>LUMINA-30 公開研究スタック</title><meta name="description" content="PCR-C、Objective Persistence、L30-RET、PISFの4中核研究ラインと、第7論文 / Human Anchorの独立した形式理論・実装接続レイヤーを辿る研究ハブ。">
 <meta name="robots" content="index,follow,max-snippet:-1">
 <link rel="canonical" href="https://lumina-30.github.io/lumina-30-overview/research/public-research-stack-ja.html">
 <link rel="alternate" hreflang="en" href="https://lumina-30.github.io/lumina-30-overview/research/public-research-stack.html">
@@ -29,8 +29,9 @@ ul.tight li{margin:.35em 0}
 <nav class="nav"><a href="../index-ja.html">Overview</a><a href="public-research-stack.html" hreflang="en">English</a><a href="the-refusal-option-ja.html">L30-RET</a></nav>
 <p class="kicker">LUMINA-30 PUBLIC RESEARCH</p>
 <h1>公開研究スタック / Public Research Stack</h1>
-<p class="muted">4つの補完的研究ライン · 制御経路 · 目的持続性 · 実効的人間拒否 · 不可逆化前安全性</p>
-<div class="box"><strong>このページの役割：</strong>LUMINA-30を支える4つの公開研究ラインを、論文一覧ではなく「何を研究しているのか」で辿る研究ハブです。研究論文はLUMINA-30正典を定義せず、認証状態や安全保証を作りません。</div>
+<p class="muted">4つの補完的な中核研究ライン · ＋ 第7論文 / Human Anchorという独立した形式理論・実装接続レイヤー</p>
+<div class="box"><strong>このページの役割：</strong>LUMINA-30を支える4つの中核公開研究ラインと、第7論文 / Human Anchorという独立した形式理論・実装接続レイヤーを辿る研究ハブです。第7論文は5本目の同列な中核ラインではありません。研究論文はLUMINA-30正典を定義せず、認証状態や安全保証を作りません。</div>
+
 
 <h2>一つの問題を、4つの異なる失敗場所に分ける</h2>
 <p>この研究スタックでは「AI safety」を一つの変数へまとめません。不可逆化へ向かう過程で、別々に壊れ得る4つの問いを分離します。</p>
@@ -41,6 +42,7 @@ ul.tight li{margin:.35em 0}
 <div class="card"><h3>PISF</h3><p><strong>authority・refusal・revisabilityを不可逆化前に同時に保てるか。</strong></p><p>複数の非代替的安全次元を統合したpre-irreversibility safety case。</p><p><a href="pre-irreversibility-safety-ja.html">研究ガイドを開く</a></p></div>
 </div>
 
+
 <h2>Research Landscape</h2>
 <table>
 <tr><th>研究ライン</th><th>主な対象</th><th>典型的な失敗</th><th>研究上の役割</th></tr>
@@ -50,9 +52,11 @@ ul.tight li{margin:.35em 0}
 <tr><td><strong>PISF</strong></td><td>Authority + Refusal + Revisability</td><td>局所的停止手段があっても、不可逆権限が集中する、拒否が間に合わない、または社会が別の発展経路を選び直せなくなる。</td><td>単一スコアではなく、代替不能な複数安全次元を同じsafety caseで扱う。</td></tr>
 </table>
 
+
 <h2>4本を一緒に読むと何が見えるか</h2>
 <p><strong>PCR-C</strong>は制御経路が残るかを問います。<strong>Objective Persistence</strong>は、目的持続性の主張を評価対象システムの内部だけに依存せず根拠づけられるかを問います。<strong>L30-RET</strong>はHuman NOが現実に結果を変えられるかを問います。<strong>PISF</strong>は、不可逆権限の分散、時間内の拒否、人間が発展経路を選び直せる状態を同時に維持できるかを問います。</p>
 <div class="callout"><strong>4つは補完的ですが、相互に置換できません。</strong> 一つの研究ラインで良い結果が出ても、別の研究ラインの失敗を相殺したことにはなりません。そのため単一の認証スコアへ圧縮せず、どの失敗モードが問題かを分けて見ます。</div>
+
 
 <h2>論文ではなく「研究対象」から入る</h2>
 <ul class="tight">
@@ -64,8 +68,18 @@ ul.tight li{margin:.35em 0}
 <li><strong>未解決研究課題：</strong><a href="open-research-questions-ja.html">Open Research Questions</a></li>
 </ul>
 
+
+<h2>第7論文 / Human Anchor / AIS-HA</h2>
+<p>第7論文は、protected authority transitionとHuman-Revisable Authority Regionの維持を扱う独立したHuman Anchor形式理論レイヤーを追加します。公開Human Anchorページは、experimental / boundedな実装・検証surfaceです。</p>
+<div class="callout"><strong>評価軸を混同しないでください。</strong> 形式理論の妥当性、実装可能性、実装実績、実証、独立した第三者検証、制度導入、認証は別の主張です。公開Human Anchorページが存在すること自体は、後者を証明しません。</div>
+<ul class="tight"><li><a href="../adoption/human-anchor/index-ja.html">Human Anchor Hub</a></li><li><a href="../adoption/human-anchor/pilot-profile-ja.html">Pilot Profile</a></li><li><a href="../adoption/human-anchor/verification-matrix-ja.html">Verification Matrix</a></li><li><a href="../adoption/human-anchor/implementation-patterns-ja.html">Implementation Patterns</a></li></ul>
+<p>Version DOI v1.0: <a href="https://doi.org/10.5281/zenodo.23501550">10.5281/zenodo.23501550</a> / Concept DOI: <a href="https://doi.org/10.5281/zenodo.23501549">10.5281/zenodo.23501549</a></p>
+<p class="small muted">取得：<a href="https://github.com/lumina-30/Lumi30-PDF-Archive/raw/main/Human_Anchor_A_Cross_Layer_Authority_Invariant_for_Many_Agent_AI_Systems_v1.0.pdf">GitHub PDFミラー</a> · <a href="https://raw.githubusercontent.com/lumina-30/Lumi30-FullText/main/research/Human_Anchor_A_Cross_Layer_Authority_Invariant_for_Many_Agent_AI_Systems_v1.0.txt">同一Version AI-readable全文</a>。PDF SHA-256: <code>a441529cfe40c26c479540e2fde9134711152527730de5e2218558fd5b59440b</code>。Text SHA-256: <code>89eaade3ac655d57c2b718289807458c7308c940637f16bb7598b7b18c108ec4</code>。公開識別の正本はZenodo Version DOIです。</p>
+
+
 <h2>Research → Practice</h2>
 <p>研究で見つかった問題はLUMINA-30の実務層へ接続できます。ただし、論文群を公式認証フローへ変換するものではありません。制御経路の問題はPCR-Cや事故前境界レビュー、拒否の問題はL30-RET・Stop Authority・Evidence Requirements、事故やニアミスはIncident Review、より広いauthority/revisability問題はPISF型のsafety-case分析へ接続できます。</p>
+
 
 <h2>公開参照</h2>
 <ul>
@@ -73,5 +87,6 @@ ul.tight li{margin:.35em 0}
 <li>Objective Persistence — Version DOI: <a href="https://doi.org/10.5281/zenodo.23282068">10.5281/zenodo.23282068</a> / Concept DOI: <a href="https://doi.org/10.5281/zenodo.19887869">10.5281/zenodo.19887869</a></li>
 <li>L30-RET / The Refusal Option v1.3 — Version DOI: <a href="https://doi.org/10.5281/zenodo.23282593">10.5281/zenodo.23282593</a> / Concept DOI: <a href="https://doi.org/10.5281/zenodo.22980038">10.5281/zenodo.22980038</a></li>
 <li>PISF v1.2 — Version DOI: <a href="https://doi.org/10.5281/zenodo.23283256">10.5281/zenodo.23283256</a> / Concept DOI: <a href="https://doi.org/10.5281/zenodo.23042905">10.5281/zenodo.23042905</a></li>
+<li>第7論文 / Human Anchor v1.0 — Version DOI: <a href="https://doi.org/10.5281/zenodo.23501550">10.5281/zenodo.23501550</a> / Concept DOI: <a href="https://doi.org/10.5281/zenodo.23501549">10.5281/zenodo.23501549</a></li>
 </ul>
 </main></body></html>
