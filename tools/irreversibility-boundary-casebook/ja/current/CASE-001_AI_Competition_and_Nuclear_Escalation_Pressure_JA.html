@@ -20,9 +20,7 @@ a{text-decoration-thickness:.08em;text-underline-offset:.15em}.lang{display:flex
   blockquote{border-left-color:#66798c;color:#d8e3ed}
 }
 
-.theme-controls{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:.55rem;margin:0 0 14px}
-.theme-controls button{font:inherit;min-height:42px;padding:.45rem .75rem;border:1px solid currentColor;border-radius:.55rem;background:transparent;color:inherit;cursor:pointer}
-.theme-controls button:focus-visible{outline:3px solid currentColor;outline-offset:2px}
+.theme-controls{display:flex;justify-content:flex-end;align-items:center;gap:.45rem;margin:0 0 12px;color:inherit;font-size:.82rem;line-height:1.4}.theme-controls label{font-weight:650}.theme-controls select,.theme-controls button{color:inherit;background:transparent;border:1px solid currentColor;border-radius:999px;padding:.3rem .58rem;font:inherit}.theme-controls button{min-width:2.1rem;cursor:pointer}.theme-controls select:focus-visible,.theme-controls button:focus-visible{outline:2px solid currentColor;outline-offset:2px}
 
 html[data-theme="dark"] body{background:#0b1118;color:#e8eef5}
 html[data-theme="dark"] a{color:#8ecbff}
@@ -39,7 +37,7 @@ html[data-theme="light"] blockquote{border-left-color:#999999;color:inherit}
 </head>
 <body>
 <nav class="lang" aria-label="言語"><span class="current" aria-current="page">日本語</span><span aria-hidden="true">|</span><a href="../../en/current/CASE-001_AI_Competition_and_Nuclear_Escalation_Pressure_EN.html" lang="en" hreflang="en">EN</a></nav>
-<div class="theme-controls" aria-label="表示設定"><button type="button" id="reloadButton">↻ 再読み込み</button><button type="button" id="themeButton" aria-live="polite">モード: 自動</button></div>
+<div class="theme-controls" role="group" aria-label="表示設定"><button type="button" id="reloadButton" aria-label="再読み込み">↻</button><label for="themeSelect">表示</label><select id="themeSelect" aria-label="表示テーマ"><option value="auto">自動</option><option value="light">ライト</option><option value="dark">ダーク</option></select></div>
 <nav class="global-nav" aria-label="主要ナビゲーション"><a href="https://lumina-30.github.io/Lumi30-Index/lumi-menu-ja.html">LUMI MENU</a><span aria-hidden="true">|</span><a href="https://lumina-30.github.io/Lumi30-Index/start-ja.html">START</a><span aria-hidden="true">|</span><a href="./L30_Irreversibility_Boundary_Casebook_JA.html">事例集</a><span aria-hidden="true">|</span><a href="./L30_Irreversibility_Boundary_Atlas_JA.html">アトラス</a><span aria-hidden="true">|</span><a href="https://lumina-30.github.io/lumina30-wiki/ja/index-ja.html">Wiki</a></nav>
 <h1>CASE-001｜AI開発競争と核エスカレーション圧力</h1>
 <ul>
@@ -187,42 +185,30 @@ html[data-theme="light"] blockquote{border-left-color:#999999;color:inherit}
 
 <script>
 (function(){
-  const key='l30-theme';
-  const root=document.documentElement;
-  const themeButton=document.getElementById('themeButton');
-  const reloadButton=document.getElementById('reloadButton');
-  const labels={auto:'モード: 自動',dark:'モード: ダーク',light:'モード: ライト'};
-  const order=['auto','dark','light'];
-
-  function apply(mode){
-    if(mode==='dark'||mode==='light'){
-      root.dataset.theme=mode;
-      try{localStorage.setItem(key,mode)}catch(e){}
+  var root=document.documentElement;
+  var select=document.getElementById('themeSelect');
+  var reload=document.getElementById('reloadButton');
+  var key='l30-color-theme';
+  var saved='auto';
+  try{
+    var stored=localStorage.getItem(key);
+    if(stored==='light'||stored==='dark') saved=stored;
+  }catch(e){}
+  function applyTheme(theme){
+    if(theme==='light'||theme==='dark'){
+      root.setAttribute('data-theme',theme);
+      try{localStorage.setItem(key,theme)}catch(e){}
     }else{
       root.removeAttribute('data-theme');
       try{localStorage.removeItem(key)}catch(e){}
-      mode='auto';
     }
-    if(themeButton) themeButton.textContent=labels[mode];
-    return mode;
   }
-
-  let mode='auto';
-  try{
-    const saved=localStorage.getItem(key);
-    if(saved==='dark'||saved==='light') mode=saved;
-  }catch(e){}
-  mode=apply(mode);
-
-  if(themeButton){
-    themeButton.addEventListener('click',function(){
-      const next=order[(order.indexOf(mode)+1)%order.length];
-      mode=apply(next);
-    });
+  if(select){
+    select.value=saved;
+    applyTheme(saved);
+    select.addEventListener('change',function(){applyTheme(select.value)});
   }
-  if(reloadButton){
-    reloadButton.addEventListener('click',function(){ location.reload(); });
-  }
+  if(reload) reload.addEventListener('click',function(){location.reload()});
 })();
 </script>
 </body>
