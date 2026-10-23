@@ -28,11 +28,36 @@ section{margin-top:38px}h2{font-size:1.55rem;margin:0 0 14px}.check{display:grid
 }
 @media(max-width:840px){.check,.atlas{grid-template-columns:1fr}.roles{grid-template-columns:1fr 1fr}}
 @media(max-width:520px){.roles{grid-template-columns:1fr}.wrap{padding-left:16px;padding-right:16px}}
+
+.theme-controls{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:.55rem;margin:0 0 14px}
+.theme-controls button{font:inherit;min-height:42px;padding:.45rem .75rem;border:1px solid currentColor;border-radius:.55rem;background:transparent;color:inherit;cursor:pointer}
+.theme-controls button:focus-visible{outline:3px solid currentColor;outline-offset:2px}
+
+html[data-theme="dark"]{--bg:#06111f;--panel:#0b1a2c;--panel2:#10243a;--line:#294158;--text:#edf4fb;--muted:#a9bdd0;--accent:#d7b56d;--link:#9dd8ff}
+html[data-theme="dark"] body{background:radial-gradient(circle at top,#10253e 0,#06111f 44%,#040b13 100%);color:var(--text)}
+html[data-theme="dark"] .lead{color:#d8e5f1}
+html[data-theme="dark"] .core{background:rgba(215,181,109,.07)}
+html[data-theme="dark"] .legend span,html[data-theme="dark"] .badges span{border-color:#3c566f;background:#0a1726;color:#d8e7f5}
+html[data-theme="dark"] .case-card{background:linear-gradient(180deg,var(--panel2),var(--panel));box-shadow:0 10px 30px rgba(0,0,0,.13)}
+html[data-theme="dark"] dt{color:#dceafa}
+html[data-theme="dark"] dd,html[data-theme="dark"] .role p{color:#c5d4e1}
+html[data-theme="dark"] .contact{border-color:#6e5b32;background:rgba(215,181,109,.06)}
+
+html[data-theme="light"]{--bg:#f7f9fc;--panel:#ffffff;--panel2:#f4f7fb;--line:#cfd8e3;--text:#17202b;--muted:#5f6f82;--accent:#8b6a2b;--link:#005ea8}
+html[data-theme="light"] body{background:linear-gradient(180deg,#f8fbff 0,#eef3f8 100%);color:var(--text)}
+html[data-theme="light"] .lead{color:#34465a}
+html[data-theme="light"] .core{background:rgba(139,106,43,.08)}
+html[data-theme="light"] .legend span,html[data-theme="light"] .badges span{border-color:#b9c6d4;background:#f8fafc;color:#2b3b4d}
+html[data-theme="light"] .case-card{background:linear-gradient(180deg,var(--panel2),var(--panel));box-shadow:0 8px 24px rgba(20,40,60,.08)}
+html[data-theme="light"] dt{color:#203246}
+html[data-theme="light"] dd,html[data-theme="light"] .role p{color:#3f5164}
+html[data-theme="light"] .contact{border-color:#c9b27a;background:rgba(139,106,43,.06)}
 </style>
 </head>
 <body>
 <main class="wrap">
 <nav class="lang" aria-label="言語"><span class="current" aria-current="page">日本語</span><span aria-hidden="true">|</span><a href="../../en/current/L30_Irreversibility_Boundary_Atlas_EN.html" lang="en" hreflang="en">EN</a></nav>
+<div class="theme-controls" aria-label="表示設定"><button type="button" id="reloadButton">↻ 再読み込み</button><button type="button" id="themeButton" aria-live="polite">モード: 自動</button></div>
 <nav class="global-nav" aria-label="主要ナビゲーション"><a href="https://lumina-30.github.io/Lumi30-Index/lumi-menu-ja.html">LUMI MENU</a><span aria-hidden="true">|</span><a href="https://lumina-30.github.io/Lumi30-Index/start-ja.html">START</a><span aria-hidden="true">|</span><a href="./L30_Irreversibility_Boundary_Casebook_JA.html">事例集</a><span aria-hidden="true">|</span><a href="./L30_Irreversibility_Boundary_Atlas_JA.html">アトラス</a><span aria-hidden="true">|</span><a href="https://lumina-30.github.io/lumina30-wiki/ja/index-ja.html">Wiki</a></nav>
 <section class="hero">
 <div class="eyebrow">LUMINA-30 · IRREVERSIBILITY BOUNDARY ATLAS</div>
@@ -198,5 +223,46 @@ section{margin-top:38px}h2{font-size:1.55rem;margin:0 0 14px}.check{display:grid
 <a href="./L30_Irreversibility_Boundary_Casebook_JA.html">事例集へ戻る</a>
 </footer>
 </main>
+
+<script>
+(function(){
+  const key='l30-theme';
+  const root=document.documentElement;
+  const themeButton=document.getElementById('themeButton');
+  const reloadButton=document.getElementById('reloadButton');
+  const labels={auto:'モード: 自動',dark:'モード: ダーク',light:'モード: ライト'};
+  const order=['auto','dark','light'];
+
+  function apply(mode){
+    if(mode==='dark'||mode==='light'){
+      root.dataset.theme=mode;
+      try{localStorage.setItem(key,mode)}catch(e){}
+    }else{
+      root.removeAttribute('data-theme');
+      try{localStorage.removeItem(key)}catch(e){}
+      mode='auto';
+    }
+    if(themeButton) themeButton.textContent=labels[mode];
+    return mode;
+  }
+
+  let mode='auto';
+  try{
+    const saved=localStorage.getItem(key);
+    if(saved==='dark'||saved==='light') mode=saved;
+  }catch(e){}
+  mode=apply(mode);
+
+  if(themeButton){
+    themeButton.addEventListener('click',function(){
+      const next=order[(order.indexOf(mode)+1)%order.length];
+      mode=apply(next);
+    });
+  }
+  if(reloadButton){
+    reloadButton.addEventListener('click',function(){ location.reload(); });
+  }
+})();
+</script>
 </body>
 </html>
