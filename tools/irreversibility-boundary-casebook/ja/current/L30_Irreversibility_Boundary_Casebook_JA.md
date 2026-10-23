@@ -4,7 +4,7 @@
 
 本事例集は、❤LUMINA30千年プロジェクトの **T1000-Cを主軸とする中心ケース・コーパス** であり、実証・反証の結果をT1000-Fの制度接続、T1000-Gの意味保存、T1000-Hの名称非依存な概念再生産へ接続する実働検証レイヤーです。
 
-事例集全体を実証証拠とは扱いません。ケースごとにCase Type、Empirical Status、Applicability Statusを分離します。
+事例集全体を実証証拠とは扱いません。ケースごとに**事例種別・実証状態・適用状態**を分けて記録します。
 
 - 不可逆境界はどこか
 - その手前で人間の最終拒否は残っているか
@@ -13,36 +13,35 @@
 - どの改善候補が事例に直接関係するか
 - LUMINA-30では解けない部分・反対説明は何か
 
-## Case Type
+## 事例種別（`Case Type`）
 
-- `INCIDENT` — 実際に重大な影響が発生した事例
-- `NEAR_MISS` — 不可逆的影響へ接近したが回避された事例
-- `STOP_SUCCESS` — 人間の拒否・停止が実際に機能した事例
-- `STRUCTURAL_RISK` — 現在確認できる構造から不可逆化経路を分析する事例
-- `PRE_INCIDENT_SCENARIO` — 将来の事前レビューに用いるシナリオ
+- 実事故 `INCIDENT` — 実際に重大な影響が発生した事例
+- ニアミス `NEAR_MISS` — 不可逆的影響へ接近したが回避された事例
+- 停止成功 `STOP_SUCCESS` — 人間の拒否・停止が実際に機能した事例
+- 構造リスク `STRUCTURAL_RISK` — 現在確認できる構造から不可逆化経路を分析する事例
+- 事前シナリオ `PRE_INCIDENT_SCENARIO` — 将来の事前レビューに用いるシナリオ
 
 実事故と仮説は混同しません。
 
-## Empirical / Applicability Status
+## 実証状態／適用状態
 
-Empirical Status:
-- `OBSERVED`
-- `RECONSTRUCTED`
-- `STRUCTURAL_INFERENCE`
-- `HYPOTHETICAL`
+**実証状態（`Empirical Status`）**
+- 観測済み `OBSERVED`
+- 再構成 `RECONSTRUCTED`
+- 構造的推論 `STRUCTURAL_INFERENCE`
+- 仮説 `HYPOTHETICAL`
 
-Applicability Status:
-- `APPLICABLE`
-- `PARTIAL`
-- `NOT_APPLICABLE`
-- `UNKNOWN`
+**適用状態（`Applicability Status`）**
+- 適用可能 `APPLICABLE`
+- 部分適用 `PARTIAL`
+- 適用外 `NOT_APPLICABLE`
+- 不明 `UNKNOWN`
 
-`STRUCTURAL_RISK` / `PRE_INCIDENT_SCENARIO` は実事故による実証へ自動算入しません。
+構造リスク `STRUCTURAL_RISK` と事前シナリオ `PRE_INCIDENT_SCENARIO` は、実事故による実証へ自動算入しません。
 
-## Cases
+## 収録事例
 
-1. [CASE-001｜AI開発競争と核エスカレーション圧力](./CASE-001_AI_Competition_and_Nuclear_Escalation_Pressure_JA.md) — Case Type `STRUCTURAL_RISK` / Empirical `STRUCTURAL_INFERENCE` / Applicability `PARTIAL`
-
+1. [CASE-001｜AI開発競争と核エスカレーション圧力](./CASE-001_AI_Competition_and_Nuclear_Escalation_Pressure_JA.md) — 事例種別: 構造リスク `STRUCTURAL_RISK` ／ 実証状態: 構造的推論 `STRUCTURAL_INFERENCE` ／ 適用状態: 部分適用 `PARTIAL`
 
 ## 誰が使うためのものか
 
@@ -64,7 +63,7 @@ Applicability Status:
 - 重大な権限移譲、外部作用、本番接続、能力公開の前
 - 事故・ニアミス・停止成功をレビューするとき
 - 政策案や規制案が「人間が止められる状態」を本当に残しているか確認するとき
-- 「human oversight」「human in the loop」が名目だけになっていないか確認するとき
+- 「人間による監督」「人間が判断過程にいること」が名目だけになっていないか確認するとき
 
 ## 何が得られるか
 
@@ -80,8 +79,8 @@ Applicability Status:
 
 ## 3ステップで使う
 
-1. 自分の問題に近いCASEを選ぶ。
-2. そのCASEの `Irreversibility Boundary / Human Final Refusal / Operational Effectiveness / Limits` を確認する。
+1. 自分の問題に近い事例を選ぶ。
+2. その事例の「不可逆境界」「人間の最終拒否」「運用上の実効性」「限界と代替説明」を確認する。
 3. 自分の制度・システムについて、同じ問いを当てる。
 
 最初に使う問い:
@@ -91,29 +90,29 @@ Applicability Status:
 
 ## 接続しやすい構造
 
-今後、AI安全、政策、監査、調達、研究倫理、教育などの専用ガイドを追加する場合でも、CASE本文を作り直さず接続できるよう、各CASEに `Target Workflow / Decision Point / Minimum Actionable Output / Adoption Status / Transfer Limits` を保持します。
+今後、AI安全、政策、監査、調達、研究倫理、教育などの専用ガイドを追加する場合でも、事例本文を作り直さず接続できるよう、各事例に「対象業務」「判断時点」「最小実行可能成果」「制度利用状況」「転用限界」を保持します。
 
-そのため、本事例集は読み物としてだけでなく、既存の Pre-Incident Boundary Review、Incident Review、PCR-C、L30-RET、PISF 等へ接続する入口として再利用できます。
+そのため、本事例集は読み物としてだけでなく、既存の事前境界レビュー、インシデントレビュー、PCR-C、L30-RET、PISF等へ接続する入口として再利用できます。
 
-## Scope Gate
+## 収録・適用範囲
 
-収録・適用の基本条件は、AIまたはAI関連システム・開発・意思決定が関与し、不可逆化前の人間の拒否・停止・検証・方向転換可能性が結果にとって実質的問題となっていることです。単に一般的な不可逆問題であるだけなら `NOT_APPLICABLE` を許容し、射程確認の反例として保存します。
+収録・適用の基本条件は、AIまたはAI関連システム・開発・意思決定が関与し、不可逆化前の人間の拒否・停止・検証・方向転換可能性が結果にとって実質的問題となっていることです。単に一般的な不可逆問題であるだけなら、適用外 `NOT_APPLICABLE` を許容し、射程確認の反例として保存します。
 
-## Portable Questions
+## 持ち運べる中核質問
 
 - この問題の不可逆境界はどこか？
 - その前に、人間は本当に拒否・停止・検証・方向転換できるか？
 
-意味維持の最低条件は **Pre-irreversibility / Human / Effective / Refusal-Stop-Verify-Redirect** の4要素です。
+意味維持の最低条件は、**不可逆化前／人間／実効性／拒否・停止・検証・方向転換** の4要素です。
 
-## Semantic Guard
+## 意味を守るためのガード
 
 - 人間が存在しただけでは実効拒否ではない。
 - 人間が承認しただけでも実効拒否ではない。
 - LUMINA-30は常にSTOPを要求する理論ではない。
 - AIや第三者が人間の拒否意思を推定して代替することは、人間拒否そのものではない。
 
-## Positioning
+## 位置づけ
 
 この事例集は、LUMINA-30が公式標準・認証制度・安全保証・法的判定であることを意味しません。事例ごとに証拠、反例、限界を残し、適用できないケースも検証対象とします。
 

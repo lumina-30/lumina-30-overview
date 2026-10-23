@@ -1,70 +1,70 @@
 # CASE-001｜AI開発競争と核エスカレーション圧力
 
-- Case ID: `CASE-001`
-- Schema Version: `1.1`
-- Case Type: `STRUCTURAL_RISK`
-- Empirical Status: `STRUCTURAL_INFERENCE`
-- Applicability Status: `PARTIAL`
-- Event Date: `N/A — structural-risk case`
-- Case Created: `2026-10-23`
-- Last Reviewed: `2026-10-23`
-- Domain: `Military AI / Nuclear Risk / Crisis Stability`
-- Jurisdiction: `Cross-national`
-- System Type: `AI-supported military decision environments`
-- Evidence Status: `Mixed public official and independent research`
-- Archive Reference: `Pending`
-- Adoption Status: `NOT_TRIED`
-- Revision History: `v1.0 initial case → v1.1 Millennium Project metadata and falsifiability guards`
-- Prior Judgment / Changed Judgment: `PARTIAL / STRUCTURAL RISK IDENTIFIED → unchanged`
+- ケースID（`Case ID`）: `CASE-001`
+- スキーマ版（`Schema Version`）: `1.1`
+- 事例種別（`Case Type`）: 構造リスク `STRUCTURAL_RISK`
+- 実証状態（`Empirical Status`）: 構造的推論 `STRUCTURAL_INFERENCE`
+- 適用状態（`Applicability Status`）: 部分適用 `PARTIAL`
+- 対象日: 該当なし（構造リスク事例）
+- 作成日: `2026-10-23`
+- 最終レビュー日: `2026-10-23`
+- 分野: 軍事AI／核リスク／危機安定性
+- 対象範囲: 複数国家にまたがる問題
+- システム種別: AI支援型の軍事意思決定環境
+- 証拠状態: 公的資料と独立研究を組み合わせた根拠
+- アーカイブ参照: 未登録
+- 制度利用状況（`Adoption Status`）: 未実施 `NOT_TRIED`
+- 改訂履歴: `v1.0` 初版 → `v1.1` 千年プロジェクト用メタデータと反証可能性ガードを追加
+- 前回判定／変更後判定: `PARTIAL / STRUCTURAL RISK IDENTIFIED` → 変更なし
 
 > この事例は、AI競争が実際に核戦争を引き起こしたという事故記録ではありません。公開研究・公的資料を基に、不可逆化前の人間の拒否・検証可能性を検討する構造リスク事例です。
 
-## A. Case Summary
+## A. 事例概要
 
 軍事AIの導入やAI開発競争が、国家間の能力・意図に関する不確実性、意思決定時間の圧縮、戦略的脆弱性への懸念を強め、核エスカレーションのリスク環境を悪化させ得るかを検討します。
 
-### Selection Rationale
+### 収録理由
 
-AI関連意思決定が、危機時の人間の拒否・検証可能性を時間・情報・制度面から弱め得るというLUMINA-30の適用条件を満たす可能性があり、公開研究で検討可能な高影響 `STRUCTURAL_RISK` であるため収録します。実事故による実証ケースとしては数えません。
+AI関連意思決定が、危機時の人間の拒否・検証可能性を時間・情報・制度面から弱め得るというLUMINA-30の適用条件を満たす可能性があり、公開研究で検討可能な高影響の構造リスク `STRUCTURAL_RISK` であるため収録します。実事故による実証ケースとしては数えません。
 
-## B. Evidence Status
+## B. 証拠の状態
 
-### Confirmed Fact
+### 確認済み事実
 
 SIPRIは、非核用途の軍事AIであっても、意思決定時間の圧縮、誤算、AI意思決定支援への過信、戦略的安定性への影響を通じ、核エスカレーションへ影響し得ると整理しています。
 
-国連総会決議 A/RES/80/23 は、AIを統合した核兵器の指揮・統制・通信についても、人間によるcontrol and oversightを維持し、核使用に関する決定をAIに自律的に開始させないことを求めています。
+国連総会決議 A/RES/80/23 は、AIを統合した核兵器の指揮・統制・通信についても、人間による統制・監督（control and oversight）を維持し、核使用に関する決定をAIに自律的に開始させないことを求めています。
 
-ICRCは、軍事AIが戦争の速度・規模を加速し、予測困難性を増し、武力行使に対する人間のcontrolを低下させ得ると指摘しています。
+ICRCは、軍事AIが戦争の速度・規模を加速し、予測困難性を増し、武力行使に対する人間の統制（human control）を低下させ得ると指摘しています。
 
-### Supported Inference
+### 根拠のある推論
 
 相手能力の不透明性、AI支援判断への過信、対応時間の短縮、戦略的脆弱性への恐怖が同時に強まる場合、危機時の早期行動圧力が増える可能性があります。
 
-### Scenario / Hypothesis
+### シナリオ／仮説
 
 「相手がAI上の決定的優位を得る前に行動しなければならない」という認識が危機安定性を悪化させる可能性があります。これは検証すべき仮説であり、AI開発競争から核使用への単純な因果関係を確定するものではありません。
 
-### Disconfirming Evidence
+### 現在の評価に反する証拠
 
 - AIが情報統合、異常検知、誤警報低減、意思決定支援の精度向上に寄与し、危機安定性を改善する実証が強く示される場合、本ケースのリスク評価は下方修正され得ます。
 - 実運用で十分な時間、独立検証、拒否権限が維持され、AI導入後も危機判断の実効的人間拒否が改善した証拠は、現在評価に不利な証拠として扱います。
 
-### What Would Change This Assessment?
+### 何が判明すれば評価を変えるか
 
-- 国家別の実運用データによりHuman Final Refusalの実効性が明確に確認された場合
+- 国家別の実運用データにより、人間の最終拒否の実効性が明確に確認された場合
 - AI導入と判断時間圧縮・誤認・危機不安定化の関係を否定する強い比較証拠が得られた場合
 - 逆に、実事故・ニアミスでAI媒介判断が拒否・検証可能性を実際に損なったことが確認された場合
-- Scope Gateを満たさないことが判明した場合は `NOT_APPLICABLE` へ変更します。
+- 収録・適用範囲の条件を満たさないことが判明した場合は、適用外 `NOT_APPLICABLE` へ変更します。
 
-## C. Irreversibility Boundary ｜ 不可逆境界
+## C. 不可逆境界
 
 想定する不可逆境界は、国家間危機が、後から通常の外交的・制度的手段では元の選択可能性へ戻せない大規模軍事エスカレーションへ移る地点です。
 
-**Boundary Question:**  
+**境界を確認する問い:**  
 不可逆な軍事行動へ移る前に、責任ある人間が追加確認、拒否、延期、方向転換を実効的に選べるか。
 
-## D. Human Final Refusal ｜ 人間の最終拒否
+## D. 人間の最終拒否
 
 形式的に人間が最終決定者であっても、それだけでは十分ではありません。
 
@@ -73,23 +73,23 @@ ICRCは、軍事AIが戦争の速度・規模を加速し、予測困難性を�
 - AI出力と異なる判断を選べる権限があるか
 - 再確認に必要な時間が残っているか
 - 競争・危機圧力が拒否を実務上不可能にしていないか
-- 独立したchallenge機能が存在するか
+- 独立した異議申立て・再検証機能が存在するか
 
-国家ごとの制度・警戒態勢・AI統合状況が異なるため、世界共通のYES/NOは現時点では検証不能です。
+国家ごとの制度・警戒態勢・AI統合状況が異なるため、世界共通の一律な肯定／否定判定は現時点では検証不能です。
 
-## E. Operational Effectiveness ｜ 運用上の実効性
+## E. 運用上の実効性
 
-本ケースの核心は `human in the loop` という形式ではなく、その人間が実際に拒否できるかです。
+本ケースの核心は、人間が判断過程にいることという形式ではなく、その人間が実際に拒否できるかです。
 
 実効性を弱め得る要因:
 - 判断時間の圧縮
 - AI出力の不透明性
-- automation bias
+- 自動化バイアス
 - 相手意図の誤推定
 - 情報源の劣化
-- 競争による first-mover pressure
+- 競争による先行行動への圧力
 
-## F. Failure Path
+## F. 失敗経路
 
 AI競争  
 → 相手能力・意図の不確実性増加  
@@ -101,55 +101,55 @@ AI競争
 
 これは必然的な因果鎖ではなく、複数条件が重なった場合のリスク経路です。
 
-## G. LUMINA-30 Boundary Review
+## G. LUMINA-30 境界レビュー
 
 > 不可逆化する前に、人間は実効的に拒否・停止・検証・方向転換できたか？
 >
-> Before irreversible AI escalation, could humans still effectively refuse, stop, verify, or redirect?
+> 英語: Before irreversible AI escalation, could humans still effectively refuse, stop, verify, or redirect?
 
-**Preliminary assessment: `PARTIAL / STRUCTURAL RISK IDENTIFIED`**
+**暫定評価: 部分適用／構造リスクを確認 `PARTIAL / STRUCTURAL RISK IDENTIFIED`**
 
-公開研究は、軍事AIが意思決定時間、誤認、automation bias、戦略的脆弱性の認識を通じ、核エスカレーション環境を悪化させ得ることを支持しています。一方、国家別の実運用・AI統合・拒否権の実効性には非公開部分が多く、一般化した最終判定はできません。
+公開研究は、軍事AIが意思決定時間、誤認、自動化バイアス、戦略的脆弱性の認識を通じ、核エスカレーション環境を悪化させ得ることを支持しています。一方、国家別の実運用・AI統合・拒否権の実効性には非公開部分が多く、一般化した最終判定はできません。
 
-## H. Possible Safeguards
+## H. 検討可能な安全策
 
 このケースに直接関係する候補:
-- 核使用に関する決定への実効的人間controlの維持
+- 核使用に関する決定で、人間による実効的な統制を維持する
 - AI出力を唯一の根拠にしない独立確認
 - 危機時の意思決定時間を過度に圧縮しない制度設計
-- 重要判断での独立challenge
-- confidence-building / transparency measures
+- 重要判断での独立した異議申立て・再検証
+- 信頼醸成・透明性向上措置
 - 誤認を減らす危機通信
-- AIと核指揮統制の関係について公開可能な原則を明確化すること
+- AIと核指揮統制の関係について公開可能な原則を明確化する
 
 これらはLUMINA-30の固定必須セットではなく、このケースで検討する候補です。
 
-## I. Limits / Alternative Explanations
+## I. 限界と代替説明
 
 - 核エスカレーションの原因はAIだけではありません。
 - AIが情報統合や誤警報検出を改善し、リスク低減へ寄与する可能性もあります。
 - 「AI開発競争」一般と「軍事AIの核リスク」は同一ではありません。
-- 国家別の意思決定構造には非公開部分が多く、Human Final Refusalの実効性を外部から完全には検証できません。
+- 国家別の意思決定構造には非公開部分が多く、人間の最終拒否の実効性を外部から完全には検証できません。
 - LUMINA-30は外交・軍備管理・核政策そのものを代替しません。
 
-## J. Reuse
+## J. 再利用・制度接続
 
 - 軍事AI意思決定支援の事前レビュー
 - 国家AI安全保障政策の危機安定性レビュー
-- confidence-building measuresの検討
+- 信頼醸成措置の検討
 - AI安全と核リスクの教育・政策対話
 
-### Institutional Transfer Metadata
+### 制度接続メタデータ
 
-- Target Workflow: `policy review / military-AI governance / risk management / education`
-- Decision Point: `before adopting or materially expanding AI-supported crisis or strategic decision processes`
-- Minimum Actionable Output: `verify whether independent human verification and effective refusal remain possible before an irreversible escalation point`
-- Adoption Status: `NOT_TRIED`
-- Adoption Evidence: `none`
-- Observed Result / Failure: `none observed; no institutional-use claim is made`
-- Transfer Limits: `not transferable as-is where decision authority, timing, evidence access or operational context materially differ`
+- 対象業務（`Target Workflow`）: 政策レビュー／軍事AIガバナンス／リスク管理／教育
+- 判断時点（`Decision Point`）: AI支援型の危機・戦略意思決定プロセスを導入、または大幅拡張する前
+- 最小実行可能成果（`Minimum Actionable Output`）: 不可逆的エスカレーション地点より前に、独立した人間の検証と実効的拒否が可能かを確認する
+- 制度利用状況: 未実施 `NOT_TRIED`
+- 利用証拠: なし
+- 観測結果／失敗: 観測なし。制度利用済みとの主張はしません。
+- 転用限界（`Transfer Limits`）: 意思決定権限、時間、証拠へのアクセス、運用状況が大きく異なる場合は、そのまま転用できません。
 
-### Portable Questions / Semantic Guard
+### 持ち運べる問い／意味を守るためのガード
 
 - この問題の不可逆境界はどこか？
 - その前に、人間は本当に拒否・停止・検証・方向転換できるか？
@@ -165,4 +165,3 @@ AI競争
    https://digitallibrary.un.org/record/4095461
 3. ICRC, *FAQ: Artificial Intelligence (AI) in the military domain* (11 June 2026)  
    https://www.icrc.org/en/article/faq-artificial-intelligence-in-military-domain
-
