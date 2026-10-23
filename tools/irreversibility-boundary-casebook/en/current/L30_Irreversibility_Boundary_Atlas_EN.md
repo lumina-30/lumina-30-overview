@@ -183,7 +183,9 @@ Useful submissions include:
 - challenges to the proposed irreversibility boundary
 - questions about applying the framework in a specific field
 
-Public contact: **lumina20251225@proton.me**
+Public contact: **lumina20251225@gmail.com**
+
+Please start the subject with **`[L30-CASEBOOK]`**. After the fixed prefix, add a short purpose such as `Additional case`, `Disconfirming evidence`, or `Question`.
 
 LUMINA-30 does not provide certification, legal advice, a safety guarantee, or an official determination through this contact route.
 

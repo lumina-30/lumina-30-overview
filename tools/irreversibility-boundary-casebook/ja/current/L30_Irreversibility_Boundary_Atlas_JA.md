@@ -183,7 +183,9 @@
 - 不可逆境界の置き方への反論
 - 自分の分野へ当てる際の質問
 
-公開窓口: **lumina20251225@proton.me**
+公開窓口: **lumina20251225@gmail.com**
+
+件名は **`[L30-CASEBOOK]`** で始めてください。固定prefixの後ろに `Additional case`、`Disconfirming evidence`、`Question` など用途を短く記載できます。
 
 LUMINA-30は、問い合わせに対して認証、法的助言、安全保証、公式判定を提供するものではありません。
 
