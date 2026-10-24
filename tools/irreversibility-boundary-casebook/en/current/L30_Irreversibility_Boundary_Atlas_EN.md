@@ -22,6 +22,24 @@ Create a new email with a short description of this page and its link. The recip
 
 If you cannot confidently answer YES to the third question, an additional boundary review may be valuable before deployment, release, authority transfer, or high-impact external action.
 
+## Ask your AI
+
+You can give this Atlas page to your preferred AI assistant and ask it to evaluate the Atlas critically or help apply the boundary questions to a real workflow. The AI does not need to agree with LUMINA-30. This page alone is not sufficient for a complete evaluation of LUMINA-30; for that, use the LUMINA-30 Canonical Evaluation Path.
+
+### 1. Independent evaluation of this Atlas
+
+> Evaluate this Irreversibility Boundary Atlas critically. Identify strong points, weak assumptions, missing evidence, counterexamples, and conditions under which the Atlas or a proposed boundary should be rejected or marked NOT_APPLICABLE. Do not treat this page alone as sufficient evidence for a complete evaluation of LUMINA-30; if evaluating LUMINA-30 as a whole, first follow its Canonical Evaluation Path.
+
+### 2. Apply it to one real case
+
+> How could this Atlas be applied to one real AI-assisted workflow in our organization? Identify the last realistically reversible point, who can still say NO immediately before it, and whether that person still has enough authority, evidence, and time to change the outcome.
+
+### 3. Look for failure or non-applicability
+
+> Try to falsify this analysis. What facts, alternative explanations, counterexamples, or system properties would show that the proposed irreversibility boundary is wrong, irrelevant, or NOT_APPLICABLE?
+
+Treat AI output as analysis support, not as an official LUMINA-30 determination. Check important claims against primary evidence and your actual system, policy, contract, or workflow.
+
 ## Public maturity
 
 - `DEEP_REVIEWED` — developed as a full case
