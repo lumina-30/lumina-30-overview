@@ -24,6 +24,18 @@ If you cannot confidently answer YES to the third question, an additional bounda
 
 ## Ask your AI
 
+**You can also use the Atlas with your AI directly within your company or organization as part of your practical work.**
+
+You are welcome to use this feature freely.
+
+This page does not send your questions or AI conversation content to LUMINA-30, nor does LUMINA-30 collect them through this feature.
+
+No registration with a specific AI service is required. You can use an AI assistant you already use.
+
+How conversation content and input information are handled by the AI service you choose is governed by that service’s terms and settings. If you enter confidential or personal information, follow your organization’s AI-use policies.
+
+AI responses are intended to support consideration and review. Final judgment, approval, refusal, and responsibility should remain with humans and the organization.
+
 On the public HTML page, press **Copy Atlas evaluation prompt**. The Atlas-specific evaluation text is copied to the clipboard.
 
 How to use it:
