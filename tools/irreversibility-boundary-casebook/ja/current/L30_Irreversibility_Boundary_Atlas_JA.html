@@ -15,7 +15,9 @@ section{margin-top:38px}h2{font-size:1.55rem;margin:0 0 14px}.check{display:grid
 .legend{display:flex;flex-wrap:wrap;gap:9px}.legend span,.badges span{border:1px solid #3c566f;border-radius:999px;padding:5px 9px;font-size:.76rem;background:#0a1726;color:#d8e7f5}
 .atlas{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.case-card{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:0 10px 30px rgba(0,0,0,.13)}.cat{font-size:.78rem;color:var(--accent);font-weight:800;margin-bottom:8px}.case-card h3{font-size:1.08rem;line-height:1.35;margin:0 0 10px}.case-card h3 span{color:#587089}.badges{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:15px}dl{margin:0}dt{font-weight:800;color:#dceafa;margin-top:11px;font-size:.9rem}dd{margin:3px 0 0;color:#c5d4e1;font-size:.92rem}.source{display:inline-block;margin-top:15px;font-size:.88rem;text-underline-offset:.18em}
 .roles{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.role{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:15px}.role h3{font-size:.92rem;margin:0 0 7px;color:var(--accent)}.role p{font-size:.85rem;color:#c6d4e1;margin:0}
-.contact{border:1px solid #6e5b32;background:rgba(215,181,109,.06);border-radius:16px;padding:20px}.share-email{display:inline-block;padding:.72rem 1rem;border:1px solid var(--accent);border-radius:999px;font-weight:800;text-decoration:none}.email{font-family:ui-monospace,monospace;font-weight:700}footer{margin-top:45px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:.86rem}
+.contact{border:1px solid #6e5b32;background:rgba(215,181,109,.06);border-radius:16px;padding:20px}
+.ask-ai-row{display:grid;grid-template-columns:minmax(210px,.75fr) minmax(0,2fr);gap:18px;align-items:start}.ask-ai-action{display:flex;flex-direction:column;align-items:flex-start}.ask-ai-guide p{margin:0 0 .45rem}.ask-ai-guide ol{margin:.35rem 0 0;padding-left:1.3rem}.ask-ai-guide li{margin:.3rem 0}.copy-prompt{appearance:none;border:1px solid var(--accent);background:transparent;color:inherit;border-radius:999px;padding:.78rem 1rem;font:inherit;font-weight:800;cursor:pointer}.copy-prompt:hover{background:rgba(215,181,109,.12)}.copy-prompt:focus-visible{outline:2px solid currentColor;outline-offset:2px}.copy-status{min-height:1.5em;margin:.65rem 0 0;font-weight:700}.prompt-source{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;overflow:hidden!important}
+.share-email{display:inline-block;padding:.72rem 1rem;border:1px solid var(--accent);border-radius:999px;font-weight:800;text-decoration:none}.email{font-family:ui-monospace,monospace;font-weight:700}footer{margin-top:45px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:.86rem}
 
 @media (prefers-color-scheme: light){
   :root{--bg:#f7f9fc;--panel:#ffffff;--panel2:#f4f7fb;--line:#cfd8e3;--text:#17202b;--muted:#5f6f82;--accent:#8b6a2b;--link:#005ea8;}
@@ -26,7 +28,7 @@ section{margin-top:38px}h2{font-size:1.55rem;margin:0 0 14px}.check{display:grid
   dt{color:#203246}dd{color:#3f5164}.role p{color:#405164}
   .contact{border-color:#c9b27a;background:rgba(139,106,43,.06)}
 }
-@media(max-width:840px){.check,.atlas{grid-template-columns:1fr}.roles{grid-template-columns:1fr 1fr}}
+@media(max-width:840px){.check,.atlas{grid-template-columns:1fr}.roles{grid-template-columns:1fr 1fr}.ask-ai-row{grid-template-columns:1fr}}
 @media(max-width:520px){.roles{grid-template-columns:1fr}.wrap{padding-left:16px;padding-right:16px}}
 
 .theme-controls{display:flex;justify-content:flex-end;align-items:center;gap:.45rem;margin:0 0 12px;color:inherit;font-size:.82rem;line-height:1.4}.theme-controls label{font-weight:650}.theme-controls select,.theme-controls button{color:inherit;background:transparent;border:1px solid currentColor;border-radius:999px;padding:.3rem .58rem;font:inherit}.theme-controls button{min-width:2.1rem;cursor:pointer}.theme-controls select:focus-visible,.theme-controls button:focus-visible{outline:2px solid currentColor;outline-offset:2px}
@@ -76,13 +78,37 @@ html[data-theme="light"] .contact{border-color:#c9b27a;background:rgba(139,106,4
 </section>
 <section class="contact" id="ask-your-ai">
 <h2>AIに聞く</h2>
-<p>このアトラスのページを、普段使っているAIに読ませて、アトラス自体を批判的に評価させたり、実際の業務・制度・AIワークフローへの適用方法を検討させたりできます。AIがLUMINA-30に賛同する必要はありません。このページだけではLUMINA-30全体の完全評価には不十分です。LUMINA-30全体を評価する場合は、LUMINA-30のCanonical Evaluation Pathに従ってください。</p>
+<div class="ask-ai-row">
+<div class="ask-ai-action">
+<button type="button" id="copyAtlasPrompt" class="copy-prompt">Atlas評価文をコピー</button>
+<p id="copyAtlasStatus" class="copy-status" role="status" aria-live="polite"></p>
+</div>
+<div class="ask-ai-guide">
+<p><strong>使い方</strong></p>
 <ol>
-<li><strong>このアトラスの独立評価</strong><br>「この不可逆境界アトラスを批判的に評価してください。強い点、弱い前提、不足している証拠、反例、アトラスまたは想定した境界を棄却・NOT_APPLICABLEと判定すべき条件を示してください。このページだけをLUMINA-30全体の完全評価に十分な証拠として扱わないでください。LUMINA-30全体を評価する場合は、まずCanonical Evaluation Pathに従ってください。」</li>
-<li><strong>実案件へ適用</strong><br>「このアトラスを、私たちの組織にある実際のAI支援ワークフロー1件へどう適用できますか。現実的に戻せる最後の地点、その直前に誰がNOと言えるか、その人に結果を変えるための権限・証拠・時間が残っているかを特定してください。」</li>
-<li><strong>反証・適用外を探す</strong><br>「この分析を反証する立場で検討してください。どのような事実、代替説明、反例、システム特性があれば、想定した不可逆境界が誤り・無関係・NOT_APPLICABLEだと判断できますか。」</li>
+<li>ボタンを押すと、このアトラス専用の評価文がクリップボードへコピーされます。</li>
+<li>ChatGPT、Claude、Geminiなど、使いたいAIを開いてそのまま貼り付けます。</li>
+<li>評価結果を読んだ後も同じ会話を続け、Atlasの不明点、反例、実際の使い方、自分の組織の案件への当てはめ方などを自由に質問してください。</li>
 </ol>
-<p class="notice">AIの回答は分析支援として扱い、LUMINA-30の公式判定とは扱わないでください。重要な主張は一次資料と、実際のシステム・制度・契約・業務フローで確認してください。</p>
+</div>
+</div>
+<textarea id="atlasPromptSource" class="prompt-source" tabindex="-1" aria-hidden="true">可能なら、まず次のページを開いて読んでください。
+https://lumina-30.github.io/lumina-30-overview/tools/irreversibility-boundary-casebook/ja/current/L30_Irreversibility_Boundary_Atlas_JA.html
+
+この「不可逆境界アトラス」を批判的に評価してください。
+
+次を確認してください。
+- 根拠が強い部分と弱い部分
+- 観測された証拠と推論が明確に分離されているか
+- 想定した不可逆境界が妥当か
+- その境界の前で人間のNOが本当に実効するか
+- 重要な反例、不足証拠、NOT_APPLICABLEとなる事例
+- このアトラスを現実にどう使えるか
+
+このページだけをLUMINA-30全体の完全評価に十分な証拠として扱わないでください。LUMINA-30全体を評価する場合は、まずCanonical Evaluation Pathに従ってください。
+
+評価後は、この同じ会話で追加の質問を続けられるよう案内してください。Atlasの不明点、反例、アトラスの使い方、自分の組織の実案件への当てはめ方などについて、そのまま対話を続けたいです。</textarea>
+<p class="notice">コピーされる文面は、賛同ではなく批判的評価を求めます。LUMINA-30全体を評価する場合は、引き続きCanonical Evaluation Pathに従います。</p>
 </section>
 <section>
 <h2>公開成熟度</h2>
@@ -278,6 +304,25 @@ html[data-theme="light"] .contact{border-color:#c9b27a;background:rgba(139,106,4
     select.addEventListener('change',function(){applyTheme(select.value)});
   }
   if(reload) reload.addEventListener('click',function(){location.reload()});
+})();
+</script>
+<script>
+(function(){
+  const button=document.getElementById('copyAtlasPrompt');
+  const source=document.getElementById('atlasPromptSource');
+  const status=document.getElementById('copyAtlasStatus');
+  if(!button||!source||!status) return;
+  const ok="コピーしました。AIを開いて貼り付けてください。";
+  const fail="自動コピーできませんでした。ブラウザのコピー許可を確認して、もう一度押してください。";
+  button.addEventListener('click',async function(){
+    try{
+      if(navigator.clipboard&&window.isSecureContext){
+        await navigator.clipboard.writeText(source.value); status.textContent=ok; return;
+      }
+      source.focus(); source.select(); source.setSelectionRange(0,source.value.length);
+      status.textContent=document.execCommand('copy')?ok:fail;
+    }catch(e){status.textContent=fail;}
+  });
 })();
 </script>
 </body>
