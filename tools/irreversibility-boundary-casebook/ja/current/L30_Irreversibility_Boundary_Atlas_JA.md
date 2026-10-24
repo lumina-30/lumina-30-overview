@@ -14,6 +14,12 @@
 2. **その直前に、誰が実際にNOと言えるか。**
 3. **そのNOに必要な権限・証拠・時間は本当に残っているか。**
 
+## このページを仕事に使う
+
+このページの短い概要とリンクを入れた新規メールを作成します。宛先は空欄なので、自分宛のメモ、同僚やチームへの共有、担当者への依頼など自由に使えます。必要な一言を加えてから送信してください。
+
+[このページへのリンク付きメールを作成 →](mailto:?subject=LUMINA-30%20%E4%B8%8D%E5%8F%AF%E9%80%86%E5%A2%83%E7%95%8C%E3%82%A2%E3%83%88%E3%83%A9%E3%82%B9&body=LUMINA-30%20%E4%B8%8D%E5%8F%AF%E9%80%86%E5%A2%83%E7%95%8C%E3%82%A2%E3%83%88%E3%83%A9%E3%82%B9%0A%0AAI%E3%81%AB%E9%96%A2%E3%82%8F%E3%82%8B%E4%BA%8B%E4%BE%8B%E3%83%BB%E5%88%B6%E5%BA%A6%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%80%81%E3%80%8C%E3%81%A9%E3%81%93%E3%81%8B%E3%82%89%E6%88%BB%E3%82%8C%E3%81%AA%E3%81%8F%E3%81%AA%E3%82%8B%E3%81%8B%E3%80%8D%E3%81%A8%E3%80%8C%E3%81%9D%E3%81%AE%E7%9B%B4%E5%89%8D%E3%81%AB%E4%BA%BA%E9%96%93%E3%81%8C%E5%AE%9F%E9%9A%9B%E3%81%AB%E6%8B%92%E5%90%A6%E3%83%BB%E5%81%9C%E6%AD%A2%E3%83%BB%E6%A4%9C%E8%A8%BC%E3%83%BB%E6%96%B9%E5%90%91%E8%BB%A2%E6%8F%9B%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%8B%E3%80%8D%E3%82%92%E4%BA%8B%E4%BE%8B%E3%83%99%E3%83%BC%E3%82%B9%E3%81%A7%E7%A2%BA%E8%AA%8D%E3%81%99%E3%82%8B%E5%85%AC%E9%96%8B%E3%82%A2%E3%83%88%E3%83%A9%E3%82%B9%E3%81%A7%E3%81%99%E3%80%82%0A%0A%E3%83%9A%E3%83%BC%E3%82%B8%3A%0Ahttps%3A%2F%2Flumina-30.github.io%2Flumina-30-overview%2Ftools%2Firreversibility-boundary-casebook%2Fja%2Fcurrent%2FL30_Irreversibility_Boundary_Atlas_JA.html)
+
 3つ目に自信を持ってYESと言えない場合、導入・公開・権限移譲・重大な外部作用の前に、追加レビューの価値があります。
 
 ## 公開成熟度
@@ -193,4 +199,3 @@ LUMINA-30は、問い合わせに対して認証、法的助言、安全保証�
 
 - [LUMINA-30 不可逆境界事例集](./L30_Irreversibility_Boundary_Casebook_JA.html)
 - [CASE-001｜AI開発競争と核エスカレーション圧力](./CASE-001_AI_Competition_and_Nuclear_Escalation_Pressure_JA.html)
-

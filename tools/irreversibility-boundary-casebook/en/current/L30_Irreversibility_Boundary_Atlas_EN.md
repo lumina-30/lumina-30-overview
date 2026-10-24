@@ -14,6 +14,12 @@ For your own system, policy, contract, deployment, or incident, answer three que
 2. **Immediately before that point, who can actually say NO?**
 3. **Does that person still have the authority, evidence, and time required for the NO to change the outcome?**
 
+## Put this page to work
+
+Create a new email with a short description of this page and its link. The recipient field is left blank, so you can use it for a note to yourself, a colleague, a team, or anyone else. Add your own note or request before sending.
+
+[Create an email with this page link →](mailto:?subject=LUMINA-30%20Irreversibility%20Boundary%20Atlas&body=LUMINA-30%20Irreversibility%20Boundary%20Atlas%0A%0AA%20public%20cross-domain%20atlas%20for%20examining%20where%20an%20AI-related%20decision%20or%20action%20becomes%20practically%20irreversible%2C%20and%20whether%20humans%20can%20still%20effectively%20refuse%2C%20stop%2C%20verify%2C%20or%20redirect%20before%20that%20point.%0A%0APage%3A%0Ahttps%3A%2F%2Flumina-30.github.io%2Flumina-30-overview%2Ftools%2Firreversibility-boundary-casebook%2Fen%2Fcurrent%2FL30_Irreversibility_Boundary_Atlas_EN.html)
+
 If you cannot confidently answer YES to the third question, an additional boundary review may be valuable before deployment, release, authority transfer, or high-impact external action.
 
 ## Public maturity
@@ -193,4 +199,3 @@ LUMINA-30 does not provide certification, legal advice, a safety guarantee, or a
 
 - [LUMINA-30 Irreversibility Boundary Casebook](./L30_Irreversibility_Boundary_Casebook_EN.html)
 - [CASE-001 | AI Competition and Nuclear Escalation Pressure](./CASE-001_AI_Competition_and_Nuclear_Escalation_Pressure_EN.html)
-
