@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>LUMINA-30 Pre-Incident Boundary Review Starter Pack EN R1</title>
 <style>
 @page { size: A4; margin: 18mm 15mm 18mm 15mm; }
@@ -48,9 +49,65 @@ th { background:#f1f5f9; color:#0f172a; font-weight:700; }
 .section { page-break-inside: auto; }
 .break { page-break-before: always; }
 code { font-family: "Noto Sans Mono", monospace; background:#f1f5f9; padding:1px 4px; border-radius:4px; }
+
+.site-ui{max-width:1180px;margin:0 auto;padding:12px 16px 0;font-family:system-ui,-apple-system,"Segoe UI","Noto Sans JP",sans-serif}
+.lang,.global-nav,.theme-controls{display:flex;flex-wrap:wrap;align-items:center;gap:.55rem;font-size:.9rem}
+.lang{justify-content:flex-end;margin-bottom:8px}.lang .current{font-weight:700}
+.global-nav{margin-bottom:8px}.global-nav a{font-weight:650}
+.theme-controls{justify-content:flex-end;margin-bottom:10px}
+.theme-controls label{font-weight:650}.theme-controls select,.theme-controls button{color:inherit;background:transparent;border:1px solid currentColor;border-radius:999px;padding:.3rem .58rem;font:inherit}.theme-controls button{min-width:2.1rem;cursor:pointer}
+.theme-controls select:focus-visible,.theme-controls button:focus-visible,.global-nav a:focus-visible,.lang a:focus-visible{outline:2px solid currentColor;outline-offset:2px}
+html[data-theme="dark"] body{background:#07111f;color:#e6eef8}
+html[data-theme="dark"] h1,html[data-theme="dark"] h2,html[data-theme="dark"] h3{color:#f2f7fc}
+html[data-theme="dark"] a{color:#9dd8ff}
+html[data-theme="dark"] .cover{background:linear-gradient(135deg,#0a1728,#07111f)}
+html[data-theme="dark"] .cover .kicker,html[data-theme="dark"] .cover .subtitle,html[data-theme="dark"] .meta,html[data-theme="dark"] .footer-note{color:#a9bdd0}
+html[data-theme="dark"] .meta{border-color:#294158}
+html[data-theme="dark"] .lead{color:#d8e5f1}
+html[data-theme="dark"] .bigline{background:#10243a;border-color:#365675;color:#edf4fb}
+html[data-theme="dark"] .definition{background:#0d241b;border-color:#275c46}
+html[data-theme="dark"] .callout,html[data-theme="dark"] .neutral,html[data-theme="dark"] .quote{background:#0b1a2c;border-color:#294158;color:#edf4fb}
+html[data-theme="dark"] .warning,html[data-theme="dark"] .orange{background:#2b1b0c;border-color:#7c4a18}
+html[data-theme="dark"] .danger,html[data-theme="dark"] .red{background:#2a1017;border-color:#7f243b}
+html[data-theme="dark"] .yellow{background:#2a260b;border-color:#71641c}
+html[data-theme="dark"] table,html[data-theme="dark"] th,html[data-theme="dark"] td{border-color:#36516b}
+html[data-theme="dark"] th{background:#10243a;color:#edf4fb}
+html[data-theme="dark"] .card,html[data-theme="dark"] .checklist{border-color:#36516b}
+html[data-theme="dark"] .prompt{background:#21183b;border-color:#5d47a0}
+html[data-theme="dark"] .ai-summary{background:#0d2440;border-color:#2d5f9b}
+html[data-theme="dark"] code{background:#10243a;color:#edf4fb}
+@media (prefers-color-scheme: dark){
+html:not([data-theme="light"]) body{background:#07111f;color:#e6eef8}
+html:not([data-theme="light"]) h1,html:not([data-theme="light"]) h2,html:not([data-theme="light"]) h3{color:#f2f7fc}
+html:not([data-theme="light"]) a{color:#9dd8ff}
+html:not([data-theme="light"]) .cover{background:linear-gradient(135deg,#0a1728,#07111f)}
+html:not([data-theme="light"]) .cover .kicker,html:not([data-theme="light"]) .cover .subtitle,html:not([data-theme="light"]) .meta,html:not([data-theme="light"]) .footer-note{color:#a9bdd0}
+html:not([data-theme="light"]) .meta{border-color:#294158}
+html:not([data-theme="light"]) .lead{color:#d8e5f1}
+html:not([data-theme="light"]) .bigline{background:#10243a;border-color:#365675;color:#edf4fb}
+html:not([data-theme="light"]) .definition{background:#0d241b;border-color:#275c46}
+html:not([data-theme="light"]) .callout,html:not([data-theme="light"]) .neutral,html:not([data-theme="light"]) .quote{background:#0b1a2c;border-color:#294158;color:#edf4fb}
+html:not([data-theme="light"]) .warning,html:not([data-theme="light"]) .orange{background:#2b1b0c;border-color:#7c4a18}
+html:not([data-theme="light"]) .danger,html:not([data-theme="light"]) .red{background:#2a1017;border-color:#7f243b}
+html:not([data-theme="light"]) .yellow{background:#2a260b;border-color:#71641c}
+html:not([data-theme="light"]) table,html:not([data-theme="light"]) th,html:not([data-theme="light"]) td{border-color:#36516b}
+html:not([data-theme="light"]) th{background:#10243a;color:#edf4fb}
+html:not([data-theme="light"]) .card,html:not([data-theme="light"]) .checklist{border-color:#36516b}
+html:not([data-theme="light"]) .prompt{background:#21183b;border-color:#5d47a0}
+html:not([data-theme="light"]) .ai-summary{background:#0d2440;border-color:#2d5f9b}
+html:not([data-theme="light"]) code{background:#10243a;color:#edf4fb}
+}
+@media print{.site-ui{display:none!important}}
+
 </style>
 </head>
 <body>
+<div class="site-ui">
+<nav class="lang" aria-label="Language"><span class="current" aria-current="page">EN</span><span aria-hidden="true">|</span><a href="../../ja/current/L30_Pre_Incident_Boundary_Review_Starter_Pack_JA.html" lang="ja" hreflang="ja">日本語</a></nav>
+<div class="theme-controls" role="group" aria-label="Display controls"><button type="button" id="reloadButton" aria-label="Reload">↻</button><label for="themeSelect">Theme</label><select id="themeSelect" aria-label="Color theme"><option value="auto">Auto</option><option value="light">Light</option><option value="dark">Dark</option></select></div>
+<nav class="global-nav" aria-label="Main navigation"><a href="https://lumina-30.github.io/Lumi30-Index/lumi-menu-en.html">LUMI MENU</a><span aria-hidden="true">|</span><a href="https://lumina-30.github.io/Lumi30-Index/start-en.html">START</a><span aria-hidden="true">|</span><a href="https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_TOOLS_QUICK_ACCESS.html">Practical Tools</a><span aria-hidden="true">|</span><a href="https://lumina-30.github.io/lumina-30-overview/">Overview</a></nav>
+</div>
+
 <section class="cover">
 <div class="kicker">LUMINA-30 / Pre-Incident Boundary Review</div>
 <h1>Pre-Incident Boundary Review Starter Pack<br/>Staged Adoption Edition</h1>
@@ -384,5 +441,14 @@ code { font-family: "Noto Sans Mono", monospace; background:#f1f5f9; padding:1px
 
 </section>
 <div class="footer-note">This version is preserved for audit, citation, and review traceability. For current use, see the latest version in the current folder.</div>
+<script>
+(function(){
+var root=document.documentElement,select=document.getElementById('themeSelect'),reload=document.getElementById('reloadButton'),key='l30-color-theme',saved='auto';
+try{var stored=localStorage.getItem(key);if(stored==='light'||stored==='dark')saved=stored}catch(e){}
+function applyTheme(theme){if(theme==='light'||theme==='dark'){root.setAttribute('data-theme',theme);try{localStorage.setItem(key,theme)}catch(e){}}else{root.removeAttribute('data-theme');try{localStorage.removeItem(key)}catch(e){}}}
+if(select){select.value=saved;applyTheme(saved);select.addEventListener('change',function(){applyTheme(select.value)})}
+if(reload)reload.addEventListener('click',function(){location.reload()});
+})();
+</script>
 </body>
 </html>
