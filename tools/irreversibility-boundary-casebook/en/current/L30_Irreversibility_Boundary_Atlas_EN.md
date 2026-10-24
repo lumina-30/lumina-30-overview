@@ -168,6 +168,22 @@ If you cannot confidently answer YES to the third question, an additional bounda
 ### Policymakers and public officials
 For legislation, regulation, national strategy, and public procurement, test whether **refusal authority, intervention time, and independent verification** remain practically available before irreversible effects.
 
+### Start one real policy boundary review
+
+For policymakers, UN bodies, government teams, and public-sector decision makers: use 15 minutes for a first pass on one policy, regulation, public-procurement, or deployment decision.
+
+1. Pick one real decision.
+2. Identify the point after which the consequence becomes difficult to reverse.
+3. Identify the human authority immediately before that point.
+4. Check whether that person still has the authority, evidence, and time needed to change the outcome.
+5. Record **YES / NO / UNKNOWN** and the next action.
+
+[Start a 15-minute boundary review →](https://lumina-30.github.io/lumina-30-overview/tools/pre-incident-boundary-review/en/current/L30_Pre_Incident_Boundary_Review_Starter_Pack_EN.html)
+
+[Apply this to a policy / regulation / public procurement case →](mailto:lumina20251225@gmail.com?subject=%5BL30-CASEBOOK%5D%20Policy%20%2F%20regulation%20%2F%20public%20procurement%20case)
+
+Use the existing Pre-Incident Boundary Review Starter Pack. It can be added to existing governance, procurement, audit, or review processes; it does not replace them.
+
 ### AI development and operations
 Before production authority, external connectivity, model updates, tool use, agent permissions, or model release, identify **where recall, stopping, isolation, or rollback becomes practically difficult**.
 
