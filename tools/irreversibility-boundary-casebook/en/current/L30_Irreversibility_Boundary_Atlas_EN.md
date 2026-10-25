@@ -30,7 +30,7 @@ You are welcome to use this feature freely.
 
 This page does not send your questions or AI conversation content to LUMINA-30, nor does LUMINA-30 collect them through this feature.
 
-No registration with a specific AI service is required. You can use an AI assistant you already use.
+No registration with a specific AI service is required. You can use the AI assistant you normally use.
 
 How conversation content and input information are handled by the AI service you choose is governed by that service’s terms and settings. If you enter confidential or personal information, follow your organization’s AI-use policies.
 
@@ -39,11 +39,19 @@ AI responses are intended to support consideration and review. Final judgment, a
 On the public HTML page, press **Copy Atlas evaluation prompt**. The Atlas-specific evaluation text is copied to the clipboard.
 
 How to use it:
-1. Press the button.
-2. Paste the copied text into ChatGPT, Claude, Gemini, or another AI assistant.
-3. Read the evaluation, then continue in the same conversation and ask about unclear points in the Atlas, counterexamples, practical use, or applying the Atlas to a real workflow in your organization.
+1. Open the Atlas.
+2. Press **Copy Atlas evaluation prompt**.
+3. Paste the copied Atlas prompt into the AI assistant you normally use.
+4. Next, paste or describe the problem, news item, post, policy proposal, incident, scenario, or other case you want to examine.
+5. Say **“Evaluate this with the Atlas.”**
+6. If useful, stay in the same conversation and ask follow-up questions about unknowns, counterexamples, or concrete ways to respond.
 
-The copied prompt asks for critical evaluation rather than endorsement and tells the AI to keep the conversation open for follow-up questions. A whole-project evaluation of LUMINA-30 still follows the Canonical Evaluation Path.
+The copied prompt first asks the AI to critically evaluate the Atlas itself rather than endorse it. After that, when a real case is provided in the same conversation, it instructs the AI to apply the Atlas without requiring the user to manually restate the three questions. The application covers the problem being examined, the point beyond realistic return, who can actually say NO, authority / evidence / time, what actually stops after NO, irreversible losses under GO / STOP / WAIT, APPLICABLE / PARTIAL / NOT_APPLICABLE / UNKNOWN, missing evidence / unknowns, and candidate changes to technical design / authority / audit / institutional / operational arrangements.
+
+The purpose of identifying an irreversibility boundary is not to amplify fear. It is to turn a vague concern such as “AI may become uncontrollable” or “the problem is too large to address” into concrete questions about what must be protected, where intervention must occur, who retains authority, what evidence is available, how much time remains, and what a human NO would actually stop.
+
+The copied prompt tells the AI not to fill evidentiary gaps by guessing and to mark unsupported points as UNKNOWN or unverified. It also tells the AI not to treat the Atlas as a universal solution and not to present the result as certification, a safety guarantee, legal advice, or an official determination. AI output remains decision-support only; final judgment, approval, refusal, and responsibility remain with the relevant humans and organizations. A whole-project evaluation of LUMINA-30 still follows the Canonical Evaluation Path.
+
 
 
 ## Public maturity
