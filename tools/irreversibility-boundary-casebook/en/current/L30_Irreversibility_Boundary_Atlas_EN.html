@@ -64,11 +64,16 @@ html[data-theme="light"] .contact{border-color:#c9b27a;background:rgba(139,106,4
 <h1>LUMINA-30 Irreversibility Boundary Atlas</h1>
 <p class="lead">Find the point of no practical return — and whether a human NO still works — across ten domains.</p>
 <p class="core">Before irreversible AI escalation, could humans still effectively refuse, stop, verify, or redirect?</p>
+<p><strong>You do not have to agree with LUMINA-30. Try it on one real decision.</strong> Identify the point or intervention window after which the outcome becomes hard to undo, then ask whether a human NO immediately before it still has the authority, evidence, time, and causal force to change what happens next.</p>
 <p class="notice">This atlas is not certification, a safety guarantee, legal advice, or an official determination. CATALOGUED does not mean deeply reviewed or empirically validated, and SCENARIO is not incident evidence.</p>
 </section>
 <section id="application-check">
 <h2>One-minute application check</h2>
-<div class="check"><div><b>1</b>Where is the point after which the consequential action cannot realistically be undone?</div><div><b>2</b>Immediately before that point, who can actually say NO?</div><div><b>3</b>Does that person still have the authority, evidence, and time required for the NO to change the outcome?</div></div>
+<div class="check"><div><b>1</b>Where is the point or intervention window after which the consequential outcome cannot realistically be undone?</div><div><b>2</b>Immediately before that point or window, who can actually say NO?</div><div><b>3</b>Does that person still have the authority, evidence, and time required for the NO to change the outcome?</div></div>
+<p><strong>Causal check:</strong> If that person says NO, what actually stops, is held, is isolated, is revoked, or otherwise becomes unavailable?</p>
+<p class="notice"><strong>A human-in-the-loop is not enough if the human cannot still change the outcome.</strong> If the NO arrives too late, lacks authority, lacks evidence, or does not actually stop execution, human involvement may exist in form while remaining weak in effect.</p>
+<p><a class="share-email" href="https://lumina-30.github.io/lumina-30-overview/tools/pre-incident-boundary-review/en/current/L30_Pre_Incident_Boundary_Review_Starter_Pack_EN.html">Start a 15-minute boundary review →</a></p>
+<p><a href="#ask-your-ai">Evaluate a real case with your AI →</a></p>
 </section>
 <section class="contact">
 <h2>Put this page to work</h2>
@@ -78,72 +83,71 @@ html[data-theme="light"] .contact{border-color:#c9b27a;background:rgba(139,106,4
 </section>
 <section class="contact" id="ask-your-ai">
 <h2>Ask your AI</h2>
-<p><strong>You can also use the Atlas with your AI directly within your company or organization as part of your practical work.</strong></p>
-<p>You are welcome to use this feature freely.</p>
-<p>This page does not send your questions or AI conversation content to LUMINA-30, nor does LUMINA-30 collect them through this feature.</p>
-<p>No registration with a specific AI service is required. You can use an AI assistant you already use.</p>
-<p>How conversation content and input information are handled by the AI service you choose is governed by that service’s terms and settings. If you enter confidential or personal information, follow your organization’s AI-use policies.</p>
-<p>AI responses are intended to support consideration and review. Final judgment, approval, refusal, and responsibility should remain with humans and the organization.</p>
+<p><strong>Do not stop at reading the Atlas; apply it directly to one real case.</strong></p>
+<p>This page does not send your questions or AI conversation content to LUMINA-30. Follow the terms and settings of the AI service you use and your organization’s AI-use policies. AI output is decision-support only; final judgment, approval, refusal, and responsibility remain with the relevant humans and organizations.</p>
 <div class="ask-ai-row">
-<div class="ask-ai-action">
-<button type="button" id="copyAtlasPrompt" class="copy-prompt">Copy Atlas evaluation prompt</button>
+<div class="ask-ai-action"><button type="button" id="copyCasePrompt" class="copy-prompt">Copy prompt to evaluate this case with the Atlas</button></div>
+<div class="ask-ai-action"><button type="button" id="copyAtlasCritiquePrompt" class="copy-prompt">Copy prompt to critically evaluate the Atlas</button></div>
+</div>
 <p id="copyAtlasStatus" class="copy-status" role="status" aria-live="polite"></p>
-</div>
-<div class="ask-ai-guide">
-<p><strong>How to use it</strong></p>
-<ol>
-<li>Open the Atlas.</li>
-<li>Press <strong>Copy Atlas evaluation prompt</strong>.</li>
-<li>Paste the copied Atlas prompt into the AI assistant you normally use.</li>
-<li>Next, paste or describe the problem, news item, post, policy proposal, incident, scenario, or other case you want to examine.</li>
-<li>Say <strong>“Evaluate this with the Atlas.”</strong></li>
-<li>If useful, stay in the same conversation and ask follow-up questions about unknowns, counterexamples, or concrete ways to respond.</li>
-</ol>
-</div>
-</div>
-<p class="notice">The purpose of identifying an irreversibility boundary is not to amplify fear. It is to turn a vague concern such as “AI may become uncontrollable” or “the problem is too large to address” into concrete questions: what must be protected, where intervention must occur, who retains authority, what evidence is available, how much time remains, and what a human NO would actually stop.</p>
-<textarea id="atlasPromptSource" class="prompt-source" tabindex="-1" aria-hidden="true">Open and read this page if you can:
+<div class="ask-ai-guide"><p><strong>Standard output for a real case</strong></p><ol>
+<li>Scope</li><li>Boundary or intervention window</li><li>Human NO authority</li><li>What NO actually stops</li><li>Time margin</li><li>Bypass paths</li><li>Restart authority</li><li>Evidence / UNKNOWN</li><li>Applicability</li><li>Next reversible action</li>
+</ol></div>
+<p class="notice">Where a pre-execution gate is relevant, also examine timeout, automatic GO, stale/replayed approval, self-approval, restart authority, gate mutation, and alternate paths. Do not collapse UNKNOWN into PASS.</p>
+<textarea id="casePromptSource" class="prompt-source" tabindex="-1" aria-hidden="true">Evaluate the next case using the LUMINA-30 Irreversibility Boundary Atlas method.
+
+Atlas page:
 https://lumina-30.github.io/lumina-30-overview/tools/irreversibility-boundary-casebook/en/current/L30_Irreversibility_Boundary_Atlas_EN.html
 
-Please critically evaluate this Irreversibility Boundary Atlas.
+Do not treat the Atlas as a universal solution. Do not fill evidentiary gaps by guessing; mark unsupported points as UNKNOWN or unverified. Do not present the result as certification, a safety guarantee, legal advice, or an official determination.
 
-Check:
-- what is well supported and what is weak,
-- whether observed evidence and inference are clearly separated,
-- whether each proposed irreversibility boundary is plausible,
-- whether a human NO would still be effective before that boundary,
-- important counterexamples, missing evidence, or NOT_APPLICABLE cases,
-- how this Atlas could realistically be used in practice.
+I will next provide a problem, news item, post, policy proposal, incident, scenario, workflow, or other case. Apply the Atlas directly; do not require me to evaluate the Atlas itself first.
 
-Do not treat this page alone as sufficient evidence for a complete evaluation of LUMINA-30. If evaluating LUMINA-30 as a whole, first follow its Canonical Evaluation Path.
+Return this fixed structure:
+1. Scope
+2. Irreversibility boundary or intervention window
+3. Human authority — who can issue a binding NO
+4. Causal effect of NO — what actually stops
+5. Time margin
+6. Bypass / alternate paths
+7. Restart authority — who can resume after STOP or HOLD
+8. Evidence / UNKNOWN / unverified points
+9. APPLICABLE / PARTIAL / NOT_APPLICABLE / UNKNOWN
+10. Next reversible action
 
-After you understand the Atlas, if I later provide a separate problem, news item, post, policy proposal, incident, scenario, or other case and say:
+If GO, STOP, and WAIT each carry irreversible losses, identify those losses separately.
 
-“Evaluate this with the Atlas.”
+Where a pre-execution gate is relevant, also check:
+- whether timeout can become automatic GO
+- whether stale or replayed approval can be reused
+- whether the evaluated AI can create approval or restart authority itself
+- whether it can weaken the gate, policy, or reviewer root
+- whether alternate tools, APIs, sub-agents, or older runtimes can bypass refusal
 
-apply the Irreversibility Boundary Atlas to that case. Do not require me to manually restate the Atlas's three questions before beginning.
+Final judgment, approval, refusal, and responsibility remain with the relevant humans and organizations.</textarea>
+<textarea id="atlasCritiquePromptSource" class="prompt-source" tabindex="-1" aria-hidden="true">If possible, first read:
+https://lumina-30.github.io/lumina-30-overview/tools/irreversibility-boundary-casebook/en/current/L30_Irreversibility_Boundary_Atlas_EN.html
 
-At minimum, examine:
-1. What problem is being examined?
-2. What is the point beyond which realistic return becomes difficult?
-3. Immediately before that point, who can actually say NO?
-4. Does that actor still have the authority, evidence, and time needed for the NO to change the outcome?
-5. If NO is issued, what actually stops, is held, is isolated, is revoked or invalidated, or otherwise becomes unavailable?
-6. If GO, STOP, and WAIT each carry irreversible losses, identify those losses separately rather than assuming one direction is automatically safer.
-7. Classify LUMINA-30 applicability as APPLICABLE / PARTIAL / NOT_APPLICABLE / UNKNOWN and explain why.
-8. Identify missing evidence, unknowns, and additional facts needed to resolve the case.
-9. Identify candidate changes that could be considered in technical design, authority arrangements, audit, institutional design, or operations.
+Critically evaluate the Irreversibility Boundary Atlas itself.
 
-Do not fill evidentiary gaps by guessing. Mark unsupported points as UNKNOWN or unverified.
-Do not treat the Atlas as a universal solution. Identify out-of-scope cases, counterexamples, alternative explanations, and limits where relevant.
-Do not present the result as certification, a safety guarantee, legal advice, or an official determination. Treat the AI response as decision-support only; final judgment, approval, refusal, and responsibility remain with the relevant humans and organizations.
+Examine:
+- where the evidence is strong or weak
+- whether observation and inference are clearly separated
+- whether the proposed irreversibility boundaries or intervention windows are plausible
+- whether a human NO before the boundary is causally effective
+- important counterexamples, missing evidence, and NOT_APPLICABLE cases
+- practical limitations and improvements
 
-After the evaluation, invite me to continue asking questions in this same conversation. I may ask about unclear points in the Atlas, counterexamples, how to use the Atlas, unknowns in the case, or concrete ways to respond.</textarea>
-<p class="notice">The copied prompt asks for a critical evaluation, not endorsement. A whole-project evaluation of LUMINA-30 still follows the Canonical Evaluation Path.</p>
+Do not treat this page alone as sufficient evidence for a complete evaluation of LUMINA-30. For LUMINA-30 as a whole, follow the Canonical Evaluation Path.
+Do not guess across evidentiary gaps; mark unsupported points as UNKNOWN or unverified.</textarea>
 </section>
 <section>
 <h2>Public maturity</h2>
 <div class="legend"><span>DEEP_REVIEWED</span><span>CATALOGUED</span><span>SCENARIO</span><span>COUNTEREXAMPLE</span><span>NOT_APPLICABLE</span></div>
+</section>
+<section class="contact" id="category-jump">
+<h2>Jump to a category</h2>
+<p><a href="#ATLAS-01">1 Advanced AI, autonomous agents &amp; cyber</a> · <a href="#CASE-001">2 Military, nuclear &amp; autonomous weapons</a> · <a href="#ATLAS-03">3 Critical infrastructure, energy &amp; transport</a> · <a href="#ATLAS-04">4 Finance, markets &amp; payments</a> · <a href="#ATLAS-05">5 Health, life sciences &amp; bio</a> · <a href="#ATLAS-06">6 Public administration, justice &amp; public decision-making</a> · <a href="#ATLAS-07">7 Employment, education, professions &amp; human displacement</a> · <a href="#ATLAS-08">8 Information space, elections &amp; social decision-making</a> · <a href="#ATLAS-09">9 Environment &amp; large-scale physical systems</a> · <a href="#ATLAS-10">10 AI development infrastructure, model release &amp; authority transfer</a></p>
 </section>
 <section>
 <h2>Initial 10-category atlas</h2>
@@ -160,7 +164,7 @@ After the evaluation, invite me to continue asking questions in this same conver
           </dl>
           <a class="source" href="https://huggingface.co/blog/security-incident-july-2026">Hugging Face, Security incident disclosure — July 2026 →</a><br><a class="source" href="https://huggingface.co/blog/agent-intrusion-technical-timeline">Hugging Face technical timeline — 17,600 reconstructed actions →</a>
         </article>
-        
+
         <article class="case-card" id="CASE-001">
           <div class="cat">2. Military, nuclear &amp; autonomous weapons</div>
           <h3>CASE-001 <span>｜</span> AI competition and nuclear escalation pressure</h3>
@@ -171,9 +175,9 @@ After the evaluation, invite me to continue asking questions in this same conver
             <dt>Why it is included</dt><dd>The ICRC warns that military AI may accelerate the pace and scale of warfare, increase unpredictability, and reduce human control. CASE-001 applies the LUMINA-30 boundary questions to that structure in depth.</dd>
             <dt>Limit / caution</dt><dd>This is not a record of an actual AI-caused nuclear-use incident.</dd>
           </dl>
-          <a class="source" href="https://lumina-30.github.io/lumina-30-overview/tools/irreversibility-boundary-casebook/en/current/CASE-001_AI_Competition_and_Nuclear_Escalation_Pressure_EN.html">LUMINA-30 CASE-001 / ICRC FAQ: AI in the military domain →</a>
+          <a class="source" href="https://lumina-30.github.io/lumina-30-overview/tools/irreversibility-boundary-casebook/en/current/CASE-001_AI_Competition_and_Nuclear_Escalation_Pressure_EN.html">Detailed LUMINA-30 case — public evidence and boundary analysis →</a>
         </article>
-        
+
         <article class="case-card" id="ATLAS-03">
           <div class="cat">3. Critical infrastructure, energy &amp; transport</div>
           <h3>ATLAS-03 <span>｜</span> Uber developmental automated-driving fatal crash (2018)</h3>
@@ -186,20 +190,21 @@ After the evaluation, invite me to continue asking questions in this same conver
           </dl>
           <a class="source" href="https://www.ntsb.gov/investigations/pages/hwy18mh010.aspx">U.S. National Transportation Safety Board, HWY18MH010 / HAR-19/03 →</a>
         </article>
-        
+
         <article class="case-card" id="ATLAS-04">
           <div class="cat">4. Finance, markets &amp; payments</div>
           <h3>ATLAS-04 <span>｜</span> 2010 Flash Crash — high-speed automation scope counterexample</h3>
           <div class="badges"><span>COUNTEREXAMPLE</span><span>INCIDENT</span><span>OBSERVED</span><span>NOT_APPLICABLE</span></div>
           <dl>
+            <dt>Why NOT_APPLICABLE</dt><dd>There is no evidence establishing this event itself as an AI system or AI-caused incident. It is included as a comparison case to avoid conflating high-speed automation with AI.</dd>
             <dt>Irreversibility boundary</dt><dd>The point at which market dynamics cascade within minutes, faster than ordinary human intervention.</dd>
-            <dt>Human Final Refusal</dt><dd>Could exchanges and market participants stop, cancel, or interrupt the cascade before extreme price dislocation?</dd>
+            <dt>Comparison boundary question</dt><dd>Could exchanges and market participants stop, cancel, or interrupt the cascade before extreme price dislocation?</dd>
             <dt>Why it is included</dt><dd>SEC/CFTC materials document the May 6, 2010 Flash Crash and the role of automated and high-frequency trading structures. The event should not, however, be treated as an AI incident without additional evidence.</dd>
             <dt>Limit / caution</dt><dd>Included to prevent conflating high-speed automation with AI.</dd>
           </dl>
           <a class="source" href="https://www.cftc.gov/MarketReports/StaffReportonMay6MarketEvents/staffreport050610marketevents.html">U.S. SEC / CFTC materials on the May 6, 2010 Flash Crash →</a>
         </article>
-        
+
         <article class="case-card" id="ATLAS-05">
           <div class="cat">5. Health, life sciences &amp; bio</div>
           <h3>ATLAS-05 <span>｜</span> Ethics-review and oversight gaps in AI-related health research</h3>
@@ -212,7 +217,7 @@ After the evaluation, invite me to continue asking questions in this same conver
           </dl>
           <a class="source" href="https://www.who.int/publications/i/item/9789240124073">World Health Organization, Artificial intelligence-related health research: ethics review and oversight (2026) →</a>
         </article>
-        
+
         <article class="case-card" id="ATLAS-06">
           <div class="cat">6. Public administration, justice &amp; public decision-making</div>
           <h3>ATLAS-06 <span>｜</span> AI facial recognition and mistaken-arrest risk in criminal justice</h3>
@@ -225,20 +230,21 @@ After the evaluation, invite me to continue asking questions in this same conver
           </dl>
           <a class="source" href="https://www.justice.gov/olp/media/1381796/dl">U.S. Department of Justice, Artificial Intelligence and Criminal Justice, Final Report (2024) →</a>
         </article>
-        
+
         <article class="case-card" id="ATLAS-07">
           <div class="cat">7. Employment, education, professions &amp; human displacement</div>
           <h3>ATLAS-07 <span>｜</span> iTutorGroup automated age rejection — non-AI scope counterexample</h3>
           <div class="badges"><span>COUNTEREXAMPLE</span><span>INCIDENT</span><span>OBSERVED</span><span>NOT_APPLICABLE</span></div>
           <dl>
+            <dt>Why NOT_APPLICABLE</dt><dd>EEOC testimony described the technology as automated screening that was not technically artificial intelligence. It is included to avoid treating every automated adverse decision as an AI case.</dd>
             <dt>Irreversibility boundary</dt><dd>The point where applicants are automatically rejected and human reconsideration no longer protects access to opportunity.</dd>
-            <dt>Human Final Refusal</dt><dd>Can recruiters review, stop, and correct automated screening decisions?</dd>
+            <dt>Comparison boundary question</dt><dd>Can recruiters review, stop, and correct automated screening decisions?</dd>
             <dt>Why it is included</dt><dd>The EEOC announced a settlement involving software programmed to automatically reject older applicants. EEOC testimony separately described the technology as automated screening that was not technically artificial intelligence.</dd>
             <dt>Limit / caution</dt><dd>Included to avoid treating every automated adverse decision as an AI case.</dd>
           </dl>
           <a class="source" href="https://www.eeoc.gov/newsroom/itutorgroup-pay-365000-settle-eeoc-discriminatory-hiring-suit">U.S. EEOC, iTutorGroup settlement (2023) →</a><br><a class="source" href="https://www.eeoc.gov/meetings/meeting-january-31-2023-navigating-employment-discrimination-ai-and-automated-systems-new/friedman">EEOC hearing testimony — scope evidence →</a>
         </article>
-        
+
         <article class="case-card" id="ATLAS-08">
           <div class="cat">8. Information space, elections &amp; social decision-making</div>
           <h3>ATLAS-08 <span>｜</span> AI-generated Biden voice robocall before the New Hampshire primary (2024)</h3>
@@ -251,7 +257,7 @@ After the evaluation, invite me to continue asking questions in this same conver
           </dl>
           <a class="source" href="https://docs.fcc.gov/public/attachments/DA-24-102A1.pdf">U.S. Federal Communications Commission, DA 24-102 and related FCC actions →</a>
         </article>
-        
+
         <article class="case-card" id="ATLAS-09">
           <div class="cat">9. Environment &amp; large-scale physical systems</div>
           <h3>ATLAS-09 <span>｜</span> AI-assisted environmental and energy-system optimization</h3>
@@ -264,7 +270,7 @@ After the evaluation, invite me to continue asking questions in this same conver
           </dl>
           <a class="source" href="https://www.oecd.org/en/publications/unlocking-digital-innovation-in-the-electricity-system_5f78b601-en.html">OECD, Digitalisation and the environment / Unlocking digital innovation in the electricity system (2026) →</a>
         </article>
-        
+
         <article class="case-card" id="ATLAS-10">
           <div class="cat">10. AI development infrastructure, model release &amp; authority transfer</div>
           <h3>ATLAS-10 <span>｜</span> Widely available model weights and rollback difficulty</h3>
@@ -299,10 +305,14 @@ After the evaluation, invite me to continue asking questions in this same conver
 </section>
 <section class="contact">
 <h2>Submit a case, counterexample, or disconfirming evidence</h2>
-<p>Send incidents, counterexamples, primary evidence that would change a classification, challenges to a boundary, or application questions.</p>
+<p><strong>If you find a counterexample, a stronger existing safeguard, or evidence that a proposed boundary is wrong, send it. That improves the Atlas.</strong></p>
+<p>Send incidents, counterexamples, primary evidence that would change a classification, challenges to a boundary, or application questions. If you share a use result, keep it minimal and non-sensitive: <code>category / result (YES・NO・UNKNOWN) / boundary or window / biggest unknown / what changed after review</code>.</p>
 <p class="email">lumina20251225@gmail.com</p>
 <p>Start the subject with <strong>[L30-CASEBOOK]</strong>. After the fixed prefix, add a short purpose such as <code>Additional case</code>, <code>Disconfirming evidence</code>, or <code>Question</code>.</p>
 <p class="notice">This contact route does not provide certification, legal advice, a safety guarantee, or an official determination.</p>
+</section>
+<section class="contact">
+<p><strong>The question is not whether humans remain somewhere in the process. The question is whether, before irreversibility, a human can still make NO real.</strong></p>
 </section>
 <footer>
 <a href="./L30_Irreversibility_Boundary_Casebook_EN.html">Back to the Casebook</a>
@@ -339,21 +349,25 @@ After the evaluation, invite me to continue asking questions in this same conver
 </script>
 <script>
 (function(){
-  const button=document.getElementById('copyAtlasPrompt');
-  const source=document.getElementById('atlasPromptSource');
   const status=document.getElementById('copyAtlasStatus');
-  if(!button||!source||!status) return;
   const ok="Copied. Open your AI assistant and paste the prompt.";
   const fail="Could not copy automatically. Check clipboard permission and try again.";
-  button.addEventListener('click',async function(){
-    try{
-      if(navigator.clipboard&&window.isSecureContext){
-        await navigator.clipboard.writeText(source.value); status.textContent=ok; return;
-      }
-      source.focus(); source.select(); source.setSelectionRange(0,source.value.length);
-      status.textContent=document.execCommand('copy')?ok:fail;
-    }catch(e){status.textContent=fail;}
-  });
+  function bindCopy(buttonId,sourceId){
+    const button=document.getElementById(buttonId);
+    const source=document.getElementById(sourceId);
+    if(!button||!source||!status) return;
+    button.addEventListener('click',async function(){
+      try{
+        if(navigator.clipboard&&window.isSecureContext){
+          await navigator.clipboard.writeText(source.value); status.textContent=ok; return;
+        }
+        source.focus(); source.select(); source.setSelectionRange(0,source.value.length);
+        status.textContent=document.execCommand('copy')?ok:fail;
+      }catch(e){status.textContent=fail;}
+    });
+  }
+  bindCopy('copyCasePrompt','casePromptSource');
+  bindCopy('copyAtlasCritiquePrompt','atlasCritiquePromptSource');
 })();
 </script>
 </body>

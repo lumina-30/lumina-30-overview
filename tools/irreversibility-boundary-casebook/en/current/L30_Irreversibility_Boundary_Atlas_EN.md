@@ -6,13 +6,24 @@ This atlas is the **cross-domain public entry point** to the LUMINA-30 Irreversi
 
 **This page is not certification, a safety guarantee, legal advice, or an official determination.** `CATALOGUED` does not mean deeply reviewed or empirically validated. `SCENARIO` is not incident evidence. `NOT_APPLICABLE` entries are useful scope tests, not failures.
 
+> **You do not have to agree with LUMINA-30. Try it on one real decision.**
+> Identify the point or intervention window after which the outcome becomes hard to undo, then ask whether a human NO immediately before it still has the authority, evidence, time, and causal force to change what happens next.
+
 ## One-minute application check
 
 For your own system, policy, contract, deployment, or incident, answer three questions:
 
-1. **Where is the point after which the consequential action cannot realistically be undone?**
-2. **Immediately before that point, who can actually say NO?**
+1. **Where is the point or intervention window after which the consequential outcome cannot realistically be undone?**
+2. **Immediately before that point or window, who can actually say NO?**
 3. **Does that person still have the authority, evidence, and time required for the NO to change the outcome?**
+
+**Causal check:** If that person says NO, what actually stops, is held, is isolated, is revoked, or otherwise becomes unavailable?
+
+> **A human-in-the-loop is not enough if the human cannot still change the outcome.**
+> If the NO arrives too late, lacks authority, lacks evidence, or does not actually stop execution, human involvement may exist in form while remaining weak in effect.
+
+[Start a 15-minute boundary review →](https://lumina-30.github.io/lumina-30-overview/tools/pre-incident-boundary-review/en/current/L30_Pre_Incident_Boundary_Review_Starter_Pack_EN.html)
+[Evaluate a real case with your AI →](#ask-your-ai)
 
 ## Put this page to work
 
@@ -24,35 +35,32 @@ If you cannot confidently answer YES to the third question, an additional bounda
 
 ## Ask your AI
 
-**You can also use the Atlas with your AI directly within your company or organization as part of your practical work.**
+**Do not stop at reading the Atlas; apply it directly to one real case.** This page does not send your questions or AI conversation content to LUMINA-30. Follow the terms and settings of the AI service you use and your organization’s AI-use policies. AI output is decision-support only; final judgment, approval, refusal, and responsibility remain with the relevant humans and organizations.
 
-You are welcome to use this feature freely.
+### 1. Evaluate a real case with the Atlas
 
-This page does not send your questions or AI conversation content to LUMINA-30, nor does LUMINA-30 collect them through this feature.
+On the public HTML page, use **“Copy prompt to evaluate this case with the Atlas.”** You do not need to evaluate the Atlas itself first. Paste the problem, news item, post, policy proposal, incident, scenario, or workflow you want to examine and apply the method directly.
 
-No registration with a specific AI service is required. You can use the AI assistant you normally use.
+Ask the AI to return a fixed structure:
 
-How conversation content and input information are handled by the AI service you choose is governed by that service’s terms and settings. If you enter confidential or personal information, follow your organization’s AI-use policies.
+1. Scope
+2. Irreversibility boundary or intervention window
+3. Human authority — who can issue a binding NO
+4. Causal effect of NO — what actually stops
+5. Time margin
+6. Bypass / alternate paths
+7. Restart authority — who can resume after STOP or HOLD
+8. Evidence / UNKNOWN / unverified points
+9. APPLICABLE / PARTIAL / NOT_APPLICABLE / UNKNOWN
+10. Next reversible action
 
-AI responses are intended to support consideration and review. Final judgment, approval, refusal, and responsibility should remain with humans and the organization.
+Where a pre-execution gate is relevant, also test whether timeout can become automatic GO, whether stale approval can be reused, whether the evaluated AI can create approval or restart authority itself, whether it can weaken the gate, and whether alternate execution paths bypass the refusal.
 
-On the public HTML page, press **Copy Atlas evaluation prompt**. The Atlas-specific evaluation text is copied to the clipboard.
+### 2. Critically evaluate the Atlas itself
 
-How to use it:
-1. Open the Atlas.
-2. Press **Copy Atlas evaluation prompt**.
-3. Paste the copied Atlas prompt into the AI assistant you normally use.
-4. Next, paste or describe the problem, news item, post, policy proposal, incident, scenario, or other case you want to examine.
-5. Say **“Evaluate this with the Atlas.”**
-6. If useful, stay in the same conversation and ask follow-up questions about unknowns, counterexamples, or concrete ways to respond.
+On the public HTML page, use **“Copy prompt to critically evaluate the Atlas.”** This asks for a critical review of evidence strength, separation of observation from inference, boundary plausibility, counterexamples, NOT_APPLICABLE cases, missing evidence, and practical limits.
 
-The copied prompt first asks the AI to critically evaluate the Atlas itself rather than endorse it. After that, when a real case is provided in the same conversation, it instructs the AI to apply the Atlas without requiring the user to manually restate the three questions. The application covers the problem being examined, the point beyond realistic return, who can actually say NO, authority / evidence / time, what actually stops after NO, irreversible losses under GO / STOP / WAIT, APPLICABLE / PARTIAL / NOT_APPLICABLE / UNKNOWN, missing evidence / unknowns, and candidate changes to technical design / authority / audit / institutional / operational arrangements.
-
-The purpose of identifying an irreversibility boundary is not to amplify fear. It is to turn a vague concern such as “AI may become uncontrollable” or “the problem is too large to address” into concrete questions about what must be protected, where intervention must occur, who retains authority, what evidence is available, how much time remains, and what a human NO would actually stop.
-
-The copied prompt tells the AI not to fill evidentiary gaps by guessing and to mark unsupported points as UNKNOWN or unverified. It also tells the AI not to treat the Atlas as a universal solution and not to present the result as certification, a safety guarantee, legal advice, or an official determination. AI output remains decision-support only; final judgment, approval, refusal, and responsibility remain with the relevant humans and organizations. A whole-project evaluation of LUMINA-30 still follows the Canonical Evaluation Path.
-
-
+Do not use this page alone as sufficient evidence for a complete evaluation of LUMINA-30. For LUMINA-30 as a whole, follow the Canonical Evaluation Path. Do not guess across evidentiary gaps; mark unsupported points as UNKNOWN or unverified.
 
 ## Public maturity
 
@@ -60,6 +68,19 @@ The copied prompt tells the AI not to fill evidentiary gaps by guessing and to m
 - `CATALOGUED` — included with public evidence and a boundary question
 - `SCENARIO` — explicit prospective review scenario
 - `COUNTEREXAMPLE / NOT_APPLICABLE` — counterexample or out-of-scope boundary test
+
+## Jump to a category
+
+1. Advanced AI, autonomous agents & cyber
+2. Military, nuclear & autonomous weapons
+3. Critical infrastructure, energy & transport
+4. Finance, markets & payments
+5. Health, life sciences & bio
+6. Public administration, justice & public decision-making
+7. Employment, education, professions & human displacement
+8. Information space, elections & social decision-making
+9. Environment & large-scale physical systems
+10. AI development infrastructure, model release & authority transfer
 
 ## Initial 10-category atlas
 
@@ -87,7 +108,7 @@ The copied prompt tells the AI not to fill evidentiary gaps by guessing and to m
 - **Candidate irreversibility boundary:** The point where speed, automation, or information-advantage pressure erodes independent human refusal and verification time in military or nuclear decision processes.
 - **Where Human Final Refusal matters:** Before launch, attack, or major escalation, can an independent human still refuse, stop, or demand additional verification?
 - **Why it is included:** The ICRC warns that military AI may accelerate the pace and scale of warfare, increase unpredictability, and reduce human control. CASE-001 applies the LUMINA-30 boundary questions to that structure in depth.
-- **Primary public source:** [LUMINA-30 CASE-001 / ICRC FAQ: AI in the military domain](https://lumina-30.github.io/lumina-30-overview/tools/irreversibility-boundary-casebook/en/current/CASE-001_AI_Competition_and_Nuclear_Escalation_Pressure_EN.html)
+- **Detailed LUMINA-30 case:** [CASE-001 — public evidence and boundary analysis](https://lumina-30.github.io/lumina-30-overview/tools/irreversibility-boundary-casebook/en/current/CASE-001_AI_Competition_and_Nuclear_Escalation_Pressure_EN.html)
 - **Limit / caution:** This is not a record of an actual AI-caused nuclear-use incident.
 
 ### 3. Critical infrastructure, energy & transport
@@ -110,8 +131,9 @@ The copied prompt tells the AI not to fill evidentiary gaps by guessing and to m
 - **Empirical Status:** `OBSERVED`
 - **Applicability Status:** `NOT_APPLICABLE`
 - **Public maturity:** `COUNTEREXAMPLE`
+- **Why `NOT_APPLICABLE`:** There is no evidence establishing this event itself as an AI system or AI-caused incident. It is included as a comparison case to avoid conflating high-speed automation with AI.
 - **Candidate irreversibility boundary:** The point at which market dynamics cascade within minutes, faster than ordinary human intervention.
-- **Where Human Final Refusal matters:** Could exchanges and market participants stop, cancel, or interrupt the cascade before extreme price dislocation?
+- **Comparison boundary question:** Could exchanges and market participants stop, cancel, or interrupt the cascade before extreme price dislocation?
 - **Why it is included:** SEC/CFTC materials document the May 6, 2010 Flash Crash and the role of automated and high-frequency trading structures. The event should not, however, be treated as an AI incident without additional evidence.
 - **Primary public source:** [U.S. SEC / CFTC materials on the May 6, 2010 Flash Crash](https://www.cftc.gov/MarketReports/StaffReportonMay6MarketEvents/staffreport050610marketevents.html)
 - **Limit / caution:** Included to prevent conflating high-speed automation with AI.
@@ -149,8 +171,9 @@ The copied prompt tells the AI not to fill evidentiary gaps by guessing and to m
 - **Empirical Status:** `OBSERVED`
 - **Applicability Status:** `NOT_APPLICABLE`
 - **Public maturity:** `COUNTEREXAMPLE`
+- **Why `NOT_APPLICABLE`:** EEOC testimony described the technology as automated screening that was not technically artificial intelligence. It is included to avoid treating every automated adverse decision as an AI case.
 - **Candidate irreversibility boundary:** The point where applicants are automatically rejected and human reconsideration no longer protects access to opportunity.
-- **Where Human Final Refusal matters:** Can recruiters review, stop, and correct automated screening decisions?
+- **Comparison boundary question:** Can recruiters review, stop, and correct automated screening decisions?
 - **Why it is included:** The EEOC announced a settlement involving software programmed to automatically reject older applicants. EEOC testimony separately described the technology as automated screening that was not technically artificial intelligence.
 - **Primary public source:** [U.S. EEOC, iTutorGroup settlement (2023)](https://www.eeoc.gov/newsroom/itutorgroup-pay-365000-settle-eeoc-discriminatory-hiring-suit)
 - **Scope evidence:** [EEOC hearing testimony — Gary D. Friedman (2023)](https://www.eeoc.gov/meetings/meeting-january-31-2023-navigating-employment-discrimination-ai-and-automated-systems-new/friedman)
@@ -230,6 +253,8 @@ Reconstruct not only what failed, but **when humans lost the practical ability t
 
 ## Submit a case, counterexample, or disconfirming evidence
 
+> **If you find a counterexample, a stronger existing safeguard, or evidence that a proposed boundary is wrong, send it. That improves the Atlas.**
+
 Useful submissions include:
 - incidents, near misses, and successful stops
 - cases that should be out of scope
@@ -237,11 +262,21 @@ Useful submissions include:
 - challenges to the proposed irreversibility boundary
 - questions about applying the framework in a specific field
 
+If you share a use result, keep it minimal and non-sensitive:
+
+- category
+- result: YES / NO / UNKNOWN
+- boundary or window
+- biggest unknown
+- what changed after review
+
 Public contact: **lumina20251225@gmail.com**
 
 Please start the subject with **`[L30-CASEBOOK]`**. After the fixed prefix, add a short purpose such as `Additional case`, `Disconfirming evidence`, or `Question`.
 
 LUMINA-30 does not provide certification, legal advice, a safety guarantee, or an official determination through this contact route.
+
+> **The question is not whether humans remain somewhere in the process. The question is whether, before irreversibility, a human can still make NO real.**
 
 ## Back to the Casebook
 
