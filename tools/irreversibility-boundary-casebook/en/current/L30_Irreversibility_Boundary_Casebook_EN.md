@@ -2,7 +2,7 @@
 
 This casebook applies existing LUMINA-30 boundary-review questions to high-impact real-world irreversibility problems.
 
-Within the LUMINA-30 Millennium Project, it is a **core case corpus for T1000-C** and an operational validation layer that can feed evidence and falsification results into T1000-F institutional connection, T1000-G meaning preservation, and T1000-H name-independent concept reproduction.
+As a central case corpus of the LUMINA-30 Millennium Project, this casebook is an operational validation layer that collects evidence and falsification results from individual cases and connects them to institutional use, long-term preservation of meaning, and continuity of the underlying principles beyond the LUMINA-30 name.
 
 The casebook as a whole is not empirical evidence. Case Type, Empirical Status and Applicability Status are evaluated separately for each case.
 
