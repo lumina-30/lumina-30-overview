@@ -9,9 +9,19 @@ This atlas is the **cross-domain public entry point** to the LUMINA-30 Irreversi
 > **You do not have to agree with LUMINA-30. Try it on one real decision.**
 > Identify the point or intervention window after which the outcome becomes hard to undo, then ask whether a human NO immediately before it still has the authority, evidence, time, and causal force to change what happens next.
 
+## Primary purpose: find the brake before irreversibility
+
+The Atlas is primarily a **pre-incident practical tool**, not an incident-classification exercise. Its main use is to help an organization find decisions in its own work that may become difficult or impossible to undo, and then place an effective brake before that boundary.
+
+1. **Find** — identify workflows, approvals, deployments, releases, contracts, authority transfers, or other actions where practical reversibility may be lost.
+2. **Screen and evaluate** — use human review and, where useful, an AI assistant to flag candidate boundaries and test authority, evidence, time margin, and the causal effect of NO.
+3. **Design the brake** — before the boundary, define an effective hold, stop, isolation, additional-verification, staged-execution, or equivalent control. AI may help detect risk or trigger a protective hold, but effective human final refusal authority must remain.
+
+**Public incidents and cases are secondary learning and validation material.** You do not need an AI incident or public case to use the Atlas; the primary target is your own real work.
+
 ## One-minute application check
 
-For your own system, policy, contract, deployment, or incident, answer three questions:
+Choose one real decision from your own work. If you are not sure which decision may contain an irreversibility boundary, ask an AI assistant to screen the workflow first, then answer three questions for the strongest candidate:
 
 1. **Where is the point or intervention window after which the consequential outcome cannot realistically be undone?**
 2. **Immediately before that point or window, who can actually say NO?**
@@ -23,23 +33,29 @@ For your own system, policy, contract, deployment, or incident, answer three que
 > If the NO arrives too late, lacks authority, lacks evidence, or does not actually stop execution, human involvement may exist in form while remaining weak in effect.
 
 [Start a 15-minute boundary review →](https://lumina-30.github.io/lumina-30-overview/tools/pre-incident-boundary-review/en/current/L30_Pre_Incident_Boundary_Review_Starter_Pack_EN.html)
-[Evaluate a real case with your AI →](#ask-your-ai)
+[Screen your work or evaluate a real case with your AI →](#ask-your-ai)
 
 ## Put this page to work
 
 Create a new email with a short description of this page and its link. The recipient field is left blank, so you can use it for a note to yourself, a colleague, a team, or anyone else. Add your own note or request before sending.
 
-[Create an email with this page link →](mailto:?subject=LUMINA-30%20Irreversibility%20Boundary%20Atlas&body=LUMINA-30%20Irreversibility%20Boundary%20Atlas%0A%0AA%20public%20atlas%20for%20turning%20large%20AI%20risks%20from%20a%20vague%20fear%20of%20%E2%80%9Closs%20of%20control%E2%80%9D%20into%20concrete%20problems%20that%20can%20be%20addressed.%0A%0AUsing%20real%20cases%2C%20institutions%2C%20and%20systems%2C%20it%20identifies%20where%20practical%20reversibility%20ends%20and%20asks%20whether%20humans%20can%20still%20meaningfully%20refuse%2C%20stop%2C%20verify%2C%20or%20redirect%20immediately%20before%20that%20point.%0A%0ABy%20making%20irreversibility%20visible%2C%20it%20helps%20specify%20who%20retains%20authority%2C%20what%20evidence%20is%20needed%2C%20how%20much%20intervention%20time%20remains%2C%20and%20what%20a%20human%20NO%20would%20actually%20stop.%0A%0APage:%0Ahttps://lumina-30.github.io/lumina-30-overview/tools/irreversibility-boundary-casebook/en/current/L30_Irreversibility_Boundary_Atlas_EN.html)
+[Create an email with this page link →](mailto:?subject=LUMINA-30%20Irreversibility%20Boundary%20Atlas&body=LUMINA-30%20Irreversibility%20Boundary%20Atlas%0A%0AThis%20is%20a%20practical%20tool%20for%20finding%20decisions%20in%20your%20own%20work%20that%20may%20become%20difficult%20or%20impossible%20to%20undo%20%E2%80%94%20and%20for%20designing%20a%20brake%20before%20that%20point.%0A%0AStart%20with%20one%20real%20workflow%2C%20approval%2C%20deployment%2C%20release%2C%20contract%2C%20authority%20transfer%2C%20or%20other%20consequential%20action.%20If%20you%20are%20not%20sure%20where%20the%20irreversible%20risks%20are%2C%20an%20AI%20assistant%20can%20help%20screen%20the%20workflow%20and%20flag%20candidate%20boundaries%20for%20human%20review.%0A%0AFor%20each%20candidate%2C%20identify%20where%20practical%20reversibility%20ends%2C%20whether%20a%20human%20NO%20immediately%20before%20that%20point%20can%20still%20change%20the%20outcome%2C%20and%20what%20hold%2C%20stop%2C%20isolation%2C%20verification%2C%20or%20other%20brake%20should%20exist%20before%20the%20boundary.%20AI%20may%20assist%20with%20screening%20or%20trigger%20a%20protective%20hold%2C%20but%20effective%20human%20final%20refusal%20authority%20should%20remain.%0A%0AThe%20public%20cases%20in%20the%20Atlas%20are%20examples%20for%20learning%20and%20testing%20the%20method.%20You%20do%20not%20need%20an%20AI%20incident%20or%20public%20case%20to%20use%20it.%0A%0APage%3A%0Ahttps%3A%2F%2Flumina-30.github.io%2Flumina-30-overview%2Ftools%2Firreversibility-boundary-casebook%2Fen%2Fcurrent%2FL30_Irreversibility_Boundary_Atlas_EN.html)
 
 If you cannot confidently answer YES to the third question, an additional boundary review may be valuable before deployment, release, authority transfer, or high-impact external action.
 
 ## Ask your AI
 
-**Do not stop at reading the Atlas; apply it directly to one real case.** This page does not send your questions or AI conversation content to LUMINA-30. Follow the terms and settings of the AI service you use and your organization’s AI-use policies. AI output is decision-support only; final judgment, approval, refusal, and responsibility remain with the relevant humans and organizations.
+**Use AI to reduce the screening burden, not to replace final human judgment.** This page does not send your questions or AI conversation content to LUMINA-30. Follow the terms and settings of the AI service you use and your organization’s AI-use policies. AI output is decision-support only; final judgment, approval, refusal, and responsibility remain with the relevant humans and organizations.
 
-### 1. Evaluate a real case with the Atlas
+### 1. Screen your own work for possible irreversibility
 
-On the public HTML page, use **“Copy prompt to evaluate this case with the Atlas.”** You do not need to evaluate the Atlas itself first. Paste the problem, news item, post, policy proposal, incident, scenario, or workflow you want to examine and apply the method directly.
+If you do not yet know which case to choose, describe a workflow, approval chain, deployment, release process, contract flow, authority transfer, or other real work. Ask the AI to flag decisions or actions that may become difficult or impossible to undo, explain why, and rank the strongest candidates for human review.
+
+Do not treat the AI's screening result as a final determination. Unsupported points remain UNKNOWN or unverified.
+
+### 2. Evaluate one candidate with the Atlas
+
+On the public HTML page, use **“Copy prompt to screen or evaluate your work.”** If you already have a specific case, paste it directly. If you provide a workflow instead, the prompt asks the AI to identify candidate boundaries first and then evaluate the strongest candidate.
 
 Ask the AI to return a fixed structure:
 
@@ -56,7 +72,22 @@ Ask the AI to return a fixed structure:
 
 Where a pre-execution gate is relevant, also test whether timeout can become automatic GO, whether stale approval can be reused, whether the evaluated AI can create approval or restart authority itself, whether it can weaken the gate, and whether alternate execution paths bypass the refusal.
 
-### 2. Critically evaluate the Atlas itself
+### 3. Design a brake before the boundary
+
+Once a credible boundary is identified, use the result to define what should happen **before** it is crossed: for example, hold, stop, isolation, additional verification, staged execution, access revocation, or another control appropriate to the domain.
+
+Specify:
+- what triggers the brake,
+- whether a human or an AI-assisted control can trigger it,
+- what the brake actually prevents or makes unavailable,
+- what evidence the human needs to decide,
+- who retains final refusal authority,
+- who may restart after STOP or HOLD,
+- and how alternate paths are prevented from bypassing the brake.
+
+An AI may assist with detection, warning, or a protective hold. It must not erase the organization's effective human final refusal authority.
+
+### 4. Critically evaluate the Atlas itself
 
 On the public HTML page, use **“Copy prompt to critically evaluate the Atlas.”** This asks for a critical review of evidence strength, separation of observation from inference, boundary plausibility, counterexamples, NOT_APPLICABLE cases, missing evidence, and practical limits.
 
@@ -83,6 +114,8 @@ Do not use this page alone as sufficient evidence for a complete evaluation of L
 10. AI development infrastructure, model release & authority transfer
 
 ## Initial 10-category atlas
+
+These public cases are examples for learning, testing, and challenging the method. They are not the primary reason to use the Atlas; the primary use is to find and manage irreversibility in your own real work before an incident occurs.
 
 ### 1. Advanced AI, autonomous agents & cyber
 #### ATLAS-01 | Hugging Face autonomous AI agent intrusion (2026)
