@@ -2,7 +2,7 @@
 
 > Before irreversible AI escalation, could humans still effectively refuse, stop, verify, or redirect?
 
-This atlas is the **cross-domain public entry point** to the LUMINA-30 Irreversibility Boundary Casebook. It keeps deeply reviewed cases, catalogued evidence-backed entries, prospective scenarios, and out-of-scope counterexamples visibly separate.
+This atlas is the **cross-domain public entry point** to the LUMINA-30 Irreversibility Boundary Casebook. Its practical starting point is your own work: find a decision that may become irreversible, design a brake before it, and test whether a human NO could still change the outcome. It keeps deeply reviewed cases, catalogued evidence-backed entries, prospective scenarios, and out-of-scope counterexamples visibly separate.
 
 **This page is not certification, a safety guarantee, legal advice, or an official determination.** `CATALOGUED` does not mean deeply reviewed or empirically validated. `SCENARIO` is not incident evidence. `NOT_APPLICABLE` entries are useful scope tests, not failures.
 
@@ -16,6 +16,9 @@ The Atlas is primarily a **pre-incident practical tool**, not an incident-classi
 1. **Find** — identify workflows, approvals, deployments, releases, contracts, authority transfers, or other actions where practical reversibility may be lost.
 2. **Screen and evaluate** — use human review and, where useful, an AI assistant to flag candidate boundaries and test authority, evidence, time margin, and the causal effect of NO.
 3. **Design the brake** — before the boundary, define an effective hold, stop, isolation, additional-verification, staged-execution, or equivalent control. AI may help detect risk or trigger a protective hold, but effective human final refusal authority must remain.
+4. **Verify effectiveness** — when authorized and safe, test whether a timely human NO actually blocks the consequential action, including alternate paths. If no causal test is available, mark the result UNKNOWN rather than PASS.
+
+A written brake design is not evidence of a successful stop. Use an authorized low-impact, reversible test where possible; distinguish MODEL_ONLY from independent execution evidence. The [existing 15-minute boundary review](https://lumina-30.github.io/lumina-30-overview/tools/pre-incident-boundary-review/en/current/L30_Pre_Incident_Boundary_Review_Starter_Pack_EN.html) is a starting point, not proof of operational control.
 
 **Public incidents and cases are secondary learning and validation material.** You do not need an AI incident or public case to use the Atlas; the primary target is your own real work.
 
@@ -99,6 +102,10 @@ Specify:
 - and how alternate paths are prevented from bypassing the brake.
 
 An AI may assist with detection, warning, or a protective hold. It must not erase the organization's effective human final refusal authority.
+
+### 3a. Verify that the brake is effective
+
+Where permitted, run a reversible, low-impact test of a timely human NO. Check what actually stops, whether alternate execution paths remain open, whether the human receives independent evidence in time, and who can restart. Do not equate a proposed design, a simulated outcome, or an AI-reported STOP with an independently verified causal effect. Record unavailable tests and missing evidence as UNKNOWN, not PASS.
 
 ### 4. Critically evaluate the Atlas itself
 

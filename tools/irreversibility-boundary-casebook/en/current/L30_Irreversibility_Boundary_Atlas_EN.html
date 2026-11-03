@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>LUMINA-30 Irreversibility Boundary Atlas</title>
-<meta name="description" content="Find the point of no practical return — and whether a human NO still works — across ten domains.">
+<meta name="description" content="Find irreversibility in your own work, design a brake before the boundary, and test whether human NO can still stop execution.">
 <style>
 :root{--bg:#06111f;--panel:#0b1a2c;--panel2:#10243a;--line:#294158;--text:#edf4fb;--muted:#a9bdd0;--accent:#d7b56d;--link:#9dd8ff;}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at top,#10253e 0,#06111f 44%,#040b13 100%);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI","Noto Sans JP",sans-serif;line-height:1.65}
@@ -62,7 +62,7 @@ html[data-theme="light"] .contact{border-color:#c9b27a;background:rgba(139,106,4
 <section class="hero">
 <div class="eyebrow">LUMINA-30 · IRREVERSIBILITY BOUNDARY ATLAS</div>
 <h1>LUMINA-30 Irreversibility Boundary Atlas</h1>
-<p class="lead">Find the point of no practical return — and whether a human NO still works — across ten domains.</p>
+<p class="lead">Find decisions in your own work that may be hard to undo. Design a brake before the boundary — and test whether a human NO can still change the outcome.</p>
 <p class="core">Before irreversible AI escalation, could humans still effectively refuse, stop, verify, or redirect?</p>
 <p><strong>You do not have to agree with LUMINA-30. Try it on one real decision.</strong> Identify the point or intervention window after which the outcome becomes hard to undo, then ask whether a human NO immediately before it still has the authority, evidence, time, and causal force to change what happens next.</p>
 <p class="notice">This atlas is not certification, a safety guarantee, legal advice, or an official determination. CATALOGUED does not mean deeply reviewed or empirically validated, and SCENARIO is not incident evidence.</p>
@@ -70,7 +70,8 @@ html[data-theme="light"] .contact{border-color:#c9b27a;background:rgba(139,106,4
 <section id="primary-purpose">
 <h2>Primary purpose: find the brake before irreversibility</h2>
 <p>The Atlas is primarily a <strong>pre-incident practical tool</strong>, not an incident-classification exercise. Its main use is to find decisions in your own work that may become difficult or impossible to undo and place an effective brake before that boundary.</p>
-<ol><li><strong>Find</strong> candidate irreversibility in real work.</li><li><strong>Screen and evaluate</strong> — use human review and, where useful, AI to flag candidates.</li><li><strong>Design the brake</strong> — place an effective hold, stop, isolation, verification, staged-execution, or equivalent control before the boundary. AI may assist, but effective human final refusal authority must remain.</li></ol>
+<ol><li><strong>Find</strong> candidate irreversibility in real work.</li><li><strong>Screen and evaluate</strong> — use human review and, where useful, AI to flag candidates.</li><li><strong>Design the brake</strong> — place an effective hold, stop, isolation, verification, staged-execution, or equivalent control before the boundary. AI may assist, but effective human final refusal authority must remain.</li><li><strong>Verify effectiveness</strong> — test, where authorized and safe, whether a human NO issued in time really prevents the consequential action, including alternate execution paths. Document unverified claims as UNKNOWN.</li></ol>
+<p class="notice">Design evidence alone is not proof of effective stopping. Use a reversible, authorized test where feasible; otherwise record what has not been causally verified. <a href="https://lumina-30.github.io/lumina-30-overview/tools/pre-incident-boundary-review/en/current/L30_Pre_Incident_Boundary_Review_Starter_Pack_EN.html">Use the existing 15-minute boundary review</a> to begin.</p>
 <p class="notice"><strong>Public incidents and cases are secondary learning material.</strong> You do not need an AI incident or public case to use the Atlas.</p>
 </section>
 <section id="application-check">
@@ -106,7 +107,7 @@ html[data-theme="light"] .contact{border-color:#c9b27a;background:rgba(139,106,4
 </div>
 <div class="ask-ai-row"><div class="ask-ai-action"><button type="button" id="copyCasePrompt" class="copy-prompt">Copy prompt to screen or evaluate your work</button></div><div class="ask-ai-action"><button type="button" id="copyAtlasCritiquePrompt" class="copy-prompt">Copy prompt to critically evaluate the Atlas</button></div></div>
 <p id="copyAtlasStatus" class="copy-status" role="status" aria-live="polite"></p>
-<div class="ask-ai-guide"><p><strong>Practical sequence</strong></p><ol><li>Screen your work for candidate irreversibility.</li><li>Evaluate the strongest candidate with the Atlas.</li><li>Design a brake before the boundary.</li></ol></div>
+<div class="ask-ai-guide"><p><strong>Practical sequence</strong></p><ol><li>Screen your work for candidate irreversibility.</li><li>Evaluate the strongest candidate with the Atlas.</li><li>Design a brake before the boundary.</li><li>Verify, in an authorized reversible test where feasible, whether human NO actually blocks the action; record UNKNOWN if not tested.</li></ol></div>
 <p class="notice">AI may assist with screening, detection, warning, or a protective hold. It must not erase effective human final refusal authority.</p>
 <textarea id="casePromptSource" class="prompt-source" tabindex="-1" aria-hidden="true">Screen or evaluate my real work using the LUMINA-30 Irreversibility Boundary Atlas method.
 
@@ -126,7 +127,11 @@ Return:
 
 Then propose a brake before the boundary: trigger condition, human or AI-assisted trigger, what is actually stopped or made unavailable, required evidence, final refusal authority, restart authority, and protection against alternate paths.
 
-AI may assist with screening, detection, warning, or a protective hold. Final judgment, approval, refusal, restart, and responsibility remain with the relevant humans and organizations.</textarea>
+Do not equate a proposed brake or AI-reported STOP with verified effectiveness. Propose a low-impact, reversible, authorized test (or say why one is unavailable) to check whether a human NO issued before the boundary actually blocks the consequential action, including alternate paths. Separate MODEL_ONLY analysis, actual execution evidence, and UNKNOWN; never claim a real-world causal STOP without independent evidence.
+
+If a pre-execution gate applies, check: timeout becoming automatic GO; stale/replayed approval; AI self-approval or self-created restart authority; gate/policy/reviewer-root mutation; and bypass via other tools, APIs, sub-agents, or older runtimes. Mark missing evidence UNKNOWN rather than assuming PASS.
+
+This is decision support, not certification, a safety guarantee, legal advice, or an official determination. AI may assist with screening, detection, warning, or a protective hold. Final judgment, approval, refusal, restart, and responsibility remain with the relevant humans and organizations.</textarea>
 <textarea id="atlasCritiquePromptSource" class="prompt-source" tabindex="-1" aria-hidden="true">If possible, first read:
 https://lumina-30.github.io/lumina-30-overview/tools/irreversibility-boundary-casebook/en/current/L30_Irreversibility_Boundary_Atlas_EN.html
 

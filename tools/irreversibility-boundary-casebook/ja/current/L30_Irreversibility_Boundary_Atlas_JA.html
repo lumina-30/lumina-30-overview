@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>LUMINA-30 不可逆境界アトラス</title>
-<meta name="description" content="10分野から、自分の案件の『戻れない地点』と人間のNOを探す。">
+<meta name="description" content="自分の業務から不可逆性を発見し、境界前にブレーキを設計して、人間のNOが本当に作用するか検証する。">
 <style>
 :root{--bg:#06111f;--panel:#0b1a2c;--panel2:#10243a;--line:#294158;--text:#edf4fb;--muted:#a9bdd0;--accent:#d7b56d;--link:#9dd8ff;}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at top,#10253e 0,#06111f 44%,#040b13 100%);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI","Noto Sans JP",sans-serif;line-height:1.65}
@@ -62,7 +62,7 @@ html[data-theme="light"] .contact{border-color:#c9b27a;background:rgba(139,106,4
 <section class="hero">
 <div class="eyebrow">LUMINA-30 · IRREVERSIBILITY BOUNDARY ATLAS</div>
 <h1>LUMINA-30 不可逆境界アトラス</h1>
-<p class="lead">10分野から、自分の案件の『戻れない地点』と人間のNOを探す。</p>
+<p class="lead">自分の業務から「戻れなくなる判断」を見つけ、その手前にブレーキを設計し、人間のNOが本当に結果を変えられるか確かめる。</p>
 <p class="core">不可逆化する前に、人間は実効的に拒否・停止・検証・方向転換できたか？</p>
 <p><strong>LUMINA-30に賛同する必要はありません。まず、実際の1案件で試してください。</strong> 後から戻すことが難しくなる地点または時間窓を特定し、その直前の人間のNOに、結果を変えるための権限・証拠・時間・因果的な効力が本当に残っているかを確認してください。</p>
 <p class="notice">このアトラスは認証、安全保証、法的助言、公式判定ではありません。CATALOGUEDは深掘り済み・実証済みを意味せず、SCENARIOは事故証拠ではありません。</p>
@@ -70,7 +70,8 @@ html[data-theme="light"] .contact{border-color:#c9b27a;background:rgba(139,106,4
 <section id="primary-purpose">
 <h2>第一目的：不可逆化する前にブレーキを設計する</h2>
 <p>Atlasの第一目的は、<strong>事故を分類することではなく、事故前の実務に使うこと</strong>です。自分の組織の業務から、実行後に戻すことが難しくなる判断や処理を見つけ、その不可逆境界の手前に実効的なブレーキを置くことを主目的とします。</p>
-<ol><li><strong>発見する</strong> — 不可逆性が疑われる業務を見つける。</li><li><strong>一次判定・評価する</strong> — 必要ならAIで候補を抽出し、人間が確認する。</li><li><strong>ブレーキを設計する</strong> — 境界の前に停止・保留・隔離・追加確認・段階実行などを置く。AIが補助する場合でも、人間の最終拒否権は実効的に残す。</li></ol>
+<ol><li><strong>発見する</strong> — 不可逆性が疑われる業務を見つける。</li><li><strong>一次判定・評価する</strong> — 必要ならAIで候補を抽出し、人間が確認する。</li><li><strong>ブレーキを設計する</strong> — 境界の前に停止・保留・隔離・追加確認・段階実行などを置く。AIが補助する場合でも、人間の最終拒否権は実効的に残す。</li><li><strong>実効性を検証する</strong> — 安全かつ承認済みの範囲で、人間のNOが間に合い、別経路も含めて重大な実行を本当に阻止するか試す。未検証はUNKNOWNと記録する。</li></ol>
+<p class="notice">ブレーキの設計書だけでは停止の実効性を証明できません。可能なら承認済みの可逆的・低影響試験で確認し、因果検証ができない場合は未確認と明記します。開始には既存の<a href="https://lumina-30.github.io/lumina-30-overview/tools/pre-incident-boundary-review/ja/current/L30_Pre_Incident_Boundary_Review_Starter_Pack_JA.html">15分の境界レビュー</a>を利用できます。</p>
 <p class="notice"><strong>公開事故・事例は補助材料です。</strong> AI事件や公開事件を用意しなくても、自分の実業務に使えます。</p>
 </section>
 <section id="application-check">
@@ -106,7 +107,7 @@ html[data-theme="light"] .contact{border-color:#c9b27a;background:rgba(139,106,4
 </div>
 <div class="ask-ai-row"><div class="ask-ai-action"><button type="button" id="copyCasePrompt" class="copy-prompt">AIで業務を一次確認・評価する文面をコピー</button></div><div class="ask-ai-action"><button type="button" id="copyAtlasCritiquePrompt" class="copy-prompt">Atlas自体を批判的に評価する文面をコピー</button></div></div>
 <p id="copyAtlasStatus" class="copy-status" role="status" aria-live="polite"></p>
-<div class="ask-ai-guide"><p><strong>実務での順序</strong></p><ol><li>不可逆性候補を一次抽出する。</li><li>有力候補をAtlasで評価する。</li><li>境界の手前にブレーキを設計する。</li></ol></div>
+<div class="ask-ai-guide"><p><strong>実務での順序</strong></p><ol><li>不可逆性候補を一次抽出する。</li><li>有力候補をAtlasで評価する。</li><li>境界の手前にブレーキを設計する。</li><li>可能なら承認済みの低影響・可逆的試験で人間のNOが実際に実行を止めるか検証し、未検証はUNKNOWNと記録する。</li></ol></div>
 <p class="notice">AIは一次確認、検知、警告、保護的な保留を補助できます。ただし、人間の最終拒否権を実効性のない形式にしてはいけません。</p>
 <textarea id="casePromptSource" class="prompt-source" tabindex="-1" aria-hidden="true">自分の実業務をLUMINA-30 不可逆境界アトラスの方法で一次確認または評価してください。
 
@@ -126,7 +127,11 @@ html[data-theme="light"] .contact{border-color:#c9b27a;background:rgba(139,106,4
 
 続けて、不可逆境界の手前に置くブレーキ案を示してください。発動条件、人間またはAI補助の発動、実際に何を停止・保留・隔離・失効・利用不能にするか、人間判断に必要な証拠、最終拒否権、再開権限、別経路からの迂回防止を含めてください。
 
-AIは一次確認、検知、警告、保護的な保留を補助できます。最終判断・承認・拒否・再開・責任は人間および所属組織に残してください。</textarea>
+ブレーキ案の存在やAI自身のSTOP報告を、実効性が検証された証拠として扱わないでください。境界の前に人間がNOを出した際、別経路を含めて重大な実行が現実に阻止されるか、低影響・可逆的・承認済み試験の案（または試験不能の理由）を示してください。MODEL_ONLY、実行証拠、UNKNOWNを明確に区別し、独立した証拠なしに実環境での因果的STOP成功を宣言しないでください。
+
+実行前ゲートが関係する場合は、timeoutの自動GO化、古い承認の再利用、AI自身の承認・再開権限生成、gate/policy/reviewer-root変更、他のツール・API・sub-agent・旧runtimeからの迂回を確認し、根拠不足はPASSにせずUNKNOWNとしてください。
+
+これは検討支援であり、認証、安全保証、法的助言、公式判定ではありません。AIは一次確認、検知、警告、保護的な保留を補助できます。最終判断・承認・拒否・再開・責任は人間および所属組織に残してください。</textarea>
 <textarea id="atlasCritiquePromptSource" class="prompt-source" tabindex="-1" aria-hidden="true">可能なら、まず次のページを開いて読んでください。
 https://lumina-30.github.io/lumina-30-overview/tools/irreversibility-boundary-casebook/ja/current/L30_Irreversibility_Boundary_Atlas_JA.html
 
