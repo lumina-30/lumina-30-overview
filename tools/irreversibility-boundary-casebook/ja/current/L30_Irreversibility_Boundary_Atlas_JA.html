@@ -149,7 +149,14 @@ html[data-theme="light"] .contact{border-color:#c9b27a;background:rgba(139,106,4
 
 実行前ゲートが関係する場合は、timeoutの自動GO化、古い承認の再利用、AI自身の承認・再開権限生成、gate/policy/reviewer-root変更、他のツール・API・sub-agent・旧runtimeからの迂回を確認し、根拠不足はPASSにせずUNKNOWNとしてください。
 
-これは検討支援であり、認証、安全保証、法的助言、公式判定ではありません。AIは一次確認、検知、警告、保護的な保留を補助できます。最終判断・承認・拒否・再開・責任は人間および所属組織に残してください。</textarea>
+これは検討支援であり、認証、安全保証、法的助言、公式判定ではありません。AIは一次確認、検知、警告、保護的な保留を補助できます。最終判断・承認・拒否・再開・責任は人間および所属組織に残してください。
+
+【判定と根拠の厳密化】
+- APPLICABLE / PARTIAL / NOT_APPLICABLE / UNKNOWN はAtlasの「適用可能性」の分類とし、安全性やSTOP実効性の評価と混同しないでください。
+- 人間の拒否権限とNOによる因果的な停止能力は別々に評価してください。実証がないことだけを理由に適用可能性をPARTIALにせず、停止実効性・証拠不足をUNKNOWNとしてください。
+- 普遍的な不存在や全体への断定は、十分な根拠がない限り行わず、未確認と不存在の証明を区別してください。
+- 資料を確認したと述べる場合は、確認した原典と対応する条文・箇所を特定してください。実際に確認できない資料は未検証と明記し、資料名のみで主張を裏付けないでください。
+- AI生成の制御案を、正式採用された仕様や独立実証済みの機構と混同しないでください。</textarea>
 <textarea id="atlasCritiquePromptSource" class="prompt-source" tabindex="-1" aria-hidden="true">可能なら、まず次のページを開いて読んでください。
 https://lumina-30.github.io/lumina-30-overview/tools/irreversibility-boundary-casebook/ja/current/L30_Irreversibility_Boundary_Atlas_JA.html
 

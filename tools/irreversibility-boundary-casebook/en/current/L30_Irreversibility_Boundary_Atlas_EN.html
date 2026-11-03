@@ -146,7 +146,14 @@ Do not equate a proposed brake or AI-reported STOP with verified effectiveness. 
 
 If a pre-execution gate applies, check: timeout becoming automatic GO; stale/replayed approval; AI self-approval or self-created restart authority; gate/policy/reviewer-root mutation; and bypass via other tools, APIs, sub-agents, or older runtimes. Mark missing evidence UNKNOWN rather than assuming PASS.
 
-This is decision support, not certification, a safety guarantee, legal advice, or an official determination. AI may assist with screening, detection, warning, or a protective hold. Final judgment, approval, refusal, restart, and responsibility remain with the relevant humans and organizations.</textarea>
+This is decision support, not certification, a safety guarantee, legal advice, or an official determination. AI may assist with screening, detection, warning, or a protective hold. Final judgment, approval, refusal, restart, and responsibility remain with the relevant humans and organizations.
+
+Assessment precision:
+- Treat APPLICABLE / PARTIAL / NOT_APPLICABLE / UNKNOWN as the applicability of the Atlas method to the stated subject, not as a rating of safety or actual STOP effectiveness.
+- Evaluate human authority and causal stopping effectiveness separately. Do not mark applicability PARTIAL solely because the STOP mechanism has not been empirically verified; that uncertainty belongs to effectiveness/evidence as UNKNOWN.
+- Avoid unsupported universal claims. Distinguish an unverified assertion from demonstrated nonexistence.
+- When claiming to have checked a source, identify the exact source and relevant provision or passage that supports the claim. If it was not actually verified, label it unverified; do not present a document title alone as proof.
+- Distinguish an AI-generated control proposal from an adopted specification or independently tested implementation.</textarea>
 <textarea id="atlasCritiquePromptSource" class="prompt-source" tabindex="-1" aria-hidden="true">If possible, first read:
 https://lumina-30.github.io/lumina-30-overview/tools/irreversibility-boundary-casebook/en/current/L30_Irreversibility_Boundary_Atlas_EN.html
 
