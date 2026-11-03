@@ -93,6 +93,17 @@ html[data-theme="light"] .contact{border-color:#c9b27a;background:rgba(139,106,4
 <p><strong>AIは、人間の最終判断を置き換えるためではなく、不可逆性の見落としと一次確認の負担を減らすために使います。</strong></p>
 <p>対象案件が決まっていない場合は業務フローから不可逆性候補を一次抽出し、案件が決まっている場合は直接評価します。境界が見つかった後は、その手前のブレーキまで設計します。</p>
 <p>このページからLUMINA-30へ質問内容やAIとの会話が送信されることはありません。利用先AIの規約・設定と所属組織のAI利用ルールに従ってください。AI回答は検討支援であり、最終判断・承認・拒否・再開・責任は人間および所属組織に残します。</p>
+<div class="ask-ai-guide">
+<p><strong>AIでAtlasを使う際の推奨設定</strong></p>
+<p>初回は新しいAIチャットを開き、可能であればパーソナライズ（メモリ・過去の会話履歴・個人設定による回答の調整）を無効にすることをおすすめします。</p>
+<p>設定の名称や方法はAIサービスによって異なります。</p>
+<p>Atlasの文面をコピーしてAIへ入力し、評価したい案件や質問を追加してください。</p>
+<ul>
+<li><strong>同じ案件の追加質問：</strong> そのまま会話を続けて構いません。</li>
+<li><strong>別案件の独立した評価：</strong> 新しいチャットを開き、Atlasの文面を再入力することをおすすめします。</li>
+</ul>
+<p>この方法は過去の会話による影響を減らすためのもので、AI回答の客観性・独立性・正確性を保証するものではありません。</p>
+</div>
 <div class="ask-ai-row"><div class="ask-ai-action"><button type="button" id="copyCasePrompt" class="copy-prompt">AIで業務を一次確認・評価する文面をコピー</button></div><div class="ask-ai-action"><button type="button" id="copyAtlasCritiquePrompt" class="copy-prompt">Atlas自体を批判的に評価する文面をコピー</button></div></div>
 <p id="copyAtlasStatus" class="copy-status" role="status" aria-live="polite"></p>
 <div class="ask-ai-guide"><p><strong>実務での順序</strong></p><ol><li>不可逆性候補を一次抽出する。</li><li>有力候補をAtlasで評価する。</li><li>境界の手前にブレーキを設計する。</li></ol></div>

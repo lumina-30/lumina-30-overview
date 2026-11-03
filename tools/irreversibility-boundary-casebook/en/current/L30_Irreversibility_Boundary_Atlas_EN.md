@@ -47,6 +47,19 @@ If you cannot confidently answer YES to the third question, an additional bounda
 
 **Use AI to reduce the screening burden, not to replace final human judgment.** This page does not send your questions or AI conversation content to LUMINA-30. Follow the terms and settings of the AI service you use and your organization’s AI-use policies. AI output is decision-support only; final judgment, approval, refusal, and responsibility remain with the relevant humans and organizations.
 
+### Recommended settings when using the Atlas with AI
+
+For your first use, start a new AI chat. If possible, we recommend turning off personalization (adjustments based on memory, past conversation history, or personal settings).
+
+The names and methods of these settings vary between AI services.
+
+Copy the Atlas prompt into your AI assistant, then add the case or question you want to evaluate.
+
+- **Follow-up questions on the same case:** You may continue in the same conversation.
+- **Independent evaluation of a different case:** We recommend starting a new chat and entering the Atlas prompt again.
+
+This approach is intended to reduce the influence of past conversations. It does not guarantee the objectivity, independence, or accuracy of AI responses.
+
 ### 1. Screen your own work for possible irreversibility
 
 If you do not yet know which case to choose, describe a workflow, approval chain, deployment, release process, contract flow, authority transfer, or other real work. Ask the AI to flag decisions or actions that may become difficult or impossible to undo, explain why, and rank the strongest candidates for human review.
