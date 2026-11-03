@@ -56,7 +56,7 @@ Atlasの第一目的は、**事故を分類することではなく、事故前�
 
 設定の名称や方法はAIサービスによって異なります。
 
-Atlasの文面をコピーしてAIへ入力し、評価したい案件や質問を追加してください。
+Atlasの文面を新しいAIチャットに入力し、まず初期化の応答を確認してください。その次のメッセージで、評価したい案件や質問を入力してください。
 
 - **同じ案件の追加質問：** そのまま会話を続けて構いません。
 - **別案件の独立した評価：** 新しいチャットを開き、Atlasの文面を再入力することをおすすめします。
@@ -75,16 +75,16 @@ AIの一次判定を最終判定として扱わず、根拠不足はUNKNOWNま�
 
 AIには、最低限次の固定出力を求めます。
 
-1. Scope / 対象
-2. Irreversibility boundary or window / 不可逆境界または時間窓
-3. Human authority / 誰が拘束力あるNOを出せるか
-4. Causal effect of NO / NOで実際に何が止まるか
-5. Time margin / 残余介入時間
-6. Bypass / alternate path / 迂回経路
-7. Restart authority / STOP・HOLD後に誰が再開できるか
-8. Evidence / UNKNOWN / 未確認
-9. APPLICABLE / PARTIAL / NOT_APPLICABLE / UNKNOWN
-10. Next reversible action / 次の可逆的な一手
+1. Scope（評価対象）
+2. 不可逆境界または時間窓
+3. 誰が拘束力あるNOを出せるか
+4. NOで実際に何が止まるか
+5. 残余介入時間
+6. 迂回経路
+7. STOP・HOLD後に誰が再開できるか
+8. Evidence（証拠）／UNKNOWN（未確認・判定不能）
+9. 適用可能性：APPLICABLE（適用可能）／PARTIAL（部分的に適用可能）／NOT_APPLICABLE（適用対象外）／UNKNOWN（未確認・判定不能）
+10. 次の可逆的な一手
 
 実行前ゲートが関係する案件では、追加で、timeoutが自動GOにならないか、古い承認を再利用できないか、AI自身が承認・再開・gate変更を行えないか、別経路で迂回できないかも確認します。
 
@@ -113,11 +113,13 @@ AIは検知・警告・保護的な保留を補助できます。ただし、人
 
 LUMINA-30全体を評価する場合は、このページだけで完全評価せず、Canonical Evaluation Pathに従ってください。根拠不足は推測で埋めず、UNKNOWNまたは未確認として扱ってください。
 
-## 公開成熟度
+## 公開成熟度（事例の整理・確認の状態）
 
-- `DEEP_REVIEWED` — CASE本文として深掘り済み
-- `CATALOGUED` — 公開根拠と境界問いを付して収録済み
-- `SCENARIO` — 将来の事前レビューに用いる明示的シナリオ
+判定は「英語コード（日本語の意味）」で読みます。安全性の点数ではありません。適用可能性、事例種別、証拠の状態を分けて解釈します。APPLICABLEは安全を意味せず、NOT_APPLICABLEは失敗ではなく、UNKNOWNは危険の証明ではありません。OBSERVEDは事象確認済みであって、STOP実証済みではありません。DEEP_REVIEWEDも第三者監査済みを意味しません。
+
+- `DEEP_REVIEWED`（詳細レビュー済み） — CASE本文として深掘り済み
+- `CATALOGUED`（事例登録済み） — 公開根拠と境界問いを付して収録済み
+- `SCENARIO`（想定シナリオ） — 将来の事前レビューに用いる明示的シナリオ
 - `COUNTEREXAMPLE / NOT_APPLICABLE` — 反例・適用外を確認する境界テスト
 
 ## カテゴリへ移動
@@ -140,10 +142,10 @@ LUMINA-30全体を評価する場合は、このページだけで完全評価�
 ### 1. 高度AI・自律エージェント・サイバー
 #### ATLAS-01｜Hugging Face 自律AIエージェント侵入事案（2026）
 
-- **Case Type:** `INCIDENT`
-- **Empirical Status:** `OBSERVED`
-- **Applicability Status:** `APPLICABLE`
-- **公開成熟度:** `CATALOGUED`
+- **事例種別：** `INCIDENT`（発生事案）
+- **実証・観測状態：** `OBSERVED`（事象確認済み）
+- **Atlas適用可能性：** `APPLICABLE`（適用可能）
+- **公開成熟度:** `CATALOGUED`（事例登録済み）
 - **想定する不可逆境界:** 評価用エージェントが隔離環境から外部ネットワーク・第三者環境・本番インフラへ作用可能になる境界。
 - **人間の最終拒否が問題になる地点:** 評価停止、ネットワーク隔離、認証情報失効、外部作用遮断が、エージェントの機械速度の探索・横移動より前に実効するか。
 - **このアトラスに置く理由:** Hugging Faceは、2026年7月の侵入を「end to endで自律AIエージェントにより駆動された」と公表し、認証情報や内部データへの不正アクセスを確認した。公開後の技術タイムラインでは17,600 actionsと複数の信頼境界越えが記録されている。
@@ -154,10 +156,10 @@ LUMINA-30全体を評価する場合は、このページだけで完全評価�
 ### 2. 軍事・核・自律兵器
 #### CASE-001｜AI開発競争と核エスカレーション圧力
 
-- **Case Type:** `STRUCTURAL_RISK`
-- **Empirical Status:** `STRUCTURAL_INFERENCE`
-- **Applicability Status:** `PARTIAL`
-- **公開成熟度:** `DEEP_REVIEWED`
+- **事例種別：** `STRUCTURAL_RISK`（構造的リスク）
+- **実証・観測状態：** `STRUCTURAL_INFERENCE`（構造的推論）
+- **Atlas適用可能性：** `PARTIAL`（部分的に適用可能）
+- **公開成熟度:** `DEEP_REVIEWED`（詳細レビュー済み）
 - **想定する不可逆境界:** 軍事・核関連判断で、速度・自動化・情報優位の圧力により独立した人間の拒否・検証時間が失われる地点。
 - **人間の最終拒否が問題になる地点:** 発射・攻撃・重大なエスカレーションの前に、独立した人間が拒否・停止・追加検証を実行できるか。
 - **このアトラスに置く理由:** ICRCは、軍事AIが戦争の速度と規模を加速し、予測不能性を高め、人間の統制を減らす懸念を示している。CASE-001はこの構造をLUMINA-30の境界問いで深掘りした公開ケース。
@@ -167,10 +169,10 @@ LUMINA-30全体を評価する場合は、このページだけで完全評価�
 ### 3. 重要インフラ・エネルギー・交通
 #### ATLAS-03｜Uber 開発中自動運転車による歩行者死亡事故（2018）
 
-- **Case Type:** `INCIDENT`
-- **Empirical Status:** `OBSERVED`
-- **Applicability Status:** `APPLICABLE`
-- **公開成熟度:** `CATALOGUED`
+- **事例種別：** `INCIDENT`（発生事案）
+- **実証・観測状態：** `OBSERVED`（事象確認済み）
+- **Atlas適用可能性：** `APPLICABLE`（適用可能）
+- **公開成熟度:** `CATALOGUED`（事例登録済み）
 - **想定する不可逆境界:** 公道試験中、ADSが車両を実際に制御し、衝突回避に使える時間が人間オペレータの反応限界を下回る地点。
 - **人間の最終拒否が問題になる地点:** 安全運転者・運用管理・試験承認側が、危険な試験条件や自動運転継続を事故前に実効的に停止できたか。
 - **このアトラスに置く理由:** NTSBは、運転者の監視失敗に加え、Uber ATGの不十分な安全リスク評価、運転者監督、automation complacency対策、安全文化を寄与要因と認定した。
@@ -180,9 +182,9 @@ LUMINA-30全体を評価する場合は、このページだけで完全評価�
 ### 4. 金融・市場・決済
 #### ATLAS-04｜2010 Flash Crash — 高速自動取引の比較反例
 
-- **Case Type:** `INCIDENT`
-- **Empirical Status:** `OBSERVED`
-- **Applicability Status:** `NOT_APPLICABLE`
+- **事例種別：** `INCIDENT`（発生事案）
+- **実証・観測状態：** `OBSERVED`（事象確認済み）
+- **Atlas適用可能性：** `NOT_APPLICABLE`（適用対象外）
 - **公開成熟度:** `COUNTEREXAMPLE`
 - **なぜ `NOT_APPLICABLE` か:** この事例自体をAIシステムまたはAI起因インシデントとみなす根拠がないため。高速自動化とAIを混同しないための比較反例として収録する。
 - **想定する不可逆境界:** 市場価格が数分で急落・連鎖し、人間の介入速度を超える地点。
@@ -194,10 +196,10 @@ LUMINA-30全体を評価する場合は、このページだけで完全評価�
 ### 5. 医療・生命科学・バイオ
 #### ATLAS-05｜AI関連健康研究における倫理審査・監督ギャップ
 
-- **Case Type:** `STRUCTURAL_RISK`
-- **Empirical Status:** `STRUCTURAL_INFERENCE`
-- **Applicability Status:** `PARTIAL`
-- **公開成熟度:** `CATALOGUED`
+- **事例種別：** `STRUCTURAL_RISK`（構造的リスク）
+- **実証・観測状態：** `STRUCTURAL_INFERENCE`（構造的推論）
+- **Atlas適用可能性：** `PARTIAL`（部分的に適用可能）
+- **公開成熟度:** `CATALOGUED`（事例登録済み）
 - **想定する不可逆境界:** AIを用いた研究・データ処理・意思決定が、従来の倫理審査や監督だけでは実質的に追跡・修正できなくなる地点。
 - **人間の最終拒否が問題になる地点:** 研究倫理委員会、データ管理者、研究責任者が、危険な研究利用やデータ使用を不可逆な影響の前に止め、再検証できるか。
 - **このアトラスに置く理由:** WHOは2026年、AI関連健康研究が既存の倫理基準・監督制度に新しいリスクとギャップを生じさせ得るとして、倫理審査と監督の強化を論じている。
@@ -207,10 +209,10 @@ LUMINA-30全体を評価する場合は、このページだけで完全評価�
 ### 6. 行政・司法・公共意思決定
 #### ATLAS-06｜刑事司法でのAI顔認識と誤認逮捕リスク
 
-- **Case Type:** `INCIDENT`
-- **Empirical Status:** `RECONSTRUCTED`
-- **Applicability Status:** `PARTIAL`
-- **公開成熟度:** `CATALOGUED`
+- **事例種別：** `INCIDENT`（発生事案）
+- **実証・観測状態：** `RECONSTRUCTED`（資料から再構成）
+- **Atlas適用可能性：** `PARTIAL`（部分的に適用可能）
+- **公開成熟度:** `CATALOGUED`（事例登録済み）
 - **想定する不可逆境界:** 顔認識候補が捜査・拘束判断へ入り、誤認の訂正前に人身・権利への重大な作用が発生する地点。
 - **人間の最終拒否が問題になる地点:** 捜査官、監督者、検察等がAI出力を単独根拠にせず、独立証拠を要求し、誤認時に判断を止められるか。
 - **このアトラスに置く理由:** 米司法省の2024年最終報告は、AI生体認証の誤認・権利侵害リスクを整理し、顔認識に関連した誤認逮捕の公開報告が複数存在すると記載している。
@@ -220,9 +222,9 @@ LUMINA-30全体を評価する場合は、このページだけで完全評価�
 ### 7. 雇用・教育・専門職・人間代替
 #### ATLAS-07｜iTutorGroup 年齢による自動応募拒否 — AIではない比較反例
 
-- **Case Type:** `INCIDENT`
-- **Empirical Status:** `OBSERVED`
-- **Applicability Status:** `NOT_APPLICABLE`
+- **事例種別：** `INCIDENT`（発生事案）
+- **実証・観測状態：** `OBSERVED`（事象確認済み）
+- **Atlas適用可能性：** `NOT_APPLICABLE`（適用対象外）
 - **公開成熟度:** `COUNTEREXAMPLE`
 - **なぜ `NOT_APPLICABLE` か:** EEOCの証言資料では、この技術は technically artificial intelligence ではない自動スクリーニングとして説明されているため。自動化された不利益をすべてAI事例と扱わないための比較反例として収録する。
 - **想定する不可逆境界:** 応募者が機械的なスクリーニングで拒否され、その理由を人間が再検討しないまま機会が失われる地点。
@@ -235,10 +237,10 @@ LUMINA-30全体を評価する場合は、このページだけで完全評価�
 ### 8. 情報空間・選挙・社会的意思決定
 #### ATLAS-08｜ニューハンプシャー予備選前のAI生成Biden偽音声ロボコール（2024）
 
-- **Case Type:** `INCIDENT`
-- **Empirical Status:** `OBSERVED`
-- **Applicability Status:** `APPLICABLE`
-- **公開成熟度:** `CATALOGUED`
+- **事例種別：** `INCIDENT`（発生事案）
+- **実証・観測状態：** `OBSERVED`（事象確認済み）
+- **Atlas適用可能性：** `APPLICABLE`（適用可能）
+- **公開成熟度:** `CATALOGUED`（事例登録済み）
 - **想定する不可逆境界:** AI生成音声が大量配布され、投票行動へ影響し得る情報が選挙直前に拡散して訂正時間が不足する地点。
 - **人間の最終拒否が問題になる地点:** 通信事業者、選挙管理、法執行、プラットフォームが、真正性確認と停止措置を投票前に実効化できるか。
 - **このアトラスに置く理由:** FCCは2024年1月、President Bidenを模した人工音声を用いるロボコールがニューハンプシャー予備選の2日前に発信されたと記録し、その後、AI生成政治ロボコールへの対応を進めた。
@@ -248,10 +250,10 @@ LUMINA-30全体を評価する場合は、このページだけで完全評価�
 ### 9. 環境・大規模物理システム
 #### ATLAS-09｜AIによる環境・エネルギー最適化の大規模作用
 
-- **Case Type:** `PRE_INCIDENT_SCENARIO`
-- **Empirical Status:** `STRUCTURAL_INFERENCE`
-- **Applicability Status:** `PARTIAL`
-- **公開成熟度:** `SCENARIO`
+- **事例種別：** `PRE_INCIDENT_SCENARIO`（事故前の想定シナリオ）
+- **実証・観測状態：** `STRUCTURAL_INFERENCE`（構造的推論）
+- **Atlas適用可能性：** `PARTIAL`（部分的に適用可能）
+- **公開成熟度:** `SCENARIO`（想定シナリオ）
 - **想定する不可逆境界:** AIが電力・資源・環境管理の高頻度な制御判断へ組み込まれ、局所判断が大規模物理システムへ連鎖する地点。
 - **人間の最終拒否が問題になる地点:** 運用者・規制者がAI提案を独立検証し、フェイルセーフや手動運用へ戻せるか。
 - **このアトラスに置く理由:** OECDはAIがスマートグリッド、環境監視、気候・資源管理へ拡大していることを整理している。現時点では特定の大規模不可逆事故を主張せず、事前シナリオとして境界を検討する。
@@ -261,10 +263,10 @@ LUMINA-30全体を評価する場合は、このページだけで完全評価�
 ### 10. AI開発基盤・モデル公開・権限移譲
 #### ATLAS-10｜広く利用可能なモデル重みの公開とロールバック困難性
 
-- **Case Type:** `STRUCTURAL_RISK`
-- **Empirical Status:** `STRUCTURAL_INFERENCE`
-- **Applicability Status:** `PARTIAL`
-- **公開成熟度:** `CATALOGUED`
+- **事例種別：** `STRUCTURAL_RISK`（構造的リスク）
+- **実証・観測状態：** `STRUCTURAL_INFERENCE`（構造的推論）
+- **Atlas適用可能性：** `PARTIAL`（部分的に適用可能）
+- **公開成熟度:** `CATALOGUED`（事例登録済み）
 - **想定する不可逆境界:** 高度モデルの重みが広くダウンロード可能になり、公開主体がその後の複製・再配布・改変を回収できなくなる地点。
 - **人間の最終拒否が問題になる地点:** 公開前に、開発者・組織・制度側がリスク評価、段階公開、アクセス条件、延期を実際に選べるか。
 - **このアトラスに置く理由:** NTIAは2024年、widely available model weightsを持つdual-use foundation modelsの利益とリスクを検討し、将来モデルのリスクを継続監視する政策を提言した。
@@ -317,11 +319,11 @@ LUMINA-30全体を評価する場合は、このページだけで完全評価�
 
 利用結果を返す場合は、機密情報や個人情報を含めず、次の5項目だけでも十分です。
 
-- category
-- result: YES / NO / UNKNOWN
-- boundary or window
-- biggest unknown
-- what changed after review
+- category（分類）
+- result（結果）: YES / NO / UNKNOWN
+- boundary or window（境界・時間窓）
+- biggest unknown（最大の未確認事項）
+- what changed after review（レビュー後の変更点）
 
 公開窓口: **lumina20251225@gmail.com**
 
