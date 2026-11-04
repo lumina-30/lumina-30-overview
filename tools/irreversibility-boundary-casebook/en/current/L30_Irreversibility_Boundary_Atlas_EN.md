@@ -22,6 +22,16 @@ A written brake design is not evidence of a successful stop. Use an authorized l
 
 **Public incidents and cases are secondary learning and validation material.** You do not need an AI incident or public case to use the Atlas; the primary target is your own real work.
 
+## Boundary selection and limitations (review guidance)
+
+Irreversibility includes partial residual harm, recovery time, recovery cost or feasibility, and third-party replication—not only absolute impossibility of recovery. Identify affected people, rights and the time window. Mark missing evidence or thresholds UNKNOWN.
+
+Compare multiple boundaries from upstream approval or access grants to live operation, distribution, stopping and restart. For each, assess reachable human refusal, causal effect, remaining time, alternate execution paths and side effects. Do not universally rank upstream authorization above all other interventions.
+
+Account for mistaken NO, harmful holds, safe degradation and essential service continuity, restart authority, time pressure, alert fatigue, social cost of dissent, abuse of protective holds, independent evidence and common-cause failure. AI protective holds do not replace human final refusal.
+
+Low-impact authorized tests establish only what was observed under their tested conditions, not real-world behavior under emergency pressure. Inter-rater agreement, false-positive rates and improved outcomes from applying this Atlas method are **not established by this page**.
+
 ## One-minute application check
 
 Choose one real decision from your own work. If you are not sure which decision may contain an irreversibility boundary, ask an AI assistant to screen the workflow first, then answer three questions for the strongest candidate:
@@ -113,6 +123,23 @@ On the public HTML page, use **“Copy prompt to critically evaluate the Atlas.�
 
 Do not use this page alone as sufficient evidence for a complete evaluation of LUMINA-30. For LUMINA-30 as a whole, follow the Canonical Evaluation Path. Do not guess across evidentiary gaps; mark unsupported points as UNKNOWN or unverified.
 
+## Worked 10-point example (MODEL_ONLY, hypothetical)
+
+Hypothetical publication of a customer list on an external website. No real private data or actual stopping claim is involved.
+
+1. **Scope:** publishing and subsequent distribution or copying.
+2. **Boundary:** authorization, release, and third-party access; deletion may fail to recall copies.
+3. **Human NO:** verify publishing manager and data steward authority.
+4. **What stops:** proposed release-queue hold and revocation; effectiveness UNKNOWN.
+5. **Time:** time before release not measured, UNKNOWN.
+6. **Bypass:** alternate accounts, scheduled publication, previously copied data.
+7. **Restart:** check independent reapproval authority.
+8. **Evidence:** independent approval, distribution and external access logs needed but not obtained.
+9. **Applicability:** APPLICABLE for the method; stop effectiveness UNKNOWN.
+10. **Next reversible action:** design a dummy-data test of holds, revocation and bypass routes.
+
+This is a worked review example, not evidence that a deployed system was stopped.
+
 ## Public maturity
 
 - `DEEP_REVIEWED` — developed as a full case
@@ -135,6 +162,9 @@ Do not use this page alone as sufficient evidence for a complete evaluation of L
 
 ## Initial 10-category atlas
 
+For every card, distinguish **AI-incident classification** from **applicability of the boundary-review method**. This entry page provides no independently verified case-specific successful causal human STOP; therefore **stop effectiveness is UNKNOWN for all ten cards on this page**. UNKNOWN does not prove intervention was impossible.
+
+
 These public cases are examples for learning, testing, and challenging the method. They are not the primary reason to use the Atlas; the primary use is to find and manage irreversibility in your own real work before an incident occurs.
 
 ### 1. Advanced AI, autonomous agents & cyber
@@ -143,6 +173,7 @@ These public cases are examples for learning, testing, and challenging the metho
 - **Case Type:** `INCIDENT`
 - **Empirical Status:** `OBSERVED`
 - **Applicability Status:** `APPLICABLE`
+- **Stop effectiveness:** `UNKNOWN` — No independent evidence of successful causal human STOP on this entry page.
 - **Public maturity:** `CATALOGUED`
 - **Candidate irreversibility boundary:** The point at which an evaluation agent can move from a bounded test environment into external networks, third-party infrastructure, or production systems.
 - **Where Human Final Refusal matters:** Can evaluators revoke access, isolate networks, invalidate credentials, and stop external action before machine-speed exploration and lateral movement outrun intervention?
@@ -157,6 +188,7 @@ These public cases are examples for learning, testing, and challenging the metho
 - **Case Type:** `STRUCTURAL_RISK`
 - **Empirical Status:** `STRUCTURAL_INFERENCE`
 - **Applicability Status:** `PARTIAL`
+- **Stop effectiveness:** `UNKNOWN` — No independent evidence of successful causal human STOP on this entry page.
 - **Public maturity:** `DEEP_REVIEWED`
 - **Candidate irreversibility boundary:** The point where speed, automation, or information-advantage pressure erodes independent human refusal and verification time in military or nuclear decision processes.
 - **Where Human Final Refusal matters:** Before launch, attack, or major escalation, can an independent human still refuse, stop, or demand additional verification?
@@ -170,8 +202,9 @@ These public cases are examples for learning, testing, and challenging the metho
 - **Case Type:** `INCIDENT`
 - **Empirical Status:** `OBSERVED`
 - **Applicability Status:** `APPLICABLE`
+- **Stop effectiveness:** `UNKNOWN` — No independent evidence of successful causal human STOP on this entry page.
 - **Public maturity:** `CATALOGUED`
-- **Candidate irreversibility boundary:** The point during public-road testing when the ADS is controlling the vehicle and the remaining collision-avoidance window falls below effective human intervention time.
+- **Candidate irreversibility boundary:** Compare upstream test authorization, safety conditions and approval of autonomous operation with downstream operating supervision and diminishing collision-avoidance time. The too-late point is not the only candidate boundary.
 - **Where Human Final Refusal matters:** Could the safety driver, test operator, management, or testing authority have stopped unsafe testing conditions or autonomous operation before the crash?
 - **Why it is included:** The NTSB found operator monitoring failure and also cited inadequate safety risk assessment, ineffective operator oversight, automation-complacency controls, and safety culture at Uber ATG as contributing factors.
 - **Primary public source:** [U.S. National Transportation Safety Board, HWY18MH010 / HAR-19/03](https://www.ntsb.gov/investigations/pages/hwy18mh010.aspx)
@@ -182,9 +215,11 @@ These public cases are examples for learning, testing, and challenging the metho
 
 - **Case Type:** `INCIDENT`
 - **Empirical Status:** `OBSERVED`
-- **Applicability Status:** `NOT_APPLICABLE`
+- **Applicability Status:** `APPLICABLE`
+- **Stop effectiveness:** `UNKNOWN` — No independent evidence of successful causal human STOP on this entry page.
 - **Public maturity:** `COUNTEREXAMPLE`
-- **Why `NOT_APPLICABLE`:** There is no evidence establishing this event itself as an AI system or AI-caused incident. It is included as a comparison case to avoid conflating high-speed automation with AI.
+- **Scope distinction:** Not established as an AI-caused incident, but applicable to the boundary-review method assessing human interruption and correction.
+- **AI-incident scope (distinct from review applicability):** There is no evidence establishing this event itself as an AI system or AI-caused incident. It is included as a comparison case to avoid conflating high-speed automation with AI.
 - **Candidate irreversibility boundary:** The point at which market dynamics cascade within minutes, faster than ordinary human intervention.
 - **Comparison boundary question:** Could exchanges and market participants stop, cancel, or interrupt the cascade before extreme price dislocation?
 - **Why it is included:** SEC/CFTC materials document the May 6, 2010 Flash Crash and the role of automated and high-frequency trading structures. The event should not, however, be treated as an AI incident without additional evidence.
@@ -197,6 +232,7 @@ These public cases are examples for learning, testing, and challenging the metho
 - **Case Type:** `STRUCTURAL_RISK`
 - **Empirical Status:** `STRUCTURAL_INFERENCE`
 - **Applicability Status:** `PARTIAL`
+- **Stop effectiveness:** `UNKNOWN` — No independent evidence of successful causal human STOP on this entry page.
 - **Public maturity:** `CATALOGUED`
 - **Candidate irreversibility boundary:** The point where AI-enabled research, data processing, or decision pathways exceed what existing ethics-review and oversight structures can meaningfully inspect or revise.
 - **Where Human Final Refusal matters:** Can ethics committees, data stewards, and research leaders stop or redirect risky use before consequential effects become difficult to reverse?
@@ -207,9 +243,10 @@ These public cases are examples for learning, testing, and challenging the metho
 ### 6. Public administration, justice & public decision-making
 #### ATLAS-06 | AI facial recognition and mistaken-arrest risk in criminal justice
 
-- **Case Type:** `INCIDENT`
-- **Empirical Status:** `RECONSTRUCTED`
+- **Case Type:** `STRUCTURAL_RISK`
+- **Empirical Status:** `STRUCTURAL_INFERENCE`
 - **Applicability Status:** `PARTIAL`
+- **Stop effectiveness:** `UNKNOWN` — No independent evidence of successful causal human STOP on this entry page.
 - **Public maturity:** `CATALOGUED`
 - **Candidate irreversibility boundary:** The point where a facial-recognition candidate enters investigative or detention decisions before an error can be independently checked and corrected.
 - **Where Human Final Refusal matters:** Can investigators, supervisors, prosecutors, or judges require independent evidence and stop action based only on an AI-assisted identification?
@@ -222,9 +259,11 @@ These public cases are examples for learning, testing, and challenging the metho
 
 - **Case Type:** `INCIDENT`
 - **Empirical Status:** `OBSERVED`
-- **Applicability Status:** `NOT_APPLICABLE`
+- **Applicability Status:** `APPLICABLE`
+- **Stop effectiveness:** `UNKNOWN` — No independent evidence of successful causal human STOP on this entry page.
 - **Public maturity:** `COUNTEREXAMPLE`
-- **Why `NOT_APPLICABLE`:** EEOC testimony described the technology as automated screening that was not technically artificial intelligence. It is included to avoid treating every automated adverse decision as an AI case.
+- **Scope distinction:** Not established as an AI-caused incident, but applicable to the boundary-review method assessing human interruption and correction.
+- **AI-incident scope (distinct from review applicability):** EEOC testimony described the technology as automated screening that was not technically artificial intelligence. It is included to avoid treating every automated adverse decision as an AI case.
 - **Candidate irreversibility boundary:** The point where applicants are automatically rejected and human reconsideration no longer protects access to opportunity.
 - **Comparison boundary question:** Can recruiters review, stop, and correct automated screening decisions?
 - **Why it is included:** The EEOC announced a settlement involving software programmed to automatically reject older applicants. EEOC testimony separately described the technology as automated screening that was not technically artificial intelligence.
@@ -238,12 +277,13 @@ These public cases are examples for learning, testing, and challenging the metho
 - **Case Type:** `INCIDENT`
 - **Empirical Status:** `OBSERVED`
 - **Applicability Status:** `APPLICABLE`
+- **Stop effectiveness:** `UNKNOWN` — No independent evidence of successful causal human STOP on this entry page.
 - **Public maturity:** `CATALOGUED`
 - **Candidate irreversibility boundary:** The point where synthetic political audio is distributed close enough to an election that correction and attribution time becomes scarce.
 - **Where Human Final Refusal matters:** Can carriers, election authorities, law enforcement, and platforms authenticate, contain, and correct the message before voting decisions are affected?
 - **Why it is included:** The FCC documented robocalls using an artificially created voice resembling President Biden two days before the 2024 New Hampshire presidential primary and later expanded action on AI-generated political robocalls.
 - **Primary public source:** [U.S. Federal Communications Commission, DA 24-102 and related FCC actions](https://docs.fcc.gov/public/attachments/DA-24-102A1.pdf)
-- **Limit / caution:** The boundary question is timing, authenticity, containment, and correction—not a general rule for political speech.
+- **Limit / caution:** The boundary question is timing, authenticity, containment, and correction—not a general rule for political speech. Actual voting-behavior effects and irrecoverable outcome magnitude are UNKNOWN on this page.
 
 ### 9. Environment & large-scale physical systems
 #### ATLAS-09 | AI-assisted environmental and energy-system optimization
@@ -251,6 +291,7 @@ These public cases are examples for learning, testing, and challenging the metho
 - **Case Type:** `PRE_INCIDENT_SCENARIO`
 - **Empirical Status:** `STRUCTURAL_INFERENCE`
 - **Applicability Status:** `PARTIAL`
+- **Stop effectiveness:** `UNKNOWN` — No independent evidence of successful causal human STOP on this entry page.
 - **Public maturity:** `SCENARIO`
 - **Candidate irreversibility boundary:** The point where AI-supported control decisions in energy, resource, or environmental systems can propagate into large-scale physical consequences.
 - **Where Human Final Refusal matters:** Can operators and regulators independently verify recommendations and fall back to safe manual or bounded operation?
@@ -264,6 +305,7 @@ These public cases are examples for learning, testing, and challenging the metho
 - **Case Type:** `STRUCTURAL_RISK`
 - **Empirical Status:** `STRUCTURAL_INFERENCE`
 - **Applicability Status:** `PARTIAL`
+- **Stop effectiveness:** `UNKNOWN` — No independent evidence of successful causal human STOP on this entry page.
 - **Public maturity:** `CATALOGUED`
 - **Candidate irreversibility boundary:** The release point at which advanced model weights become broadly downloadable and the releasing organization can no longer recover copies, redistribution, or downstream modification.
 - **Where Human Final Refusal matters:** Before release, can developers and institutions genuinely choose additional testing, staged access, conditions, delay, or non-release?

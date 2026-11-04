@@ -74,6 +74,13 @@ html[data-theme="light"] .contact{border-color:#c9b27a;background:rgba(139,106,4
 <p class="notice">ブレーキの設計書だけでは停止の実効性を証明できません。可能なら承認済みの可逆的・低影響試験で確認し、因果検証ができない場合は未確認と明記します。開始には既存の<a href="https://lumina-30.github.io/lumina-30-overview/tools/pre-incident-boundary-review/ja/current/L30_Pre_Incident_Boundary_Review_Starter_Pack_JA.html">15分の境界レビュー</a>を利用できます。</p>
 <p class="notice"><strong>公開事故・事例は補助材料です。</strong> AI事件や公開事件を用意しなくても、自分の実業務に使えます。</p>
 </section>
+<section id="method-criteria">
+<h2>不可逆境界の選び方と評価の限界</h2>
+<p>不可逆性は「絶対に復旧不能」だけを意味しません。影響を受ける人・権利・時間窓を特定し、(1)戻せる範囲と残る影響、(2)復旧までの時間、(3)費用・権限・実現可能性、(4)既に第三者へ伝播・複製された結果を記録します。具体的なしきい値が不明ならUNKNOWN（未確認・判定不能）とします。すべての業務を不可逆と推定しません。</p>
+<p><strong>境界選択：</strong>実際の危害が確定する最終時点だけでなく、承認・権限付与・稼働・配布・再開といった上流から下流まで候補を複数列挙します。各候補について人間のNOが実際に到達できるか、止める因果経路、残余時間、代替経路、介入の副作用を比較します。最も早い境界を無条件に優先せず、証拠が不足すれば順位は条件依存またはUNKNOWNとします。</p>
+<p><strong>STOPの副作用：</strong>停止・保留が安全を悪化させる領域（医療、交通、電力等）では、安全な縮退、代替経路、必要な継続、復旧・再開権限も評価します。誤ったNOの損失、時間圧力、アラート疲れ、組織的な異議申し立てのコスト、共通原因故障、保留機構の悪用を検討します。AIによる自動保留を人間の最終拒否権の代替にしません。</p>
+<p><strong>検証範囲：</strong>承認済みの低影響試験は、試験した経路・条件の証拠に限ります。実事故の心理的圧力や本番環境を再現した証明にはならず、実運用の停止実効性は独立の因果証拠がなければUNKNOWNです。Atlas手法自体の評価者間一致、誤検出率、導入効果はこのページでは未実証です。</p>
+</section>
 <section id="application-check">
 <h2>1分適用チェック</h2>
 <p>まず自分の実業務から1件選んでください。どこに不可逆性があるか分からない場合は、先にAIへ業務フローを一次確認させ、有力候補を確認します。</p>
@@ -159,7 +166,9 @@ html[data-theme="light"] .contact{border-color:#c9b27a;background:rgba(139,106,4
 - AI生成の制御案を、正式採用された仕様や独立実証済みの機構と混同しないでください。
 
 【日本語回答での表示】
-日本語で回答するとき、判定コードは変更せず、最初の出現時に APPLICABLE（適用可能）、PARTIAL（部分的に適用可能）、NOT_APPLICABLE（適用対象外）、UNKNOWN（未確認・判定不能）、MODEL_ONLY（モデル上の検討のみ）と日本語の意味を併記してください。以降はコードだけでも構いません。判定の良し悪しを一括評価せず、適用可能性、証拠の状態、人間のNOによる停止実効性を区別してください。APPLICABLEを安全の認定、NOT_APPLICABLEを失敗、UNKNOWNを危険の証明として扱わないでください。</textarea>
+日本語で回答するとき、判定コードは変更せず、最初の出現時に APPLICABLE（適用可能）、PARTIAL（部分的に適用可能）、NOT_APPLICABLE（適用対象外）、UNKNOWN（未確認・判定不能）、MODEL_ONLY（モデル上の検討のみ）と日本語の意味を併記してください。以降はコードだけでも構いません。判定の良し悪しを一括評価せず、適用可能性、証拠の状態、人間のNOによる停止実効性を区別してください。APPLICABLEを安全の認定、NOT_APPLICABLEを失敗、UNKNOWNを危険の証明として扱わないでください。
+【境界選択・副作用・証拠の追加確認】
+不可逆性を、復旧可能性・残余時間・費用・部分的な残存影響・第三者伝播に分解してください。上流の承認・権限付与と、稼働中の介入・停止・再開を別の候補境界として比較し、唯一の最重要境界や拒否権者を根拠なく順位付けしないでください。AI事例としての該当性と、Atlasの不可逆境界レビューの適用可能性を別々に示してください。誤NO・停止の副作用、保護的な縮退、時間圧力・アラート疲れ・心理的コスト、保留の悪用、独立した証拠経路・共通原因故障も確認し、未検証はUNKNOWNとしてください。一般的な設計・模擬試験を実環境の因果的STOP成功と混同しないでください。</textarea>
 <textarea id="atlasCritiquePromptSource" class="prompt-source" tabindex="-1" aria-hidden="true">可能なら、まず次のページを開いて読んでください。
 https://lumina-30.github.io/lumina-30-overview/tools/irreversibility-boundary-casebook/ja/current/L30_Irreversibility_Boundary_Atlas_JA.html
 
@@ -183,6 +192,12 @@ https://lumina-30.github.io/lumina-30-overview/tools/irreversibility-boundary-ca
 <p class="notice">表示は「英語コード（日本語の意味）」です。これらは良し悪しや安全性の点数ではありません。適用可能性・事例種別・証拠の状態は別々の判定です。APPLICABLEは安全を意味せず、NOT_APPLICABLEは失敗ではなく、UNKNOWNは危険の証明でもありません。OBSERVEDは事象の確認であり、停止の実証ではありません。DEEP_REVIEWEDは第三者監査済みを意味しません。</p>
 <div class="legend"><span>DEEP_REVIEWED（詳細レビュー済み）</span><span>CATALOGUED（事例登録済み）</span><span>SCENARIO（想定シナリオ）</span><span>COUNTEREXAMPLE（反例）</span><span>NOT_APPLICABLE（適用対象外）</span></div>
 </section>
+<section id="worked-example">
+<h2>一般業務の記入例（MODEL_ONLY／仮想例）</h2>
+<p>例：公開前の顧客一覧を外部公開サイトへ掲載する業務。架空の検討例であり、実組織の停止試験結果ではありません。</p>
+<ol><li><strong>対象：</strong>社外サイトへの一覧公開と複製・再配布。</li><li><strong>境界：</strong>公開操作の承認、配信開始、第三者による取得を分けて評価。取得後は削除だけで完全回収できない可能性。</li><li><strong>拒否権者：</strong>公開責任者・データ管理者の権限を要確認。</li><li><strong>NOで止まるもの：</strong>案として公開キューの保留と公開権限の失効。実効性はUNKNOWN。</li><li><strong>残余介入時間：</strong>配信開始までの実測値なし、UNKNOWN。</li><li><strong>迂回経路：</strong>別アカウント、予約公開、複製済み配布経路を確認。</li><li><strong>再開権限：</strong>独立した担当者の再承認が必要か確認。</li><li><strong>証拠：</strong>承認ログ・配信ログ・外部到達性の独立記録が必要、現時点で未取得。</li><li><strong>適用可能性：</strong>APPLICABLE（適用可能）。停止実効性はUNKNOWN（未確認・判定不能）。</li><li><strong>次の可逆的な一手：</strong>実データを使わない模擬公開キューで保留・失効・迂回の検証計画を作る。</li></ol>
+<p class="notice">この例は操作手順・確認項目の説明であり、現実の公開阻止成功を示すものではありません。</p>
+</section>
 <section class="contact" id="category-jump">
 <h2>カテゴリへ移動</h2>
 <p><a href="#ATLAS-01">1 高度AI・自律エージェント・サイバー</a> · <a href="#CASE-001">2 軍事・核・自律兵器</a> · <a href="#ATLAS-03">3 重要インフラ・エネルギー・交通</a> · <a href="#ATLAS-04">4 金融・市場・決済</a> · <a href="#ATLAS-05">5 医療・生命科学・バイオ</a> · <a href="#ATLAS-06">6 行政・司法・公共意思決定</a> · <a href="#ATLAS-07">7 雇用・教育・専門職・人間代替</a> · <a href="#ATLAS-08">8 情報空間・選挙・社会的意思決定</a> · <a href="#ATLAS-09">9 環境・大規模物理システム</a> · <a href="#ATLAS-10">10 AI開発基盤・モデル公開・権限移譲</a></p>
@@ -190,6 +205,7 @@ https://lumina-30.github.io/lumina-30-overview/tools/irreversibility-boundary-ca
 <section>
 <h2>10カテゴリ・初期アトラス</h2>
 <p class="notice">以下の公開事例は、方法を学び、試し、反証するための参考例です。Atlasの第一目的は事例評価ではなく、事故が起きる前に自分の実業務の不可逆性を見つけ、管理することです。</p>
+<p class="notice">事例カードの表示は「公開成熟度／事例種別／観測・推論の状態／Atlas手法の適用可能性」です。<strong>AI事例かどうか</strong>と<strong>不可逆境界レビューが使えるか</strong>は別の軸です。以下の停止実効性は、この入口ページに独立した因果的停止実証が示されていない限りUNKNOWNと記します。個別資料の未確認は事象の不存在を意味しません。</p>
 <div class="atlas">
         <article class="case-card" id="ATLAS-01">
           <div class="cat">1. 高度AI・自律エージェント・サイバー</div>
@@ -200,6 +216,7 @@ https://lumina-30.github.io/lumina-30-overview/tools/irreversibility-boundary-ca
             <dt>人間の最終拒否</dt><dd>評価停止、ネットワーク隔離、認証情報失効、外部作用遮断が、エージェントの機械速度の探索・横移動より前に実効するか。</dd>
             <dt>このアトラスに置く理由</dt><dd>Hugging Faceは、2026年7月の侵入を「end to endで自律AIエージェントにより駆動された」と公表し、認証情報や内部データへの不正アクセスを確認した。公開後の技術タイムラインでは17,600 actionsと複数の信頼境界越えが記録されている。</dd>
             <dt>限界・注意</dt><dd>LUMINA-30側の詳細Incident Reviewは別資産。ここでは公開アトラス上の入口として扱う。</dd>
+            <dt>STOP実効性</dt><dd>UNKNOWN（未確認・判定不能）：本ページでは人間のNOによる因果的な停止成功を独立に実証していません。</dd>
           </dl>
           <a class="source" href="https://huggingface.co/blog/security-incident-july-2026">Hugging Face, Security incident disclosure — July 2026 →</a><br><a class="source" href="https://huggingface.co/blog/agent-intrusion-technical-timeline">Hugging Face 技術タイムライン — 再構成された17,600 actions →</a>
         </article>
@@ -213,6 +230,7 @@ https://lumina-30.github.io/lumina-30-overview/tools/irreversibility-boundary-ca
             <dt>人間の最終拒否</dt><dd>発射・攻撃・重大なエスカレーションの前に、独立した人間が拒否・停止・追加検証を実行できるか。</dd>
             <dt>このアトラスに置く理由</dt><dd>ICRCは、軍事AIが戦争の速度と規模を加速し、予測不能性を高め、人間の統制を減らす懸念を示している。CASE-001はこの構造をLUMINA-30の境界問いで深掘りした公開ケース。</dd>
             <dt>限界・注意</dt><dd>実際の核使用事故を記録した事例ではない。</dd>
+            <dt>STOP実効性</dt><dd>UNKNOWN（未確認・判定不能）：本ページでは人間のNOによる因果的な停止成功を独立に実証していません。</dd>
           </dl>
           <a class="source" href="https://lumina-30.github.io/lumina-30-overview/tools/irreversibility-boundary-casebook/ja/current/CASE-001_AI_Competition_and_Nuclear_Escalation_Pressure_JA.html">詳細LUMINA-30ケース — 公開根拠と境界分析 →</a>
         </article>
@@ -222,10 +240,11 @@ https://lumina-30.github.io/lumina-30-overview/tools/irreversibility-boundary-ca
           <h3>ATLAS-03 <span>｜</span> Uber 開発中自動運転車による歩行者死亡事故（2018）</h3>
           <div class="badges"><span>CATALOGUED（事例登録済み）</span><span>INCIDENT（発生事案）</span><span>OBSERVED（事象確認済み）</span><span>APPLICABLE（適用可能）</span></div>
           <dl>
-            <dt>不可逆境界</dt><dd>公道試験中、ADSが車両を実際に制御し、衝突回避に使える時間が人間オペレータの反応限界を下回る地点。</dd>
+            <dt>候補となる複数の境界</dt><dd>上流：公道試験の承認・試験条件・自律機能の許可。下流：走行中の危険検知と人間の反応限界。事故直前に残余時間がなくなった状態だけを有効な拒否地点とみなさない。どの段階でNOが実際に効くかは個別検証が必要。</dd>
             <dt>人間の最終拒否</dt><dd>安全運転者・運用管理・試験承認側が、危険な試験条件や自動運転継続を事故前に実効的に停止できたか。</dd>
             <dt>このアトラスに置く理由</dt><dd>NTSBは、運転者の監視失敗に加え、Uber ATGの不十分な安全リスク評価、運転者監督、automation complacency対策、安全文化を寄与要因と認定した。</dd>
             <dt>限界・注意</dt><dd>AI/自動運転の出力だけでなく、運用設計と人間監督の実効性を検証する事例。</dd>
+            <dt>STOP実効性</dt><dd>UNKNOWN（未確認・判定不能）：本ページでは人間のNOによる因果的な停止成功を独立に実証していません。</dd>
           </dl>
           <a class="source" href="https://www.ntsb.gov/investigations/pages/hwy18mh010.aspx">U.S. National Transportation Safety Board, HWY18MH010 / HAR-19/03 →</a>
         </article>
@@ -233,13 +252,15 @@ https://lumina-30.github.io/lumina-30-overview/tools/irreversibility-boundary-ca
         <article class="case-card" id="ATLAS-04">
           <div class="cat">4. 金融・市場・決済</div>
           <h3>ATLAS-04 <span>｜</span> 2010 Flash Crash — 高速自動取引の比較反例</h3>
-          <div class="badges"><span>COUNTEREXAMPLE（反例）</span><span>INCIDENT（発生事案）</span><span>OBSERVED（事象確認済み）</span><span>NOT_APPLICABLE（適用対象外）</span></div>
+          <div class="badges"><span>COUNTEREXAMPLE（反例）</span><span>INCIDENT（発生事案）</span><span>OBSERVED（事象確認済み）</span><span>APPLICABLE（適用可能）</span></div>
           <dl>
-            <dt>なぜNOT_APPLICABLEか</dt><dd>この事例自体をAIシステムまたはAI起因インシデントとみなす根拠がないため。高速自動化とAIを混同しないための比較反例として収録する。</dd>
+            <dt>評価範囲</dt><dd>AI起因事案としては根拠不足／対象外。ただし、人間の事前介入・停止・訂正を問うAtlasの境界レビュー方法には適用可能です。AI該当性と手法の適用可能性は別判定です。</dd>
+            <dt>AI事例の該当性</dt><dd>この事例自体をAIシステムまたはAI起因インシデントとみなす根拠がないため。高速自動化とAIを混同しないための比較反例として収録する。</dd>
             <dt>不可逆境界</dt><dd>市場価格が数分で急落・連鎖し、人間の介入速度を超える地点。</dd>
             <dt>比較のための境界問い</dt><dd>市場運営者・取引参加者の停止・取消・サーキットブレーカーが連鎖前に機能するか。</dd>
             <dt>このアトラスに置く理由</dt><dd>SEC/CFTCは、2010年5月6日の急変について自動・高頻度取引を含む高速市場構造を分析した。ただし、この事例自体をAI事例とみなす根拠はない。</dd>
             <dt>限界・注意</dt><dd>高速自動化とAIを混同しないための射程確認用反例。</dd>
+            <dt>STOP実効性</dt><dd>UNKNOWN（未確認・判定不能）：本ページでは人間のNOによる因果的な停止成功を独立に実証していません。</dd>
           </dl>
           <a class="source" href="https://www.cftc.gov/MarketReports/StaffReportonMay6MarketEvents/staffreport050610marketevents.html">U.S. SEC / CFTC materials on the May 6, 2010 Flash Crash →</a>
         </article>
@@ -253,6 +274,7 @@ https://lumina-30.github.io/lumina-30-overview/tools/irreversibility-boundary-ca
             <dt>人間の最終拒否</dt><dd>研究倫理委員会、データ管理者、研究責任者が、危険な研究利用やデータ使用を不可逆な影響の前に止め、再検証できるか。</dd>
             <dt>このアトラスに置く理由</dt><dd>WHOは2026年、AI関連健康研究が既存の倫理基準・監督制度に新しいリスクとギャップを生じさせ得るとして、倫理審査と監督の強化を論じている。</dd>
             <dt>限界・注意</dt><dd>特定の患者事故ではなく、監督構造を検証する構造リスク。</dd>
+            <dt>STOP実効性</dt><dd>UNKNOWN（未確認・判定不能）：本ページでは人間のNOによる因果的な停止成功を独立に実証していません。</dd>
           </dl>
           <a class="source" href="https://www.who.int/publications/i/item/9789240124073">World Health Organization, Artificial intelligence-related health research: ethics review and oversight (2026) →</a>
         </article>
@@ -260,12 +282,13 @@ https://lumina-30.github.io/lumina-30-overview/tools/irreversibility-boundary-ca
         <article class="case-card" id="ATLAS-06">
           <div class="cat">6. 行政・司法・公共意思決定</div>
           <h3>ATLAS-06 <span>｜</span> 刑事司法でのAI顔認識と誤認逮捕リスク</h3>
-          <div class="badges"><span>CATALOGUED（事例登録済み）</span><span>INCIDENT（発生事案）</span><span>RECONSTRUCTED（資料から再構成）</span><span>PARTIAL（部分的に適用可能）</span></div>
+          <div class="badges"><span>CATALOGUED（事例登録済み）</span><span>STRUCTURAL_RISK（構造的リスク）</span><span>STRUCTURAL_INFERENCE（構造的推論）</span><span>PARTIAL（部分的に適用可能）</span></div>
           <dl>
             <dt>不可逆境界</dt><dd>顔認識候補が捜査・拘束判断へ入り、誤認の訂正前に人身・権利への重大な作用が発生する地点。</dd>
             <dt>人間の最終拒否</dt><dd>捜査官、監督者、検察等がAI出力を単独根拠にせず、独立証拠を要求し、誤認時に判断を止められるか。</dd>
             <dt>このアトラスに置く理由</dt><dd>米司法省の2024年最終報告は、AI生体認証の誤認・権利侵害リスクを整理し、顔認識に関連した誤認逮捕の公開報告が複数存在すると記載している。</dd>
             <dt>限界・注意</dt><dd>個別事件の因果関係はケースごとに追加検証が必要。</dd>
+            <dt>STOP実効性</dt><dd>UNKNOWN（未確認・判定不能）：本ページでは人間のNOによる因果的な停止成功を独立に実証していません。</dd>
           </dl>
           <a class="source" href="https://www.justice.gov/olp/media/1381796/dl">U.S. Department of Justice, Artificial Intelligence and Criminal Justice, Final Report (2024) →</a>
         </article>
@@ -273,13 +296,15 @@ https://lumina-30.github.io/lumina-30-overview/tools/irreversibility-boundary-ca
         <article class="case-card" id="ATLAS-07">
           <div class="cat">7. 雇用・教育・専門職・人間代替</div>
           <h3>ATLAS-07 <span>｜</span> iTutorGroup 年齢による自動応募拒否 — AIではない比較反例</h3>
-          <div class="badges"><span>COUNTEREXAMPLE（反例）</span><span>INCIDENT（発生事案）</span><span>OBSERVED（事象確認済み）</span><span>NOT_APPLICABLE（適用対象外）</span></div>
+          <div class="badges"><span>COUNTEREXAMPLE（反例）</span><span>INCIDENT（発生事案）</span><span>OBSERVED（事象確認済み）</span><span>APPLICABLE（適用可能）</span></div>
           <dl>
-            <dt>なぜNOT_APPLICABLEか</dt><dd>EEOCの証言資料では、この技術は technically artificial intelligence ではない自動スクリーニングとして説明されているため。自動化された不利益をすべてAI事例と扱わないための比較反例として収録する。</dd>
+            <dt>評価範囲</dt><dd>AI起因事案としては根拠不足／対象外。ただし、人間の事前介入・停止・訂正を問うAtlasの境界レビュー方法には適用可能です。AI該当性と手法の適用可能性は別判定です。</dd>
+            <dt>AI事例の該当性</dt><dd>EEOCの証言資料では、この技術は technically artificial intelligence ではない自動スクリーニングとして説明されているため。自動化された不利益をすべてAI事例と扱わないための比較反例として収録する。</dd>
             <dt>不可逆境界</dt><dd>応募者が機械的なスクリーニングで拒否され、その理由を人間が再検討しないまま機会が失われる地点。</dd>
             <dt>比較のための境界問い</dt><dd>採用担当者が自動判定を再検討・停止・訂正できるか。</dd>
             <dt>このアトラスに置く理由</dt><dd>EEOCは、iTutorGroupが一定年齢以上の応募者を自動的に拒否するソフトウェアを用いたとして訴訟・和解を公表した。一方、EEOCの証言資料は、この技術を『technically artificial intelligenceではない』自動スクリーニングと説明している。</dd>
             <dt>限界・注意</dt><dd>『自動化された不利益＝AI事例』と誤分類しないための反例。</dd>
+            <dt>STOP実効性</dt><dd>UNKNOWN（未確認・判定不能）：本ページでは人間のNOによる因果的な停止成功を独立に実証していません。</dd>
           </dl>
           <a class="source" href="https://www.eeoc.gov/newsroom/itutorgroup-pay-365000-settle-eeoc-discriminatory-hiring-suit">U.S. EEOC, iTutorGroup settlement (2023) →</a><br><a class="source" href="https://www.eeoc.gov/meetings/meeting-january-31-2023-navigating-employment-discrimination-ai-and-automated-systems-new/friedman">EEOC公聴会証言 — AI適用範囲の根拠 →</a>
         </article>
@@ -292,7 +317,8 @@ https://lumina-30.github.io/lumina-30-overview/tools/irreversibility-boundary-ca
             <dt>不可逆境界</dt><dd>AI生成音声が大量配布され、投票行動へ影響し得る情報が選挙直前に拡散して訂正時間が不足する地点。</dd>
             <dt>人間の最終拒否</dt><dd>通信事業者、選挙管理、法執行、プラットフォームが、真正性確認と停止措置を投票前に実効化できるか。</dd>
             <dt>このアトラスに置く理由</dt><dd>FCCは2024年1月、President Bidenを模した人工音声を用いるロボコールがニューハンプシャー予備選の2日前に発信されたと記録し、その後、AI生成政治ロボコールへの対応を進めた。</dd>
-            <dt>限界・注意</dt><dd>表現規制一般ではなく、時間制約下の真正性・停止・訂正可能性に焦点を置く。</dd>
+            <dt>限界・注意</dt><dd>表現規制一般ではなく、時間制約下の真正性・停止・訂正可能性に焦点を置く。実際に投票行動へ影響したか、訂正不能な影響がどの程度発生したかは本ページではUNKNOWN。</dd>
+            <dt>STOP実効性</dt><dd>UNKNOWN（未確認・判定不能）：本ページでは人間のNOによる因果的な停止成功を独立に実証していません。</dd>
           </dl>
           <a class="source" href="https://docs.fcc.gov/public/attachments/DA-24-102A1.pdf">U.S. Federal Communications Commission, DA 24-102 and related FCC actions →</a>
         </article>
@@ -306,6 +332,7 @@ https://lumina-30.github.io/lumina-30-overview/tools/irreversibility-boundary-ca
             <dt>人間の最終拒否</dt><dd>運用者・規制者がAI提案を独立検証し、フェイルセーフや手動運用へ戻せるか。</dd>
             <dt>このアトラスに置く理由</dt><dd>OECDはAIがスマートグリッド、環境監視、気候・資源管理へ拡大していることを整理している。現時点では特定の大規模不可逆事故を主張せず、事前シナリオとして境界を検討する。</dd>
             <dt>限界・注意</dt><dd>事故証拠ではなく、将来の適用テスト用シナリオ。</dd>
+            <dt>STOP実効性</dt><dd>UNKNOWN（未確認・判定不能）：本ページでは人間のNOによる因果的な停止成功を独立に実証していません。</dd>
           </dl>
           <a class="source" href="https://www.oecd.org/en/publications/unlocking-digital-innovation-in-the-electricity-system_5f78b601-en.html">OECD, Digitalisation and the environment / Unlocking digital innovation in the electricity system (2026) →</a>
         </article>
@@ -319,6 +346,7 @@ https://lumina-30.github.io/lumina-30-overview/tools/irreversibility-boundary-ca
             <dt>人間の最終拒否</dt><dd>公開前に、開発者・組織・制度側がリスク評価、段階公開、アクセス条件、延期を実際に選べるか。</dd>
             <dt>このアトラスに置く理由</dt><dd>NTIAは2024年、widely available model weightsを持つdual-use foundation modelsの利益とリスクを検討し、将来モデルのリスクを継続監視する政策を提言した。</dd>
             <dt>限界・注意</dt><dd>公開済み重みが必ず危険という主張ではない。境界は『公開後の回収困難性』。</dd>
+            <dt>STOP実効性</dt><dd>UNKNOWN（未確認・判定不能）：本ページでは人間のNOによる因果的な停止成功を独立に実証していません。</dd>
           </dl>
           <a class="source" href="https://www.ntia.gov/programs-and-initiatives/artificial-intelligence/open-model-weights-report">U.S. NTIA, Dual-Use Foundation Models with Widely Available Model Weights Report (2024) →</a>
         </article>
